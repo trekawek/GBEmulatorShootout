@@ -1165,17 +1165,17 @@
     "url": null
   },
   {
-    "name": "hacktix/bully.gb (DMG)",
+    "name": "ashiepaws/bully.gb (DMG)",
     "description": "A collection of multiple test cases testing a variety of behaviors. (See Repository for Details)",
-    "url": "https://github.com/Hacktix/BullyGB"
+    "url": "https://github.com/Ashiepaws/BullyGB"
   },
   {
-    "name": "hacktix/bully.gb (GBC)",
+    "name": "ashiepaws/bully.gb (GBC)",
     "description": "A collection of multiple test cases testing a variety of behaviors. (See Repository for Details)",
-    "url": "https://github.com/Hacktix/BullyGB"
+    "url": "https://github.com/Ashiepaws/BullyGB"
   },
   {
-    "name": "hacktix/strikethrough.gb",
+    "name": "ashiepaws/strikethrough.gb",
     "description": "Abuse of OAM DMA transfers during PPU modes 2 and 3 causing interference with data reads from the PPU.",
     "url": null
   },
@@ -1193,6 +1193,11 @@
     "name": "cpp/ramg-mbc3-test.gb",
     "description": "Tests the width of the MBC3's RAM gate register.",
     "url": null
+  },
+  {
+    "name": "cpp/sgb-ext-test.gb",
+    "description": "Tests the SGB packet protocol, doing various \"stress tests\" which cannot be passed without correctly emulating the SGB packet protocol. (See repository for passing reference)",
+    "url": "https://github.com/CasualPokePlayer/test-roms/tree/sgb-ext-test"
   },
   {
     "name": "mealybug-tearoom-tests/ppu/m2_win_en_toggle.gb (DMG)",
