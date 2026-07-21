@@ -5,22 +5,29 @@ from test import *
 from util import *
 
 
+COFFEE_GB_VERSION = "1.7.8"
+COFFEE_GB_JAR = os.path.join("downloads", "coffee-gb-%s.jar" % COFFEE_GB_VERSION)
+COFFEE_GB_URL = (
+    "https://github.com/trekawek/coffee-gb/releases/download/"
+    "coffee-gb-%s/coffee-gb-%s.jar" % (COFFEE_GB_VERSION, COFFEE_GB_VERSION)
+)
+
+
 class CoffeeGB(Emulator):
     def __init__(self):
         super().__init__(
             "Coffee GB",
             "https://github.com/trekawek/coffee-gb",
-            startup_time=2.0,
+            startup_time=15.0,
             features=(PCM,),
         )
+        # Coffee GB starts a fresh JVM and Swing UI for every ROM. On slower Windows
+        # hosts it may run well below real time while the JVM is still warming up.
+        # This only extends the deadline; matching screenshots still exit early.
+        self.speed = 0.2
 
     def setup(self):
-        downloadGithubRelease(
-            "trekawek/coffee-gb",
-            "downloads/coffee-gb.jar",
-            filter=lambda name: name.startswith("coffee-gb-") and name.endswith(".jar"),
-            require_asset=True,
-        )
+        download(COFFEE_GB_URL, COFFEE_GB_JAR)
 
     def startProcess(self, rom, *, model, required_features):
         model = {DMG: "DMG", CGB: "CGB", SGB: "SGB"}.get(model)
@@ -49,7 +56,7 @@ class CoffeeGB(Emulator):
             "-Dsun.java2d.uiScale=1",
             "-Duser.home=%s" % home,
             "-jar",
-            os.path.abspath("downloads/coffee-gb.jar"),
+            os.path.abspath(COFFEE_GB_JAR),
             os.path.abspath(rom),
         ], cwd=home)
 
