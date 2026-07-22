@@ -5,12 +5,7 @@ from test import *
 from util import *
 
 
-COFFEE_GB_VERSION = "1.7.8"
-COFFEE_GB_JAR = os.path.join("downloads", "coffee-gb-%s.jar" % COFFEE_GB_VERSION)
-COFFEE_GB_URL = (
-    "https://github.com/trekawek/coffee-gb/releases/download/"
-    "coffee-gb-%s/coffee-gb-%s.jar" % (COFFEE_GB_VERSION, COFFEE_GB_VERSION)
-)
+COFFEE_GB_JAR = os.path.join("downloads", "coffee-gb.jar")
 
 
 class CoffeeGB(Emulator):
@@ -27,7 +22,12 @@ class CoffeeGB(Emulator):
         self.speed = 0.2
 
     def setup(self):
-        download(COFFEE_GB_URL, COFFEE_GB_JAR)
+        downloadGithubRelease(
+            "trekawek/coffee-gb",
+            COFFEE_GB_JAR,
+            filter=lambda name: name.startswith("coffee-gb-") and name.endswith(".jar"),
+            require_asset=True,
+        )
 
     def startProcess(self, rom, *, model, required_features):
         model = {DMG: "DMG", CGB: "CGB", SGB: "SGB"}.get(model)
