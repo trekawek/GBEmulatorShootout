@@ -48,6 +48,7 @@ class CoffeeGB(Emulator):
                     "display.rotation=0",
                     "display.showSgbBorder=false",
                     "sound.enabled=false",
+                    "system.bootstrapMode=FAST_FORWARD",
                 ])
             )
 
