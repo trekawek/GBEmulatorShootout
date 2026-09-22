@@ -28,6 +28,10 @@ jobs:
             needs_chromedriver: false
             needs_audio: true
             extra_requirements: ''
+          - emulator: SuperSnes9x
+            needs_chromedriver: false
+            needs_audio: true
+            extra_requirements: ''
           - emulator: bgb
             needs_chromedriver: false
             needs_audio: true
