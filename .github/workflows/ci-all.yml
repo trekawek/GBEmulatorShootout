@@ -2,6 +2,9 @@ name: CI - all emulators
 
 on:
   workflow_dispatch:
+  schedule:
+    # Run off the top of the hour to reduce GitHub Actions scheduling delays.
+    - cron: '27 3 * * *'
 
 permissions:
   contents: write
@@ -66,8 +69,9 @@ jobs:
             extra_requirements: ''
           - emulator: Coffee GB
             needs_chromedriver: false
-            needs_audio: true
+            needs_audio: false
             needs_java: true
+            timeout_minutes: 45
             extra_requirements: ''
           - emulator: PyBoy
             needs_chromedriver: false
@@ -99,6 +103,7 @@ jobs:
       needs_chromedriver: ${{ matrix.needs_chromedriver }}
       needs_audio: ${{ matrix.needs_audio }}
       needs_java: ${{ matrix.needs_java || false }}
+      timeout_minutes: ${{ matrix.timeout_minutes || 360 }}
       extra_requirements: ${{ matrix.extra_requirements }}
 
   deploy-pages:
