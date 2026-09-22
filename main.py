@@ -79,6 +79,12 @@ EMULATOR_SPECS = [
         'url': "https://sameboy.github.io/",
     },
     {
+        'factory': lambda: _new_instance("emulators.snes9x", "SuperSnes9x"),
+        'keywords': ["SuperSnes9x", "Snes9x", "snes9x"],
+        'name': "SuperSnes9x",
+        'url': "https://github.com/shanytc/snes9x/releases",
+    },
+    {
         'factory': lambda: _new_instance("emulators.bgb", "BGB"),
         'keywords': ["bgb"],
         'name': "bgb",

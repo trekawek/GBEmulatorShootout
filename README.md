@@ -35,6 +35,7 @@ If you'd like to contribute to the project, please read [CONTRIBUTING.md](CONTRI
 - [NO$GMB](https://problemkaputt.de/gmb.htm)
 - [PyBoy](https://github.com/Baekalfen/PyBoy)
 - [SameBoy](https://sameboy.github.io/)
+- [SuperSnes9x](https://github.com/shanytc/snes9x/releases)
 - [VisualBoyAdvance](https://sourceforge.net/projects/vba/)
 - [VisualBoyAdvance-M](https://github.com/visualboyadvance-m/visualboyadvance-m)
 
