@@ -13,7 +13,7 @@ jobs:
       emulator: Coffee GB
       needs_audio: false
       needs_java: true
-      timeout_minutes: 45
+      timeout_minutes: 60
 
   deploy-pages:
     needs: run

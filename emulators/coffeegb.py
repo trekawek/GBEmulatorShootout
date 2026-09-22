@@ -1,24 +1,24 @@
-import base64
 import math
 import os
-import queue
+import re
+import subprocess
 import tempfile
-import threading
 import time
+
+import PIL.Image
+import requests
 
 from emulator import Emulator, TestResult
 from test import *
 from util import *
 
 
-COFFEE_GB_VERSION = "2.1.6"
-COFFEE_GB_JAR = os.path.join("downloads", "coffee-gb-%s.jar" % COFFEE_GB_VERSION)
-COFFEE_GB_URL = (
-    "https://github.com/trekawek/coffee-gb/releases/download/"
-    "coffee-gb-%s/coffee-gb-%s.jar" % (COFFEE_GB_VERSION, COFFEE_GB_VERSION)
+COFFEE_GB_LATEST_RELEASE = (
+    "https://api.github.com/repos/trekawek/coffee-gb/releases/latest"
 )
-COFFEE_GB_HEADLESS_SOURCE = os.path.join("emulators", "CoffeeGbHeadless.java")
-COFFEE_GB_HEADLESS_CLASSES = os.path.join("emu", "coffee-gb", "headless")
+COFFEE_GB_MAVEN_BASE = (
+    "https://repo.maven.apache.org/maven2/eu/rekawek/coffeegb/coffee-gb-cli"
+)
 COFFEE_GB_FPS = 60
 COFFEE_GB_SETTLING_SECONDS = 5.0
 COFFEE_GB_REQUEST_TIMEOUT = 60.0
@@ -32,95 +32,78 @@ class CoffeeGB(Emulator):
             startup_time=2.0,
             features=(PCM,),
         )
-        self._headless = None
-        self._responses = queue.Queue()
-        self._request_id = 0
+        self._cli_jar = None
 
     def setup(self):
-        download(COFFEE_GB_URL, COFFEE_GB_JAR)
-        os.makedirs(COFFEE_GB_HEADLESS_CLASSES, exist_ok=True)
-        subprocess.run([
-            "javac",
-            "-cp", os.path.abspath(COFFEE_GB_JAR),
-            "-d", os.path.abspath(COFFEE_GB_HEADLESS_CLASSES),
-            os.path.abspath(COFFEE_GB_HEADLESS_SOURCE),
-        ], check=True)
-        self._headless = subprocess.Popen(
-            [
-                "java",
-                "-Djava.awt.headless=true",
-                "-cp", os.pathsep.join([
-                    os.path.abspath(COFFEE_GB_HEADLESS_CLASSES),
-                    os.path.abspath(COFFEE_GB_JAR),
-                ]),
-                "CoffeeGbHeadless",
-            ],
-            stdin=subprocess.PIPE,
-            stdout=subprocess.PIPE,
-            text=True,
-            bufsize=1,
+        response = requests.get(COFFEE_GB_LATEST_RELEASE, timeout=30)
+        response.raise_for_status()
+        tag = response.json().get("tag_name", "")
+        match = re.fullmatch(r"coffee-gb-([0-9A-Za-z][0-9A-Za-z._-]*)", tag)
+        if match is None:
+            raise RuntimeError("Unexpected Coffee GB release tag: %s" % tag)
+
+        # Coffee GB publishes the official headless CLI to Maven Central before
+        # making the corresponding GitHub release public.
+        version = match.group(1)
+        self._cli_jar = os.path.join(
+            "downloads", "coffee-gb-cli-%s.jar" % version)
+        download(
+            "%s/%s/coffee-gb-cli-%s.jar"
+            % (COFFEE_GB_MAVEN_BASE, version, version),
+            self._cli_jar,
         )
-        ready = self._headless.stdout.readline().strip()
-        if ready != "READY":
-            raise RuntimeError("Coffee GB headless runner failed to start: %s" % ready)
-        threading.Thread(target=self._read_responses, daemon=True).start()
-
-    def _read_responses(self):
-        for line in self._headless.stdout:
-            self._responses.put(line.rstrip("\r\n"))
-
-    @staticmethod
-    def _encode_path(path):
-        return base64.urlsafe_b64encode(path.encode("utf-8")).decode("ascii")
 
     @staticmethod
     def _frames_for_runtime(runtime):
         # The generic GUI harness grants every emulator five extra seconds for a
         # result screen to settle. Reproduce that allowance as emulated time.
-        return max(1, math.ceil((runtime + COFFEE_GB_SETTLING_SECONDS) * COFFEE_GB_FPS))
+        return max(
+            1,
+            math.ceil((runtime + COFFEE_GB_SETTLING_SECONDS) * COFFEE_GB_FPS),
+        )
 
     def run(self, test):
         print("Running %s on %s" % (test, self), flush=True)
-        if self._headless is None or self._headless.poll() is not None:
-            raise RuntimeError("Coffee GB headless runner is not available")
+        if self._cli_jar is None:
+            raise RuntimeError("Coffee GB headless CLI is not available")
 
         sav_file = os.path.splitext(test.rom)[0] + ".sav"
         if os.path.exists(sav_file):
             os.unlink(sav_file)
 
-        self._request_id += 1
-        request_id = str(self._request_id)
-        fd, screenshot_path = tempfile.mkstemp(
-            suffix=".png", prefix="coffee-gb-", dir=COFFEE_GB_HEADLESS_CLASSES)
+        fd, screenshot_path = tempfile.mkstemp(suffix=".png", prefix="coffee-gb-")
         os.close(fd)
         os.unlink(screenshot_path)
-        request = "\t".join([
-            request_id,
-            self._encode_path(os.path.abspath(test.rom)),
-            test.model.lower(),
-            str(self._frames_for_runtime(test.runtime)),
-            self._encode_path(os.path.abspath(screenshot_path)),
-        ])
 
         start_time = time.monotonic()
         try:
-            self._headless.stdin.write(request + "\n")
-            self._headless.stdin.flush()
             try:
-                response = self._responses.get(timeout=COFFEE_GB_REQUEST_TIMEOUT)
-            except queue.Empty:
-                self._headless.kill()
+                completed = subprocess.run(
+                    [
+                        "java",
+                        "-Djava.awt.headless=true",
+                        "-jar", os.path.abspath(self._cli_jar),
+                        "run",
+                        "--rom", os.path.abspath(test.rom),
+                        "--frames", str(self._frames_for_runtime(test.runtime)),
+                        "--profile", test.model.lower(),
+                        "--bootstrap", "fast-forward",
+                        "--sgb-border", "off",
+                        "--screenshot", os.path.abspath(screenshot_path),
+                    ],
+                    capture_output=True,
+                    text=True,
+                    timeout=COFFEE_GB_REQUEST_TIMEOUT,
+                )
+            except subprocess.TimeoutExpired:
                 raise TimeoutError(
                     "Coffee GB exceeded %.0f seconds while running %s"
                     % (COFFEE_GB_REQUEST_TIMEOUT, test))
-            fields = response.split("\t")
-            if len(fields) < 2 or fields[1] != request_id:
-                raise RuntimeError("Unexpected Coffee GB response: %s" % response)
-            if fields[0] != "OK":
-                message = "Unknown Coffee GB failure"
-                if len(fields) >= 3:
-                    message = base64.urlsafe_b64decode(fields[2] + "===").decode("utf-8")
-                raise RuntimeError(message)
+            if completed.returncode != 0:
+                diagnostic = completed.stderr.strip() or completed.stdout.strip()
+                raise RuntimeError(
+                    "Coffee GB CLI failed with exit code %d: %s"
+                    % (completed.returncode, diagnostic))
 
             with PIL.Image.open(screenshot_path) as image:
                 screenshot = image.copy()
@@ -137,54 +120,3 @@ class CoffeeGB(Emulator):
         finally:
             if os.path.exists(screenshot_path):
                 os.unlink(screenshot_path)
-
-    def undoSetup(self):
-        if self._headless is None:
-            return
-        if self._headless.poll() is None:
-            try:
-                self._headless.stdin.write("QUIT\n")
-                self._headless.stdin.flush()
-                self._headless.wait(timeout=10.0)
-            except (BrokenPipeError, subprocess.TimeoutExpired):
-                self._headless.kill()
-                self._headless.wait()
-        self._headless = None
-
-    def startProcess(self, rom, *, model, required_features):
-        model = {DMG: "DMG", CGB: "CGB", SGB: "SGB"}.get(model)
-        if model is None:
-            return None
-
-        home = os.path.abspath(os.path.join("emu", "coffee-gb", model.lower()))
-        os.makedirs(home, exist_ok=True)
-        with open(os.path.join(home, ".coffeegb.properties"), "wt") as f:
-            f.write(
-                "\n".join([
-                    "system.dmgGames=%s" % model,
-                    "system.cgbGames=%s" % model,
-                    "display.scale=1",
-                    "display.grayscale=false",
-                    "display.blending=false",
-                    "display.colorCorrection=false",
-                    "display.rotation=0",
-                    "display.showSgbBorder=false",
-                    "sound.enabled=false",
-                    "system.bootstrapMode=FAST_FORWARD",
-                ])
-            )
-
-        return subprocess.Popen([
-            "java",
-            "-Dsun.java2d.uiScale=1",
-            "-Duser.home=%s" % home,
-            "-jar",
-            os.path.abspath(COFFEE_GB_JAR),
-            os.path.abspath(rom),
-        ], cwd=home)
-
-    def getScreenshot(self):
-        screenshot = getScreenshot(self.title_check)
-        if screenshot is None or screenshot.size[0] < 160 or screenshot.size[1] < 144:
-            return None
-        return screenshot.crop((0, screenshot.size[1] - 144, 160, screenshot.size[1]))

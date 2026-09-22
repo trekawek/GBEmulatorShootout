@@ -71,7 +71,7 @@ jobs:
             needs_chromedriver: false
             needs_audio: false
             needs_java: true
-            timeout_minutes: 45
+            timeout_minutes: 60
             extra_requirements: ''
           - emulator: PyBoy
             needs_chromedriver: false
