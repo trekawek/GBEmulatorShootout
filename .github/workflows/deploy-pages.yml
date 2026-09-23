@@ -2,12 +2,27 @@ name: Deploy Pages
 
 on:
   workflow_dispatch:
+    inputs:
+      artifact_pattern:
+        description: Results artifact pattern; leave empty to rebuild existing data
+        required: false
+        default: '*-results'
+        type: string
+      target_branch:
+        description: Branch containing the generated static site
+        required: false
+        default: 'gh-pages-new'
+        type: string
   workflow_call:
     inputs:
       artifact_pattern:
         required: false
         type: string
         default: '*-results'
+      target_branch:
+        required: false
+        type: string
+        default: 'gh-pages-new'
 
 permissions:
   contents: write
@@ -33,32 +48,44 @@ jobs:
           path: artifacts
           merge-multiple: true
 
-      - name: Build and commit gh-pages update
+      - name: Build and commit static site update
         shell: powershell
         run: |
+          $ErrorActionPreference = "Stop"
           git config --global user.name "github actions"
           git config --global user.email "github@actions"
-          git clone --single-branch --branch gh-pages "https://github.com/${{ github.repository }}.git" pages
+
+          git clone --single-branch --branch "${{ inputs.target_branch }}" "https://github.com/${{ github.repository }}.git" pages
+          New-Item -ItemType Directory -Force -Path site-input | Out-Null
+          if (Test-Path "pages\\data\\raw\\*.json") {
+            Copy-Item -Path pages\data\raw\*.json -Destination site-input -Force
+          }
           if (Test-Path "artifacts\\*.json") {
-            Copy-Item -Path artifacts\*.json -Destination pages -Force
+            Copy-Item -Path artifacts\*.json -Destination site-input -Force
           } else {
             Write-Host "No emulator JSON artifacts found to publish."
           }
+
           python main.py --dump-emulators-json --dump-tests-json
-          Copy-Item emulators.json, tests.json -Destination pages -Force
-          python build.py --results-dir pages --emulators pages/emulators.json --tests pages/tests.json --output pages/index.html
-          Remove-Item pages\build.py -ErrorAction SilentlyContinue
+          python build.py --results-dir site-input --emulators emulators.json --tests tests.json --output-dir site-output
+
+          Get-ChildItem -Path pages -Force |
+            Where-Object { $_.Name -ne ".git" } |
+            Remove-Item -Recurse -Force
+          Copy-Item -Path site-output\* -Destination pages -Recurse -Force
+          Copy-Item -Path site-output\.nojekyll -Destination pages -Force
+
           Set-Location pages
           git add -A
           if (git diff --cached --quiet) {
-            Write-Host "No gh-pages changes to commit."
+            Write-Host "No static site changes to commit."
             exit 0
           }
-          git commit -m "Update"
+          git commit -m "Update static results site"
 
-      - name: Push gh-pages changes
+      - name: Push static site changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: gh-pages
+          branch: ${{ inputs.target_branch }}
           directory: pages

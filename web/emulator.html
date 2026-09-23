@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Detailed Game Boy emulator accuracy test results">
+  <title>Emulator details · GB Emulator Shootout</title>
+  <link rel="stylesheet" href="assets/site.css">
+  <script type="module" src="assets/emulator.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./"><span class="brand-mark">GB</span><span>Emulator Shootout</span></a>
+    <a class="header-link" href="https://github.com/gbdev/GBEmulatorShootout">Project on GitHub <span aria-hidden="true">↗</span></a>
+  </header>
+  <main>
+    <a class="back-link" href="./"><span aria-hidden="true">←</span> All emulators</a>
+    <div class="notice error" id="load-error" role="alert" hidden></div>
+    <section id="report" hidden>
+      <div class="page-heading report-heading">
+        <div>
+          <p class="eyebrow">Emulator report</p>
+          <h1 id="emulator-name"></h1>
+          <div class="report-meta">
+            <div class="systems" id="emulator-systems"></div>
+            <a id="emulator-homepage">Home page <span aria-hidden="true">↗</span></a>
+            <span id="tested-at"></span>
+          </div>
+        </div>
+        <div class="report-score">
+          <div><strong id="score-value"></strong> <span>/ <span id="score-recorded"></span></span></div>
+          <small>Score · PASS + INFO</small>
+        </div>
+      </div>
+
+      <div class="toolbar">
+        <div class="filters" id="filters" role="group" aria-label="Filter test results"></div>
+        <button class="text-button" id="toggle-suites" type="button">Expand all suites</button>
+      </div>
+      <p class="results-count" id="results-count" aria-live="polite"></p>
+      <div id="suites"></div>
+      <div class="page-notes detail-notes">
+        <p>INFO results are informational; they remain part of the legacy score.</p>
+        <p>Missing legacy results cannot be classified as failed or unsupported.</p>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="screenshot-dialog">
+    <div class="dialog-heading">
+      <p id="dialog-title"></p>
+      <button class="text-button" id="close-dialog" type="button">Close <span aria-hidden="true">×</span></button>
+    </div>
+    <img id="dialog-image" alt="">
+  </dialog>
+  <footer><span>GB Emulator Shootout</span><span>Static results, generated from the latest accepted emulator runs.</span></footer>
+</body>
+</html>

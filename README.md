@@ -87,11 +87,16 @@ Generate emulator and test metadata JSON files:
 python main.py --dump-emulators-json --dump-tests-json
 ```
 
-Build the HTML report:
+Build the static report site:
 
 ```sh
-python build.py --emulators emulators.json --tests tests.json --results-dir . --output index.html
+python build.py --emulators emulators.json --tests tests.json --results-dir . --output-dir site
+python -m http.server --directory site 8000
 ```
+
+The overview reads `data/index.json`. Emulator detail pages load their own result JSON and
+catalog, then lazy-load screenshots stored as PNG files. The generated directory can be
+published directly with GitHub Pages.
 
 ## License
 

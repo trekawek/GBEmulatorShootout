@@ -22,6 +22,7 @@ import testroms.ashiepaws
 import testroms.cpp
 import testroms.mealybug
 from test import *
+from site_metadata import EMULATORS as SITE_EMULATORS, test_to_metadata
 
 
 def _normalize_emulator_keyword(value):
@@ -245,18 +246,14 @@ if __name__ == "__main__":
     if args.dump_emulators_json:
         json.dump({
             spec['name']: {
+                'id': SITE_EMULATORS[spec['name']]['id'],
                 'file': get_emulator_json_filename(spec['name']),
                 'url': spec['url'],
+                'systems': SITE_EMULATORS[spec['name']]['systems'],
             } for spec in emulator_specs
         }, open("emulators.json", "wt"), indent="  ")
     if args.dump_tests_json:
-        json.dump([
-            {
-                'name': str(test),
-                'description': test.description,
-                'url': test.url,
-            } for test in tests
-        ], open("tests.json", "wt"), indent="  ")
+        json.dump([test_to_metadata(test) for test in tests], open("tests.json", "wt"), indent="  ")
     if args.dump_tests_json or args.dump_emulators_json:
         print("%d emulators" % (len(emulator_specs)))
         print("%d tests" % (len(tests)))
