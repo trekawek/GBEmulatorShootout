@@ -58,9 +58,23 @@ def download(url, filename, fake_headers=False, max_retries=5):
     print("Max retries exceeded. Download failed.")
     raise last_exception
 
-def downloadGithubRelease(repo, filename, *, filter=lambda n: "win" in n, allow_prerelease=False, require_asset=False):
+def downloadGithubRelease(
+    repo,
+    filename,
+    *,
+    filter=lambda n: "win" in n,
+    allow_prerelease=False,
+    require_asset=False,
+    release_tag=None,
+):
     if not os.path.exists(filename):
-        if allow_prerelease:
+        if release_tag is not None:
+            tag = requests.utils.quote(release_tag, safe="")
+            r = requests.get(
+                "https://api.github.com/repos/%s/releases/tags/%s" % (repo, tag)
+            )
+            data = r.json()
+        elif allow_prerelease:
             r = requests.get("https://api.github.com/repos/%s/releases" % (repo))
             data = r.json()[0]
         else:
