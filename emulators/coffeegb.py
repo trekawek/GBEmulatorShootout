@@ -21,6 +21,7 @@ COFFEE_GB_MAVEN_BASE = (
 )
 COFFEE_GB_FPS = 60
 COFFEE_GB_SETTLING_SECONDS = 5.0
+COFFEE_GB_PRESENTATION_FRAMES = 1
 COFFEE_GB_REQUEST_TIMEOUT = 60.0
 
 
@@ -56,11 +57,29 @@ class CoffeeGB(Emulator):
     @staticmethod
     def _frames_for_runtime(runtime):
         # The generic GUI harness grants every emulator five extra seconds for a
-        # result screen to settle. Reproduce that allowance as emulated time.
+        # result screen to settle. Reproduce that allowance as emulated time, then
+        # present one more complete LCD frame so writes performed at the inclusive
+        # deadline are visible in the captured image.
         return max(
             1,
-            math.ceil((runtime + COFFEE_GB_SETTLING_SECONDS) * COFFEE_GB_FPS),
+            math.ceil((runtime + COFFEE_GB_SETTLING_SECONDS) * COFFEE_GB_FPS)
+            + COFFEE_GB_PRESENTATION_FRAMES,
         )
+
+    @staticmethod
+    def _profile_for_test(test):
+        if test.model != CGB:
+            return test.model.lower()
+
+        # Explicit CGB mode is still required for monochrome ROMs that the suite
+        # deliberately runs on color hardware. Color-aware ROMs can use Coffee GB's
+        # automatic profile so cartridge-specific revision selection is preserved.
+        with open(test.rom, "rb") as rom:
+            rom.seek(0x143)
+            cgb_flag = rom.read(1)
+        if len(cgb_flag) != 1:
+            raise RuntimeError("Coffee GB test ROM has an incomplete header")
+        return "auto" if cgb_flag[0] & 0x80 else "cgb"
 
     def run(self, test):
         print("Running %s on %s" % (test, self), flush=True)
@@ -86,7 +105,7 @@ class CoffeeGB(Emulator):
                         "run",
                         "--rom", os.path.abspath(test.rom),
                         "--frames", str(self._frames_for_runtime(test.runtime)),
-                        "--profile", test.model.lower(),
+                        "--profile", self._profile_for_test(test),
                         "--bootstrap", "fast-forward",
                         "--sgb-border", "off",
                         "--screenshot", os.path.abspath(screenshot_path),
