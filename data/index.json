@@ -1,0 +1,583 @@
+{
+  "schemaVersion": 1,
+  "publishedAt": "2026-09-23T18:55:11.778177Z",
+  "scorePolicy": "legacy-nonfail-v1",
+  "emulators": [
+    {
+      "id": "docboy",
+      "name": "docboy",
+      "homepage": "https://github.com/Docheinstein/docboy",
+      "systems": {
+        "dmg": true,
+        "cgb": true,
+        "sgb": false
+      },
+      "version": null,
+      "resultsUrl": "data/results/docboy.json",
+      "testedAt": "2026-06-04T16:16:50.468551Z",
+      "runId": "legacy-1780589810",
+      "runState": "legacy",
+      "catalogId": "catalog-02974dded59b",
+      "counts": {
+        "pass": 255,
+        "fail": 3,
+        "info": 3,
+        "error": 0,
+        "skipped": 0,
+        "missing": 3
+      },
+      "score": {
+        "value": 258,
+        "recorded": 261
+      },
+      "coverage": {
+        "recorded": 261,
+        "catalogTotal": 264
+      }
+    },
+    {
+      "id": "emulicious",
+      "name": "Emulicious",
+      "homepage": "https://emulicious.net/",
+      "systems": {
+        "dmg": true,
+        "cgb": true,
+        "sgb": false
+      },
+      "version": null,
+      "resultsUrl": "data/results/emulicious.json",
+      "testedAt": "2026-06-04T16:18:48.802671Z",
+      "runId": "legacy-1780589928",
+      "runState": "legacy",
+      "catalogId": "catalog-02974dded59b",
+      "counts": {
+        "pass": 251,
+        "fail": 7,
+        "info": 3,
+        "error": 0,
+        "skipped": 0,
+        "missing": 3
+      },
+      "score": {
+        "value": 254,
+        "recorded": 261
+      },
+      "coverage": {
+        "recorded": 261,
+        "catalogTotal": 264
+      }
+    },
+    {
+      "id": "sameboy",
+      "name": "SameBoy",
+      "homepage": "https://sameboy.github.io/",
+      "systems": {
+        "dmg": true,
+        "cgb": true,
+        "sgb": true
+      },
+      "version": null,
+      "resultsUrl": "data/results/sameboy.json",
+      "testedAt": "2026-06-04T16:38:35.067205Z",
+      "runId": "legacy-1780591115",
+      "runState": "legacy",
+      "catalogId": "catalog-02974dded59b",
+      "counts": {
+        "pass": 250,
+        "fail": 11,
+        "info": 3,
+        "error": 0,
+        "skipped": 0,
+        "missing": 0
+      },
+      "score": {
+        "value": 253,
+        "recorded": 264
+      },
+      "coverage": {
+        "recorded": 264,
+        "catalogTotal": 264
+      }
+    },
+    {
+      "id": "beaten-dying-moon",
+      "name": "Beaten Dying Moon",
+      "homepage": "https://mattcurrie.com/bdm-demo/",
+      "systems": {
+        "dmg": true,
+        "cgb": true,
+        "sgb": true
+      },
+      "version": null,
+      "resultsUrl": "data/results/beaten-dying-moon.json",
+      "testedAt": "2026-06-04T16:17:37.261223Z",
+      "runId": "legacy-1780589857",
+      "runState": "legacy",
+      "catalogId": "catalog-02974dded59b",
+      "counts": {
+        "pass": 244,
+        "fail": 17,
+        "info": 3,
+        "error": 0,
+        "skipped": 0,
+        "missing": 0
+      },
+      "score": {
+        "value": 247,
+        "recorded": 264
+      },
+      "coverage": {
+        "recorded": 264,
+        "catalogTotal": 264
+      }
+    },
+    {
+      "id": "gse",
+      "name": "GSE",
+      "homepage": "https://github.com/CasualPokePlayer/GSE",
+      "systems": {
+        "dmg": true,
+        "cgb": true,
+        "sgb": true
+      },
+      "version": null,
+      "resultsUrl": "data/results/gse.json",
+      "testedAt": "2026-06-04T16:42:25.502439Z",
+      "runId": "legacy-1780591345",
+      "runState": "legacy",
+      "catalogId": "catalog-02974dded59b",
+      "counts": {
+        "pass": 215,
+        "fail": 46,
+        "info": 3,
+        "error": 0,
+        "skipped": 0,
+        "missing": 0
+      },
+      "score": {
+        "value": 218,
+        "recorded": 264
+      },
+      "coverage": {
+        "recorded": 264,
+        "catalogTotal": 264
+      }
+    },
+    {
+      "id": "bgb",
+      "name": "bgb",
+      "homepage": "https://bgb.bircd.org/",
+      "systems": {
+        "dmg": true,
+        "cgb": true,
+        "sgb": true
+      },
+      "version": null,
+      "resultsUrl": "data/results/bgb.json",
+      "testedAt": "2026-06-04T16:17:57.208909Z",
+      "runId": "legacy-1780589877",
+      "runState": "legacy",
+      "catalogId": "catalog-02974dded59b",
+      "counts": {
+        "pass": 202,
+        "fail": 59,
+        "info": 3,
+        "error": 0,
+        "skipped": 0,
+        "missing": 0
+      },
+      "score": {
+        "value": 205,
+        "recorded": 264
+      },
+      "coverage": {
+        "recorded": 264,
+        "catalogTotal": 264
+      }
+    },
+    {
+      "id": "gambatte-speedrun",
+      "name": "GambatteSpeedrun",
+      "homepage": "https://github.com/pokemon-speedrunning/gambatte-speedrun",
+      "systems": {
+        "dmg": true,
+        "cgb": true,
+        "sgb": true
+      },
+      "version": null,
+      "resultsUrl": "data/results/gambatte-speedrun.json",
+      "testedAt": "2026-06-04T16:37:55.428957Z",
+      "runId": "legacy-1780591075",
+      "runState": "legacy",
+      "catalogId": "catalog-02974dded59b",
+      "counts": {
+        "pass": 166,
+        "fail": 38,
+        "info": 3,
+        "error": 0,
+        "skipped": 0,
+        "missing": 57
+      },
+      "score": {
+        "value": 169,
+        "recorded": 207
+      },
+      "coverage": {
+        "recorded": 207,
+        "catalogTotal": 264
+      }
+    },
+    {
+      "id": "mgba",
+      "name": "mGBA",
+      "homepage": "https://mgba.io/",
+      "systems": {
+        "dmg": true,
+        "cgb": true,
+        "sgb": true
+      },
+      "version": null,
+      "resultsUrl": "data/results/mgba.json",
+      "testedAt": "2026-06-04T16:32:37.202135Z",
+      "runId": "legacy-1780590757",
+      "runState": "legacy",
+      "catalogId": "catalog-02974dded59b",
+      "counts": {
+        "pass": 147,
+        "fail": 114,
+        "info": 3,
+        "error": 0,
+        "skipped": 0,
+        "missing": 0
+      },
+      "score": {
+        "value": 150,
+        "recorded": 264
+      },
+      "coverage": {
+        "recorded": 264,
+        "catalogTotal": 264
+      }
+    },
+    {
+      "id": "gameroy",
+      "name": "gameroy",
+      "homepage": "https://github.com/Rodrigodd/gameroy",
+      "systems": {
+        "dmg": true,
+        "cgb": false,
+        "sgb": false
+      },
+      "version": null,
+      "resultsUrl": "data/results/gameroy.json",
+      "testedAt": "2026-06-04T16:14:05.058087Z",
+      "runId": "legacy-1780589645",
+      "runState": "legacy",
+      "catalogId": "catalog-02974dded59b",
+      "counts": {
+        "pass": 147,
+        "fail": 18,
+        "info": 2,
+        "error": 0,
+        "skipped": 0,
+        "missing": 97
+      },
+      "score": {
+        "value": 149,
+        "recorded": 167
+      },
+      "coverage": {
+        "recorded": 167,
+        "catalogTotal": 264
+      }
+    },
+    {
+      "id": "binjgb",
+      "name": "binjgb",
+      "homepage": "https://github.com/binji/binjgb",
+      "systems": {
+        "dmg": true,
+        "cgb": null,
+        "sgb": null
+      },
+      "version": null,
+      "resultsUrl": "data/results/binjgb.json",
+      "testedAt": "2026-06-04T16:22:48.692819Z",
+      "runId": "legacy-1780590168",
+      "runState": "legacy",
+      "catalogId": "catalog-02974dded59b",
+      "counts": {
+        "pass": 141,
+        "fail": 63,
+        "info": 3,
+        "error": 0,
+        "skipped": 0,
+        "missing": 57
+      },
+      "score": {
+        "value": 144,
+        "recorded": 207
+      },
+      "coverage": {
+        "recorded": 207,
+        "catalogTotal": 264
+      }
+    },
+    {
+      "id": "visualboyadvance-m",
+      "name": "VisualBoyAdvance-M",
+      "homepage": "https://github.com/visualboyadvance-m/visualboyadvance-m",
+      "systems": {
+        "dmg": true,
+        "cgb": true,
+        "sgb": true
+      },
+      "version": null,
+      "resultsUrl": "data/results/visualboyadvance-m.json",
+      "testedAt": "2026-06-04T16:30:00.120977Z",
+      "runId": "legacy-1780590600",
+      "runState": "legacy",
+      "catalogId": "catalog-02974dded59b",
+      "counts": {
+        "pass": 107,
+        "fail": 97,
+        "info": 3,
+        "error": 0,
+        "skipped": 0,
+        "missing": 57
+      },
+      "score": {
+        "value": 110,
+        "recorded": 207
+      },
+      "coverage": {
+        "recorded": 207,
+        "catalogTotal": 264
+      }
+    },
+    {
+      "id": "pyboy",
+      "name": "PyBoy",
+      "homepage": "https://github.com/Baekalfen/PyBoy",
+      "systems": {
+        "dmg": true,
+        "cgb": true,
+        "sgb": false
+      },
+      "version": null,
+      "resultsUrl": "data/results/pyboy.json",
+      "testedAt": "2026-06-04T16:56:21.694353Z",
+      "runId": "legacy-1780592181",
+      "runState": "legacy",
+      "catalogId": "catalog-02974dded59b",
+      "counts": {
+        "pass": 88,
+        "fail": 170,
+        "info": 3,
+        "error": 0,
+        "skipped": 0,
+        "missing": 3
+      },
+      "score": {
+        "value": 91,
+        "recorded": 261
+      },
+      "coverage": {
+        "recorded": 261,
+        "catalogTotal": 264
+      }
+    },
+    {
+      "id": "emmy",
+      "name": "Emmy",
+      "homepage": "https://emmy.n1ark.com/",
+      "systems": {
+        "dmg": true,
+        "cgb": true,
+        "sgb": false
+      },
+      "version": null,
+      "resultsUrl": "data/results/emmy.json",
+      "testedAt": "2026-06-04T16:29:27.195180Z",
+      "runId": "legacy-1780590567",
+      "runState": "legacy",
+      "catalogId": "catalog-02974dded59b",
+      "counts": {
+        "pass": 82,
+        "fail": 119,
+        "info": 2,
+        "error": 0,
+        "skipped": 0,
+        "missing": 61
+      },
+      "score": {
+        "value": 84,
+        "recorded": 203
+      },
+      "coverage": {
+        "recorded": 203,
+        "catalogTotal": 264
+      }
+    },
+    {
+      "id": "goomba",
+      "name": "Goomba",
+      "homepage": "https://www.dwedit.org/gba/goombacolor.php",
+      "systems": {
+        "dmg": null,
+        "cgb": null,
+        "sgb": null
+      },
+      "version": null,
+      "resultsUrl": "data/results/goomba.json",
+      "testedAt": "2026-06-04T16:34:38.925817Z",
+      "runId": "legacy-1780590878",
+      "runState": "legacy",
+      "catalogId": "catalog-02974dded59b",
+      "counts": {
+        "pass": 44,
+        "fail": 158,
+        "info": 3,
+        "error": 0,
+        "skipped": 0,
+        "missing": 59
+      },
+      "score": {
+        "value": 47,
+        "recorded": 205
+      },
+      "coverage": {
+        "recorded": 205,
+        "catalogTotal": 264
+      }
+    },
+    {
+      "id": "no-gmb",
+      "name": "No$gmb",
+      "homepage": "https://problemkaputt.de/gmb.htm",
+      "systems": {
+        "dmg": null,
+        "cgb": null,
+        "sgb": null
+      },
+      "version": null,
+      "resultsUrl": "data/results/no-gmb.json",
+      "testedAt": "2026-03-20T21:13:29.285744Z",
+      "runId": "legacy-1774041209",
+      "runState": "legacy",
+      "catalogId": "catalog-02974dded59b",
+      "counts": {
+        "pass": 39,
+        "fail": 161,
+        "info": 5,
+        "error": 0,
+        "skipped": 0,
+        "missing": 62
+      },
+      "score": {
+        "value": 44,
+        "recorded": 205
+      },
+      "coverage": {
+        "recorded": 205,
+        "catalogTotal": 264
+      }
+    },
+    {
+      "id": "visualboyadvance",
+      "name": "VisualBoyAdvance",
+      "homepage": "https://sourceforge.net/projects/vba",
+      "systems": {
+        "dmg": null,
+        "cgb": null,
+        "sgb": null
+      },
+      "version": null,
+      "resultsUrl": "data/results/visualboyadvance.json",
+      "testedAt": "2026-06-04T16:32:52.288467Z",
+      "runId": "legacy-1780590772",
+      "runState": "legacy",
+      "catalogId": "catalog-02974dded59b",
+      "counts": {
+        "pass": 38,
+        "fail": 166,
+        "info": 2,
+        "error": 0,
+        "skipped": 0,
+        "missing": 58
+      },
+      "score": {
+        "value": 40,
+        "recorded": 206
+      },
+      "coverage": {
+        "recorded": 206,
+        "catalogTotal": 264
+      }
+    },
+    {
+      "id": "kigb",
+      "name": "KiGB",
+      "homepage": "http://kigb.emuunlim.com/",
+      "systems": {
+        "dmg": true,
+        "cgb": true,
+        "sgb": true
+      },
+      "version": null,
+      "resultsUrl": "data/results/kigb.json",
+      "testedAt": "2026-06-04T16:39:26.815431Z",
+      "runId": "legacy-1780591166",
+      "runState": "legacy",
+      "catalogId": "catalog-02974dded59b",
+      "counts": {
+        "pass": 28,
+        "fail": 176,
+        "info": 3,
+        "error": 0,
+        "skipped": 0,
+        "missing": 57
+      },
+      "score": {
+        "value": 31,
+        "recorded": 207
+      },
+      "coverage": {
+        "recorded": 207,
+        "catalogTotal": 264
+      }
+    },
+    {
+      "id": "ares",
+      "name": "ares",
+      "homepage": "https://ares-emu.net/",
+      "systems": {
+        "dmg": true,
+        "cgb": true,
+        "sgb": false
+      },
+      "version": null,
+      "resultsUrl": "data/results/ares.json",
+      "testedAt": "2026-06-04T16:48:50.456255Z",
+      "runId": "legacy-1780591730",
+      "runState": "legacy",
+      "catalogId": "catalog-02974dded59b",
+      "counts": {
+        "pass": 23,
+        "fail": 235,
+        "info": 3,
+        "error": 0,
+        "skipped": 0,
+        "missing": 3
+      },
+      "score": {
+        "value": 26,
+        "recorded": 261
+      },
+      "coverage": {
+        "recorded": 261,
+        "catalogTotal": 264
+      }
+    }
+  ]
+}

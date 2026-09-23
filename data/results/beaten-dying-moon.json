@@ -1,0 +1,5053 @@
+{
+  "schemaVersion": 1,
+  "emulatorId": "beaten-dying-moon",
+  "runId": "legacy-1780589857",
+  "runState": "legacy",
+  "testedAt": "2026-06-04T16:17:37.261223Z",
+  "emulatorVersion": null,
+  "catalogId": "catalog-02974dded59b",
+  "catalogUrl": "data/catalogs/catalog-02974dded59b.json",
+  "provenance": {
+    "runnerCommit": null,
+    "workflowUrl": null,
+    "platform": "windows",
+    "selection": {
+      "emulators": [
+        "beaten-dying-moon"
+      ],
+      "tests": null,
+      "systems": null
+    },
+    "importedLegacy": true
+  },
+  "counts": {
+    "pass": 244,
+    "fail": 17,
+    "info": 3,
+    "error": 0,
+    "skipped": 0,
+    "missing": 0
+  },
+  "score": {
+    "value": 247,
+    "recorded": 264
+  },
+  "results": [
+    {
+      "testId": "acid-which-gb-dmg-dmg-0669633f",
+      "legacyName": "acid/which.gb (DMG)",
+      "name": "which.gb (DMG)",
+      "suiteId": "acid",
+      "group": "",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "info",
+      "reason": null,
+      "startupSeconds": 0.8386712000001353,
+      "runtimeSeconds": 11.553028199999972,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/acid-which-gb-dmg-dmg-0669633f.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "acid-which-gb-gbc-cgb-38eb7aac",
+      "legacyName": "acid/which.gb (GBC)",
+      "name": "which.gb (GBC)",
+      "suiteId": "acid",
+      "group": "",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "info",
+      "reason": null,
+      "startupSeconds": 0.0636243999999806,
+      "runtimeSeconds": 11.534290300000066,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/acid-which-gb-gbc-cgb-38eb7aac.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "acid-dmg-acid2-gb-dmg-b16e8597",
+      "legacyName": "acid/dmg-acid2.gb",
+      "name": "dmg-acid2.gb",
+      "suiteId": "acid",
+      "group": "",
+      "system": "dmg",
+      "description": "Rendering test for classic GameBoy.",
+      "sourceUrl": "https://github.com/mattcurrie/dmg-acid2",
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07499370000005001,
+      "runtimeSeconds": 0.4186359000000266,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/acid-dmg-acid2-gb-dmg-b16e8597.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "acid-cgb-acid2-gbc-cgb-88e4b3b3",
+      "legacyName": "acid/cgb-acid2.gbc",
+      "name": "cgb-acid2.gbc",
+      "suiteId": "acid",
+      "group": "",
+      "system": "cgb",
+      "description": "Rendering test for color GameBoy.",
+      "sourceUrl": "https://github.com/mattcurrie/cgb-acid2",
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06504530000006525,
+      "runtimeSeconds": 0.29971419999992577,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/acid-cgb-acid2-gbc-cgb-88e4b3b3.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "acid-cgb-acid-hell-gbc-cgb-ee00bb31",
+      "legacyName": "acid/cgb-acid-hell.gbc",
+      "name": "cgb-acid-hell.gbc",
+      "suiteId": "acid",
+      "group": "",
+      "system": "cgb",
+      "description": "Very specific rendering test of mid scanline writes, very hard to pass.",
+      "sourceUrl": "https://github.com/mattcurrie/cgb-acid-hell",
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.0637218000001667,
+      "runtimeSeconds": 0.264618000000155,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/acid-cgb-acid-hell-gbc-cgb-ee00bb31.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-cpu-instrs-01-special-gb-dmg-cffd5d76",
+      "legacyName": "blargg/cpu_instrs/01-special.gb",
+      "name": "01-special.gb",
+      "suiteId": "blargg",
+      "group": "cpu_instrs",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06325149999997848,
+      "runtimeSeconds": 0.687650000000076,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-cpu-instrs-01-special-gb-dmg-cffd5d76.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-cpu-instrs-02-interrupts-gb-dmg-4b97e44a",
+      "legacyName": "blargg/cpu_instrs/02-interrupts.gb",
+      "name": "02-interrupts.gb",
+      "suiteId": "blargg",
+      "group": "cpu_instrs",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07461149999994632,
+      "runtimeSeconds": 0.5789270000000215,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-cpu-instrs-02-interrupts-gb-dmg-4b97e44a.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-cpu-instrs-03-op-sp-hl-gb-dmg-8216b96f",
+      "legacyName": "blargg/cpu_instrs/03-op_sp,hl.gb",
+      "name": "03-op_sp,hl.gb",
+      "suiteId": "blargg",
+      "group": "cpu_instrs",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07446960000015679,
+      "runtimeSeconds": 0.8264005000000907,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-cpu-instrs-03-op-sp-hl-gb-dmg-8216b96f.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-cpu-instrs-04-op-r-imm-gb-dmg-f1f9114b",
+      "legacyName": "blargg/cpu_instrs/04-op_r,imm.gb",
+      "name": "04-op_r,imm.gb",
+      "suiteId": "blargg",
+      "group": "cpu_instrs",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07703930000002401,
+      "runtimeSeconds": 0.847814900000003,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-cpu-instrs-04-op-r-imm-gb-dmg-f1f9114b.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-cpu-instrs-05-op-rp-gb-dmg-8a4b3fbc",
+      "legacyName": "blargg/cpu_instrs/05-op_rp.gb",
+      "name": "05-op_rp.gb",
+      "suiteId": "blargg",
+      "group": "cpu_instrs",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07623179999995955,
+      "runtimeSeconds": 0.8225180000001728,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-cpu-instrs-05-op-rp-gb-dmg-8a4b3fbc.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-cpu-instrs-06-ld-r-r-gb-dmg-55b14397",
+      "legacyName": "blargg/cpu_instrs/06-ld_r,r.gb",
+      "name": "06-ld_r,r.gb",
+      "suiteId": "blargg",
+      "group": "cpu_instrs",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.08634319999987383,
+      "runtimeSeconds": 0.5616294999999809,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-cpu-instrs-06-ld-r-r-gb-dmg-55b14397.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-cpu-instrs-07-jr-jp-call-ret-rst-gb-dmg-c71bd785",
+      "legacyName": "blargg/cpu_instrs/07-jr,jp,call,ret,rst.gb",
+      "name": "07-jr,jp,call,ret,rst.gb",
+      "suiteId": "blargg",
+      "group": "cpu_instrs",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07417969999983143,
+      "runtimeSeconds": 0.5629004999998415,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-cpu-instrs-07-jr-jp-call-ret-rst-gb-dmg-c71bd785.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-cpu-instrs-08-misc-instrs-gb-dmg-00795987",
+      "legacyName": "blargg/cpu_instrs/08-misc_instrs.gb",
+      "name": "08-misc_instrs.gb",
+      "suiteId": "blargg",
+      "group": "cpu_instrs",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06457709999995132,
+      "runtimeSeconds": 0.6958832999998776,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-cpu-instrs-08-misc-instrs-gb-dmg-00795987.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-cpu-instrs-09-op-r-r-gb-dmg-78b33163",
+      "legacyName": "blargg/cpu_instrs/09-op_r,r.gb",
+      "name": "09-op_r,r.gb",
+      "suiteId": "blargg",
+      "group": "cpu_instrs",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.0695215000000644,
+      "runtimeSeconds": 1.4161475999999311,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-cpu-instrs-09-op-r-r-gb-dmg-78b33163.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-cpu-instrs-10-bit-ops-gb-dmg-60628809",
+      "legacyName": "blargg/cpu_instrs/10-bit_ops.gb",
+      "name": "10-bit_ops.gb",
+      "suiteId": "blargg",
+      "group": "cpu_instrs",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07688009999992573,
+      "runtimeSeconds": 1.6998274999998557,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-cpu-instrs-10-bit-ops-gb-dmg-60628809.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-cpu-instrs-11-op-a-hl-gb-dmg-f37eee43",
+      "legacyName": "blargg/cpu_instrs/11-op_a,(hl).gb",
+      "name": "11-op_a,(hl).gb",
+      "suiteId": "blargg",
+      "group": "cpu_instrs",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07414660000017648,
+      "runtimeSeconds": 1.9509291000001667,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-cpu-instrs-11-op-a-hl-gb-dmg-f37eee43.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-halt-bug-gb-dmg-6bd4a24d",
+      "legacyName": "blargg/halt_bug.gb",
+      "name": "halt_bug.gb",
+      "suiteId": "blargg",
+      "group": "",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07476360000009663,
+      "runtimeSeconds": 0.6950464000001375,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-halt-bug-gb-dmg-6bd4a24d.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-instr-timing-gb-dmg-584a3698",
+      "legacyName": "blargg/instr_timing.gb",
+      "name": "instr_timing.gb",
+      "suiteId": "blargg",
+      "group": "",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07674769999994169,
+      "runtimeSeconds": 0.5746590999999626,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-instr-timing-gb-dmg-584a3698.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-interrupt-time-gb-cgb-4d659e2c",
+      "legacyName": "blargg/interrupt_time.gb",
+      "name": "interrupt_time.gb",
+      "suiteId": "blargg",
+      "group": "",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07786200000009558,
+      "runtimeSeconds": 0.4141242999999122,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-interrupt-time-gb-cgb-4d659e2c.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-mem-timing-01-read-timing-gb-dmg-547bd6f6",
+      "legacyName": "blargg/mem_timing/01-read_timing.gb",
+      "name": "01-read_timing.gb",
+      "suiteId": "blargg",
+      "group": "mem_timing",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07649559999981648,
+      "runtimeSeconds": 0.5598376999998891,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-mem-timing-01-read-timing-gb-dmg-547bd6f6.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-mem-timing-02-write-timing-gb-dmg-1f4d9a88",
+      "legacyName": "blargg/mem_timing/02-write_timing.gb",
+      "name": "02-write_timing.gb",
+      "suiteId": "blargg",
+      "group": "mem_timing",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.08630089999996926,
+      "runtimeSeconds": 0.5541362999999819,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-mem-timing-02-write-timing-gb-dmg-1f4d9a88.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-mem-timing-03-modify-timing-gb-dmg-01c8cea5",
+      "legacyName": "blargg/mem_timing/03-modify_timing.gb",
+      "name": "03-modify_timing.gb",
+      "suiteId": "blargg",
+      "group": "mem_timing",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07731519999992997,
+      "runtimeSeconds": 0.575435299999981,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-mem-timing-03-modify-timing-gb-dmg-01c8cea5.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-mem-timing-2-01-read-timing-gb-dmg-20f1120e",
+      "legacyName": "blargg/mem_timing-2/01-read_timing.gb",
+      "name": "01-read_timing.gb",
+      "suiteId": "blargg",
+      "group": "mem_timing-2",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.075416099999984,
+      "runtimeSeconds": 0.5609521000001223,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-mem-timing-2-01-read-timing-gb-dmg-20f1120e.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-mem-timing-2-02-write-timing-gb-dmg-c1785f08",
+      "legacyName": "blargg/mem_timing-2/02-write_timing.gb",
+      "name": "02-write_timing.gb",
+      "suiteId": "blargg",
+      "group": "mem_timing-2",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07438939999997274,
+      "runtimeSeconds": 0.5628630000001067,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-mem-timing-2-02-write-timing-gb-dmg-c1785f08.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-mem-timing-2-03-modify-timing-gb-dmg-8bbbccfc",
+      "legacyName": "blargg/mem_timing-2/03-modify_timing.gb",
+      "name": "03-modify_timing.gb",
+      "suiteId": "blargg",
+      "group": "mem_timing-2",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.08143979999999829,
+      "runtimeSeconds": 0.557539399999996,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-mem-timing-2-03-modify-timing-gb-dmg-8bbbccfc.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-oam-bug-1-lcd-sync-gb-dmg-5e66d0de",
+      "legacyName": "blargg/oam_bug/1-lcd_sync.gb",
+      "name": "1-lcd_sync.gb",
+      "suiteId": "blargg",
+      "group": "oam_bug",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07732170000008409,
+      "runtimeSeconds": 0.5628771000001507,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-oam-bug-1-lcd-sync-gb-dmg-5e66d0de.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-oam-bug-2-causes-gb-dmg-b608de0a",
+      "legacyName": "blargg/oam_bug/2-causes.gb",
+      "name": "2-causes.gb",
+      "suiteId": "blargg",
+      "group": "oam_bug",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07470459999990453,
+      "runtimeSeconds": 0.7098934999999074,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-oam-bug-2-causes-gb-dmg-b608de0a.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-oam-bug-3-non-causes-gb-dmg-ae05f385",
+      "legacyName": "blargg/oam_bug/3-non_causes.gb",
+      "name": "3-non_causes.gb",
+      "suiteId": "blargg",
+      "group": "oam_bug",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.0750597999999627,
+      "runtimeSeconds": 0.7067245999999159,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-oam-bug-3-non-causes-gb-dmg-ae05f385.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-oam-bug-4-scanline-timing-gb-dmg-2da61991",
+      "legacyName": "blargg/oam_bug/4-scanline_timing.gb",
+      "name": "4-scanline_timing.gb",
+      "suiteId": "blargg",
+      "group": "oam_bug",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07482160000017757,
+      "runtimeSeconds": 0.5639390999999705,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-oam-bug-4-scanline-timing-gb-dmg-2da61991.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-oam-bug-5-timing-bug-gb-dmg-ee74faf3",
+      "legacyName": "blargg/oam_bug/5-timing_bug.gb",
+      "name": "5-timing_bug.gb",
+      "suiteId": "blargg",
+      "group": "oam_bug",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07469769999988785,
+      "runtimeSeconds": 0.5616837000000032,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-oam-bug-5-timing-bug-gb-dmg-ee74faf3.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-oam-bug-6-timing-no-bug-gb-dmg-607a177d",
+      "legacyName": "blargg/oam_bug/6-timing_no_bug.gb",
+      "name": "6-timing_no_bug.gb",
+      "suiteId": "blargg",
+      "group": "oam_bug",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07557150000002366,
+      "runtimeSeconds": 0.5612011000000621,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-oam-bug-6-timing-no-bug-gb-dmg-607a177d.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-oam-bug-8-instr-effect-gb-dmg-9ca7f84f",
+      "legacyName": "blargg/oam_bug/8-instr_effect.gb",
+      "name": "8-instr_effect.gb",
+      "suiteId": "blargg",
+      "group": "oam_bug",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06440680000014254,
+      "runtimeSeconds": 0.830081600000085,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-oam-bug-8-instr-effect-gb-dmg-9ca7f84f.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-dmg-sound-01-registers-gb-dmg-dd73c6e4",
+      "legacyName": "blargg/dmg_sound/01-registers.gb",
+      "name": "01-registers.gb",
+      "suiteId": "blargg",
+      "group": "dmg_sound",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07476869999982227,
+      "runtimeSeconds": 0.6769384000001537,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-dmg-sound-01-registers-gb-dmg-dd73c6e4.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-dmg-sound-02-len-ctr-gb-dmg-081a2fae",
+      "legacyName": "blargg/dmg_sound/02-len_ctr.gb",
+      "name": "02-len_ctr.gb",
+      "suiteId": "blargg",
+      "group": "dmg_sound",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07486499999981788,
+      "runtimeSeconds": 1.3780036999999083,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-dmg-sound-02-len-ctr-gb-dmg-081a2fae.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-dmg-sound-03-trigger-gb-dmg-dfb2b658",
+      "legacyName": "blargg/dmg_sound/03-trigger.gb",
+      "name": "03-trigger.gb",
+      "suiteId": "blargg",
+      "group": "dmg_sound",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07446120000008705,
+      "runtimeSeconds": 1.8268596000000343,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-dmg-sound-03-trigger-gb-dmg-dfb2b658.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-dmg-sound-04-sweep-gb-dmg-9193ca89",
+      "legacyName": "blargg/dmg_sound/04-sweep.gb",
+      "name": "04-sweep.gb",
+      "suiteId": "blargg",
+      "group": "dmg_sound",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07682799999997769,
+      "runtimeSeconds": 0.7045324000000619,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-dmg-sound-04-sweep-gb-dmg-9193ca89.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-dmg-sound-05-sweep-details-gb-dmg-3a3cf981",
+      "legacyName": "blargg/dmg_sound/05-sweep_details.gb",
+      "name": "05-sweep_details.gb",
+      "suiteId": "blargg",
+      "group": "dmg_sound",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07471450000002733,
+      "runtimeSeconds": 0.6897243999999318,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-dmg-sound-05-sweep-details-gb-dmg-3a3cf981.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-dmg-sound-06-overflow-on-trigger-gb-dmg-5428a1fc",
+      "legacyName": "blargg/dmg_sound/06-overflow_on_trigger.gb",
+      "name": "06-overflow_on_trigger.gb",
+      "suiteId": "blargg",
+      "group": "dmg_sound",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.09179089999997814,
+      "runtimeSeconds": 0.7046949000000495,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-dmg-sound-06-overflow-on-trigger-gb-dmg-5428a1fc.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-dmg-sound-07-len-sweep-period-sync-gb-dmg-ef480eef",
+      "legacyName": "blargg/dmg_sound/07-len_sweep_period_sync.gb",
+      "name": "07-len_sweep_period_sync.gb",
+      "suiteId": "blargg",
+      "group": "dmg_sound",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07685809999998128,
+      "runtimeSeconds": 0.5599540999999135,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-dmg-sound-07-len-sweep-period-sync-gb-dmg-ef480eef.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-dmg-sound-08-len-ctr-during-power-gb-dmg-94b9b87f",
+      "legacyName": "blargg/dmg_sound/08-len_ctr_during_power.gb",
+      "name": "08-len_ctr_during_power.gb",
+      "suiteId": "blargg",
+      "group": "dmg_sound",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07573599999977887,
+      "runtimeSeconds": 0.715473700000075,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-dmg-sound-08-len-ctr-during-power-gb-dmg-94b9b87f.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-dmg-sound-09-wave-read-while-on-gb-dmg-6bce549d",
+      "legacyName": "blargg/dmg_sound/09-wave_read_while_on.gb",
+      "name": "09-wave_read_while_on.gb",
+      "suiteId": "blargg",
+      "group": "dmg_sound",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07704450000005636,
+      "runtimeSeconds": 0.6862168000000111,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-dmg-sound-09-wave-read-while-on-gb-dmg-6bce549d.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-dmg-sound-10-wave-trigger-while-on-gb-dmg-9186e94d",
+      "legacyName": "blargg/dmg_sound/10-wave_trigger_while_on.gb",
+      "name": "10-wave_trigger_while_on.gb",
+      "suiteId": "blargg",
+      "group": "dmg_sound",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07526030000008177,
+      "runtimeSeconds": 0.8337900999999874,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-dmg-sound-10-wave-trigger-while-on-gb-dmg-9186e94d.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-dmg-sound-11-regs-after-power-gb-dmg-6dc2c147",
+      "legacyName": "blargg/dmg_sound/11-regs_after_power.gb",
+      "name": "11-regs_after_power.gb",
+      "suiteId": "blargg",
+      "group": "dmg_sound",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.0752692000000934,
+      "runtimeSeconds": 0.5627276999998685,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-dmg-sound-11-regs-after-power-gb-dmg-6dc2c147.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-dmg-sound-12-wave-write-while-on-gb-dmg-765a84aa",
+      "legacyName": "blargg/dmg_sound/12-wave_write_while_on.gb",
+      "name": "12-wave_write_while_on.gb",
+      "suiteId": "blargg",
+      "group": "dmg_sound",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07477620000008756,
+      "runtimeSeconds": 0.8372875000000022,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-dmg-sound-12-wave-write-while-on-gb-dmg-765a84aa.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-cgb-sound-01-registers-gb-cgb-962f11c5",
+      "legacyName": "blargg/cgb_sound/01-registers.gb",
+      "name": "01-registers.gb",
+      "suiteId": "blargg",
+      "group": "cgb_sound",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07418729999994866,
+      "runtimeSeconds": 0.419661700000006,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-cgb-sound-01-registers-gb-cgb-962f11c5.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-cgb-sound-02-len-ctr-gb-cgb-2cde1cfa",
+      "legacyName": "blargg/cgb_sound/02-len_ctr.gb",
+      "name": "02-len_ctr.gb",
+      "suiteId": "blargg",
+      "group": "cgb_sound",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.0771060000001853,
+      "runtimeSeconds": 1.11307869999996,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-cgb-sound-02-len-ctr-gb-cgb-2cde1cfa.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-cgb-sound-03-trigger-gb-cgb-62801ad3",
+      "legacyName": "blargg/cgb_sound/03-trigger.gb",
+      "name": "03-trigger.gb",
+      "suiteId": "blargg",
+      "group": "cgb_sound",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07474580000007336,
+      "runtimeSeconds": 1.6413512999999966,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-cgb-sound-03-trigger-gb-cgb-62801ad3.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-cgb-sound-04-sweep-gb-cgb-c659f04f",
+      "legacyName": "blargg/cgb_sound/04-sweep.gb",
+      "name": "04-sweep.gb",
+      "suiteId": "blargg",
+      "group": "cgb_sound",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07626030000005812,
+      "runtimeSeconds": 0.41423699999995733,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-cgb-sound-04-sweep-gb-cgb-c659f04f.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-cgb-sound-05-sweep-details-gb-cgb-122d1068",
+      "legacyName": "blargg/cgb_sound/05-sweep_details.gb",
+      "name": "05-sweep_details.gb",
+      "suiteId": "blargg",
+      "group": "cgb_sound",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.0746268999998847,
+      "runtimeSeconds": 0.41123110000012275,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-cgb-sound-05-sweep-details-gb-cgb-122d1068.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-cgb-sound-06-overflow-on-trigger-gb-cgb-cff874cf",
+      "legacyName": "blargg/cgb_sound/06-overflow_on_trigger.gb",
+      "name": "06-overflow_on_trigger.gb",
+      "suiteId": "blargg",
+      "group": "cgb_sound",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.0745148999999401,
+      "runtimeSeconds": 0.4322678000000906,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-cgb-sound-06-overflow-on-trigger-gb-cgb-cff874cf.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-cgb-sound-07-len-sweep-period-sync-gb-cgb-c26ce5bc",
+      "legacyName": "blargg/cgb_sound/07-len_sweep_period_sync.gb",
+      "name": "07-len_sweep_period_sync.gb",
+      "suiteId": "blargg",
+      "group": "cgb_sound",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06774050000012721,
+      "runtimeSeconds": 0.40727860000015426,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-cgb-sound-07-len-sweep-period-sync-gb-cgb-c26ce5bc.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-cgb-sound-08-len-ctr-during-power-gb-cgb-e3d75429",
+      "legacyName": "blargg/cgb_sound/08-len_ctr_during_power.gb",
+      "name": "08-len_ctr_during_power.gb",
+      "suiteId": "blargg",
+      "group": "cgb_sound",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07487160000005133,
+      "runtimeSeconds": 0.5619698000000426,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-cgb-sound-08-len-ctr-during-power-gb-cgb-e3d75429.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-cgb-sound-09-wave-read-while-on-gb-cgb-efcaf116",
+      "legacyName": "blargg/cgb_sound/09-wave_read_while_on.gb",
+      "name": "09-wave_read_while_on.gb",
+      "suiteId": "blargg",
+      "group": "cgb_sound",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.0743876999999884,
+      "runtimeSeconds": 0.41737560000001395,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-cgb-sound-09-wave-read-while-on-gb-cgb-efcaf116.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-cgb-sound-10-wave-trigger-while-on-gb-cgb-2789e4c0",
+      "legacyName": "blargg/cgb_sound/10-wave_trigger_while_on.gb",
+      "name": "10-wave_trigger_while_on.gb",
+      "suiteId": "blargg",
+      "group": "cgb_sound",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07652429999984633,
+      "runtimeSeconds": 0.7056537000000844,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-cgb-sound-10-wave-trigger-while-on-gb-cgb-2789e4c0.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-cgb-sound-11-regs-after-power-gb-cgb-ca02c1f6",
+      "legacyName": "blargg/cgb_sound/11-regs_after_power.gb",
+      "name": "11-regs_after_power.gb",
+      "suiteId": "blargg",
+      "group": "cgb_sound",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06747509999991053,
+      "runtimeSeconds": 0.4089587999999367,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-cgb-sound-11-regs-after-power-gb-cgb-ca02c1f6.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "blargg-cgb-sound-12-wave-gb-cgb-4c83bcb2",
+      "legacyName": "blargg/cgb_sound/12-wave.gb",
+      "name": "12-wave.gb",
+      "suiteId": "blargg",
+      "group": "cgb_sound",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07540519999997741,
+      "runtimeSeconds": 0.3996921000000384,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/blargg-cgb-sound-12-wave-gb-cgb-4c83bcb2.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "daid-ppu-scanline-bgp-gb-dmg-dmg-5f7dae47",
+      "legacyName": "daid/ppu_scanline_bgp.gb (DMG)",
+      "name": "ppu_scanline_bgp.gb (DMG)",
+      "suiteId": "daid",
+      "group": "",
+      "system": "dmg",
+      "description": "Mid scanline BGP register changes. Requires accurate PPU timing. Changing the BGP register has three possible effects for one pixel: the previous BGP is used, the next BGP is used, or the OR result of the previous and next BGP is used, the last case causing a black line. Which case occurs seems to be hardware and instance dependent as some DMGs do not do a consistent single case.",
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06412909999994554,
+      "runtimeSeconds": 0.5591789000000063,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/daid-ppu-scanline-bgp-gb-dmg-dmg-5f7dae47.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "daid-ppu-scanline-bgp-gb-gbc-cgb-5de4d6ea",
+      "legacyName": "daid/ppu_scanline_bgp.gb (GBC)",
+      "name": "ppu_scanline_bgp.gb (GBC)",
+      "suiteId": "daid",
+      "group": "",
+      "system": "cgb",
+      "description": "Mid scanline BGP register changes. Requires accurate PPU timing. Changing the BGP register will have the next BGP colors used.",
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07545359999994616,
+      "runtimeSeconds": 0.4282998999999563,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/daid-ppu-scanline-bgp-gb-gbc-cgb-5de4d6ea.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "daid-stop-instr-gb-dmg-dmg-4117a58f",
+      "legacyName": "daid/stop_instr.gb (DMG)",
+      "name": "stop_instr.gb (DMG)",
+      "suiteId": "daid",
+      "group": "",
+      "system": "dmg",
+      "description": "STOP instruction is usually not used, but it should blank out the screen on classic Gameboy. As the PPU is stopped. NOTE: Running this on real hardware might damage the hardware, as the screen should be turned off before STOP on DMG.",
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07429439999987153,
+      "runtimeSeconds": 0.5652348999999504,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/daid-stop-instr-gb-dmg-dmg-4117a58f.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "daid-stop-instr-gb-gbc-cgb-6ca6899d",
+      "legacyName": "daid/stop_instr.gb (GBC)",
+      "name": "stop_instr.gb (GBC)",
+      "suiteId": "daid",
+      "group": "",
+      "system": "cgb",
+      "description": "STOP instruction is usually not used, but it should make the screen go black on Color Gameboy. The PPU is still running, but it cannot access VRAM, so it reads all black",
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.0743161999998847,
+      "runtimeSeconds": 0.43564710000009654,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/daid-stop-instr-gb-gbc-cgb-6ca6899d.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "daid-stop-instr-gbc-mode3-gb-cgb-705e7fd0",
+      "legacyName": "daid/stop_instr_gbc_mode3.gb",
+      "name": "stop_instr_gbc_mode3.gb",
+      "suiteId": "daid",
+      "group": "",
+      "system": "cgb",
+      "description": "STOP instruction is usually not used, but doing a STOP during mode 3 on Color Gameboy will keep the screen displaying the same data, as the PPU keeps running, and during mode3 it can access VRAM.",
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07388480000008713,
+      "runtimeSeconds": 0.4130407000000105,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/daid-stop-instr-gbc-mode3-gb-cgb-705e7fd0.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "daid-speed-switch-timing-div-gbc-cgb-d436edd5",
+      "legacyName": "daid/speed_switch_timing_div.gbc",
+      "name": "speed_switch_timing_div.gbc",
+      "suiteId": "daid",
+      "group": "",
+      "system": "cgb",
+      "description": "Executing a STOP for a speed switch should reset the DIV register. Not doing this could cause problems with RNG for games, failing this will most certainly desync a TAS.",
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06371739999985948,
+      "runtimeSeconds": 0.2795356999999967,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/daid-speed-switch-timing-div-gbc-cgb-d436edd5.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "daid-speed-switch-timing-ly-gbc-cgb-bd931d6c",
+      "legacyName": "daid/speed_switch_timing_ly.gbc",
+      "name": "speed_switch_timing_ly.gbc",
+      "suiteId": "daid",
+      "group": "",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.08450910000010481,
+      "runtimeSeconds": 0.2966266999999334,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/daid-speed-switch-timing-ly-gbc-cgb-bd931d6c.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "daid-speed-switch-timing-stat-gbc-cgb-e14b6b04",
+      "legacyName": "daid/speed_switch_timing_stat.gbc",
+      "name": "speed_switch_timing_stat.gbc",
+      "suiteId": "daid",
+      "group": "",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.0779235999998491,
+      "runtimeSeconds": 0.41561780000006365,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/daid-speed-switch-timing-stat-gbc-cgb-e14b6b04.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "daid-rom-and-ram-gb-dmg-b9c8f9a6",
+      "legacyName": "daid/rom_and_ram.gb",
+      "name": "rom_and_ram.gb",
+      "suiteId": "daid",
+      "group": "",
+      "system": "dmg",
+      "description": "Test how the ROM+RAM header option of the emulator acts. No official hardware is known to use this configuration. Most compatible way to emulate this is have always enabled RAM available.",
+      "sourceUrl": "https://github.com/daid/GBEmulatorShootout/blob/main/tests/daid/rom_and_ram.gb",
+      "status": "info",
+      "reason": null,
+      "startupSeconds": 0.0765556999999717,
+      "runtimeSeconds": 10.533128399999896,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/daid-rom-and-ram-gb-dmg-b9c8f9a6.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "ax6-rtc3test-1-gb-cgb-a5e04b04",
+      "legacyName": "ax6/rtc3test-1.gb",
+      "name": "rtc3test-1.gb",
+      "suiteId": "ax6",
+      "group": "",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07566610000003493,
+      "runtimeSeconds": 1.1246774000001096,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/ax6-rtc3test-1-gb-cgb-a5e04b04.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "ax6-rtc3test-2-gb-cgb-c729fd95",
+      "legacyName": "ax6/rtc3test-2.gb",
+      "name": "rtc3test-2.gb",
+      "suiteId": "ax6",
+      "group": "",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07656650000012633,
+      "runtimeSeconds": 0.835604000000103,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/ax6-rtc3test-2-gb-cgb-c729fd95.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "ax6-rtc3test-3-gb-cgb-ff119bea",
+      "legacyName": "ax6/rtc3test-3.gb",
+      "name": "rtc3test-3.gb",
+      "suiteId": "ax6",
+      "group": "",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07478419999983998,
+      "runtimeSeconds": 2.2389888000000155,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/ax6-rtc3test-3-gb-cgb-ff119bea.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-add-sp-e-timing-gb-dmg-a2e530e4",
+      "legacyName": "mooneye/acceptance/add_sp_e_timing.gb",
+      "name": "add_sp_e_timing.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07460040000000845,
+      "runtimeSeconds": 0.5612720999999965,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-add-sp-e-timing-gb-dmg-a2e530e4.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-bits-mem-oam-gb-dmg-0ed150b2",
+      "legacyName": "mooneye/acceptance/bits/mem_oam.gb",
+      "name": "mem_oam.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/bits",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.0842450000000099,
+      "runtimeSeconds": 0.5576538000000255,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-bits-mem-oam-gb-dmg-0ed150b2.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-bits-reg-f-gb-dmg-44f3890a",
+      "legacyName": "mooneye/acceptance/bits/reg_f.gb",
+      "name": "reg_f.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/bits",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07553050000001349,
+      "runtimeSeconds": 0.5613315999999031,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-bits-reg-f-gb-dmg-44f3890a.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-bits-unused-hwio-gs-gb-dmg-30860ad6",
+      "legacyName": "mooneye/acceptance/bits/unused_hwio-GS.gb",
+      "name": "unused_hwio-GS.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/bits",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07512469999983296,
+      "runtimeSeconds": 0.5519618000000719,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-bits-unused-hwio-gs-gb-dmg-30860ad6.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-boot-div-dmgabcmgb-gb-dmg-f2165691",
+      "legacyName": "mooneye/acceptance/boot_div-dmgABCmgb.gb",
+      "name": "boot_div-dmgABCmgb.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07549599999993006,
+      "runtimeSeconds": 0.578596300000072,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-boot-div-dmgabcmgb-gb-dmg-f2165691.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-boot-hwio-dmgabcmgb-gb-dmg-342e80c6",
+      "legacyName": "mooneye/acceptance/boot_hwio-dmgABCmgb.gb",
+      "name": "boot_hwio-dmgABCmgb.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07663129999991725,
+      "runtimeSeconds": 0.5616984000000684,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-boot-hwio-dmgabcmgb-gb-dmg-342e80c6.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-boot-regs-dmgabc-gb-dmg-9e623b30",
+      "legacyName": "mooneye/acceptance/boot_regs-dmgABC.gb",
+      "name": "boot_regs-dmgABC.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07598209999991923,
+      "runtimeSeconds": 0.5621724999998605,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-boot-regs-dmgabc-gb-dmg-9e623b30.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-call-cc-timing-gb-dmg-fa9ca02c",
+      "legacyName": "mooneye/acceptance/call_cc_timing.gb",
+      "name": "call_cc_timing.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07423670000002858,
+      "runtimeSeconds": 0.5542285999999876,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-call-cc-timing-gb-dmg-fa9ca02c.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-call-cc-timing2-gb-dmg-b792d341",
+      "legacyName": "mooneye/acceptance/call_cc_timing2.gb",
+      "name": "call_cc_timing2.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07453129999998964,
+      "runtimeSeconds": 0.5615651999999045,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-call-cc-timing2-gb-dmg-b792d341.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-call-timing-gb-dmg-ac23c2da",
+      "legacyName": "mooneye/acceptance/call_timing.gb",
+      "name": "call_timing.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07488659999989977,
+      "runtimeSeconds": 0.5525099999999838,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-call-timing-gb-dmg-ac23c2da.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-call-timing2-gb-dmg-155ad496",
+      "legacyName": "mooneye/acceptance/call_timing2.gb",
+      "name": "call_timing2.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07738979999999174,
+      "runtimeSeconds": 0.5592055000001892,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-call-timing2-gb-dmg-155ad496.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-div-timing-gb-dmg-aaad1d62",
+      "legacyName": "mooneye/acceptance/div_timing.gb",
+      "name": "div_timing.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07590529999993123,
+      "runtimeSeconds": 0.580493499999875,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-div-timing-gb-dmg-aaad1d62.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-di-timing-gs-gb-dmg-909a5bc3",
+      "legacyName": "mooneye/acceptance/di_timing-GS.gb",
+      "name": "di_timing-GS.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07461520000015298,
+      "runtimeSeconds": 0.5566358999999466,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-di-timing-gs-gb-dmg-909a5bc3.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-ei-sequence-gb-dmg-5ebdd542",
+      "legacyName": "mooneye/acceptance/ei_sequence.gb",
+      "name": "ei_sequence.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07804029999988416,
+      "runtimeSeconds": 0.559976000000006,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-ei-sequence-gb-dmg-5ebdd542.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-ei-timing-gb-dmg-cf34a2aa",
+      "legacyName": "mooneye/acceptance/ei_timing.gb",
+      "name": "ei_timing.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07745169999998325,
+      "runtimeSeconds": 0.5767908999998781,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-ei-timing-gb-dmg-cf34a2aa.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-halt-ime0-ei-gb-dmg-f1bd4bba",
+      "legacyName": "mooneye/acceptance/halt_ime0_ei.gb",
+      "name": "halt_ime0_ei.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.08789810000007492,
+      "runtimeSeconds": 0.5718165000000681,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-halt-ime0-ei-gb-dmg-f1bd4bba.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-halt-ime0-nointr-timing-gb-dmg-cd224952",
+      "legacyName": "mooneye/acceptance/halt_ime0_nointr_timing.gb",
+      "name": "halt_ime0_nointr_timing.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.0640430999999353,
+      "runtimeSeconds": 0.543630099999973,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-halt-ime0-nointr-timing-gb-dmg-cd224952.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-halt-ime1-timing-gb-dmg-518a499c",
+      "legacyName": "mooneye/acceptance/halt_ime1_timing.gb",
+      "name": "halt_ime1_timing.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.08902359999979126,
+      "runtimeSeconds": 0.5617968999999903,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-halt-ime1-timing-gb-dmg-518a499c.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-halt-ime1-timing2-gs-gb-dmg-1cef7c39",
+      "legacyName": "mooneye/acceptance/halt_ime1_timing2-GS.gb",
+      "name": "halt_ime1_timing2-GS.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07410129999993842,
+      "runtimeSeconds": 0.5506345999999667,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-halt-ime1-timing2-gs-gb-dmg-1cef7c39.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-if-ie-registers-gb-dmg-7fa01a0b",
+      "legacyName": "mooneye/acceptance/if_ie_registers.gb",
+      "name": "if_ie_registers.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.0746972999997979,
+      "runtimeSeconds": 0.5473643999998785,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-if-ie-registers-gb-dmg-7fa01a0b.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-instr-daa-gb-dmg-f4c07657",
+      "legacyName": "mooneye/acceptance/instr/daa.gb",
+      "name": "daa.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/instr",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06333760000006805,
+      "runtimeSeconds": 0.556012500000179,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-instr-daa-gb-dmg-f4c07657.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-interrupts-ie-push-gb-dmg-cbac7df0",
+      "legacyName": "mooneye/acceptance/interrupts/ie_push.gb",
+      "name": "ie_push.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/interrupts",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06466069999987667,
+      "runtimeSeconds": 0.5550782999998773,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-interrupts-ie-push-gb-dmg-cbac7df0.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-intr-timing-gb-dmg-751c15a5",
+      "legacyName": "mooneye/acceptance/intr_timing.gb",
+      "name": "intr_timing.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07400720000009642,
+      "runtimeSeconds": 0.4336880000000747,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-intr-timing-gb-dmg-751c15a5.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-jp-cc-timing-gb-dmg-44fc5de2",
+      "legacyName": "mooneye/acceptance/jp_cc_timing.gb",
+      "name": "jp_cc_timing.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06317100000001119,
+      "runtimeSeconds": 0.5423092999999426,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-jp-cc-timing-gb-dmg-44fc5de2.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-jp-timing-gb-dmg-3ae9e8b0",
+      "legacyName": "mooneye/acceptance/jp_timing.gb",
+      "name": "jp_timing.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06361420000007456,
+      "runtimeSeconds": 0.4414535999999316,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-jp-timing-gb-dmg-3ae9e8b0.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-ld-hl-sp-e-timing-gb-dmg-52cce822",
+      "legacyName": "mooneye/acceptance/ld_hl_sp_e_timing.gb",
+      "name": "ld_hl_sp_e_timing.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06391720000010537,
+      "runtimeSeconds": 0.42841199999998025,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-ld-hl-sp-e-timing-gb-dmg-52cce822.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-oam-dma-basic-gb-dmg-3a9f8c15",
+      "legacyName": "mooneye/acceptance/oam_dma/basic.gb",
+      "name": "basic.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/oam_dma",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06504089999998541,
+      "runtimeSeconds": 0.557966899999883,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-oam-dma-basic-gb-dmg-3a9f8c15.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-oam-dma-reg-read-gb-dmg-4900f1f3",
+      "legacyName": "mooneye/acceptance/oam_dma/reg_read.gb",
+      "name": "reg_read.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/oam_dma",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06498820000001615,
+      "runtimeSeconds": 0.42443219999995563,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-oam-dma-reg-read-gb-dmg-4900f1f3.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-oam-dma-sources-gs-gb-dmg-5074f6c9",
+      "legacyName": "mooneye/acceptance/oam_dma/sources-GS.gb",
+      "name": "sources-GS.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/oam_dma",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06398710000007668,
+      "runtimeSeconds": 0.42681659999993826,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-oam-dma-sources-gs-gb-dmg-5074f6c9.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-oam-dma-restart-gb-dmg-a47d1dfa",
+      "legacyName": "mooneye/acceptance/oam_dma_restart.gb",
+      "name": "oam_dma_restart.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06405530000006365,
+      "runtimeSeconds": 0.5591177999999672,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-oam-dma-restart-gb-dmg-a47d1dfa.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-oam-dma-start-gb-dmg-b7ed9f09",
+      "legacyName": "mooneye/acceptance/oam_dma_start.gb",
+      "name": "oam_dma_start.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06472340000004806,
+      "runtimeSeconds": 0.5590798999999151,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-oam-dma-start-gb-dmg-b7ed9f09.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-oam-dma-timing-gb-dmg-0e573056",
+      "legacyName": "mooneye/acceptance/oam_dma_timing.gb",
+      "name": "oam_dma_timing.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.0645991999999751,
+      "runtimeSeconds": 0.5591392999999698,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-oam-dma-timing-gb-dmg-0e573056.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-pop-timing-gb-dmg-ce1bbc67",
+      "legacyName": "mooneye/acceptance/pop_timing.gb",
+      "name": "pop_timing.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06468589999985852,
+      "runtimeSeconds": 0.5425096999999823,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-pop-timing-gb-dmg-ce1bbc67.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-ppu-hblank-ly-scx-timing-gs-gb-dmg-05e4e6ce",
+      "legacyName": "mooneye/acceptance/ppu/hblank_ly_scx_timing-GS.gb",
+      "name": "hblank_ly_scx_timing-GS.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06472469999994246,
+      "runtimeSeconds": 0.5644386999999824,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-ppu-hblank-ly-scx-timing-gs-gb-dmg-05e4e6ce.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-ppu-intr-1-2-timing-gs-gb-dmg-f0241de3",
+      "legacyName": "mooneye/acceptance/ppu/intr_1_2_timing-GS.gb",
+      "name": "intr_1_2_timing-GS.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.0755612000000383,
+      "runtimeSeconds": 0.5627140999999938,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-ppu-intr-1-2-timing-gs-gb-dmg-f0241de3.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-ppu-intr-2-0-timing-gb-dmg-4e7b1d8c",
+      "legacyName": "mooneye/acceptance/ppu/intr_2_0_timing.gb",
+      "name": "intr_2_0_timing.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06370200000014847,
+      "runtimeSeconds": 0.5557039000000259,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-ppu-intr-2-0-timing-gb-dmg-4e7b1d8c.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-ppu-intr-2-mode0-timing-gb-dmg-494323d6",
+      "legacyName": "mooneye/acceptance/ppu/intr_2_mode0_timing.gb",
+      "name": "intr_2_mode0_timing.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06657410000002528,
+      "runtimeSeconds": 0.4273163000000295,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-ppu-intr-2-mode0-timing-gb-dmg-494323d6.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-ppu-intr-2-mode0-timing-sprites-gb-dmg-e9daeba9",
+      "legacyName": "mooneye/acceptance/ppu/intr_2_mode0_timing_sprites.gb",
+      "name": "intr_2_mode0_timing_sprites.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06382929999995213,
+      "runtimeSeconds": 0.8033115999999154,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-ppu-intr-2-mode0-timing-sprites-gb-dmg-e9daeba9.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-ppu-intr-2-mode3-timing-gb-dmg-07b8cb40",
+      "legacyName": "mooneye/acceptance/ppu/intr_2_mode3_timing.gb",
+      "name": "intr_2_mode3_timing.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06410820000019157,
+      "runtimeSeconds": 0.4317283000000316,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-ppu-intr-2-mode3-timing-gb-dmg-07b8cb40.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-ppu-intr-2-oam-ok-timing-gb-dmg-56282d1b",
+      "legacyName": "mooneye/acceptance/ppu/intr_2_oam_ok_timing.gb",
+      "name": "intr_2_oam_ok_timing.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06341780000002473,
+      "runtimeSeconds": 0.5565853000000516,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-ppu-intr-2-oam-ok-timing-gb-dmg-56282d1b.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-ppu-lcdon-timing-gs-gb-dmg-8505214e",
+      "legacyName": "mooneye/acceptance/ppu/lcdon_timing-GS.gb",
+      "name": "lcdon_timing-GS.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06394349999982296,
+      "runtimeSeconds": 0.5565266999999494,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-ppu-lcdon-timing-gs-gb-dmg-8505214e.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-ppu-lcdon-write-timing-gs-gb-dmg-f79fbd79",
+      "legacyName": "mooneye/acceptance/ppu/lcdon_write_timing-GS.gb",
+      "name": "lcdon_write_timing-GS.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06430629999999837,
+      "runtimeSeconds": 0.5419247000002088,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-ppu-lcdon-write-timing-gs-gb-dmg-f79fbd79.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-ppu-stat-irq-blocking-gb-dmg-264b995e",
+      "legacyName": "mooneye/acceptance/ppu/stat_irq_blocking.gb",
+      "name": "stat_irq_blocking.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06309590000000753,
+      "runtimeSeconds": 0.5593897000001107,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-ppu-stat-irq-blocking-gb-dmg-264b995e.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-ppu-stat-lyc-onoff-gb-dmg-7bc03421",
+      "legacyName": "mooneye/acceptance/ppu/stat_lyc_onoff.gb",
+      "name": "stat_lyc_onoff.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07482729999992443,
+      "runtimeSeconds": 0.553188099999943,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-ppu-stat-lyc-onoff-gb-dmg-7bc03421.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-ppu-vblank-stat-intr-gs-gb-dmg-480f42b9",
+      "legacyName": "mooneye/acceptance/ppu/vblank_stat_intr-GS.gb",
+      "name": "vblank_stat_intr-GS.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06550500000003012,
+      "runtimeSeconds": 0.569078300000001,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-ppu-vblank-stat-intr-gs-gb-dmg-480f42b9.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-push-timing-gb-dmg-710b9556",
+      "legacyName": "mooneye/acceptance/push_timing.gb",
+      "name": "push_timing.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06458969999994224,
+      "runtimeSeconds": 0.4254889999999705,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-push-timing-gb-dmg-710b9556.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-rapid-di-ei-gb-dmg-4084bb73",
+      "legacyName": "mooneye/acceptance/rapid_di_ei.gb",
+      "name": "rapid_di_ei.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06397500000002765,
+      "runtimeSeconds": 0.5598525000000336,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-rapid-di-ei-gb-dmg-4084bb73.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-reti-intr-timing-gb-dmg-2f8b895c",
+      "legacyName": "mooneye/acceptance/reti_intr_timing.gb",
+      "name": "reti_intr_timing.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07401610000010805,
+      "runtimeSeconds": 0.4312457999999424,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-reti-intr-timing-gb-dmg-2f8b895c.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-reti-timing-gb-dmg-ec787688",
+      "legacyName": "mooneye/acceptance/reti_timing.gb",
+      "name": "reti_timing.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06344650000005458,
+      "runtimeSeconds": 0.42614019999996344,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-reti-timing-gb-dmg-ec787688.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-ret-cc-timing-gb-dmg-c6dae4bb",
+      "legacyName": "mooneye/acceptance/ret_cc_timing.gb",
+      "name": "ret_cc_timing.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.0638338000001113,
+      "runtimeSeconds": 0.5565287999997963,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-ret-cc-timing-gb-dmg-c6dae4bb.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-ret-timing-gb-dmg-e73ee096",
+      "legacyName": "mooneye/acceptance/ret_timing.gb",
+      "name": "ret_timing.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06345020000003387,
+      "runtimeSeconds": 0.42786660000001575,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-ret-timing-gb-dmg-e73ee096.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-rst-timing-gb-dmg-ceee4af4",
+      "legacyName": "mooneye/acceptance/rst_timing.gb",
+      "name": "rst_timing.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06551330000002054,
+      "runtimeSeconds": 0.5423276999999871,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-rst-timing-gb-dmg-ceee4af4.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-serial-boot-sclk-align-dmgabcmgb-gb-dmg-45c85de9",
+      "legacyName": "mooneye/acceptance/serial/boot_sclk_align-dmgABCmgb.gb",
+      "name": "boot_sclk_align-dmgABCmgb.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/serial",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06362349999994876,
+      "runtimeSeconds": 0.42756839999992735,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-serial-boot-sclk-align-dmgabcmgb-gb-dmg-45c85de9.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-timer-div-write-gb-dmg-fe22c522",
+      "legacyName": "mooneye/acceptance/timer/div_write.gb",
+      "name": "div_write.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/timer",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06447749999983898,
+      "runtimeSeconds": 0.5550435000000107,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-timer-div-write-gb-dmg-fe22c522.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-timer-rapid-toggle-gb-dmg-0843c009",
+      "legacyName": "mooneye/acceptance/timer/rapid_toggle.gb",
+      "name": "rapid_toggle.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/timer",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06350350000002436,
+      "runtimeSeconds": 0.5605990999999904,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-timer-rapid-toggle-gb-dmg-0843c009.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-timer-tim00-gb-dmg-2b8833ad",
+      "legacyName": "mooneye/acceptance/timer/tim00.gb",
+      "name": "tim00.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/timer",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06404539999994086,
+      "runtimeSeconds": 0.5445019999999658,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-timer-tim00-gb-dmg-2b8833ad.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-timer-tim00-div-trigger-gb-dmg-c8b5f243",
+      "legacyName": "mooneye/acceptance/timer/tim00_div_trigger.gb",
+      "name": "tim00_div_trigger.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/timer",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.0635997999997926,
+      "runtimeSeconds": 0.44457599999986996,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-timer-tim00-div-trigger-gb-dmg-c8b5f243.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-timer-tim01-gb-dmg-f495fe5e",
+      "legacyName": "mooneye/acceptance/timer/tim01.gb",
+      "name": "tim01.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/timer",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06548090000001139,
+      "runtimeSeconds": 0.5612193000001753,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-timer-tim01-gb-dmg-f495fe5e.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-timer-tim01-div-trigger-gb-dmg-a64d59b3",
+      "legacyName": "mooneye/acceptance/timer/tim01_div_trigger.gb",
+      "name": "tim01_div_trigger.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/timer",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07584780000001956,
+      "runtimeSeconds": 0.5638874999999643,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-timer-tim01-div-trigger-gb-dmg-a64d59b3.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-timer-tim10-gb-dmg-fb4191da",
+      "legacyName": "mooneye/acceptance/timer/tim10.gb",
+      "name": "tim10.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/timer",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07567519999997785,
+      "runtimeSeconds": 0.5596350999999231,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-timer-tim10-gb-dmg-fb4191da.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-timer-tim10-div-trigger-gb-dmg-da0af375",
+      "legacyName": "mooneye/acceptance/timer/tim10_div_trigger.gb",
+      "name": "tim10_div_trigger.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/timer",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07517700000016703,
+      "runtimeSeconds": 0.5784236999998029,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-timer-tim10-div-trigger-gb-dmg-da0af375.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-timer-tim11-gb-dmg-beb24be1",
+      "legacyName": "mooneye/acceptance/timer/tim11.gb",
+      "name": "tim11.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/timer",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.0750986999998986,
+      "runtimeSeconds": 0.5626525999998648,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-timer-tim11-gb-dmg-beb24be1.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-timer-tim11-div-trigger-gb-dmg-8556ea9c",
+      "legacyName": "mooneye/acceptance/timer/tim11_div_trigger.gb",
+      "name": "tim11_div_trigger.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/timer",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07491960000015752,
+      "runtimeSeconds": 0.5431688000001031,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-timer-tim11-div-trigger-gb-dmg-8556ea9c.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-timer-tima-reload-gb-dmg-8b65a601",
+      "legacyName": "mooneye/acceptance/timer/tima_reload.gb",
+      "name": "tima_reload.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/timer",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07527909999998883,
+      "runtimeSeconds": 0.548845799999981,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-timer-tima-reload-gb-dmg-8b65a601.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-timer-tima-write-reloading-gb-dmg-4904e31b",
+      "legacyName": "mooneye/acceptance/timer/tima_write_reloading.gb",
+      "name": "tima_write_reloading.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/timer",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07798350000007304,
+      "runtimeSeconds": 0.5598461000001862,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-timer-tima-write-reloading-gb-dmg-4904e31b.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-acceptance-timer-tma-write-reloading-gb-dmg-0d6b2680",
+      "legacyName": "mooneye/acceptance/timer/tma_write_reloading.gb",
+      "name": "tma_write_reloading.gb",
+      "suiteId": "mooneye",
+      "group": "acceptance/timer",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07456620000016301,
+      "runtimeSeconds": 0.5620625000001382,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-acceptance-timer-tma-write-reloading-gb-dmg-0d6b2680.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-emulator-only-mbc1-bits-bank1-gb-dmg-d4779942",
+      "legacyName": "mooneye/emulator-only/mbc1/bits_bank1.gb",
+      "name": "bits_bank1.gb",
+      "suiteId": "mooneye",
+      "group": "emulator-only/mbc1",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07457429999999476,
+      "runtimeSeconds": 0.823145199999999,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-emulator-only-mbc1-bits-bank1-gb-dmg-d4779942.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-emulator-only-mbc1-bits-bank2-gb-dmg-ad4d785a",
+      "legacyName": "mooneye/emulator-only/mbc1/bits_bank2.gb",
+      "name": "bits_bank2.gb",
+      "suiteId": "mooneye",
+      "group": "emulator-only/mbc1",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07583769999996548,
+      "runtimeSeconds": 0.8355504999999539,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-emulator-only-mbc1-bits-bank2-gb-dmg-ad4d785a.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-emulator-only-mbc1-bits-mode-gb-dmg-39790683",
+      "legacyName": "mooneye/emulator-only/mbc1/bits_mode.gb",
+      "name": "bits_mode.gb",
+      "suiteId": "mooneye",
+      "group": "emulator-only/mbc1",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07728549999978895,
+      "runtimeSeconds": 0.8485661999998229,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-emulator-only-mbc1-bits-mode-gb-dmg-39790683.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-emulator-only-mbc1-bits-ramg-gb-dmg-8b7f2c6e",
+      "legacyName": "mooneye/emulator-only/mbc1/bits_ramg.gb",
+      "name": "bits_ramg.gb",
+      "suiteId": "mooneye",
+      "group": "emulator-only/mbc1",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07603560000006837,
+      "runtimeSeconds": 0.9996829000001526,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-emulator-only-mbc1-bits-ramg-gb-dmg-8b7f2c6e.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-emulator-only-mbc1-multicart-rom-8mb-gb-dmg-2a8c180d",
+      "legacyName": "mooneye/emulator-only/mbc1/multicart_rom_8Mb.gb",
+      "name": "multicart_rom_8Mb.gb",
+      "suiteId": "mooneye",
+      "group": "emulator-only/mbc1",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06826790000013716,
+      "runtimeSeconds": 0.5384977000001072,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-emulator-only-mbc1-multicart-rom-8mb-gb-dmg-2a8c180d.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-emulator-only-mbc1-ram-256kb-gb-dmg-4f19a03b",
+      "legacyName": "mooneye/emulator-only/mbc1/ram_256kb.gb",
+      "name": "ram_256kb.gb",
+      "suiteId": "mooneye",
+      "group": "emulator-only/mbc1",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07743160000018179,
+      "runtimeSeconds": 0.5611580999998296,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-emulator-only-mbc1-ram-256kb-gb-dmg-4f19a03b.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-emulator-only-mbc1-ram-64kb-gb-dmg-e6a8f87c",
+      "legacyName": "mooneye/emulator-only/mbc1/ram_64kb.gb",
+      "name": "ram_64kb.gb",
+      "suiteId": "mooneye",
+      "group": "emulator-only/mbc1",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07520580000004884,
+      "runtimeSeconds": 0.6940217999999732,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-emulator-only-mbc1-ram-64kb-gb-dmg-e6a8f87c.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-emulator-only-mbc1-rom-16mb-gb-dmg-ea133176",
+      "legacyName": "mooneye/emulator-only/mbc1/rom_16Mb.gb",
+      "name": "rom_16Mb.gb",
+      "suiteId": "mooneye",
+      "group": "emulator-only/mbc1",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07454780000011851,
+      "runtimeSeconds": 0.4348632999999609,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-emulator-only-mbc1-rom-16mb-gb-dmg-ea133176.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-emulator-only-mbc1-rom-1mb-gb-dmg-4ab29126",
+      "legacyName": "mooneye/emulator-only/mbc1/rom_1Mb.gb",
+      "name": "rom_1Mb.gb",
+      "suiteId": "mooneye",
+      "group": "emulator-only/mbc1",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07416550000016287,
+      "runtimeSeconds": 0.4153281999999763,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-emulator-only-mbc1-rom-1mb-gb-dmg-4ab29126.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-emulator-only-mbc1-rom-2mb-gb-dmg-b335b204",
+      "legacyName": "mooneye/emulator-only/mbc1/rom_2Mb.gb",
+      "name": "rom_2Mb.gb",
+      "suiteId": "mooneye",
+      "group": "emulator-only/mbc1",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06309170000008635,
+      "runtimeSeconds": 0.5575180000000728,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-emulator-only-mbc1-rom-2mb-gb-dmg-b335b204.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-emulator-only-mbc1-rom-4mb-gb-dmg-012aacea",
+      "legacyName": "mooneye/emulator-only/mbc1/rom_4Mb.gb",
+      "name": "rom_4Mb.gb",
+      "suiteId": "mooneye",
+      "group": "emulator-only/mbc1",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06429430000002867,
+      "runtimeSeconds": 0.41524249999997664,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-emulator-only-mbc1-rom-4mb-gb-dmg-012aacea.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-emulator-only-mbc1-rom-512kb-gb-dmg-f61866d0",
+      "legacyName": "mooneye/emulator-only/mbc1/rom_512kb.gb",
+      "name": "rom_512kb.gb",
+      "suiteId": "mooneye",
+      "group": "emulator-only/mbc1",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06379949999995915,
+      "runtimeSeconds": 0.5578049999999166,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-emulator-only-mbc1-rom-512kb-gb-dmg-f61866d0.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-emulator-only-mbc1-rom-8mb-gb-dmg-4a58da3c",
+      "legacyName": "mooneye/emulator-only/mbc1/rom_8Mb.gb",
+      "name": "rom_8Mb.gb",
+      "suiteId": "mooneye",
+      "group": "emulator-only/mbc1",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06451269999979559,
+      "runtimeSeconds": 0.5418298999998115,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-emulator-only-mbc1-rom-8mb-gb-dmg-4a58da3c.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-emulator-only-mbc2-bits-ramg-gb-dmg-d40e6933",
+      "legacyName": "mooneye/emulator-only/mbc2/bits_ramg.gb",
+      "name": "bits_ramg.gb",
+      "suiteId": "mooneye",
+      "group": "emulator-only/mbc2",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06454329999996844,
+      "runtimeSeconds": 0.8273718999998891,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-emulator-only-mbc2-bits-ramg-gb-dmg-d40e6933.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-emulator-only-mbc2-bits-romb-gb-dmg-8042ce4a",
+      "legacyName": "mooneye/emulator-only/mbc2/bits_romb.gb",
+      "name": "bits_romb.gb",
+      "suiteId": "mooneye",
+      "group": "emulator-only/mbc2",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06383240000013757,
+      "runtimeSeconds": 0.674844099999973,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-emulator-only-mbc2-bits-romb-gb-dmg-8042ce4a.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-emulator-only-mbc2-bits-unused-gb-dmg-b0f22d36",
+      "legacyName": "mooneye/emulator-only/mbc2/bits_unused.gb",
+      "name": "bits_unused.gb",
+      "suiteId": "mooneye",
+      "group": "emulator-only/mbc2",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06369730000005802,
+      "runtimeSeconds": 0.7058221999998295,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-emulator-only-mbc2-bits-unused-gb-dmg-b0f22d36.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-emulator-only-mbc2-ram-gb-dmg-c8cb9a3f",
+      "legacyName": "mooneye/emulator-only/mbc2/ram.gb",
+      "name": "ram.gb",
+      "suiteId": "mooneye",
+      "group": "emulator-only/mbc2",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06417239999996127,
+      "runtimeSeconds": 0.5550175999999283,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-emulator-only-mbc2-ram-gb-dmg-c8cb9a3f.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-emulator-only-mbc2-rom-1mb-gb-dmg-38a66bb1",
+      "legacyName": "mooneye/emulator-only/mbc2/rom_1Mb.gb",
+      "name": "rom_1Mb.gb",
+      "suiteId": "mooneye",
+      "group": "emulator-only/mbc2",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.0642720000000736,
+      "runtimeSeconds": 0.5442151999998259,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-emulator-only-mbc2-rom-1mb-gb-dmg-38a66bb1.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-emulator-only-mbc2-rom-2mb-gb-dmg-8c4129d6",
+      "legacyName": "mooneye/emulator-only/mbc2/rom_2Mb.gb",
+      "name": "rom_2Mb.gb",
+      "suiteId": "mooneye",
+      "group": "emulator-only/mbc2",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06382140000005165,
+      "runtimeSeconds": 0.42534599999999045,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-emulator-only-mbc2-rom-2mb-gb-dmg-8c4129d6.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-emulator-only-mbc2-rom-512kb-gb-dmg-75f74a5d",
+      "legacyName": "mooneye/emulator-only/mbc2/rom_512kb.gb",
+      "name": "rom_512kb.gb",
+      "suiteId": "mooneye",
+      "group": "emulator-only/mbc2",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06337370000005649,
+      "runtimeSeconds": 0.5719020000001365,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-emulator-only-mbc2-rom-512kb-gb-dmg-75f74a5d.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-emulator-only-mbc5-rom-16mb-gb-dmg-8d45404f",
+      "legacyName": "mooneye/emulator-only/mbc5/rom_16Mb.gb",
+      "name": "rom_16Mb.gb",
+      "suiteId": "mooneye",
+      "group": "emulator-only/mbc5",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06420630000002348,
+      "runtimeSeconds": 0.5418976999999359,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-emulator-only-mbc5-rom-16mb-gb-dmg-8d45404f.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-emulator-only-mbc5-rom-1mb-gb-dmg-5cacf3a9",
+      "legacyName": "mooneye/emulator-only/mbc5/rom_1Mb.gb",
+      "name": "rom_1Mb.gb",
+      "suiteId": "mooneye",
+      "group": "emulator-only/mbc5",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06472879999978431,
+      "runtimeSeconds": 0.4281031000000439,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-emulator-only-mbc5-rom-1mb-gb-dmg-5cacf3a9.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-emulator-only-mbc5-rom-2mb-gb-dmg-2e2aca69",
+      "legacyName": "mooneye/emulator-only/mbc5/rom_2Mb.gb",
+      "name": "rom_2Mb.gb",
+      "suiteId": "mooneye",
+      "group": "emulator-only/mbc5",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06397259999994276,
+      "runtimeSeconds": 0.42813860000001114,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-emulator-only-mbc5-rom-2mb-gb-dmg-2e2aca69.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-emulator-only-mbc5-rom-32mb-gb-dmg-ace23259",
+      "legacyName": "mooneye/emulator-only/mbc5/rom_32Mb.gb",
+      "name": "rom_32Mb.gb",
+      "suiteId": "mooneye",
+      "group": "emulator-only/mbc5",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06393450000018674,
+      "runtimeSeconds": 0.5609723000000031,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-emulator-only-mbc5-rom-32mb-gb-dmg-ace23259.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-emulator-only-mbc5-rom-4mb-gb-dmg-180a2f1a",
+      "legacyName": "mooneye/emulator-only/mbc5/rom_4Mb.gb",
+      "name": "rom_4Mb.gb",
+      "suiteId": "mooneye",
+      "group": "emulator-only/mbc5",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.0648231999998643,
+      "runtimeSeconds": 0.42817519999994147,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-emulator-only-mbc5-rom-4mb-gb-dmg-180a2f1a.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-emulator-only-mbc5-rom-512kb-gb-dmg-32e195d5",
+      "legacyName": "mooneye/emulator-only/mbc5/rom_512kb.gb",
+      "name": "rom_512kb.gb",
+      "suiteId": "mooneye",
+      "group": "emulator-only/mbc5",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06559980000020005,
+      "runtimeSeconds": 0.4096260999999686,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-emulator-only-mbc5-rom-512kb-gb-dmg-32e195d5.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-emulator-only-mbc5-rom-64mb-gb-dmg-e6ab18f6",
+      "legacyName": "mooneye/emulator-only/mbc5/rom_64Mb.gb",
+      "name": "rom_64Mb.gb",
+      "suiteId": "mooneye",
+      "group": "emulator-only/mbc5",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07404679999990549,
+      "runtimeSeconds": 0.41797700000006444,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-emulator-only-mbc5-rom-64mb-gb-dmg-e6ab18f6.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-emulator-only-mbc5-rom-8mb-gb-dmg-f19d2327",
+      "legacyName": "mooneye/emulator-only/mbc5/rom_8Mb.gb",
+      "name": "rom_8Mb.gb",
+      "suiteId": "mooneye",
+      "group": "emulator-only/mbc5",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06351109999991422,
+      "runtimeSeconds": 0.4298449000000346,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-emulator-only-mbc5-rom-8mb-gb-dmg-f19d2327.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-manual-only-sprite-priority-gb-dmg-e44061f7",
+      "legacyName": "mooneye/manual-only/sprite_priority.gb",
+      "name": "sprite_priority.gb",
+      "suiteId": "mooneye",
+      "group": "manual-only",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06340380000006007,
+      "runtimeSeconds": 0.5399211000001287,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-manual-only-sprite-priority-gb-dmg-e44061f7.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-misc-boot-div-cgbabcde-gb-cgb-4718e3a1",
+      "legacyName": "mooneye/misc/boot_div-cgbABCDE.gb",
+      "name": "boot_div-cgbABCDE.gb",
+      "suiteId": "mooneye",
+      "group": "misc",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06358779999982289,
+      "runtimeSeconds": 0.2965474999998605,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-misc-boot-div-cgbabcde-gb-cgb-4718e3a1.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mooneye-misc-boot-regs-cgb-gb-cgb-e3f63362",
+      "legacyName": "mooneye/misc/boot_regs-cgb.gb",
+      "name": "boot_regs-cgb.gb",
+      "suiteId": "mooneye",
+      "group": "misc",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06363820000001397,
+      "runtimeSeconds": 0.2828259000000344,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mooneye-misc-boot-regs-cgb-gb-cgb-e3f63362.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-1-channel-1-align-gb-cgb-fe5d98f2",
+      "legacyName": "samesuite/apu/channel_1/channel_1_align.gb",
+      "name": "channel_1_align.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_1",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06382030000008854,
+      "runtimeSeconds": 0.2792693999999756,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-1-channel-1-align-gb-cgb-fe5d98f2.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-1-channel-1-align-cpu-gb-cgb-de51ba29",
+      "legacyName": "samesuite/apu/channel_1/channel_1_align_cpu.gb",
+      "name": "channel_1_align_cpu.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_1",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.0661757000000307,
+      "runtimeSeconds": 0.2791442000000188,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-1-channel-1-align-cpu-gb-cgb-de51ba29.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-1-channel-1-delay-gb-cgb-e6191b9b",
+      "legacyName": "samesuite/apu/channel_1/channel_1_delay.gb",
+      "name": "channel_1_delay.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_1",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06536970000001929,
+      "runtimeSeconds": 0.2793412000000899,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-1-channel-1-delay-gb-cgb-e6191b9b.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-1-channel-1-duty-gb-cgb-c5587f25",
+      "legacyName": "samesuite/apu/channel_1/channel_1_duty.gb",
+      "name": "channel_1_duty.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_1",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06586779999997816,
+      "runtimeSeconds": 0.2808999000001222,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-1-channel-1-duty-gb-cgb-c5587f25.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-1-channel-1-duty-delay-gb-cgb-cc8cf400",
+      "legacyName": "samesuite/apu/channel_1/channel_1_duty_delay.gb",
+      "name": "channel_1_duty_delay.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_1",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06349120000004405,
+      "runtimeSeconds": 0.2821459000001596,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-1-channel-1-duty-delay-gb-cgb-cc8cf400.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-1-channel-1-freq-change-gb-cgb-3635dd1c",
+      "legacyName": "samesuite/apu/channel_1/channel_1_freq_change.gb",
+      "name": "channel_1_freq_change.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_1",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06461859999990338,
+      "runtimeSeconds": 0.28041299999995317,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-1-channel-1-freq-change-gb-cgb-3635dd1c.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-1-channel-1-nrx2-glitch-gb-cgb-4a3f3319",
+      "legacyName": "samesuite/apu/channel_1/channel_1_nrx2_glitch.gb",
+      "name": "channel_1_nrx2_glitch.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_1",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "fail",
+      "reason": null,
+      "startupSeconds": 0.06385810000006131,
+      "runtimeSeconds": 11.56251159999988,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-1-channel-1-nrx2-glitch-gb-cgb-4a3f3319.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-1-channel-1-nrx2-speed-change-gb-cgb-5eb918f2",
+      "legacyName": "samesuite/apu/channel_1/channel_1_nrx2_speed_change.gb",
+      "name": "channel_1_nrx2_speed_change.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_1",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "fail",
+      "reason": null,
+      "startupSeconds": 0.08458330000007663,
+      "runtimeSeconds": 13.63019579999991,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-1-channel-1-nrx2-speed-change-gb-cgb-5eb918f2.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-1-channel-1-restart-gb-cgb-795b4b47",
+      "legacyName": "samesuite/apu/channel_1/channel_1_restart.gb",
+      "name": "channel_1_restart.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_1",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.08543210000016188,
+      "runtimeSeconds": 0.41958550000003925,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-1-channel-1-restart-gb-cgb-795b4b47.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-1-channel-1-restart-nrx2-glitch-gb-cgb-f0572b8b",
+      "legacyName": "samesuite/apu/channel_1/channel_1_restart_nrx2_glitch.gb",
+      "name": "channel_1_restart_nrx2_glitch.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_1",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.08112790000018322,
+      "runtimeSeconds": 0.42443969999999354,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-1-channel-1-restart-nrx2-glitch-gb-cgb-f0572b8b.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-1-channel-1-stop-div-gb-cgb-6a8b2e84",
+      "legacyName": "samesuite/apu/channel_1/channel_1_stop_div.gb",
+      "name": "channel_1_stop_div.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_1",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07420939999997245,
+      "runtimeSeconds": 0.4300665000000663,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-1-channel-1-stop-div-gb-cgb-6a8b2e84.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-1-channel-1-stop-restart-gb-cgb-990aa00e",
+      "legacyName": "samesuite/apu/channel_1/channel_1_stop_restart.gb",
+      "name": "channel_1_stop_restart.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_1",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07511410000006435,
+      "runtimeSeconds": 0.416794100000061,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-1-channel-1-stop-restart-gb-cgb-990aa00e.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-1-channel-1-sweep-gb-cgb-4ffcf7ff",
+      "legacyName": "samesuite/apu/channel_1/channel_1_sweep.gb",
+      "name": "channel_1_sweep.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_1",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "fail",
+      "reason": null,
+      "startupSeconds": 0.07786689999988994,
+      "runtimeSeconds": 11.609966900000018,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-1-channel-1-sweep-gb-cgb-4ffcf7ff.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-1-channel-1-sweep-restart-gb-cgb-3f90b4bb",
+      "legacyName": "samesuite/apu/channel_1/channel_1_sweep_restart.gb",
+      "name": "channel_1_sweep_restart.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_1",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "fail",
+      "reason": null,
+      "startupSeconds": 0.08072330000004513,
+      "runtimeSeconds": 11.5837176,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-1-channel-1-sweep-restart-gb-cgb-3f90b4bb.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-1-channel-1-sweep-restart-2-gb-cgb-0fc030b8",
+      "legacyName": "samesuite/apu/channel_1/channel_1_sweep_restart_2.gb",
+      "name": "channel_1_sweep_restart_2.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_1",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "fail",
+      "reason": null,
+      "startupSeconds": 0.07345710000004146,
+      "runtimeSeconds": 11.517073700000083,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-1-channel-1-sweep-restart-2-gb-cgb-0fc030b8.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-1-channel-1-volume-gb-cgb-7039a291",
+      "legacyName": "samesuite/apu/channel_1/channel_1_volume.gb",
+      "name": "channel_1_volume.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_1",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07909810000001016,
+      "runtimeSeconds": 0.4258079999999609,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-1-channel-1-volume-gb-cgb-7039a291.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-1-channel-1-volume-div-gb-cgb-9bc7839f",
+      "legacyName": "samesuite/apu/channel_1/channel_1_volume_div.gb",
+      "name": "channel_1_volume_div.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_1",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06764710000015839,
+      "runtimeSeconds": 0.42213010000000395,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-1-channel-1-volume-div-gb-cgb-9bc7839f.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-2-channel-2-align-gb-cgb-7fbe7c8a",
+      "legacyName": "samesuite/apu/channel_2/channel_2_align.gb",
+      "name": "channel_2_align.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_2",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07453040000018518,
+      "runtimeSeconds": 0.4328707000001941,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-2-channel-2-align-gb-cgb-7fbe7c8a.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-2-channel-2-align-cpu-gb-cgb-54c1f6a1",
+      "legacyName": "samesuite/apu/channel_2/channel_2_align_cpu.gb",
+      "name": "channel_2_align_cpu.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_2",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07695520000015676,
+      "runtimeSeconds": 0.41681949999997414,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-2-channel-2-align-cpu-gb-cgb-54c1f6a1.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-2-channel-2-delay-gb-cgb-967667ca",
+      "legacyName": "samesuite/apu/channel_2/channel_2_delay.gb",
+      "name": "channel_2_delay.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_2",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07433229999992363,
+      "runtimeSeconds": 0.288041400000111,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-2-channel-2-delay-gb-cgb-967667ca.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-2-channel-2-duty-gb-cgb-838ec8a8",
+      "legacyName": "samesuite/apu/channel_2/channel_2_duty.gb",
+      "name": "channel_2_duty.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_2",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06531580000000758,
+      "runtimeSeconds": 0.42413459999988845,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-2-channel-2-duty-gb-cgb-838ec8a8.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-2-channel-2-duty-delay-gb-cgb-28bdea08",
+      "legacyName": "samesuite/apu/channel_2/channel_2_duty_delay.gb",
+      "name": "channel_2_duty_delay.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_2",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07464409999988675,
+      "runtimeSeconds": 0.287903500000084,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-2-channel-2-duty-delay-gb-cgb-28bdea08.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-2-channel-2-freq-change-gb-cgb-af9d918e",
+      "legacyName": "samesuite/apu/channel_2/channel_2_freq_change.gb",
+      "name": "channel_2_freq_change.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_2",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07645309999998062,
+      "runtimeSeconds": 0.4328580999999758,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-2-channel-2-freq-change-gb-cgb-af9d918e.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-2-channel-2-nrx2-glitch-gb-cgb-c976266e",
+      "legacyName": "samesuite/apu/channel_2/channel_2_nrx2_glitch.gb",
+      "name": "channel_2_nrx2_glitch.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_2",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "fail",
+      "reason": null,
+      "startupSeconds": 0.07467719999999645,
+      "runtimeSeconds": 11.590107400000079,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-2-channel-2-nrx2-glitch-gb-cgb-c976266e.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-2-channel-2-nrx2-speed-change-gb-cgb-aab182ec",
+      "legacyName": "samesuite/apu/channel_2/channel_2_nrx2_speed_change.gb",
+      "name": "channel_2_nrx2_speed_change.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_2",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "fail",
+      "reason": null,
+      "startupSeconds": 0.07596459999990657,
+      "runtimeSeconds": 13.523344500000121,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-2-channel-2-nrx2-speed-change-gb-cgb-aab182ec.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-2-channel-2-restart-gb-cgb-b447eb34",
+      "legacyName": "samesuite/apu/channel_2/channel_2_restart.gb",
+      "name": "channel_2_restart.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_2",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07422980000001189,
+      "runtimeSeconds": 0.4176520000000892,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-2-channel-2-restart-gb-cgb-b447eb34.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-2-channel-2-restart-nrx2-glitch-gb-cgb-a5114bee",
+      "legacyName": "samesuite/apu/channel_2/channel_2_restart_nrx2_glitch.gb",
+      "name": "channel_2_restart_nrx2_glitch.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_2",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.0649473000000853,
+      "runtimeSeconds": 0.4253545000001395,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-2-channel-2-restart-nrx2-glitch-gb-cgb-a5114bee.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-2-channel-2-stop-div-gb-cgb-f2c9f0bb",
+      "legacyName": "samesuite/apu/channel_2/channel_2_stop_div.gb",
+      "name": "channel_2_stop_div.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_2",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.08664820000012696,
+      "runtimeSeconds": 0.4204548000000159,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-2-channel-2-stop-div-gb-cgb-f2c9f0bb.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-2-channel-2-stop-restart-gb-cgb-b2a94b06",
+      "legacyName": "samesuite/apu/channel_2/channel_2_stop_restart.gb",
+      "name": "channel_2_stop_restart.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_2",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07829019999985576,
+      "runtimeSeconds": 0.4288467000001219,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-2-channel-2-stop-restart-gb-cgb-b2a94b06.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-2-channel-2-volume-gb-cgb-7dabd4e6",
+      "legacyName": "samesuite/apu/channel_2/channel_2_volume.gb",
+      "name": "channel_2_volume.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_2",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07433829999990849,
+      "runtimeSeconds": 0.2876365000001897,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-2-channel-2-volume-gb-cgb-7dabd4e6.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-2-channel-2-volume-div-gb-cgb-8e47ba64",
+      "legacyName": "samesuite/apu/channel_2/channel_2_volume_div.gb",
+      "name": "channel_2_volume_div.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_2",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07388520000017706,
+      "runtimeSeconds": 0.419117099999994,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-2-channel-2-volume-div-gb-cgb-8e47ba64.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-3-channel-3-and-glitch-gb-cgb-7fbae8e6",
+      "legacyName": "samesuite/apu/channel_3/channel_3_and_glitch.gb",
+      "name": "channel_3_and_glitch.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_3",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07428230000004987,
+      "runtimeSeconds": 0.4335241999999653,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-3-channel-3-and-glitch-gb-cgb-7fbae8e6.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-3-channel-3-delay-gb-cgb-00e9ef09",
+      "legacyName": "samesuite/apu/channel_3/channel_3_delay.gb",
+      "name": "channel_3_delay.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_3",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07494799999994939,
+      "runtimeSeconds": 0.4188771999999972,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-3-channel-3-delay-gb-cgb-00e9ef09.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-3-channel-3-first-sample-gb-cgb-cb1642e5",
+      "legacyName": "samesuite/apu/channel_3/channel_3_first_sample.gb",
+      "name": "channel_3_first_sample.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_3",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07482729999992443,
+      "runtimeSeconds": 0.2856865999999627,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-3-channel-3-first-sample-gb-cgb-cb1642e5.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-3-channel-3-freq-change-delay-gb-cgb-08de8392",
+      "legacyName": "samesuite/apu/channel_3/channel_3_freq_change_delay.gb",
+      "name": "channel_3_freq_change_delay.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_3",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07456069999989268,
+      "runtimeSeconds": 0.2865174000000934,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-3-channel-3-freq-change-delay-gb-cgb-08de8392.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-3-channel-3-restart-delay-gb-cgb-00f96408",
+      "legacyName": "samesuite/apu/channel_3/channel_3_restart_delay.gb",
+      "name": "channel_3_restart_delay.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_3",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.0752704999999878,
+      "runtimeSeconds": 0.2878712999997788,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-3-channel-3-restart-delay-gb-cgb-00f96408.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-3-channel-3-restart-during-delay-gb-cgb-4acdff61",
+      "legacyName": "samesuite/apu/channel_3/channel_3_restart_during_delay.gb",
+      "name": "channel_3_restart_during_delay.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_3",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07468260000018745,
+      "runtimeSeconds": 0.41837520000012773,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-3-channel-3-restart-during-delay-gb-cgb-4acdff61.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-3-channel-3-restart-stop-delay-gb-cgb-15fbee2c",
+      "legacyName": "samesuite/apu/channel_3/channel_3_restart_stop_delay.gb",
+      "name": "channel_3_restart_stop_delay.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_3",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07470409999996264,
+      "runtimeSeconds": 0.4175884000001133,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-3-channel-3-restart-stop-delay-gb-cgb-15fbee2c.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-3-channel-3-shift-delay-gb-cgb-13f2c3ba",
+      "legacyName": "samesuite/apu/channel_3/channel_3_shift_delay.gb",
+      "name": "channel_3_shift_delay.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_3",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07788210000012441,
+      "runtimeSeconds": 0.4269849999998314,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-3-channel-3-shift-delay-gb-cgb-13f2c3ba.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-3-channel-3-shift-skip-delay-gb-cgb-ccd7cc77",
+      "legacyName": "samesuite/apu/channel_3/channel_3_shift_skip_delay.gb",
+      "name": "channel_3_shift_skip_delay.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_3",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07447609999985616,
+      "runtimeSeconds": 0.41487389999997504,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-3-channel-3-shift-skip-delay-gb-cgb-ccd7cc77.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-3-channel-3-stop-delay-gb-cgb-3710d440",
+      "legacyName": "samesuite/apu/channel_3/channel_3_stop_delay.gb",
+      "name": "channel_3_stop_delay.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_3",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07837560000007215,
+      "runtimeSeconds": 0.42611399999987043,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-3-channel-3-stop-delay-gb-cgb-3710d440.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-3-channel-3-stop-div-gb-cgb-ffed553d",
+      "legacyName": "samesuite/apu/channel_3/channel_3_stop_div.gb",
+      "name": "channel_3_stop_div.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_3",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07598630000006779,
+      "runtimeSeconds": 0.2878376000001026,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-3-channel-3-stop-div-gb-cgb-ffed553d.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-3-channel-3-wave-ram-locked-write-gb-cgb-5ffed63a",
+      "legacyName": "samesuite/apu/channel_3/channel_3_wave_ram_locked_write.gb",
+      "name": "channel_3_wave_ram_locked_write.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_3",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.0757435999998961,
+      "runtimeSeconds": 0.41789459999995415,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-3-channel-3-wave-ram-locked-write-gb-cgb-5ffed63a.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-3-channel-3-wave-ram-sync-gb-cgb-4abcf802",
+      "legacyName": "samesuite/apu/channel_3/channel_3_wave_ram_sync.gb",
+      "name": "channel_3_wave_ram_sync.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_3",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07452639999996791,
+      "runtimeSeconds": 0.43039340000018456,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-3-channel-3-wave-ram-sync-gb-cgb-4abcf802.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-4-channel-4-align-gb-cgb-46ded3ff",
+      "legacyName": "samesuite/apu/channel_4/channel_4_align.gb",
+      "name": "channel_4_align.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_4",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07461339999986194,
+      "runtimeSeconds": 0.28556730000013886,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-4-channel-4-align-gb-cgb-46ded3ff.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-4-channel-4-delay-gb-cgb-b7166b08",
+      "legacyName": "samesuite/apu/channel_4/channel_4_delay.gb",
+      "name": "channel_4_delay.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_4",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "fail",
+      "reason": null,
+      "startupSeconds": 0.07411919999981365,
+      "runtimeSeconds": 11.583536900000126,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-4-channel-4-delay-gb-cgb-b7166b08.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-4-channel-4-equivalent-frequencies-gb-cgb-4f2dcbc8",
+      "legacyName": "samesuite/apu/channel_4/channel_4_equivalent_frequencies.gb",
+      "name": "channel_4_equivalent_frequencies.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_4",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "fail",
+      "reason": null,
+      "startupSeconds": 0.07533030000013241,
+      "runtimeSeconds": 11.611015899999984,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-4-channel-4-equivalent-frequencies-gb-cgb-4f2dcbc8.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-4-channel-4-frequency-alignment-gb-cgb-c0cbbd50",
+      "legacyName": "samesuite/apu/channel_4/channel_4_frequency_alignment.gb",
+      "name": "channel_4_frequency_alignment.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_4",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "fail",
+      "reason": null,
+      "startupSeconds": 0.07679419999999482,
+      "runtimeSeconds": 11.575527899999997,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-4-channel-4-frequency-alignment-gb-cgb-c0cbbd50.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-4-channel-4-freq-change-gb-cgb-a9079292",
+      "legacyName": "samesuite/apu/channel_4/channel_4_freq_change.gb",
+      "name": "channel_4_freq_change.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_4",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "fail",
+      "reason": null,
+      "startupSeconds": 0.07650920000014594,
+      "runtimeSeconds": 11.578980800000181,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-4-channel-4-freq-change-gb-cgb-a9079292.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-4-channel-4-lfsr-gb-cgb-80f6eabe",
+      "legacyName": "samesuite/apu/channel_4/channel_4_lfsr.gb",
+      "name": "channel_4_lfsr.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_4",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07725299999992785,
+      "runtimeSeconds": 0.4152495999999246,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-4-channel-4-lfsr-gb-cgb-80f6eabe.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-4-channel-4-lfsr15-gb-cgb-bf546f26",
+      "legacyName": "samesuite/apu/channel_4/channel_4_lfsr15.gb",
+      "name": "channel_4_lfsr15.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_4",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07441900000003443,
+      "runtimeSeconds": 0.4197551999998268,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-4-channel-4-lfsr15-gb-cgb-bf546f26.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-4-channel-4-lfsr-15-7-gb-cgb-ad34c5e8",
+      "legacyName": "samesuite/apu/channel_4/channel_4_lfsr_15_7.gb",
+      "name": "channel_4_lfsr_15_7.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_4",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07706520000010642,
+      "runtimeSeconds": 0.2996338000000378,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-4-channel-4-lfsr-15-7-gb-cgb-ad34c5e8.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-4-channel-4-lfsr-7-15-gb-cgb-f7d60273",
+      "legacyName": "samesuite/apu/channel_4/channel_4_lfsr_7_15.gb",
+      "name": "channel_4_lfsr_7_15.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_4",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07433930000001965,
+      "runtimeSeconds": 0.2948305000002165,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-4-channel-4-lfsr-7-15-gb-cgb-f7d60273.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-4-channel-4-lfsr-restart-gb-cgb-b29534c7",
+      "legacyName": "samesuite/apu/channel_4/channel_4_lfsr_restart.gb",
+      "name": "channel_4_lfsr_restart.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_4",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07427490000009129,
+      "runtimeSeconds": 0.28867409999998017,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-4-channel-4-lfsr-restart-gb-cgb-b29534c7.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-4-channel-4-lfsr-restart-fast-gb-cgb-a87e7e0a",
+      "legacyName": "samesuite/apu/channel_4/channel_4_lfsr_restart_fast.gb",
+      "name": "channel_4_lfsr_restart_fast.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_4",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07410370000002331,
+      "runtimeSeconds": 0.28624039999999695,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-4-channel-4-lfsr-restart-fast-gb-cgb-a87e7e0a.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-channel-4-channel-4-volume-div-gb-cgb-660acde0",
+      "legacyName": "samesuite/apu/channel_4/channel_4_volume_div.gb",
+      "name": "channel_4_volume_div.gb",
+      "suiteId": "samesuite",
+      "group": "apu/channel_4",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07645800000000236,
+      "runtimeSeconds": 0.4266523999999663,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-channel-4-channel-4-volume-div-gb-cgb-660acde0.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-div-trigger-volume-10-gb-cgb-c5771225",
+      "legacyName": "samesuite/apu/div_trigger_volume_10.gb",
+      "name": "div_trigger_volume_10.gb",
+      "suiteId": "samesuite",
+      "group": "apu",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07524439999997412,
+      "runtimeSeconds": 0.41619250000007924,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-div-trigger-volume-10-gb-cgb-c5771225.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-div-write-trigger-gb-cgb-77b0b72f",
+      "legacyName": "samesuite/apu/div_write_trigger.gb",
+      "name": "div_write_trigger.gb",
+      "suiteId": "samesuite",
+      "group": "apu",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07496529999980339,
+      "runtimeSeconds": 0.4182864999997946,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-div-write-trigger-gb-cgb-77b0b72f.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-div-write-trigger-10-gb-cgb-5d7be77f",
+      "legacyName": "samesuite/apu/div_write_trigger_10.gb",
+      "name": "div_write_trigger_10.gb",
+      "suiteId": "samesuite",
+      "group": "apu",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "fail",
+      "reason": null,
+      "startupSeconds": 0.07538329999988491,
+      "runtimeSeconds": 11.540166499999941,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-div-write-trigger-10-gb-cgb-5d7be77f.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-div-write-trigger-volume-gb-cgb-d96e789a",
+      "legacyName": "samesuite/apu/div_write_trigger_volume.gb",
+      "name": "div_write_trigger_volume.gb",
+      "suiteId": "samesuite",
+      "group": "apu",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.10108309999986886,
+      "runtimeSeconds": 0.4209410000000844,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-div-write-trigger-volume-gb-cgb-d96e789a.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-apu-div-write-trigger-volume-10-gb-cgb-9f46a579",
+      "legacyName": "samesuite/apu/div_write_trigger_volume_10.gb",
+      "name": "div_write_trigger_volume_10.gb",
+      "suiteId": "samesuite",
+      "group": "apu",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07760610000013912,
+      "runtimeSeconds": 0.28156909999984236,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-apu-div-write-trigger-volume-10-gb-cgb-9f46a579.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-dma-gbc-dma-cont-gb-cgb-691bcf96",
+      "legacyName": "samesuite/dma/gbc_dma_cont.gb",
+      "name": "gbc_dma_cont.gb",
+      "suiteId": "samesuite",
+      "group": "dma",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07718890000001011,
+      "runtimeSeconds": 0.41541240000015023,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-dma-gbc-dma-cont-gb-cgb-691bcf96.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-dma-gdma-addr-mask-gb-cgb-5b964b62",
+      "legacyName": "samesuite/dma/gdma_addr_mask.gb",
+      "name": "gdma_addr_mask.gb",
+      "suiteId": "samesuite",
+      "group": "dma",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07632760000001326,
+      "runtimeSeconds": 0.4149992000000111,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-dma-gdma-addr-mask-gb-cgb-5b964b62.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-dma-hdma-lcd-off-gb-cgb-a3b41999",
+      "legacyName": "samesuite/dma/hdma_lcd_off.gb",
+      "name": "hdma_lcd_off.gb",
+      "suiteId": "samesuite",
+      "group": "dma",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07598299999995106,
+      "runtimeSeconds": 0.28655320000007123,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-dma-hdma-lcd-off-gb-cgb-a3b41999.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-dma-hdma-mode0-gb-cgb-000cea33",
+      "legacyName": "samesuite/dma/hdma_mode0.gb",
+      "name": "hdma_mode0.gb",
+      "suiteId": "samesuite",
+      "group": "dma",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.08805289999986599,
+      "runtimeSeconds": 0.4161931999999524,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-dma-hdma-mode0-gb-cgb-000cea33.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-ppu-blocking-bgpi-increase-gb-cgb-08d7fc75",
+      "legacyName": "samesuite/ppu/blocking_bgpi_increase.gb",
+      "name": "blocking_bgpi_increase.gb",
+      "suiteId": "samesuite",
+      "group": "ppu",
+      "system": "cgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07542909999983749,
+      "runtimeSeconds": 0.4310762000000068,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-ppu-blocking-bgpi-increase-gb-cgb-08d7fc75.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-sgb-command-mlt-req-gb-sgb-29553939",
+      "legacyName": "samesuite/sgb/command_mlt_req.gb",
+      "name": "command_mlt_req.gb",
+      "suiteId": "samesuite",
+      "group": "sgb",
+      "system": "sgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "fail",
+      "reason": null,
+      "startupSeconds": 0.07512129999986428,
+      "runtimeSeconds": 11.624802799999998,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-sgb-command-mlt-req-gb-sgb-29553939.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "samesuite-sgb-command-mlt-req-1-incrementing-gb-sgb-f6819484",
+      "legacyName": "samesuite/sgb/command_mlt_req_1_incrementing.gb",
+      "name": "command_mlt_req_1_incrementing.gb",
+      "suiteId": "samesuite",
+      "group": "sgb",
+      "system": "sgb",
+      "description": null,
+      "sourceUrl": null,
+      "status": "fail",
+      "reason": null,
+      "startupSeconds": 0.07468570000014552,
+      "runtimeSeconds": 11.59075759999996,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/samesuite-sgb-command-mlt-req-1-incrementing-gb-sgb-f6819484.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "ashiepaws-bully-gb-dmg-dmg-fc52bff4",
+      "legacyName": "ashiepaws/bully.gb (DMG)",
+      "name": "bully.gb (DMG)",
+      "suiteId": "ashiepaws",
+      "group": "",
+      "system": "dmg",
+      "description": "A collection of multiple test cases testing a variety of behaviors. (See Repository for Details)",
+      "sourceUrl": "https://github.com/Ashiepaws/BullyGB",
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.08513669999979356,
+      "runtimeSeconds": 0.5547590999999557,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/ashiepaws-bully-gb-dmg-dmg-fc52bff4.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "ashiepaws-bully-gb-gbc-cgb-aca14ea5",
+      "legacyName": "ashiepaws/bully.gb (GBC)",
+      "name": "bully.gb (GBC)",
+      "suiteId": "ashiepaws",
+      "group": "",
+      "system": "cgb",
+      "description": "A collection of multiple test cases testing a variety of behaviors. (See Repository for Details)",
+      "sourceUrl": "https://github.com/Ashiepaws/BullyGB",
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07523479999986193,
+      "runtimeSeconds": 0.4179378999999699,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/ashiepaws-bully-gb-gbc-cgb-aca14ea5.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "ashiepaws-strikethrough-gb-dmg-60dd4d99",
+      "legacyName": "ashiepaws/strikethrough.gb",
+      "name": "strikethrough.gb",
+      "suiteId": "ashiepaws",
+      "group": "",
+      "system": "dmg",
+      "description": "Abuse of OAM DMA transfers during PPU modes 2 and 3 causing interference with data reads from the PPU.",
+      "sourceUrl": null,
+      "status": "fail",
+      "reason": null,
+      "startupSeconds": 0.07368079999992005,
+      "runtimeSeconds": 10.50701950000007,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/ashiepaws-strikethrough-gb-dmg-60dd4d99.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "cpp-rtc-invalid-banks-test-gb-dmg-7abf0945",
+      "legacyName": "cpp/rtc-invalid-banks-test.gb",
+      "name": "rtc-invalid-banks-test.gb",
+      "suiteId": "cpp",
+      "group": "",
+      "system": "dmg",
+      "description": "Tests how invalid banks are handled with MBC3 RTC.",
+      "sourceUrl": null,
+      "status": "fail",
+      "reason": null,
+      "startupSeconds": 0.07535910000001422,
+      "runtimeSeconds": 10.609196699999984,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/cpp-rtc-invalid-banks-test-gb-dmg-7abf0945.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "cpp-latch-rtc-test-gb-dmg-3307b249",
+      "legacyName": "cpp/latch-rtc-test.gb",
+      "name": "latch-rtc-test.gb",
+      "suiteId": "cpp",
+      "group": "",
+      "system": "dmg",
+      "description": "Writes random values to RTC regs, reports them back, then latches the RTC using a single write to the 0x6000-0x7FFF region.",
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07473970000000918,
+      "runtimeSeconds": 0.5691280000000916,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/cpp-latch-rtc-test-gb-dmg-3307b249.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "cpp-ramg-mbc3-test-gb-dmg-c4a5ad08",
+      "legacyName": "cpp/ramg-mbc3-test.gb",
+      "name": "ramg-mbc3-test.gb",
+      "suiteId": "cpp",
+      "group": "",
+      "system": "dmg",
+      "description": "Tests the width of the MBC3's RAM gate register.",
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06731770000010329,
+      "runtimeSeconds": 0.555230100000017,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/cpp-ramg-mbc3-test-gb-dmg-c4a5ad08.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "cpp-sgb-ext-test-gb-sgb-2aee2d24",
+      "legacyName": "cpp/sgb-ext-test.gb",
+      "name": "sgb-ext-test.gb",
+      "suiteId": "cpp",
+      "group": "",
+      "system": "sgb",
+      "description": "Tests the SGB packet protocol, doing various \"stress tests\" which cannot be passed without correctly emulating the SGB packet protocol. (See repository for passing reference)",
+      "sourceUrl": "https://github.com/CasualPokePlayer/test-roms/tree/sgb-ext-test",
+      "status": "fail",
+      "reason": null,
+      "startupSeconds": 0.07683180000003631,
+      "runtimeSeconds": 10.591036300000042,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/cpp-sgb-ext-test-gb-sgb-2aee2d24.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mealybug-tearoom-tests-ppu-m2-win-en-toggle-gb-dmg-dmg-49d7cd7c",
+      "legacyName": "mealybug-tearoom-tests/ppu/m2_win_en_toggle.gb (DMG)",
+      "name": "m2_win_en_toggle.gb (DMG)",
+      "suiteId": "mealybug-tearoom-tests",
+      "group": "ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06470089999993434,
+      "runtimeSeconds": 0.5688809999999194,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mealybug-tearoom-tests-ppu-m2-win-en-toggle-gb-dmg-dmg-49d7cd7c.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mealybug-tearoom-tests-ppu-m3-bgp-change-gb-dmg-dmg-4ce20d7f",
+      "legacyName": "mealybug-tearoom-tests/ppu/m3_bgp_change.gb (DMG)",
+      "name": "m3_bgp_change.gb (DMG)",
+      "suiteId": "mealybug-tearoom-tests",
+      "group": "ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07386760000008508,
+      "runtimeSeconds": 0.5455296000000089,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mealybug-tearoom-tests-ppu-m3-bgp-change-gb-dmg-dmg-4ce20d7f.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mealybug-tearoom-tests-ppu-m3-bgp-change-sprites-gb-dmg-dmg-e41b5168",
+      "legacyName": "mealybug-tearoom-tests/ppu/m3_bgp_change_sprites.gb (DMG)",
+      "name": "m3_bgp_change_sprites.gb (DMG)",
+      "suiteId": "mealybug-tearoom-tests",
+      "group": "ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07493730000010146,
+      "runtimeSeconds": 0.5608471000000463,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mealybug-tearoom-tests-ppu-m3-bgp-change-sprites-gb-dmg-dmg-e41b5168.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mealybug-tearoom-tests-ppu-m3-lcdc-bg-en-change-gb-dmg-dmg-266fe81d",
+      "legacyName": "mealybug-tearoom-tests/ppu/m3_lcdc_bg_en_change.gb (DMG)",
+      "name": "m3_lcdc_bg_en_change.gb (DMG)",
+      "suiteId": "mealybug-tearoom-tests",
+      "group": "ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07464200000003984,
+      "runtimeSeconds": 0.5615964999999505,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mealybug-tearoom-tests-ppu-m3-lcdc-bg-en-change-gb-dmg-dmg-266fe81d.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mealybug-tearoom-tests-ppu-m3-lcdc-bg-map-change-gb-dmg-dmg-91f40501",
+      "legacyName": "mealybug-tearoom-tests/ppu/m3_lcdc_bg_map_change.gb (DMG)",
+      "name": "m3_lcdc_bg_map_change.gb (DMG)",
+      "suiteId": "mealybug-tearoom-tests",
+      "group": "ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.08698679999997694,
+      "runtimeSeconds": 0.5596550999998726,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mealybug-tearoom-tests-ppu-m3-lcdc-bg-map-change-gb-dmg-dmg-91f40501.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mealybug-tearoom-tests-ppu-m3-lcdc-obj-en-change-gb-dmg-dmg-277b5edf",
+      "legacyName": "mealybug-tearoom-tests/ppu/m3_lcdc_obj_en_change.gb (DMG)",
+      "name": "m3_lcdc_obj_en_change.gb (DMG)",
+      "suiteId": "mealybug-tearoom-tests",
+      "group": "ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.0754968999999619,
+      "runtimeSeconds": 0.5671468000000459,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mealybug-tearoom-tests-ppu-m3-lcdc-obj-en-change-gb-dmg-dmg-277b5edf.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mealybug-tearoom-tests-ppu-m3-lcdc-obj-en-change-variant-gb-dmg-dmg-88dd6675",
+      "legacyName": "mealybug-tearoom-tests/ppu/m3_lcdc_obj_en_change_variant.gb (DMG)",
+      "name": "m3_lcdc_obj_en_change_variant.gb (DMG)",
+      "suiteId": "mealybug-tearoom-tests",
+      "group": "ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07557999999994536,
+      "runtimeSeconds": 0.5461319000000913,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mealybug-tearoom-tests-ppu-m3-lcdc-obj-en-change-variant-gb-dmg-dmg-88dd6675.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mealybug-tearoom-tests-ppu-m3-lcdc-obj-size-change-gb-dmg-dmg-1a0cdefe",
+      "legacyName": "mealybug-tearoom-tests/ppu/m3_lcdc_obj_size_change.gb (DMG)",
+      "name": "m3_lcdc_obj_size_change.gb (DMG)",
+      "suiteId": "mealybug-tearoom-tests",
+      "group": "ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07379519999994955,
+      "runtimeSeconds": 0.5607441999998173,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mealybug-tearoom-tests-ppu-m3-lcdc-obj-size-change-gb-dmg-dmg-1a0cdefe.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mealybug-tearoom-tests-ppu-m3-lcdc-obj-size-change-scx-gb-dmg-dmg-c1b9b99e",
+      "legacyName": "mealybug-tearoom-tests/ppu/m3_lcdc_obj_size_change_scx.gb (DMG)",
+      "name": "m3_lcdc_obj_size_change_scx.gb (DMG)",
+      "suiteId": "mealybug-tearoom-tests",
+      "group": "ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07403150000004644,
+      "runtimeSeconds": 0.5610953000000336,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mealybug-tearoom-tests-ppu-m3-lcdc-obj-size-change-scx-gb-dmg-dmg-c1b9b99e.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mealybug-tearoom-tests-ppu-m3-lcdc-tile-sel-change-gb-dmg-dmg-975934db",
+      "legacyName": "mealybug-tearoom-tests/ppu/m3_lcdc_tile_sel_change.gb (DMG)",
+      "name": "m3_lcdc_tile_sel_change.gb (DMG)",
+      "suiteId": "mealybug-tearoom-tests",
+      "group": "ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.06606269999997494,
+      "runtimeSeconds": 0.5663140999999996,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mealybug-tearoom-tests-ppu-m3-lcdc-tile-sel-change-gb-dmg-dmg-975934db.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mealybug-tearoom-tests-ppu-m3-lcdc-tile-sel-win-change-gb-dmg-dmg-cec19685",
+      "legacyName": "mealybug-tearoom-tests/ppu/m3_lcdc_tile_sel_win_change.gb (DMG)",
+      "name": "m3_lcdc_tile_sel_win_change.gb (DMG)",
+      "suiteId": "mealybug-tearoom-tests",
+      "group": "ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07433760000003531,
+      "runtimeSeconds": 0.5490323999999873,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mealybug-tearoom-tests-ppu-m3-lcdc-tile-sel-win-change-gb-dmg-dmg-cec19685.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mealybug-tearoom-tests-ppu-m3-lcdc-win-en-change-multi-8f067cd6-dmg-2e2659c1",
+      "legacyName": "mealybug-tearoom-tests/ppu/m3_lcdc_win_en_change_multiple.gb (DMG)",
+      "name": "m3_lcdc_win_en_change_multiple.gb (DMG)",
+      "suiteId": "mealybug-tearoom-tests",
+      "group": "ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07411630000001423,
+      "runtimeSeconds": 0.5494324000001143,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mealybug-tearoom-tests-ppu-m3-lcdc-win-en-change-multi-8f067cd6-dmg-2e2659c1.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mealybug-tearoom-tests-ppu-m3-lcdc-win-en-change-multi-37be6e90-dmg-5ea411ff",
+      "legacyName": "mealybug-tearoom-tests/ppu/m3_lcdc_win_en_change_multiple_wx.gb (DMG)",
+      "name": "m3_lcdc_win_en_change_multiple_wx.gb (DMG)",
+      "suiteId": "mealybug-tearoom-tests",
+      "group": "ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07454789999997047,
+      "runtimeSeconds": 0.5744339000000309,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mealybug-tearoom-tests-ppu-m3-lcdc-win-en-change-multi-37be6e90-dmg-5ea411ff.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mealybug-tearoom-tests-ppu-m3-lcdc-win-map-change-gb-dmg-dmg-d343d7a3",
+      "legacyName": "mealybug-tearoom-tests/ppu/m3_lcdc_win_map_change.gb (DMG)",
+      "name": "m3_lcdc_win_map_change.gb (DMG)",
+      "suiteId": "mealybug-tearoom-tests",
+      "group": "ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07452910000006341,
+      "runtimeSeconds": 0.5591375999999855,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mealybug-tearoom-tests-ppu-m3-lcdc-win-map-change-gb-dmg-dmg-d343d7a3.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mealybug-tearoom-tests-ppu-m3-obp0-change-gb-dmg-dmg-43692086",
+      "legacyName": "mealybug-tearoom-tests/ppu/m3_obp0_change.gb (DMG)",
+      "name": "m3_obp0_change.gb (DMG)",
+      "suiteId": "mealybug-tearoom-tests",
+      "group": "ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07464889999982915,
+      "runtimeSeconds": 0.5622771000000739,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mealybug-tearoom-tests-ppu-m3-obp0-change-gb-dmg-dmg-43692086.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mealybug-tearoom-tests-ppu-m3-scx-high-5-bits-gb-dmg-dmg-bd9b113e",
+      "legacyName": "mealybug-tearoom-tests/ppu/m3_scx_high_5_bits.gb (DMG)",
+      "name": "m3_scx_high_5_bits.gb (DMG)",
+      "suiteId": "mealybug-tearoom-tests",
+      "group": "ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07471499999996922,
+      "runtimeSeconds": 0.5766300000000228,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mealybug-tearoom-tests-ppu-m3-scx-high-5-bits-gb-dmg-dmg-bd9b113e.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mealybug-tearoom-tests-ppu-m3-scx-low-3-bits-gb-dmg-dmg-e6cdccf4",
+      "legacyName": "mealybug-tearoom-tests/ppu/m3_scx_low_3_bits.gb (DMG)",
+      "name": "m3_scx_low_3_bits.gb (DMG)",
+      "suiteId": "mealybug-tearoom-tests",
+      "group": "ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07415050000008705,
+      "runtimeSeconds": 0.5639973999998347,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mealybug-tearoom-tests-ppu-m3-scx-low-3-bits-gb-dmg-dmg-e6cdccf4.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mealybug-tearoom-tests-ppu-m3-scy-change-gb-dmg-dmg-c6113da3",
+      "legacyName": "mealybug-tearoom-tests/ppu/m3_scy_change.gb (DMG)",
+      "name": "m3_scy_change.gb (DMG)",
+      "suiteId": "mealybug-tearoom-tests",
+      "group": "ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07480009999994763,
+      "runtimeSeconds": 0.5646037000001343,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mealybug-tearoom-tests-ppu-m3-scy-change-gb-dmg-dmg-c6113da3.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mealybug-tearoom-tests-ppu-m3-window-timing-gb-dmg-dmg-67b4de78",
+      "legacyName": "mealybug-tearoom-tests/ppu/m3_window_timing.gb (DMG)",
+      "name": "m3_window_timing.gb (DMG)",
+      "suiteId": "mealybug-tearoom-tests",
+      "group": "ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07507860000009714,
+      "runtimeSeconds": 0.564158099999986,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mealybug-tearoom-tests-ppu-m3-window-timing-gb-dmg-dmg-67b4de78.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mealybug-tearoom-tests-ppu-m3-window-timing-wx-0-gb-dmg-dmg-313602fb",
+      "legacyName": "mealybug-tearoom-tests/ppu/m3_window_timing_wx_0.gb (DMG)",
+      "name": "m3_window_timing_wx_0.gb (DMG)",
+      "suiteId": "mealybug-tearoom-tests",
+      "group": "ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07454690000008668,
+      "runtimeSeconds": 0.564310199999909,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mealybug-tearoom-tests-ppu-m3-window-timing-wx-0-gb-dmg-dmg-313602fb.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mealybug-tearoom-tests-ppu-m3-wx-4-change-gb-dmg-dmg-a4ee9ce6",
+      "legacyName": "mealybug-tearoom-tests/ppu/m3_wx_4_change.gb (DMG)",
+      "name": "m3_wx_4_change.gb (DMG)",
+      "suiteId": "mealybug-tearoom-tests",
+      "group": "ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.0749522999999499,
+      "runtimeSeconds": 0.5790491000000202,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mealybug-tearoom-tests-ppu-m3-wx-4-change-gb-dmg-dmg-a4ee9ce6.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mealybug-tearoom-tests-ppu-m3-wx-4-change-sprites-gb-dmg-dmg-6bb9a727",
+      "legacyName": "mealybug-tearoom-tests/ppu/m3_wx_4_change_sprites.gb (DMG)",
+      "name": "m3_wx_4_change_sprites.gb (DMG)",
+      "suiteId": "mealybug-tearoom-tests",
+      "group": "ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07480779999991682,
+      "runtimeSeconds": 0.5597913999999946,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mealybug-tearoom-tests-ppu-m3-wx-4-change-sprites-gb-dmg-dmg-6bb9a727.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mealybug-tearoom-tests-ppu-m3-wx-5-change-gb-dmg-dmg-39e44f69",
+      "legacyName": "mealybug-tearoom-tests/ppu/m3_wx_5_change.gb (DMG)",
+      "name": "m3_wx_5_change.gb (DMG)",
+      "suiteId": "mealybug-tearoom-tests",
+      "group": "ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.07547230000000127,
+      "runtimeSeconds": 0.5803317999998399,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mealybug-tearoom-tests-ppu-m3-wx-5-change-gb-dmg-dmg-39e44f69.png",
+        "width": 160,
+        "height": 144
+      }
+    },
+    {
+      "testId": "mealybug-tearoom-tests-ppu-m3-wx-6-change-gb-dmg-dmg-96f73ce0",
+      "legacyName": "mealybug-tearoom-tests/ppu/m3_wx_6_change.gb (DMG)",
+      "name": "m3_wx_6_change.gb (DMG)",
+      "suiteId": "mealybug-tearoom-tests",
+      "group": "ppu",
+      "system": "dmg",
+      "description": null,
+      "sourceUrl": null,
+      "status": "pass",
+      "reason": null,
+      "startupSeconds": 0.0749607999998716,
+      "runtimeSeconds": 0.5619537999998556,
+      "screenshot": {
+        "url": "screenshots/beaten-dying-moon/legacy-1780589857/mealybug-tearoom-tests-ppu-m3-wx-6-change-gb-dmg-dmg-96f73ce0.png",
+        "width": 160,
+        "height": 144
+      }
+    }
+  ]
+}
