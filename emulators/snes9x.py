@@ -20,20 +20,20 @@ class SuperSnes9x(Emulator):
         self.title_check = lambda title: "SuperSnes9x" in title
 
     def setup(self):
-        archive_filename = "downloads/super-snes9x-windows.zip"
+        archive_filename = "downloads/super-snes9x-nightly-windows.zip"
         downloadGithubRelease(
             "shanytc/snes9x",
             archive_filename,
-            filter=lambda name: (
-                name.startswith("super-snes9x-")
-                and name.endswith("-win32-x64.zip")
-            ),
+            filter=lambda name: name == "super-snes9x-nightly-win32-x64.zip",
             require_asset=True,
+            release_tag="nightly",
         )
-        extract(archive_filename, "emu/snes9x")
+        extract(archive_filename, "emu/snes9x-nightly")
 
         executables = glob.glob(
-            os.path.join("emu", "snes9x", "**", "super-snes9x-x64.exe"),
+            os.path.join(
+                "emu", "snes9x-nightly", "**", "super-snes9x-x64.exe"
+            ),
             recursive=True,
         )
         if not executables:
@@ -77,8 +77,8 @@ class SuperSnes9x(Emulator):
         if screenshot is None:
             return None
 
-        # Stable releases use one saved window size for both SNES and GB
-        # content, so remove any letterboxing before normalizing the image.
+        # SuperSnes9x uses one saved window size for both SNES and GB content,
+        # so remove any letterboxing before normalizing the image.
         width, height = screenshot.size
         target_ratio = 160 / 144
         if width / height > target_ratio:
