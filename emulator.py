@@ -4,7 +4,7 @@ import PIL.Image
 from collections import namedtuple
 
 from util import *
-from emulators.catalog import result_filename
+from catalog import result_filename
 
 
 TestResult = namedtuple('TestResult', ['result', 'screenshot', 'startuptime', 'runtime'])

@@ -1,99 +1,184 @@
 # Add new emulators here. IDs are used by the CLI and CI; keep them stable.
-# Optional fields: aliases, needs_audio (true), needs_chromedriver (false),
-# extra_requirements (empty).
+# Optional fields: aliases, site_id (defaults to id), systems (unknown by default),
+# needs_audio (true), needs_chromedriver (false), needs_java (false),
+# timeout_minutes (360), extra_requirements (empty).
+# In systems, true means selectable, false means unsupported, and null means unknown.
 emulators:
   - id: bdm
     name: Beaten Dying Moon
     url: https://mattcurrie.com/bdm-demo/
     adapter: emulators.bdm:BDM
-    aliases: [beaten]
-
+    site_id: beaten-dying-moon
+    systems:
+      dmg: true
+      cgb: true
+      sgb: true
+    aliases:
+      - beaten
   - id: mgba
     name: mGBA
     url: https://mgba.io/
     adapter: emulators.mgba:MGBA
-
+    systems:
+      dmg: true
+      cgb: true
+      sgb: true
   - id: kigb
     name: KiGB
     url: http://kigb.emuunlim.com/
     adapter: emulators.kigb:KiGB
-
+    systems:
+      dmg: true
+      cgb: true
+      sgb: true
   - id: sameboy
     name: SameBoy
     url: https://sameboy.github.io/
     adapter: emulators.sameboy:SameBoy
-
+    systems:
+      dmg: true
+      cgb: true
+      sgb: true
+  - id: snes9x
+    name: SuperSnes9x
+    url: https://github.com/shanytc/snes9x/releases
+    adapter: emulators.snes9x:SuperSnes9x
+    site_id: super-snes9x
+    systems:
+      dmg: true
+      cgb: true
+      sgb: false
   - id: bgb
     name: bgb
     url: https://bgb.bircd.org/
     adapter: emulators.bgb:BGB
-
+    systems:
+      dmg: true
+      cgb: true
+      sgb: true
   - id: vba
     name: VisualBoyAdvance
     url: https://sourceforge.net/projects/vba
     adapter: emulators.vba:VBA
+    site_id: visualboyadvance
+    systems:
+      dmg: null
+      cgb: null
+      sgb: null
     needs_audio: false
-
   - id: vbam
     name: VisualBoyAdvance-M
     url: https://github.com/visualboyadvance-m/visualboyadvance-m
     adapter: emulators.vba:VBAM
-
+    site_id: visualboyadvance-m
+    systems:
+      dmg: true
+      cgb: true
+      sgb: true
   - id: nocash
     name: No$gmb
     url: https://problemkaputt.de/gmb.htm
     adapter: emulators.nocash:NoCash
-
+    site_id: no-gmb
+    systems:
+      dmg: null
+      cgb: null
+      sgb: null
   - id: gambatte
     name: GambatteSpeedrun
     url: https://github.com/pokemon-speedrunning/gambatte-speedrun
     adapter: emulators.gambatte:GambatteSpeedrun
-
+    site_id: gambatte-speedrun
+    systems:
+      dmg: true
+      cgb: true
+      sgb: true
   - id: emulicious
     name: Emulicious
     url: https://emulicious.net/
     adapter: emulators.emulicious:Emulicious
-
+    systems:
+      dmg: true
+      cgb: true
+      sgb: false
   - id: goomba
     name: Goomba
     url: https://www.dwedit.org/gba/goombacolor.php
     adapter: emulators.goomba:Goomba
-
+    systems:
+      dmg: null
+      cgb: null
+      sgb: null
   - id: binjgb
     name: binjgb
     url: https://github.com/binji/binjgb
     adapter: emulators.binjgb:Binjgb
-
+    systems:
+      dmg: true
+      cgb: null
+      sgb: null
+  - id: coffeegb
+    name: Coffee GB
+    url: https://github.com/trekawek/coffee-gb
+    adapter: emulators.coffeegb:CoffeeGB
+    site_id: coffee-gb
+    systems:
+      dmg: true
+      cgb: true
+      sgb: true
+    needs_audio: false
+    needs_java: true
+    timeout_minutes: 60
   - id: pyboy
     name: PyBoy
     url: https://github.com/Baekalfen/PyBoy
     adapter: emulators.pyboy:PyBoy
-
+    systems:
+      dmg: true
+      cgb: true
+      sgb: false
   - id: ares
     name: ares
     url: https://ares-emu.net/
     adapter: emulators.ares:Ares
-
+    systems:
+      dmg: true
+      cgb: true
+      sgb: false
   - id: emmy
     name: Emmy
     url: https://emmy.n1ark.com/
     adapter: emulators.emmy:Emmy
+    systems:
+      dmg: true
+      cgb: true
+      sgb: false
     needs_audio: false
     needs_chromedriver: true
     extra_requirements: requirements-emmy.txt
-
   - id: gameroy
     name: gameroy
     url: https://github.com/Rodrigodd/gameroy
     adapter: emulators.gameroy:GameRoy
-
+    systems:
+      dmg: true
+      cgb: false
+      sgb: false
   - id: docboy
     name: DocBoy
     url: https://github.com/Docheinstein/docboy
     adapter: emulators.docboy:DocBoy
-
+    systems:
+      dmg: true
+      cgb: true
+      sgb: false
   - id: gse
     name: GSE
     url: https://github.com/CasualPokePlayer/GSE
     adapter: emulators.gse:GSE
-    aliases: [Game Boy Speedrun Emulator]
+    systems:
+      dmg: true
+      cgb: true
+      sgb: true
+    aliases:
+      - Game Boy Speedrun Emulator

@@ -21,8 +21,8 @@ import testroms.ashiepaws
 import testroms.cpp
 import testroms.mealybug
 from test import *
-from emulators.catalog import matching_emulators
-from site_metadata import EMULATORS as SITE_EMULATORS, test_to_metadata
+from catalog import matching_emulators
+from site_metadata import test_to_metadata
 
 
 tests = testroms.acid.all + testroms.blargg.all + testroms.daid.all + testroms.ax6.all + testroms.mooneye.all + testroms.samesuite.all + testroms.ashiepaws.all + testroms.cpp.all + testroms.mealybug.all
@@ -78,10 +78,10 @@ if __name__ == "__main__":
     if args.dump_emulators_json:
         json.dump({
             spec.name: {
-                'id': SITE_EMULATORS[spec.name]['id'],
+                'id': spec.page_id,
                 'file': spec.result_filename,
                 'url': spec.url,
-                'systems': SITE_EMULATORS[spec.name]['systems'],
+                'systems': spec.site_systems,
             } for spec in emulator_specs
         }, open("emulators.json", "wt"), indent="  ")
     if args.dump_tests_json:

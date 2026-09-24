@@ -26,10 +26,10 @@ COFFEE_GB_REQUEST_TIMEOUT = 60.0
 
 
 class CoffeeGB(Emulator):
-    def __init__(self):
+    def __init__(self, spec):
         super().__init__(
-            "Coffee GB",
-            "https://github.com/trekawek/coffee-gb",
+            spec.name,
+            spec.url,
             startup_time=2.0,
             features=(PCM,),
         )

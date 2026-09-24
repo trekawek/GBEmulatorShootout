@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       emulator:
-        description: Emulator ID from emulators/catalog.yaml, or all
+        description: Emulator ID from catalog.yaml, or all
         type: string
         required: false
         default: all
@@ -28,7 +28,7 @@ jobs:
         id: catalog
         env:
           EMULATOR_SELECTION: ${{ inputs.emulator }}
-        run: python3 -m emulators.catalog ci-matrix >> "$GITHUB_OUTPUT"
+        run: python3 -m catalog ci-matrix >> "$GITHUB_OUTPUT"
 
   run-all:
     needs: prepare
