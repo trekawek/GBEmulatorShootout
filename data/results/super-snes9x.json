@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "emulatorId": "super-snes9x",
-  "runId": "legacy-1790246480",
+  "runId": "legacy-1790260280",
   "runState": "legacy",
-  "testedAt": "2026-09-24T10:41:20.108022Z",
+  "testedAt": "2026-09-24T14:31:20.326989Z",
   "emulatorVersion": null,
   "catalogId": "catalog-51bc0aea4c76",
   "catalogUrl": "data/catalogs/catalog-51bc0aea4c76.json",
@@ -21,16 +21,16 @@
     "importedLegacy": true
   },
   "counts": {
-    "pass": 234,
-    "fail": 24,
+    "pass": 258,
+    "fail": 3,
     "info": 3,
     "error": 0,
     "skipped": 0,
-    "missing": 3
+    "missing": 0
   },
   "score": {
-    "value": 237,
-    "recorded": 261
+    "value": 261,
+    "recorded": 264
   },
   "results": [
     {
@@ -44,10 +44,10 @@
       "sourceUrl": null,
       "status": "info",
       "reason": null,
-      "startupSeconds": 0.3029040999999779,
-      "runtimeSeconds": 7.541225599999962,
+      "startupSeconds": 1.3173062000000186,
+      "runtimeSeconds": 7.5253040000000055,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/acid-which-gb-dmg-dmg-0669633f.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/acid-which-gb-dmg-dmg-0669633f.png",
         "width": 160,
         "height": 144
       }
@@ -63,10 +63,10 @@
       "sourceUrl": null,
       "status": "info",
       "reason": null,
-      "startupSeconds": 0.06474980000001551,
-      "runtimeSeconds": 7.5119150000000445,
+      "startupSeconds": 0.04324370000000499,
+      "runtimeSeconds": 7.571281800000008,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/acid-which-gb-gbc-cgb-38eb7aac.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/acid-which-gb-gbc-cgb-38eb7aac.png",
         "width": 160,
         "height": 144
       }
@@ -82,10 +82,10 @@
       "sourceUrl": "https://github.com/mattcurrie/dmg-acid2",
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06420689999998785,
-      "runtimeSeconds": 5.243976500000031,
+      "startupSeconds": 0.04147490000002563,
+      "runtimeSeconds": 0.27548180000002276,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/acid-dmg-acid2-gb-dmg-b16e8597.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/acid-dmg-acid2-gb-dmg-b16e8597.png",
         "width": 160,
         "height": 144
       }
@@ -101,10 +101,10 @@
       "sourceUrl": "https://github.com/mattcurrie/cgb-acid2",
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06727309999996578,
-      "runtimeSeconds": 5.152189700000008,
+      "startupSeconds": 0.05561199999999644,
+      "runtimeSeconds": 0.4048423000000412,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/acid-cgb-acid2-gbc-cgb-88e4b3b3.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/acid-cgb-acid2-gbc-cgb-88e4b3b3.png",
         "width": 160,
         "height": 144
       }
@@ -120,10 +120,10 @@
       "sourceUrl": "https://github.com/mattcurrie/cgb-acid-hell",
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0541292999999996,
-      "runtimeSeconds": 5.191669999999988,
+      "startupSeconds": 0.04347819999998137,
+      "runtimeSeconds": 0.29070709999996325,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/acid-cgb-acid-hell-gbc-cgb-ee00bb31.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/acid-cgb-acid-hell-gbc-cgb-ee00bb31.png",
         "width": 160,
         "height": 144
       }
@@ -139,10 +139,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06508400000001302,
-      "runtimeSeconds": 5.19826599999999,
+      "startupSeconds": 0.05481159999999363,
+      "runtimeSeconds": 2.550807499999962,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-cpu-instrs-01-special-gb-dmg-cffd5d76.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-cpu-instrs-01-special-gb-dmg-cffd5d76.png",
         "width": 160,
         "height": 144
       }
@@ -158,10 +158,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06706140000000005,
-      "runtimeSeconds": 5.199508999999978,
+      "startupSeconds": 0.04223749999999882,
+      "runtimeSeconds": 0.5341138999999657,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-cpu-instrs-02-interrupts-gb-dmg-4b97e44a.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-cpu-instrs-02-interrupts-gb-dmg-4b97e44a.png",
         "width": 160,
         "height": 144
       }
@@ -177,10 +177,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07337369999999055,
-      "runtimeSeconds": 5.1228411000000165,
+      "startupSeconds": 0.054702599999984614,
+      "runtimeSeconds": 2.4326639999999884,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-cpu-instrs-03-op-sp-hl-gb-dmg-8216b96f.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-cpu-instrs-03-op-sp-hl-gb-dmg-8216b96f.png",
         "width": 160,
         "height": 144
       }
@@ -196,10 +196,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05910090000003265,
-      "runtimeSeconds": 5.100848199999973,
+      "startupSeconds": 0.05384309999999459,
+      "runtimeSeconds": 2.852633200000014,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-cpu-instrs-04-op-r-imm-gb-dmg-f1f9114b.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-cpu-instrs-04-op-r-imm-gb-dmg-f1f9114b.png",
         "width": 160,
         "height": 144
       }
@@ -215,10 +215,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07093090000000757,
-      "runtimeSeconds": 5.130156400000033,
+      "startupSeconds": 0.041475499999990006,
+      "runtimeSeconds": 3.9554352999999765,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-cpu-instrs-05-op-rp-gb-dmg-8a4b3fbc.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-cpu-instrs-05-op-rp-gb-dmg-8a4b3fbc.png",
         "width": 160,
         "height": 144
       }
@@ -234,10 +234,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0663677000000007,
-      "runtimeSeconds": 5.207676400000025,
+      "startupSeconds": 0.04655580000002146,
+      "runtimeSeconds": 0.6945810999999935,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-cpu-instrs-06-ld-r-r-gb-dmg-55b14397.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-cpu-instrs-06-ld-r-r-gb-dmg-55b14397.png",
         "width": 160,
         "height": 144
       }
@@ -253,10 +253,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06293170000003556,
-      "runtimeSeconds": 5.205631699999969,
+      "startupSeconds": 0.04510179999999764,
+      "runtimeSeconds": 0.808551800000032,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-cpu-instrs-07-jr-jp-call-ret-rst-gb-dmg-c71bd785.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-cpu-instrs-07-jr-jp-call-ret-rst-gb-dmg-c71bd785.png",
         "width": 160,
         "height": 144
       }
@@ -272,10 +272,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.053621099999986654,
-      "runtimeSeconds": 5.242406700000004,
+      "startupSeconds": 0.05440470000002051,
+      "runtimeSeconds": 0.6957356000000345,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-cpu-instrs-08-misc-instrs-gb-dmg-00795987.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-cpu-instrs-08-misc-instrs-gb-dmg-00795987.png",
         "width": 160,
         "height": 144
       }
@@ -291,10 +291,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06843309999999292,
-      "runtimeSeconds": 9.317683400000021,
+      "startupSeconds": 0.05334299999998393,
+      "runtimeSeconds": 9.19290719999998,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-cpu-instrs-09-op-r-r-gb-dmg-78b33163.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-cpu-instrs-09-op-r-r-gb-dmg-78b33163.png",
         "width": 160,
         "height": 144
       }
@@ -310,10 +310,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06557509999998956,
-      "runtimeSeconds": 14.057854499999962,
+      "startupSeconds": 0.04182870000005323,
+      "runtimeSeconds": 13.946880599999986,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-cpu-instrs-10-bit-ops-gb-dmg-60628809.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-cpu-instrs-10-bit-ops-gb-dmg-60628809.png",
         "width": 160,
         "height": 144
       }
@@ -329,10 +329,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06637089999998125,
-      "runtimeSeconds": 17.69375660000003,
+      "startupSeconds": 0.04468739999998661,
+      "runtimeSeconds": 17.752322300000003,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-cpu-instrs-11-op-a-hl-gb-dmg-f37eee43.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-cpu-instrs-11-op-a-hl-gb-dmg-f37eee43.png",
         "width": 160,
         "height": 144
       }
@@ -348,10 +348,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06525679999998601,
-      "runtimeSeconds": 5.174136499999975,
+      "startupSeconds": 0.043033600000001115,
+      "runtimeSeconds": 1.9266283000000044,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-halt-bug-gb-dmg-6bd4a24d.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-halt-bug-gb-dmg-6bd4a24d.png",
         "width": 160,
         "height": 144
       }
@@ -367,10 +367,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0654435999999805,
-      "runtimeSeconds": 5.183006000000034,
+      "startupSeconds": 0.04391970000000356,
+      "runtimeSeconds": 0.8246631000000093,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-instr-timing-gb-dmg-584a3698.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-instr-timing-gb-dmg-584a3698.png",
         "width": 160,
         "height": 144
       }
@@ -386,10 +386,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06337829999995392,
-      "runtimeSeconds": 5.079361000000006,
+      "startupSeconds": 0.05345080000000735,
+      "runtimeSeconds": 0.6725816999999665,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-interrupt-time-gb-cgb-4d659e2c.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-interrupt-time-gb-cgb-4d659e2c.png",
         "width": 160,
         "height": 144
       }
@@ -405,10 +405,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06681789999998955,
-      "runtimeSeconds": 5.1553809000000115,
+      "startupSeconds": 0.04274070000002439,
+      "runtimeSeconds": 0.5675115000000233,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-mem-timing-01-read-timing-gb-dmg-547bd6f6.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-mem-timing-01-read-timing-gb-dmg-547bd6f6.png",
         "width": 160,
         "height": 144
       }
@@ -424,10 +424,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06253010000000359,
-      "runtimeSeconds": 5.208554800000002,
+      "startupSeconds": 0.044103500000005624,
+      "runtimeSeconds": 0.5518901000000369,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-mem-timing-02-write-timing-gb-dmg-1f4d9a88.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-mem-timing-02-write-timing-gb-dmg-1f4d9a88.png",
         "width": 160,
         "height": 144
       }
@@ -443,10 +443,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06370370000001913,
-      "runtimeSeconds": 5.145878299999993,
+      "startupSeconds": 0.04443390000000136,
+      "runtimeSeconds": 0.6813126000000125,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-mem-timing-03-modify-timing-gb-dmg-01c8cea5.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-mem-timing-03-modify-timing-gb-dmg-01c8cea5.png",
         "width": 160,
         "height": 144
       }
@@ -462,10 +462,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05464599999999109,
-      "runtimeSeconds": 5.1772093000000154,
+      "startupSeconds": 0.05257469999997966,
+      "runtimeSeconds": 0.524257700000021,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-mem-timing-2-01-read-timing-gb-dmg-20f1120e.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-mem-timing-2-01-read-timing-gb-dmg-20f1120e.png",
         "width": 160,
         "height": 144
       }
@@ -481,10 +481,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06449290000000474,
-      "runtimeSeconds": 5.240565899999979,
+      "startupSeconds": 0.04346540000000232,
+      "runtimeSeconds": 0.5479586000000154,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-mem-timing-2-02-write-timing-gb-dmg-c1785f08.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-mem-timing-2-02-write-timing-gb-dmg-c1785f08.png",
         "width": 160,
         "height": 144
       }
@@ -500,10 +500,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05691469999999299,
-      "runtimeSeconds": 5.135167499999966,
+      "startupSeconds": 0.06503839999999173,
+      "runtimeSeconds": 0.6744874999999979,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-mem-timing-2-03-modify-timing-gb-dmg-8bbbccfc.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-mem-timing-2-03-modify-timing-gb-dmg-8bbbccfc.png",
         "width": 160,
         "height": 144
       }
@@ -519,10 +519,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06386930000002167,
-      "runtimeSeconds": 5.233957499999974,
+      "startupSeconds": 0.05745250000001079,
+      "runtimeSeconds": 0.6815310999999724,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-oam-bug-1-lcd-sync-gb-dmg-5e66d0de.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-oam-bug-1-lcd-sync-gb-dmg-5e66d0de.png",
         "width": 160,
         "height": 144
       }
@@ -538,10 +538,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06607980000001135,
-      "runtimeSeconds": 5.301091400000018,
+      "startupSeconds": 0.04538289999999279,
+      "runtimeSeconds": 1.8521137999999837,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-oam-bug-2-causes-gb-dmg-b608de0a.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-oam-bug-2-causes-gb-dmg-b608de0a.png",
         "width": 160,
         "height": 144
       }
@@ -557,10 +557,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08564959999995381,
-      "runtimeSeconds": 5.312910299999999,
+      "startupSeconds": 0.045426599999984774,
+      "runtimeSeconds": 1.7570814000000041,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-oam-bug-3-non-causes-gb-dmg-ae05f385.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-oam-bug-3-non-causes-gb-dmg-ae05f385.png",
         "width": 160,
         "height": 144
       }
@@ -576,10 +576,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.060746499999993375,
-      "runtimeSeconds": 5.188177199999984,
+      "startupSeconds": 0.04213670000001457,
+      "runtimeSeconds": 1.1028162999999722,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-oam-bug-4-scanline-timing-gb-dmg-2da61991.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-oam-bug-4-scanline-timing-gb-dmg-2da61991.png",
         "width": 160,
         "height": 144
       }
@@ -595,10 +595,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06761149999999816,
-      "runtimeSeconds": 5.1363807999999835,
+      "startupSeconds": 0.04564790000000585,
+      "runtimeSeconds": 1.0402470000000221,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-oam-bug-5-timing-bug-gb-dmg-ee74faf3.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-oam-bug-5-timing-bug-gb-dmg-ee74faf3.png",
         "width": 160,
         "height": 144
       }
@@ -614,10 +614,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05825839999999971,
-      "runtimeSeconds": 5.151452000000006,
+      "startupSeconds": 0.042825699999980316,
+      "runtimeSeconds": 1.618249800000001,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-oam-bug-6-timing-no-bug-gb-dmg-607a177d.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-oam-bug-6-timing-no-bug-gb-dmg-607a177d.png",
         "width": 160,
         "height": 144
       }
@@ -633,10 +633,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06624399999998332,
-      "runtimeSeconds": 6.005324800000039,
+      "startupSeconds": 0.04191040000000612,
+      "runtimeSeconds": 6.011565699999949,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-oam-bug-8-instr-effect-gb-dmg-9ca7f84f.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-oam-bug-8-instr-effect-gb-dmg-9ca7f84f.png",
         "width": 160,
         "height": 144
       }
@@ -652,10 +652,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06342989999996007,
-      "runtimeSeconds": 5.125895200000002,
+      "startupSeconds": 0.053531200000008994,
+      "runtimeSeconds": 0.9471866000000091,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-dmg-sound-01-registers-gb-dmg-dd73c6e4.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-dmg-sound-01-registers-gb-dmg-dd73c6e4.png",
         "width": 160,
         "height": 144
       }
@@ -671,10 +671,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07405390000002399,
-      "runtimeSeconds": 9.664837700000021,
+      "startupSeconds": 0.05440819999995483,
+      "runtimeSeconds": 9.595167500000002,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-dmg-sound-02-len-ctr-gb-dmg-081a2fae.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-dmg-sound-02-len-ctr-gb-dmg-081a2fae.png",
         "width": 160,
         "height": 144
       }
@@ -690,10 +690,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06320430000005217,
-      "runtimeSeconds": 16.971209500000043,
+      "startupSeconds": 0.062203199999999015,
+      "runtimeSeconds": 17.02485469999999,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-dmg-sound-03-trigger-gb-dmg-dfb2b658.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-dmg-sound-03-trigger-gb-dmg-dfb2b658.png",
         "width": 160,
         "height": 144
       }
@@ -709,10 +709,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.055725600000016584,
-      "runtimeSeconds": 5.198133499999983,
+      "startupSeconds": 0.04295110000003888,
+      "runtimeSeconds": 1.3609766999999806,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-dmg-sound-04-sweep-gb-dmg-9193ca89.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-dmg-sound-04-sweep-gb-dmg-9193ca89.png",
         "width": 160,
         "height": 144
       }
@@ -728,10 +728,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06788779999999406,
-      "runtimeSeconds": 5.226930100000004,
+      "startupSeconds": 0.044320200000015575,
+      "runtimeSeconds": 1.3630883000000154,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-dmg-sound-05-sweep-details-gb-dmg-3a3cf981.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-dmg-sound-05-sweep-details-gb-dmg-3a3cf981.png",
         "width": 160,
         "height": 144
       }
@@ -747,10 +747,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07151739999994788,
-      "runtimeSeconds": 5.1467083,
+      "startupSeconds": 0.045467500000029304,
+      "runtimeSeconds": 1.1177600999999981,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-dmg-sound-06-overflow-on-trigger-gb-dmg-5428a1fc.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-dmg-sound-06-overflow-on-trigger-gb-dmg-5428a1fc.png",
         "width": 160,
         "height": 144
       }
@@ -766,10 +766,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06498499999997875,
-      "runtimeSeconds": 5.115682799999945,
+      "startupSeconds": 0.043999500000040825,
+      "runtimeSeconds": 0.6765475999999921,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-dmg-sound-07-len-sweep-period-sync-gb-dmg-ef480eef.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-dmg-sound-07-len-sweep-period-sync-gb-dmg-ef480eef.png",
         "width": 160,
         "height": 144
       }
@@ -785,10 +785,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.060318700000038916,
-      "runtimeSeconds": 5.188838400000009,
+      "startupSeconds": 0.04186800000002222,
+      "runtimeSeconds": 1.4975544999999784,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-dmg-sound-08-len-ctr-during-power-gb-dmg-94b9b87f.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-dmg-sound-08-len-ctr-during-power-gb-dmg-94b9b87f.png",
         "width": 160,
         "height": 144
       }
@@ -804,10 +804,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06709269999998924,
-      "runtimeSeconds": 5.122348199999919,
+      "startupSeconds": 0.05694310000001224,
+      "runtimeSeconds": 0.6989478000000418,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-dmg-sound-09-wave-read-while-on-gb-dmg-6bce549d.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-dmg-sound-09-wave-read-while-on-gb-dmg-6bce549d.png",
         "width": 160,
         "height": 144
       }
@@ -823,10 +823,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06546670000000177,
-      "runtimeSeconds": 5.204198099999985,
+      "startupSeconds": 0.055223300000022846,
+      "runtimeSeconds": 4.071732999999995,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-dmg-sound-10-wave-trigger-while-on-gb-dmg-9186e94d.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-dmg-sound-10-wave-trigger-while-on-gb-dmg-9186e94d.png",
         "width": 160,
         "height": 144
       }
@@ -842,10 +842,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0573144999999613,
-      "runtimeSeconds": 5.131291400000009,
+      "startupSeconds": 0.043981700000017554,
+      "runtimeSeconds": 0.7903650999999741,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-dmg-sound-11-regs-after-power-gb-dmg-6dc2c147.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-dmg-sound-11-regs-after-power-gb-dmg-6dc2c147.png",
         "width": 160,
         "height": 144
       }
@@ -861,10 +861,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06448210000007748,
-      "runtimeSeconds": 5.164850300000012,
+      "startupSeconds": 0.05758430000003045,
+      "runtimeSeconds": 4.09092000000004,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-dmg-sound-12-wave-write-while-on-gb-dmg-765a84aa.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-dmg-sound-12-wave-write-while-on-gb-dmg-765a84aa.png",
         "width": 160,
         "height": 144
       }
@@ -880,10 +880,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06747840000002725,
-      "runtimeSeconds": 5.097078300000021,
+      "startupSeconds": 0.05553670000000466,
+      "runtimeSeconds": 0.9389412000000448,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-cgb-sound-01-registers-gb-cgb-962f11c5.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-cgb-sound-01-registers-gb-cgb-962f11c5.png",
         "width": 160,
         "height": 144
       }
@@ -899,10 +899,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06577609999999368,
-      "runtimeSeconds": 9.524042099999974,
+      "startupSeconds": 0.0451176999999916,
+      "runtimeSeconds": 9.497879400000045,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-cgb-sound-02-len-ctr-gb-cgb-2cde1cfa.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-cgb-sound-02-len-ctr-gb-cgb-2cde1cfa.png",
         "width": 160,
         "height": 144
       }
@@ -918,10 +918,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06684789999997065,
-      "runtimeSeconds": 16.9504376000001,
+      "startupSeconds": 0.046084300000018175,
+      "runtimeSeconds": 16.989487300000008,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-cgb-sound-03-trigger-gb-cgb-62801ad3.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-cgb-sound-03-trigger-gb-cgb-62801ad3.png",
         "width": 160,
         "height": 144
       }
@@ -937,10 +937,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06661420000000362,
-      "runtimeSeconds": 5.2019198000000415,
+      "startupSeconds": 0.04314649999997755,
+      "runtimeSeconds": 1.3805735000000254,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-cgb-sound-04-sweep-gb-cgb-c659f04f.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-cgb-sound-04-sweep-gb-cgb-c659f04f.png",
         "width": 160,
         "height": 144
       }
@@ -956,10 +956,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06630110000003242,
-      "runtimeSeconds": 5.194130700000073,
+      "startupSeconds": 0.042772299999967345,
+      "runtimeSeconds": 1.3342681000000312,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-cgb-sound-05-sweep-details-gb-cgb-122d1068.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-cgb-sound-05-sweep-details-gb-cgb-122d1068.png",
         "width": 160,
         "height": 144
       }
@@ -975,10 +975,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06593369999995957,
-      "runtimeSeconds": 5.13733979999995,
+      "startupSeconds": 0.04416040000000976,
+      "runtimeSeconds": 1.070252699999969,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-cgb-sound-06-overflow-on-trigger-gb-cgb-cff874cf.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-cgb-sound-06-overflow-on-trigger-gb-cgb-cff874cf.png",
         "width": 160,
         "height": 144
       }
@@ -994,10 +994,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05686690000004546,
-      "runtimeSeconds": 5.179480000000012,
+      "startupSeconds": 0.05366730000002917,
+      "runtimeSeconds": 0.703111100000001,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-cgb-sound-07-len-sweep-period-sync-gb-cgb-c26ce5bc.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-cgb-sound-07-len-sweep-period-sync-gb-cgb-c26ce5bc.png",
         "width": 160,
         "height": 144
       }
@@ -1013,10 +1013,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06620710000004237,
-      "runtimeSeconds": 5.206947600000035,
+      "startupSeconds": 0.05530810000004749,
+      "runtimeSeconds": 2.6076590000000124,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-cgb-sound-08-len-ctr-during-power-gb-cgb-e3d75429.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-cgb-sound-08-len-ctr-during-power-gb-cgb-e3d75429.png",
         "width": 160,
         "height": 144
       }
@@ -1032,10 +1032,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05886529999997947,
-      "runtimeSeconds": 5.167106200000035,
+      "startupSeconds": 0.04738329999997859,
+      "runtimeSeconds": 0.8070740000000569,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-cgb-sound-09-wave-read-while-on-gb-cgb-efcaf116.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-cgb-sound-09-wave-read-while-on-gb-cgb-efcaf116.png",
         "width": 160,
         "height": 144
       }
@@ -1051,10 +1051,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06748809999999139,
-      "runtimeSeconds": 5.146394799999939,
+      "startupSeconds": 0.04258319999996729,
+      "runtimeSeconds": 4.086529100000007,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-cgb-sound-10-wave-trigger-while-on-gb-cgb-2789e4c0.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-cgb-sound-10-wave-trigger-while-on-gb-cgb-2789e4c0.png",
         "width": 160,
         "height": 144
       }
@@ -1070,10 +1070,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06739330000004884,
-      "runtimeSeconds": 5.210822300000018,
+      "startupSeconds": 0.04431560000000445,
+      "runtimeSeconds": 1.099419100000091,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-cgb-sound-11-regs-after-power-gb-cgb-ca02c1f6.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-cgb-sound-11-regs-after-power-gb-cgb-ca02c1f6.png",
         "width": 160,
         "height": 144
       }
@@ -1089,10 +1089,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06598080000003392,
-      "runtimeSeconds": 5.194457599999964,
+      "startupSeconds": 0.052177600000050006,
+      "runtimeSeconds": 0.5550048000000061,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/blargg-cgb-sound-12-wave-gb-cgb-4c83bcb2.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/blargg-cgb-sound-12-wave-gb-cgb-4c83bcb2.png",
         "width": 160,
         "height": 144
       }
@@ -1108,10 +1108,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05874729999993633,
-      "runtimeSeconds": 5.236339199999975,
+      "startupSeconds": 0.054244300000050316,
+      "runtimeSeconds": 0.1311355000000276,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/daid-ppu-scanline-bgp-gb-dmg-dmg-5f7dae47.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/daid-ppu-scanline-bgp-gb-dmg-dmg-5f7dae47.png",
         "width": 160,
         "height": 144
       }
@@ -1127,10 +1127,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06431940000004488,
-      "runtimeSeconds": 5.212120599999935,
+      "startupSeconds": 0.04276049999998577,
+      "runtimeSeconds": 0.14309479999997166,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/daid-ppu-scanline-bgp-gb-gbc-cgb-5de4d6ea.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/daid-ppu-scanline-bgp-gb-gbc-cgb-5de4d6ea.png",
         "width": 160,
         "height": 144
       }
@@ -1146,10 +1146,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06416400000000522,
-      "runtimeSeconds": 1.2055475999999317,
+      "startupSeconds": 0.045750799999950686,
+      "runtimeSeconds": 0.2830626999999595,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/daid-stop-instr-gb-dmg-dmg-4117a58f.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/daid-stop-instr-gb-dmg-dmg-4117a58f.png",
         "width": 160,
         "height": 144
       }
@@ -1165,10 +1165,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06406040000001667,
-      "runtimeSeconds": 5.214430700000094,
+      "startupSeconds": 0.04425709999998162,
+      "runtimeSeconds": 0.24183940000000348,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/daid-stop-instr-gb-gbc-cgb-6ca6899d.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/daid-stop-instr-gb-gbc-cgb-6ca6899d.png",
         "width": 160,
         "height": 144
       }
@@ -1184,10 +1184,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08563770000000659,
-      "runtimeSeconds": 5.137618399999951,
+      "startupSeconds": 0.056499299999927644,
+      "runtimeSeconds": 0.2622582000000193,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/daid-stop-instr-gbc-mode3-gb-cgb-705e7fd0.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/daid-stop-instr-gbc-mode3-gb-cgb-705e7fd0.png",
         "width": 160,
         "height": 144
       }
@@ -1203,10 +1203,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06665239999995265,
-      "runtimeSeconds": 5.168293899999981,
+      "startupSeconds": 0.055709299999989526,
+      "runtimeSeconds": 0.2900041999999985,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/daid-speed-switch-timing-div-gbc-cgb-d436edd5.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/daid-speed-switch-timing-div-gbc-cgb-d436edd5.png",
         "width": 160,
         "height": 144
       }
@@ -1222,10 +1222,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06485640000005333,
-      "runtimeSeconds": 5.191202700000076,
+      "startupSeconds": 0.05652789999999186,
+      "runtimeSeconds": 0.27214249999997264,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/daid-speed-switch-timing-ly-gbc-cgb-bd931d6c.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/daid-speed-switch-timing-ly-gbc-cgb-bd931d6c.png",
         "width": 160,
         "height": 144
       }
@@ -1241,10 +1241,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05465859999992517,
-      "runtimeSeconds": 5.172840199999996,
+      "startupSeconds": 0.05383740000002035,
+      "runtimeSeconds": 0.2619496000000936,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/daid-speed-switch-timing-stat-gbc-cgb-e14b6b04.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/daid-speed-switch-timing-stat-gbc-cgb-e14b6b04.png",
         "width": 160,
         "height": 144
       }
@@ -1260,10 +1260,10 @@
       "sourceUrl": "https://github.com/daid/GBEmulatorShootout/blob/main/tests/daid/rom_and_ram.gb",
       "status": "info",
       "reason": null,
-      "startupSeconds": 0.07141260000003058,
-      "runtimeSeconds": 6.535241700000029,
+      "startupSeconds": 0.042855000000031396,
+      "runtimeSeconds": 6.566975200000002,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/daid-rom-and-ram-gb-dmg-b9c8f9a6.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/daid-rom-and-ram-gb-dmg-b9c8f9a6.png",
         "width": 160,
         "height": 144
       }
@@ -1279,10 +1279,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06927829999995083,
-      "runtimeSeconds": 11.711880299999962,
+      "startupSeconds": 0.043185099999959675,
+      "runtimeSeconds": 11.57177009999998,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/ax6-rtc3test-1-gb-cgb-a5e04b04.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/ax6-rtc3test-1-gb-cgb-a5e04b04.png",
         "width": 160,
         "height": 144
       }
@@ -1298,10 +1298,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06742420000000493,
-      "runtimeSeconds": 7.5113878999999315,
+      "startupSeconds": 0.06290760000001683,
+      "runtimeSeconds": 7.443553800000018,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/ax6-rtc3test-2-gb-cgb-c729fd95.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/ax6-rtc3test-2-gb-cgb-c729fd95.png",
         "width": 160,
         "height": 144
       }
@@ -1317,10 +1317,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07804120000002968,
-      "runtimeSeconds": 25.233458499999983,
+      "startupSeconds": 0.04120579999994334,
+      "runtimeSeconds": 25.259287700000073,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/ax6-rtc3test-3-gb-cgb-ff119bea.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/ax6-rtc3test-3-gb-cgb-ff119bea.png",
         "width": 160,
         "height": 144
       }
@@ -1336,10 +1336,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06140170000003309,
-      "runtimeSeconds": 5.227836499999967,
+      "startupSeconds": 0.0530057000000852,
+      "runtimeSeconds": 0.27893169999993006,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-add-sp-e-timing-gb-dmg-a2e530e4.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-add-sp-e-timing-gb-dmg-a2e530e4.png",
         "width": 160,
         "height": 144
       }
@@ -1355,10 +1355,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0663520000000517,
-      "runtimeSeconds": 5.227236099999914,
+      "startupSeconds": 0.04368809999994028,
+      "runtimeSeconds": 0.2709128999999848,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-bits-mem-oam-gb-dmg-0ed150b2.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-bits-mem-oam-gb-dmg-0ed150b2.png",
         "width": 160,
         "height": 144
       }
@@ -1372,12 +1372,12 @@
       "system": "dmg",
       "description": null,
       "sourceUrl": null,
-      "status": "fail",
+      "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07431689999998525,
-      "runtimeSeconds": 7.610764099999983,
+      "startupSeconds": 0.05399130000000696,
+      "runtimeSeconds": 0.2758163999999397,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-bits-reg-f-gb-dmg-44f3890a.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-bits-reg-f-gb-dmg-44f3890a.png",
         "width": 160,
         "height": 144
       }
@@ -1393,10 +1393,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0641273999999612,
-      "runtimeSeconds": 5.207697499999995,
+      "startupSeconds": 0.05487489999995887,
+      "runtimeSeconds": 0.2925672000000077,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-bits-unused-hwio-gs-gb-dmg-30860ad6.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-bits-unused-hwio-gs-gb-dmg-30860ad6.png",
         "width": 160,
         "height": 144
       }
@@ -1410,12 +1410,12 @@
       "system": "dmg",
       "description": null,
       "sourceUrl": null,
-      "status": "fail",
+      "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06503759999998238,
-      "runtimeSeconds": 7.576306400000021,
+      "startupSeconds": 0.04165100000000166,
+      "runtimeSeconds": 0.25659280000002127,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-boot-div-dmgabcmgb-gb-dmg-f2165691.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-boot-div-dmgabcmgb-gb-dmg-f2165691.png",
         "width": 160,
         "height": 144
       }
@@ -1431,10 +1431,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.059343799999965086,
-      "runtimeSeconds": 5.156915700000013,
+      "startupSeconds": 0.06545959999994011,
+      "runtimeSeconds": 0.2810402999999724,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-boot-hwio-dmgabcmgb-gb-dmg-342e80c6.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-boot-hwio-dmgabcmgb-gb-dmg-342e80c6.png",
         "width": 160,
         "height": 144
       }
@@ -1448,12 +1448,12 @@
       "system": "dmg",
       "description": null,
       "sourceUrl": null,
-      "status": "fail",
+      "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06986319999998614,
-      "runtimeSeconds": 7.538046399999985,
+      "startupSeconds": 0.05232290000003559,
+      "runtimeSeconds": 0.26160809999998946,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-boot-regs-dmgabc-gb-dmg-9e623b30.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-boot-regs-dmgabc-gb-dmg-9e623b30.png",
         "width": 160,
         "height": 144
       }
@@ -1469,10 +1469,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06464599999992515,
-      "runtimeSeconds": 5.199162000000001,
+      "startupSeconds": 0.05248920000008184,
+      "runtimeSeconds": 0.2750631000000112,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-call-cc-timing-gb-dmg-fa9ca02c.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-call-cc-timing-gb-dmg-fa9ca02c.png",
         "width": 160,
         "height": 144
       }
@@ -1488,10 +1488,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06643980000001193,
-      "runtimeSeconds": 5.20624040000007,
+      "startupSeconds": 0.05355540000005021,
+      "runtimeSeconds": 0.42219199999999546,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-call-cc-timing2-gb-dmg-b792d341.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-call-cc-timing2-gb-dmg-b792d341.png",
         "width": 160,
         "height": 144
       }
@@ -1507,10 +1507,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.062064100000043254,
-      "runtimeSeconds": 5.214301500000033,
+      "startupSeconds": 0.04383430000007138,
+      "runtimeSeconds": 0.27126160000000255,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-call-timing-gb-dmg-ac23c2da.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-call-timing-gb-dmg-ac23c2da.png",
         "width": 160,
         "height": 144
       }
@@ -1526,10 +1526,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0581988999999794,
-      "runtimeSeconds": 5.209877900000038,
+      "startupSeconds": 0.042903200000068864,
+      "runtimeSeconds": 0.37609009999994214,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-call-timing2-gb-dmg-155ad496.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-call-timing2-gb-dmg-155ad496.png",
         "width": 160,
         "height": 144
       }
@@ -1543,12 +1543,12 @@
       "system": "dmg",
       "description": null,
       "sourceUrl": null,
-      "status": "fail",
+      "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05350919999989401,
-      "runtimeSeconds": 7.6069045000000415,
+      "startupSeconds": 0.055719199999998636,
+      "runtimeSeconds": 0.27511249999997744,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-div-timing-gb-dmg-aaad1d62.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-div-timing-gb-dmg-aaad1d62.png",
         "width": 160,
         "height": 144
       }
@@ -1564,10 +1564,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06819210000003295,
-      "runtimeSeconds": 5.102038200000038,
+      "startupSeconds": 0.042649900000014895,
+      "runtimeSeconds": 0.40401889999998275,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-di-timing-gs-gb-dmg-909a5bc3.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-di-timing-gs-gb-dmg-909a5bc3.png",
         "width": 160,
         "height": 144
       }
@@ -1581,12 +1581,12 @@
       "system": "dmg",
       "description": null,
       "sourceUrl": null,
-      "status": "fail",
+      "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05921150000006037,
-      "runtimeSeconds": 7.628933800000027,
+      "startupSeconds": 0.053698599999961516,
+      "runtimeSeconds": 0.29199319999997897,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-ei-sequence-gb-dmg-5ebdd542.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-ei-sequence-gb-dmg-5ebdd542.png",
         "width": 160,
         "height": 144
       }
@@ -1600,12 +1600,12 @@
       "system": "dmg",
       "description": null,
       "sourceUrl": null,
-      "status": "fail",
+      "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06414729999994506,
-      "runtimeSeconds": 7.628973500000029,
+      "startupSeconds": 0.04261070000006839,
+      "runtimeSeconds": 0.2742082999999411,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-ei-timing-gb-dmg-cf34a2aa.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-ei-timing-gb-dmg-cf34a2aa.png",
         "width": 160,
         "height": 144
       }
@@ -1621,10 +1621,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.060698999999999614,
-      "runtimeSeconds": 5.189854399999945,
+      "startupSeconds": 0.043679099999963,
+      "runtimeSeconds": 0.27078180000000884,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-halt-ime0-ei-gb-dmg-f1bd4bba.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-halt-ime0-ei-gb-dmg-f1bd4bba.png",
         "width": 160,
         "height": 144
       }
@@ -1638,12 +1638,12 @@
       "system": "dmg",
       "description": null,
       "sourceUrl": null,
-      "status": "fail",
+      "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05421999999998661,
-      "runtimeSeconds": 7.588458800000012,
+      "startupSeconds": 0.04217790000006971,
+      "runtimeSeconds": 0.40307099999995444,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-halt-ime0-nointr-timing-gb-dmg-cd224952.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-halt-ime0-nointr-timing-gb-dmg-cd224952.png",
         "width": 160,
         "height": 144
       }
@@ -1657,12 +1657,12 @@
       "system": "dmg",
       "description": null,
       "sourceUrl": null,
-      "status": "fail",
+      "status": "pass",
       "reason": null,
-      "startupSeconds": 0.060271599999964565,
-      "runtimeSeconds": 7.549517100000003,
+      "startupSeconds": 0.054334700000026714,
+      "runtimeSeconds": 0.2773514000000432,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-halt-ime1-timing-gb-dmg-518a499c.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-halt-ime1-timing-gb-dmg-518a499c.png",
         "width": 160,
         "height": 144
       }
@@ -1678,10 +1678,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06383310000001075,
-      "runtimeSeconds": 5.119731999999999,
+      "startupSeconds": 0.041489299999966534,
+      "runtimeSeconds": 0.40438270000004195,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-halt-ime1-timing2-gs-gb-dmg-1cef7c39.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-halt-ime1-timing2-gs-gb-dmg-1cef7c39.png",
         "width": 160,
         "height": 144
       }
@@ -1697,10 +1697,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06909410000002936,
-      "runtimeSeconds": 5.147944099999904,
+      "startupSeconds": 0.05374580000000151,
+      "runtimeSeconds": 0.25921790000006695,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-if-ie-registers-gb-dmg-7fa01a0b.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-if-ie-registers-gb-dmg-7fa01a0b.png",
         "width": 160,
         "height": 144
       }
@@ -1716,10 +1716,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05900050000002466,
-      "runtimeSeconds": 5.2188277999999855,
+      "startupSeconds": 0.04172799999992094,
+      "runtimeSeconds": 0.5528403000000708,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-instr-daa-gb-dmg-f4c07657.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-instr-daa-gb-dmg-f4c07657.png",
         "width": 160,
         "height": 144
       }
@@ -1735,10 +1735,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06324240000003556,
-      "runtimeSeconds": 5.208868800000005,
+      "startupSeconds": 0.043266399999993155,
+      "runtimeSeconds": 0.2698673999999528,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-interrupts-ie-push-gb-dmg-cbac7df0.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-interrupts-ie-push-gb-dmg-cbac7df0.png",
         "width": 160,
         "height": 144
       }
@@ -1754,10 +1754,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06394310000007408,
-      "runtimeSeconds": 5.13397759999998,
+      "startupSeconds": 0.05262730000004012,
+      "runtimeSeconds": 0.2761102000000619,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-intr-timing-gb-dmg-751c15a5.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-intr-timing-gb-dmg-751c15a5.png",
         "width": 160,
         "height": 144
       }
@@ -1773,10 +1773,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06538190000003397,
-      "runtimeSeconds": 5.19477889999996,
+      "startupSeconds": 0.04188690000000861,
+      "runtimeSeconds": 0.4022690000000466,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-jp-cc-timing-gb-dmg-44fc5de2.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-jp-cc-timing-gb-dmg-44fc5de2.png",
         "width": 160,
         "height": 144
       }
@@ -1792,10 +1792,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05892759999994723,
-      "runtimeSeconds": 5.0924905000000535,
+      "startupSeconds": 0.04348830000003545,
+      "runtimeSeconds": 0.28744689999996353,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-jp-timing-gb-dmg-3ae9e8b0.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-jp-timing-gb-dmg-3ae9e8b0.png",
         "width": 160,
         "height": 144
       }
@@ -1811,10 +1811,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06078710000008414,
-      "runtimeSeconds": 5.211123000000043,
+      "startupSeconds": 0.05601200000000972,
+      "runtimeSeconds": 0.40115210000010393,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-ld-hl-sp-e-timing-gb-dmg-52cce822.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-ld-hl-sp-e-timing-gb-dmg-52cce822.png",
         "width": 160,
         "height": 144
       }
@@ -1830,10 +1830,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06386759999998048,
-      "runtimeSeconds": 5.12493870000003,
+      "startupSeconds": 0.05547840000008364,
+      "runtimeSeconds": 0.26258100000006834,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-oam-dma-basic-gb-dmg-3a9f8c15.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-oam-dma-basic-gb-dmg-3a9f8c15.png",
         "width": 160,
         "height": 144
       }
@@ -1849,10 +1849,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0637414999999919,
-      "runtimeSeconds": 5.199799799999937,
+      "startupSeconds": 0.04197959999999057,
+      "runtimeSeconds": 0.25345160000006217,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-oam-dma-reg-read-gb-dmg-4900f1f3.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-oam-dma-reg-read-gb-dmg-4900f1f3.png",
         "width": 160,
         "height": 144
       }
@@ -1868,10 +1868,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.062235499999928834,
-      "runtimeSeconds": 5.20289379999997,
+      "startupSeconds": 0.04430009999998674,
+      "runtimeSeconds": 0.6648629000000028,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-oam-dma-sources-gs-gb-dmg-5074f6c9.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-oam-dma-sources-gs-gb-dmg-5074f6c9.png",
         "width": 160,
         "height": 144
       }
@@ -1887,10 +1887,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06501560000003792,
-      "runtimeSeconds": 5.215533499999992,
+      "startupSeconds": 0.05273209999995743,
+      "runtimeSeconds": 0.2779107000000067,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-oam-dma-restart-gb-dmg-a47d1dfa.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-oam-dma-restart-gb-dmg-a47d1dfa.png",
         "width": 160,
         "height": 144
       }
@@ -1906,10 +1906,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06427199999995992,
-      "runtimeSeconds": 5.10706719999996,
+      "startupSeconds": 0.05569520000005923,
+      "runtimeSeconds": 0.4049940999999535,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-oam-dma-start-gb-dmg-b7ed9f09.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-oam-dma-start-gb-dmg-b7ed9f09.png",
         "width": 160,
         "height": 144
       }
@@ -1925,10 +1925,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06422820000000229,
-      "runtimeSeconds": 5.187309400000004,
+      "startupSeconds": 0.05446849999998449,
+      "runtimeSeconds": 0.2773641999999654,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-oam-dma-timing-gb-dmg-0e573056.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-oam-dma-timing-gb-dmg-0e573056.png",
         "width": 160,
         "height": 144
       }
@@ -1944,10 +1944,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.058134100000074795,
-      "runtimeSeconds": 5.132371000000035,
+      "startupSeconds": 0.053022300000066025,
+      "runtimeSeconds": 0.39112920000002305,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-pop-timing-gb-dmg-ce1bbc67.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-pop-timing-gb-dmg-ce1bbc67.png",
         "width": 160,
         "height": 144
       }
@@ -1963,10 +1963,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05490200000008372,
-      "runtimeSeconds": 5.189064900000062,
+      "startupSeconds": 0.05583799999999428,
+      "runtimeSeconds": 0.9567913999999291,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-ppu-hblank-ly-scx-timing-gs-gb-dmg-05e4e6ce.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-ppu-hblank-ly-scx-timing-gs-gb-dmg-05e4e6ce.png",
         "width": 160,
         "height": 144
       }
@@ -1980,12 +1980,12 @@
       "system": "dmg",
       "description": null,
       "sourceUrl": null,
-      "status": "fail",
+      "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05284320000009757,
-      "runtimeSeconds": 7.551355599999965,
+      "startupSeconds": 0.0553764000000001,
+      "runtimeSeconds": 0.40431969999997364,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-ppu-intr-1-2-timing-gs-gb-dmg-f0241de3.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-ppu-intr-1-2-timing-gs-gb-dmg-f0241de3.png",
         "width": 160,
         "height": 144
       }
@@ -1999,12 +1999,12 @@
       "system": "dmg",
       "description": null,
       "sourceUrl": null,
-      "status": "fail",
+      "status": "pass",
       "reason": null,
-      "startupSeconds": 0.059156700000016826,
-      "runtimeSeconds": 7.60225539999999,
+      "startupSeconds": 0.05468120000000454,
+      "runtimeSeconds": 0.26426789999993616,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-ppu-intr-2-0-timing-gb-dmg-4e7b1d8c.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-ppu-intr-2-0-timing-gb-dmg-4e7b1d8c.png",
         "width": 160,
         "height": 144
       }
@@ -2018,12 +2018,12 @@
       "system": "dmg",
       "description": null,
       "sourceUrl": null,
-      "status": "fail",
+      "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05731300000002193,
-      "runtimeSeconds": 7.522712200000001,
+      "startupSeconds": 0.04246520000003784,
+      "runtimeSeconds": 0.2851379999999608,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-ppu-intr-2-mode0-timing-gb-dmg-494323d6.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-ppu-intr-2-mode0-timing-gb-dmg-494323d6.png",
         "width": 160,
         "height": 144
       }
@@ -2039,10 +2039,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07583859999999731,
-      "runtimeSeconds": 5.367123300000003,
+      "startupSeconds": 0.042677500000081636,
+      "runtimeSeconds": 4.095376499999929,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-ppu-intr-2-mode0-timing-sprites-gb-dmg-e9daeba9.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-ppu-intr-2-mode0-timing-sprites-gb-dmg-e9daeba9.png",
         "width": 160,
         "height": 144
       }
@@ -2056,12 +2056,12 @@
       "system": "dmg",
       "description": null,
       "sourceUrl": null,
-      "status": "fail",
+      "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06367010000008122,
-      "runtimeSeconds": 7.513546900000051,
+      "startupSeconds": 0.052648900000008325,
+      "runtimeSeconds": 0.4119211999999379,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-ppu-intr-2-mode3-timing-gb-dmg-07b8cb40.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-ppu-intr-2-mode3-timing-gb-dmg-07b8cb40.png",
         "width": 160,
         "height": 144
       }
@@ -2077,10 +2077,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06569700000000012,
-      "runtimeSeconds": 5.205011499999955,
+      "startupSeconds": 0.05446489999997084,
+      "runtimeSeconds": 0.4048804999999902,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-ppu-intr-2-oam-ok-timing-gb-dmg-56282d1b.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-ppu-intr-2-oam-ok-timing-gb-dmg-56282d1b.png",
         "width": 160,
         "height": 144
       }
@@ -2096,10 +2096,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06455089999997199,
-      "runtimeSeconds": 5.116904299999987,
+      "startupSeconds": 0.05541639999989911,
+      "runtimeSeconds": 0.5648522000000185,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-ppu-lcdon-timing-gs-gb-dmg-8505214e.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-ppu-lcdon-timing-gs-gb-dmg-8505214e.png",
         "width": 160,
         "height": 144
       }
@@ -2115,10 +2115,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05658080000000609,
-      "runtimeSeconds": 5.2160120999999435,
+      "startupSeconds": 0.0532280999999557,
+      "runtimeSeconds": 1.0728881000000001,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-ppu-lcdon-write-timing-gs-gb-dmg-f79fbd79.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-ppu-lcdon-write-timing-gs-gb-dmg-f79fbd79.png",
         "width": 160,
         "height": 144
       }
@@ -2134,10 +2134,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06519900000000689,
-      "runtimeSeconds": 5.210070900000005,
+      "startupSeconds": 0.05342339999992873,
+      "runtimeSeconds": 0.2897196000000122,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-ppu-stat-irq-blocking-gb-dmg-264b995e.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-ppu-stat-irq-blocking-gb-dmg-264b995e.png",
         "width": 160,
         "height": 144
       }
@@ -2153,10 +2153,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05716589999997268,
-      "runtimeSeconds": 5.109150999999997,
+      "startupSeconds": 0.042431200000009994,
+      "runtimeSeconds": 0.3985217999999122,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-ppu-stat-lyc-onoff-gb-dmg-7bc03421.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-ppu-stat-lyc-onoff-gb-dmg-7bc03421.png",
         "width": 160,
         "height": 144
       }
@@ -2172,10 +2172,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06345709999993687,
-      "runtimeSeconds": 5.18023740000001,
+      "startupSeconds": 0.05698369999993247,
+      "runtimeSeconds": 0.4332582999999204,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-ppu-vblank-stat-intr-gs-gb-dmg-480f42b9.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-ppu-vblank-stat-intr-gs-gb-dmg-480f42b9.png",
         "width": 160,
         "height": 144
       }
@@ -2191,10 +2191,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06393209999998817,
-      "runtimeSeconds": 5.1563447999999426,
+      "startupSeconds": 0.05467160000000604,
+      "runtimeSeconds": 0.42219760000000406,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-push-timing-gb-dmg-710b9556.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-push-timing-gb-dmg-710b9556.png",
         "width": 160,
         "height": 144
       }
@@ -2208,12 +2208,12 @@
       "system": "dmg",
       "description": null,
       "sourceUrl": null,
-      "status": "fail",
+      "status": "pass",
       "reason": null,
-      "startupSeconds": 0.061561800000049516,
-      "runtimeSeconds": 7.577429499999994,
+      "startupSeconds": 0.044668200000046454,
+      "runtimeSeconds": 0.3824269000000413,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-rapid-di-ei-gb-dmg-4084bb73.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-rapid-di-ei-gb-dmg-4084bb73.png",
         "width": 160,
         "height": 144
       }
@@ -2227,12 +2227,12 @@
       "system": "dmg",
       "description": null,
       "sourceUrl": null,
-      "status": "fail",
+      "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05651779999993778,
-      "runtimeSeconds": 7.591726999999992,
+      "startupSeconds": 0.04415330000006179,
+      "runtimeSeconds": 0.27261699999996836,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-reti-intr-timing-gb-dmg-2f8b895c.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-reti-intr-timing-gb-dmg-2f8b895c.png",
         "width": 160,
         "height": 144
       }
@@ -2248,10 +2248,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07741689999988921,
-      "runtimeSeconds": 5.121922600000062,
+      "startupSeconds": 0.05319639999993342,
+      "runtimeSeconds": 0.4233259000000089,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-reti-timing-gb-dmg-ec787688.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-reti-timing-gb-dmg-ec787688.png",
         "width": 160,
         "height": 144
       }
@@ -2267,10 +2267,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06520629999999983,
-      "runtimeSeconds": 5.121437999999898,
+      "startupSeconds": 0.04311369999993531,
+      "runtimeSeconds": 0.42386870000007093,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-ret-cc-timing-gb-dmg-c6dae4bb.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-ret-cc-timing-gb-dmg-c6dae4bb.png",
         "width": 160,
         "height": 144
       }
@@ -2286,10 +2286,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06332369999995535,
-      "runtimeSeconds": 5.185671200000115,
+      "startupSeconds": 0.04611680000004981,
+      "runtimeSeconds": 0.28499249999993026,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-ret-timing-gb-dmg-e73ee096.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-ret-timing-gb-dmg-e73ee096.png",
         "width": 160,
         "height": 144
       }
@@ -2305,10 +2305,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05271800000014082,
-      "runtimeSeconds": 5.104604699999982,
+      "startupSeconds": 0.04347829999994701,
+      "runtimeSeconds": 0.27081969999994726,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-rst-timing-gb-dmg-ceee4af4.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-rst-timing-gb-dmg-ceee4af4.png",
         "width": 160,
         "height": 144
       }
@@ -2324,10 +2324,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06406839999999647,
-      "runtimeSeconds": 5.207284300000083,
+      "startupSeconds": 0.04232170000000224,
+      "runtimeSeconds": 0.25380039999993187,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-serial-boot-sclk-align-dmgabcmgb-gb-dmg-45c85de9.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-serial-boot-sclk-align-dmgabcmgb-gb-dmg-45c85de9.png",
         "width": 160,
         "height": 144
       }
@@ -2343,10 +2343,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05993919999991704,
-      "runtimeSeconds": 5.206492400000116,
+      "startupSeconds": 0.05305550000002768,
+      "runtimeSeconds": 0.9651925000000574,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-timer-div-write-gb-dmg-fe22c522.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-timer-div-write-gb-dmg-fe22c522.png",
         "width": 160,
         "height": 144
       }
@@ -2360,12 +2360,12 @@
       "system": "dmg",
       "description": null,
       "sourceUrl": null,
-      "status": "fail",
+      "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05938660000015261,
-      "runtimeSeconds": 7.589691500000072,
+      "startupSeconds": 0.045495700000060424,
+      "runtimeSeconds": 0.26823400000000674,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-timer-rapid-toggle-gb-dmg-0843c009.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-timer-rapid-toggle-gb-dmg-0843c009.png",
         "width": 160,
         "height": 144
       }
@@ -2379,12 +2379,12 @@
       "system": "dmg",
       "description": null,
       "sourceUrl": null,
-      "status": "fail",
+      "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06422720000000481,
-      "runtimeSeconds": 7.539585400000078,
+      "startupSeconds": 0.04224820000001728,
+      "runtimeSeconds": 0.29057720000002973,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-timer-tim00-gb-dmg-2b8833ad.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-timer-tim00-gb-dmg-2b8833ad.png",
         "width": 160,
         "height": 144
       }
@@ -2398,12 +2398,12 @@
       "system": "dmg",
       "description": null,
       "sourceUrl": null,
-      "status": "fail",
+      "status": "pass",
       "reason": null,
-      "startupSeconds": 0.052535100000113744,
-      "runtimeSeconds": 7.566627699999799,
+      "startupSeconds": 0.042405899999948815,
+      "runtimeSeconds": 0.27220249999993484,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-timer-tim00-div-trigger-gb-dmg-c8b5f243.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-timer-tim00-div-trigger-gb-dmg-c8b5f243.png",
         "width": 160,
         "height": 144
       }
@@ -2417,12 +2417,12 @@
       "system": "dmg",
       "description": null,
       "sourceUrl": null,
-      "status": "fail",
+      "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06122729999992771,
-      "runtimeSeconds": 7.577357300000131,
+      "startupSeconds": 0.05551869999999326,
+      "runtimeSeconds": 0.29135580000001937,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-timer-tim01-gb-dmg-f495fe5e.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-timer-tim01-gb-dmg-f495fe5e.png",
         "width": 160,
         "height": 144
       }
@@ -2436,12 +2436,12 @@
       "system": "dmg",
       "description": null,
       "sourceUrl": null,
-      "status": "fail",
+      "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05303720000006251,
-      "runtimeSeconds": 7.560701599999902,
+      "startupSeconds": 0.05363009999996393,
+      "runtimeSeconds": 0.27685089999999946,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-timer-tim01-div-trigger-gb-dmg-a64d59b3.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-timer-tim01-div-trigger-gb-dmg-a64d59b3.png",
         "width": 160,
         "height": 144
       }
@@ -2455,12 +2455,12 @@
       "system": "dmg",
       "description": null,
       "sourceUrl": null,
-      "status": "fail",
+      "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05909950000000208,
-      "runtimeSeconds": 7.557247299999972,
+      "startupSeconds": 0.0536087000000407,
+      "runtimeSeconds": 0.2727677999999969,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-timer-tim10-gb-dmg-fb4191da.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-timer-tim10-gb-dmg-fb4191da.png",
         "width": 160,
         "height": 144
       }
@@ -2474,12 +2474,12 @@
       "system": "dmg",
       "description": null,
       "sourceUrl": null,
-      "status": "fail",
+      "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06506629999989855,
-      "runtimeSeconds": 7.529075499999863,
+      "startupSeconds": 0.04373649999990903,
+      "runtimeSeconds": 0.25922939999998107,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-timer-tim10-div-trigger-gb-dmg-da0af375.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-timer-tim10-div-trigger-gb-dmg-da0af375.png",
         "width": 160,
         "height": 144
       }
@@ -2493,12 +2493,12 @@
       "system": "dmg",
       "description": null,
       "sourceUrl": null,
-      "status": "fail",
+      "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06078890000003412,
-      "runtimeSeconds": 7.502212900000131,
+      "startupSeconds": 0.043001600000025064,
+      "runtimeSeconds": 0.28634230000000116,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-timer-tim11-gb-dmg-beb24be1.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-timer-tim11-gb-dmg-beb24be1.png",
         "width": 160,
         "height": 144
       }
@@ -2512,12 +2512,12 @@
       "system": "dmg",
       "description": null,
       "sourceUrl": null,
-      "status": "fail",
+      "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06469280000010258,
-      "runtimeSeconds": 7.501691400000027,
+      "startupSeconds": 0.043369100000063554,
+      "runtimeSeconds": 0.2701343999999608,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-timer-tim11-div-trigger-gb-dmg-8556ea9c.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-timer-tim11-div-trigger-gb-dmg-8556ea9c.png",
         "width": 160,
         "height": 144
       }
@@ -2533,10 +2533,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05358920000003309,
-      "runtimeSeconds": 5.1752025999999205,
+      "startupSeconds": 0.05440649999991365,
+      "runtimeSeconds": 0.27533280000000104,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-timer-tima-reload-gb-dmg-8b65a601.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-timer-tima-reload-gb-dmg-8b65a601.png",
         "width": 160,
         "height": 144
       }
@@ -2552,10 +2552,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06720429999995758,
-      "runtimeSeconds": 5.13962279999987,
+      "startupSeconds": 0.05273119999992559,
+      "runtimeSeconds": 0.2796465999999782,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-timer-tima-write-reloading-gb-dmg-4904e31b.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-timer-tima-write-reloading-gb-dmg-4904e31b.png",
         "width": 160,
         "height": 144
       }
@@ -2571,10 +2571,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06494169999996302,
-      "runtimeSeconds": 5.1814494000000195,
+      "startupSeconds": 0.0440005000000383,
+      "runtimeSeconds": 0.28845539999997527,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-acceptance-timer-tma-write-reloading-gb-dmg-0d6b2680.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-acceptance-timer-tma-write-reloading-gb-dmg-0d6b2680.png",
         "width": 160,
         "height": 144
       }
@@ -2590,10 +2590,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05537509999999202,
-      "runtimeSeconds": 5.148254599999973,
+      "startupSeconds": 0.04379749999998239,
+      "runtimeSeconds": 3.08122800000001,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-emulator-only-mbc1-bits-bank1-gb-dmg-d4779942.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-emulator-only-mbc1-bits-bank1-gb-dmg-d4779942.png",
         "width": 160,
         "height": 144
       }
@@ -2609,10 +2609,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05665180000005421,
-      "runtimeSeconds": 5.0970563999999285,
+      "startupSeconds": 0.04234099999996488,
+      "runtimeSeconds": 3.0103324000000384,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-emulator-only-mbc1-bits-bank2-gb-dmg-ad4d785a.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-emulator-only-mbc1-bits-bank2-gb-dmg-ad4d785a.png",
         "width": 160,
         "height": 144
       }
@@ -2628,10 +2628,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06005520000007891,
-      "runtimeSeconds": 5.147229299999935,
+      "startupSeconds": 0.044505399999934525,
+      "runtimeSeconds": 3.105658299999959,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-emulator-only-mbc1-bits-mode-gb-dmg-39790683.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-emulator-only-mbc1-bits-mode-gb-dmg-39790683.png",
         "width": 160,
         "height": 144
       }
@@ -2647,10 +2647,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06633489999990161,
-      "runtimeSeconds": 5.916261599999871,
+      "startupSeconds": 0.0547438000000966,
+      "runtimeSeconds": 5.968591200000105,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-emulator-only-mbc1-bits-ramg-gb-dmg-8b7f2c6e.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-emulator-only-mbc1-bits-ramg-gb-dmg-8b7f2c6e.png",
         "width": 160,
         "height": 144
       }
@@ -2666,10 +2666,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06323509999992893,
-      "runtimeSeconds": 5.151486299999988,
+      "startupSeconds": 0.04367879999995239,
+      "runtimeSeconds": 0.4018849000000273,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-emulator-only-mbc1-multicart-rom-8mb-gb-dmg-2a8c180d.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-emulator-only-mbc1-multicart-rom-8mb-gb-dmg-2a8c180d.png",
         "width": 160,
         "height": 144
       }
@@ -2685,10 +2685,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06407479999984389,
-      "runtimeSeconds": 5.128522199999907,
+      "startupSeconds": 0.04480829999999969,
+      "runtimeSeconds": 1.067322699999977,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-emulator-only-mbc1-ram-256kb-gb-dmg-4f19a03b.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-emulator-only-mbc1-ram-256kb-gb-dmg-4f19a03b.png",
         "width": 160,
         "height": 144
       }
@@ -2704,10 +2704,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06901169999991907,
-      "runtimeSeconds": 5.2030979000001025,
+      "startupSeconds": 0.05399679999993623,
+      "runtimeSeconds": 1.0713392000000113,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-emulator-only-mbc1-ram-64kb-gb-dmg-e6a8f87c.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-emulator-only-mbc1-ram-64kb-gb-dmg-e6a8f87c.png",
         "width": 160,
         "height": 144
       }
@@ -2723,10 +2723,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06591490000005251,
-      "runtimeSeconds": 5.15763579999998,
+      "startupSeconds": 0.05375930000002427,
+      "runtimeSeconds": 0.40790560000004916,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-emulator-only-mbc1-rom-16mb-gb-dmg-ea133176.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-emulator-only-mbc1-rom-16mb-gb-dmg-ea133176.png",
         "width": 160,
         "height": 144
       }
@@ -2742,10 +2742,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06257389999996121,
-      "runtimeSeconds": 5.167012699999987,
+      "startupSeconds": 0.042214399999920715,
+      "runtimeSeconds": 0.2873577000000296,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-emulator-only-mbc1-rom-1mb-gb-dmg-4ab29126.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-emulator-only-mbc1-rom-1mb-gb-dmg-4ab29126.png",
         "width": 160,
         "height": 144
       }
@@ -2761,10 +2761,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06338989999994737,
-      "runtimeSeconds": 5.193334899999854,
+      "startupSeconds": 0.056385900000009315,
+      "runtimeSeconds": 0.4025977999999668,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-emulator-only-mbc1-rom-2mb-gb-dmg-b335b204.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-emulator-only-mbc1-rom-2mb-gb-dmg-b335b204.png",
         "width": 160,
         "height": 144
       }
@@ -2780,10 +2780,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06587760000002163,
-      "runtimeSeconds": 5.1726962000000185,
+      "startupSeconds": 0.044583099999954356,
+      "runtimeSeconds": 0.2815913999999111,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-emulator-only-mbc1-rom-4mb-gb-dmg-012aacea.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-emulator-only-mbc1-rom-4mb-gb-dmg-012aacea.png",
         "width": 160,
         "height": 144
       }
@@ -2799,10 +2799,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0631640999999945,
-      "runtimeSeconds": 5.112817599999971,
+      "startupSeconds": 0.046868399999993926,
+      "runtimeSeconds": 0.3941443999999592,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-emulator-only-mbc1-rom-512kb-gb-dmg-f61866d0.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-emulator-only-mbc1-rom-512kb-gb-dmg-f61866d0.png",
         "width": 160,
         "height": 144
       }
@@ -2818,10 +2818,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06954099999984464,
-      "runtimeSeconds": 5.176601799999844,
+      "startupSeconds": 0.05332900000007612,
+      "runtimeSeconds": 0.2761480000000347,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-emulator-only-mbc1-rom-8mb-gb-dmg-4a58da3c.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-emulator-only-mbc1-rom-8mb-gb-dmg-4a58da3c.png",
         "width": 160,
         "height": 144
       }
@@ -2837,10 +2837,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05554009999991649,
-      "runtimeSeconds": 6.085794599999872,
+      "startupSeconds": 0.041679600000065875,
+      "runtimeSeconds": 6.099333200000046,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-emulator-only-mbc2-bits-ramg-gb-dmg-d40e6933.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-emulator-only-mbc2-bits-ramg-gb-dmg-d40e6933.png",
         "width": 160,
         "height": 144
       }
@@ -2856,10 +2856,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05505319999997482,
-      "runtimeSeconds": 5.0921158000001014,
+      "startupSeconds": 0.05454100000008566,
+      "runtimeSeconds": 3.2647653999999875,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-emulator-only-mbc2-bits-romb-gb-dmg-8042ce4a.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-emulator-only-mbc2-bits-romb-gb-dmg-8042ce4a.png",
         "width": 160,
         "height": 144
       }
@@ -2875,10 +2875,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06371370000010756,
-      "runtimeSeconds": 5.169033800000079,
+      "startupSeconds": 0.04344670000000406,
+      "runtimeSeconds": 3.0841996000000336,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-emulator-only-mbc2-bits-unused-gb-dmg-b0f22d36.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-emulator-only-mbc2-bits-unused-gb-dmg-b0f22d36.png",
         "width": 160,
         "height": 144
       }
@@ -2894,10 +2894,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06371130000002267,
-      "runtimeSeconds": 5.129246799999919,
+      "startupSeconds": 0.05291999999997188,
+      "runtimeSeconds": 0.5521612999999661,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-emulator-only-mbc2-ram-gb-dmg-c8cb9a3f.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-emulator-only-mbc2-ram-gb-dmg-c8cb9a3f.png",
         "width": 160,
         "height": 144
       }
@@ -2913,10 +2913,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06510220000018307,
-      "runtimeSeconds": 5.2132373000001735,
+      "startupSeconds": 0.041342600000007224,
+      "runtimeSeconds": 0.2751307999999426,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-emulator-only-mbc2-rom-1mb-gb-dmg-38a66bb1.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-emulator-only-mbc2-rom-1mb-gb-dmg-38a66bb1.png",
         "width": 160,
         "height": 144
       }
@@ -2932,10 +2932,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06186699999989287,
-      "runtimeSeconds": 5.0886209000000235,
+      "startupSeconds": 0.05215520000001561,
+      "runtimeSeconds": 0.2852294999999003,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-emulator-only-mbc2-rom-2mb-gb-dmg-8c4129d6.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-emulator-only-mbc2-rom-2mb-gb-dmg-8c4129d6.png",
         "width": 160,
         "height": 144
       }
@@ -2951,10 +2951,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05333330000007663,
-      "runtimeSeconds": 5.112591800000018,
+      "startupSeconds": 0.0446266999999807,
+      "runtimeSeconds": 0.3836845999999241,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-emulator-only-mbc2-rom-512kb-gb-dmg-75f74a5d.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-emulator-only-mbc2-rom-512kb-gb-dmg-75f74a5d.png",
         "width": 160,
         "height": 144
       }
@@ -2970,10 +2970,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06658900000002177,
-      "runtimeSeconds": 5.114370100000087,
+      "startupSeconds": 0.042565000000081454,
+      "runtimeSeconds": 0.2714446999999609,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-emulator-only-mbc5-rom-16mb-gb-dmg-8d45404f.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-emulator-only-mbc5-rom-16mb-gb-dmg-8d45404f.png",
         "width": 160,
         "height": 144
       }
@@ -2989,10 +2989,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06587070000000494,
-      "runtimeSeconds": 5.219037099999923,
+      "startupSeconds": 0.05383249999999862,
+      "runtimeSeconds": 0.26915089999999964,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-emulator-only-mbc5-rom-1mb-gb-dmg-5cacf3a9.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-emulator-only-mbc5-rom-1mb-gb-dmg-5cacf3a9.png",
         "width": 160,
         "height": 144
       }
@@ -3008,10 +3008,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06888030000004619,
-      "runtimeSeconds": 5.214700400000083,
+      "startupSeconds": 0.045250099999975646,
+      "runtimeSeconds": 0.41317340000000513,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-emulator-only-mbc5-rom-2mb-gb-dmg-2e2aca69.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-emulator-only-mbc5-rom-2mb-gb-dmg-2e2aca69.png",
         "width": 160,
         "height": 144
       }
@@ -3027,10 +3027,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06333670000003622,
-      "runtimeSeconds": 5.1780301999999665,
+      "startupSeconds": 0.04390620000003764,
+      "runtimeSeconds": 0.39895239999998466,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-emulator-only-mbc5-rom-32mb-gb-dmg-ace23259.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-emulator-only-mbc5-rom-32mb-gb-dmg-ace23259.png",
         "width": 160,
         "height": 144
       }
@@ -3046,10 +3046,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06589099999996506,
-      "runtimeSeconds": 5.111880200000087,
+      "startupSeconds": 0.054708000000005086,
+      "runtimeSeconds": 0.2917984999999135,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-emulator-only-mbc5-rom-4mb-gb-dmg-180a2f1a.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-emulator-only-mbc5-rom-4mb-gb-dmg-180a2f1a.png",
         "width": 160,
         "height": 144
       }
@@ -3065,10 +3065,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06275949999985642,
-      "runtimeSeconds": 5.203658599999926,
+      "startupSeconds": 0.04423359999998411,
+      "runtimeSeconds": 0.2838355999999749,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-emulator-only-mbc5-rom-512kb-gb-dmg-32e195d5.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-emulator-only-mbc5-rom-512kb-gb-dmg-32e195d5.png",
         "width": 160,
         "height": 144
       }
@@ -3084,10 +3084,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05402330000015354,
-      "runtimeSeconds": 5.101046199999928,
+      "startupSeconds": 0.05718520000004901,
+      "runtimeSeconds": 0.304462199999989,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-emulator-only-mbc5-rom-64mb-gb-dmg-e6ab18f6.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-emulator-only-mbc5-rom-64mb-gb-dmg-e6ab18f6.png",
         "width": 160,
         "height": 144
       }
@@ -3103,10 +3103,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06906869999988885,
-      "runtimeSeconds": 5.122322200000099,
+      "startupSeconds": 0.055301200000030803,
+      "runtimeSeconds": 0.39029279999999744,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-emulator-only-mbc5-rom-8mb-gb-dmg-f19d2327.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-emulator-only-mbc5-rom-8mb-gb-dmg-f19d2327.png",
         "width": 160,
         "height": 144
       }
@@ -3122,10 +3122,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06404819999988831,
-      "runtimeSeconds": 5.209567400000196,
+      "startupSeconds": 0.042924500000026455,
+      "runtimeSeconds": 0.26801690000002054,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-manual-only-sprite-priority-gb-dmg-e44061f7.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-manual-only-sprite-priority-gb-dmg-e44061f7.png",
         "width": 160,
         "height": 144
       }
@@ -3141,10 +3141,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06289270000002034,
-      "runtimeSeconds": 5.214611099999956,
+      "startupSeconds": 0.04215089999991051,
+      "runtimeSeconds": 0.25432230000001255,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-misc-boot-div-cgbabcde-gb-cgb-4718e3a1.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-misc-boot-div-cgbabcde-gb-cgb-4718e3a1.png",
         "width": 160,
         "height": 144
       }
@@ -3160,10 +3160,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06171449999987999,
-      "runtimeSeconds": 5.2035622999999305,
+      "startupSeconds": 0.05513810000002195,
+      "runtimeSeconds": 0.27381510000009257,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mooneye-misc-boot-regs-cgb-gb-cgb-e3f63362.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mooneye-misc-boot-regs-cgb-gb-cgb-e3f63362.png",
         "width": 160,
         "height": 144
       }
@@ -3179,10 +3179,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.060372700000016266,
-      "runtimeSeconds": 5.090124800000012,
+      "startupSeconds": 0.05330969999999979,
+      "runtimeSeconds": 0.14784240000005866,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-1-channel-1-align-gb-cgb-fe5d98f2.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-1-channel-1-align-gb-cgb-fe5d98f2.png",
         "width": 160,
         "height": 144
       }
@@ -3198,10 +3198,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06421719999980269,
-      "runtimeSeconds": 5.1396027999999205,
+      "startupSeconds": 0.04293919999997797,
+      "runtimeSeconds": 0.27408939999997983,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-1-channel-1-align-cpu-gb-cgb-de51ba29.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-1-channel-1-align-cpu-gb-cgb-de51ba29.png",
         "width": 160,
         "height": 144
       }
@@ -3217,10 +3217,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06753389999994397,
-      "runtimeSeconds": 5.221733099999938,
+      "startupSeconds": 0.05567689999998038,
+      "runtimeSeconds": 0.14632889999995768,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-1-channel-1-delay-gb-cgb-e6191b9b.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-1-channel-1-delay-gb-cgb-e6191b9b.png",
         "width": 160,
         "height": 144
       }
@@ -3236,10 +3236,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.057321600000022954,
-      "runtimeSeconds": 5.2100101000000905,
+      "startupSeconds": 0.04408479999995052,
+      "runtimeSeconds": 0.27032090000000153,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-1-channel-1-duty-gb-cgb-c5587f25.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-1-channel-1-duty-gb-cgb-c5587f25.png",
         "width": 160,
         "height": 144
       }
@@ -3255,10 +3255,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.061486600000080216,
-      "runtimeSeconds": 5.229862400000002,
+      "startupSeconds": 0.04180080000003272,
+      "runtimeSeconds": 0.1447732999999971,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-1-channel-1-duty-delay-gb-cgb-cc8cf400.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-1-channel-1-duty-delay-gb-cgb-cc8cf400.png",
         "width": 160,
         "height": 144
       }
@@ -3274,10 +3274,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06559790000005705,
-      "runtimeSeconds": 5.163944099999981,
+      "startupSeconds": 0.053718300000014096,
+      "runtimeSeconds": 0.13404800000000705,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-1-channel-1-freq-change-gb-cgb-3635dd1c.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-1-channel-1-freq-change-gb-cgb-3635dd1c.png",
         "width": 160,
         "height": 144
       }
@@ -3293,10 +3293,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06408399999986614,
-      "runtimeSeconds": 5.1203720000000885,
+      "startupSeconds": 0.042642400000090674,
+      "runtimeSeconds": 0.402541000000042,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-1-channel-1-nrx2-glitch-gb-cgb-4a3f3319.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-1-channel-1-nrx2-glitch-gb-cgb-4a3f3319.png",
         "width": 160,
         "height": 144
       }
@@ -3312,10 +3312,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05863320000003114,
-      "runtimeSeconds": 5.155031799999961,
+      "startupSeconds": 0.05813260000002174,
+      "runtimeSeconds": 2.687542800000074,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-1-channel-1-nrx2-speed-change-gb-cgb-5eb918f2.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-1-channel-1-nrx2-speed-change-gb-cgb-5eb918f2.png",
         "width": 160,
         "height": 144
       }
@@ -3331,10 +3331,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07037119999995411,
-      "runtimeSeconds": 5.089500699999917,
+      "startupSeconds": 0.04340639999998075,
+      "runtimeSeconds": 0.28682019999996555,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-1-channel-1-restart-gb-cgb-795b4b47.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-1-channel-1-restart-gb-cgb-795b4b47.png",
         "width": 160,
         "height": 144
       }
@@ -3350,10 +3350,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06569539999986773,
-      "runtimeSeconds": 5.101700199999868,
+      "startupSeconds": 0.05497099999990951,
+      "runtimeSeconds": 0.12567120000005616,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-1-channel-1-restart-nrx2-glitch-gb-cgb-f0572b8b.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-1-channel-1-restart-nrx2-glitch-gb-cgb-f0572b8b.png",
         "width": 160,
         "height": 144
       }
@@ -3369,10 +3369,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05197339999995165,
-      "runtimeSeconds": 5.228678500000115,
+      "startupSeconds": 0.052933600000073966,
+      "runtimeSeconds": 0.405485399999975,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-1-channel-1-stop-div-gb-cgb-6a8b2e84.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-1-channel-1-stop-div-gb-cgb-6a8b2e84.png",
         "width": 160,
         "height": 144
       }
@@ -3388,10 +3388,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05413199999998142,
-      "runtimeSeconds": 5.22493970000005,
+      "startupSeconds": 0.046854700000039884,
+      "runtimeSeconds": 0.13733860000002096,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-1-channel-1-stop-restart-gb-cgb-990aa00e.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-1-channel-1-stop-restart-gb-cgb-990aa00e.png",
         "width": 160,
         "height": 144
       }
@@ -3407,10 +3407,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.054133500000034473,
-      "runtimeSeconds": 5.2251128000000335,
+      "startupSeconds": 0.04250379999996312,
+      "runtimeSeconds": 1.0970525999999836,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-1-channel-1-sweep-gb-cgb-4ffcf7ff.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-1-channel-1-sweep-gb-cgb-4ffcf7ff.png",
         "width": 160,
         "height": 144
       }
@@ -3426,10 +3426,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06566290000000663,
-      "runtimeSeconds": 5.165724100000034,
+      "startupSeconds": 0.0429229999999734,
+      "runtimeSeconds": 1.0819437999999764,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-1-channel-1-sweep-restart-gb-cgb-3f90b4bb.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-1-channel-1-sweep-restart-gb-cgb-3f90b4bb.png",
         "width": 160,
         "height": 144
       }
@@ -3445,10 +3445,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05283889999986968,
-      "runtimeSeconds": 5.1671076000000085,
+      "startupSeconds": 0.05631779999998798,
+      "runtimeSeconds": 0.9568099999999049,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-1-channel-1-sweep-restart-2-gb-cgb-0fc030b8.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-1-channel-1-sweep-restart-2-gb-cgb-0fc030b8.png",
         "width": 160,
         "height": 144
       }
@@ -3464,10 +3464,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06314279999992323,
-      "runtimeSeconds": 5.124748700000055,
+      "startupSeconds": 0.04562999999996009,
+      "runtimeSeconds": 0.26988599999992857,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-1-channel-1-volume-gb-cgb-7039a291.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-1-channel-1-volume-gb-cgb-7039a291.png",
         "width": 160,
         "height": 144
       }
@@ -3483,10 +3483,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.059270599999990736,
-      "runtimeSeconds": 5.180051299999832,
+      "startupSeconds": 0.04664100000002236,
+      "runtimeSeconds": 1.6768233999999893,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-1-channel-1-volume-div-gb-cgb-9bc7839f.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-1-channel-1-volume-div-gb-cgb-9bc7839f.png",
         "width": 160,
         "height": 144
       }
@@ -3502,10 +3502,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06052900000008776,
-      "runtimeSeconds": 5.120875800000022,
+      "startupSeconds": 0.0738566999999648,
+      "runtimeSeconds": 0.2797503000000461,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-2-channel-2-align-gb-cgb-7fbe7c8a.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-2-channel-2-align-gb-cgb-7fbe7c8a.png",
         "width": 160,
         "height": 144
       }
@@ -3521,10 +3521,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06026629999996658,
-      "runtimeSeconds": 5.19900819999998,
+      "startupSeconds": 0.04880900000000565,
+      "runtimeSeconds": 0.14962900000000445,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-2-channel-2-align-cpu-gb-cgb-54c1f6a1.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-2-channel-2-align-cpu-gb-cgb-54c1f6a1.png",
         "width": 160,
         "height": 144
       }
@@ -3540,10 +3540,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06031399999983478,
-      "runtimeSeconds": 5.175300899999911,
+      "startupSeconds": 0.042806199999972705,
+      "runtimeSeconds": 0.1309128000000328,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-2-channel-2-delay-gb-cgb-967667ca.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-2-channel-2-delay-gb-cgb-967667ca.png",
         "width": 160,
         "height": 144
       }
@@ -3559,10 +3559,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06122129999994286,
-      "runtimeSeconds": 5.168488799999977,
+      "startupSeconds": 0.05384189999995215,
+      "runtimeSeconds": 0.2788379999999506,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-2-channel-2-duty-gb-cgb-838ec8a8.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-2-channel-2-duty-gb-cgb-838ec8a8.png",
         "width": 160,
         "height": 144
       }
@@ -3578,10 +3578,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06921790000001238,
-      "runtimeSeconds": 5.142172999999957,
+      "startupSeconds": 0.054806399999961286,
+      "runtimeSeconds": 0.14362629999993715,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-2-channel-2-duty-delay-gb-cgb-28bdea08.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-2-channel-2-duty-delay-gb-cgb-28bdea08.png",
         "width": 160,
         "height": 144
       }
@@ -3597,10 +3597,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06355590000021039,
-      "runtimeSeconds": 5.1758204000000205,
+      "startupSeconds": 0.04335109999999531,
+      "runtimeSeconds": 0.26850769999998647,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-2-channel-2-freq-change-gb-cgb-af9d918e.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-2-channel-2-freq-change-gb-cgb-af9d918e.png",
         "width": 160,
         "height": 144
       }
@@ -3616,10 +3616,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05727500000011787,
-      "runtimeSeconds": 5.169673500000044,
+      "startupSeconds": 0.04165530000000217,
+      "runtimeSeconds": 0.43295279999995273,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-2-channel-2-nrx2-glitch-gb-cgb-c976266e.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-2-channel-2-nrx2-glitch-gb-cgb-c976266e.png",
         "width": 160,
         "height": 144
       }
@@ -3635,10 +3635,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06464219999998022,
-      "runtimeSeconds": 5.092783999999938,
+      "startupSeconds": 0.044388000000026295,
+      "runtimeSeconds": 2.7247572999999647,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-2-channel-2-nrx2-speed-change-gb-cgb-aab182ec.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-2-channel-2-nrx2-speed-change-gb-cgb-aab182ec.png",
         "width": 160,
         "height": 144
       }
@@ -3654,10 +3654,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06080610000003617,
-      "runtimeSeconds": 5.208345100000088,
+      "startupSeconds": 0.04359390000001895,
+      "runtimeSeconds": 0.28604230000007647,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-2-channel-2-restart-gb-cgb-b447eb34.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-2-channel-2-restart-gb-cgb-b447eb34.png",
         "width": 160,
         "height": 144
       }
@@ -3673,10 +3673,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05659279999986211,
-      "runtimeSeconds": 5.143307900000082,
+      "startupSeconds": 0.044161499999972875,
+      "runtimeSeconds": 0.26858149999998204,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-2-channel-2-restart-nrx2-glitch-gb-cgb-a5114bee.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-2-channel-2-restart-nrx2-glitch-gb-cgb-a5114bee.png",
         "width": 160,
         "height": 144
       }
@@ -3692,10 +3692,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06539219999990564,
-      "runtimeSeconds": 5.130036999999902,
+      "startupSeconds": 0.054366100000038386,
+      "runtimeSeconds": 0.40864300000009735,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-2-channel-2-stop-div-gb-cgb-f2c9f0bb.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-2-channel-2-stop-div-gb-cgb-f2c9f0bb.png",
         "width": 160,
         "height": 144
       }
@@ -3711,10 +3711,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06574369999998453,
-      "runtimeSeconds": 5.142527599999994,
+      "startupSeconds": 0.04382939999993596,
+      "runtimeSeconds": 0.14075729999990472,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-2-channel-2-stop-restart-gb-cgb-b2a94b06.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-2-channel-2-stop-restart-gb-cgb-b2a94b06.png",
         "width": 160,
         "height": 144
       }
@@ -3730,10 +3730,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.052772900000036316,
-      "runtimeSeconds": 5.22881869999992,
+      "startupSeconds": 0.05558059999998477,
+      "runtimeSeconds": 0.27328190000002905,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-2-channel-2-volume-gb-cgb-7dabd4e6.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-2-channel-2-volume-gb-cgb-7dabd4e6.png",
         "width": 160,
         "height": 144
       }
@@ -3749,10 +3749,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06376810000006117,
-      "runtimeSeconds": 5.132495400000153,
+      "startupSeconds": 0.042697699999962424,
+      "runtimeSeconds": 0.953894699999978,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-2-channel-2-volume-div-gb-cgb-8e47ba64.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-2-channel-2-volume-div-gb-cgb-8e47ba64.png",
         "width": 160,
         "height": 144
       }
@@ -3768,10 +3768,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05954479999991236,
-      "runtimeSeconds": 5.169113199999856,
+      "startupSeconds": 0.04424710000000687,
+      "runtimeSeconds": 0.25641380000001845,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-3-channel-3-and-glitch-gb-cgb-7fbae8e6.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-3-channel-3-and-glitch-gb-cgb-7fbae8e6.png",
         "width": 160,
         "height": 144
       }
@@ -3787,10 +3787,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.061435699999947246,
-      "runtimeSeconds": 5.185384499999827,
+      "startupSeconds": 0.0418793999999707,
+      "runtimeSeconds": 0.30495250000001306,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-3-channel-3-delay-gb-cgb-00e9ef09.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-3-channel-3-delay-gb-cgb-00e9ef09.png",
         "width": 160,
         "height": 144
       }
@@ -3806,10 +3806,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06345479999981762,
-      "runtimeSeconds": 5.20659089999981,
+      "startupSeconds": 0.043196699999953125,
+      "runtimeSeconds": 0.1407788999999866,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-3-channel-3-first-sample-gb-cgb-cb1642e5.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-3-channel-3-first-sample-gb-cgb-cb1642e5.png",
         "width": 160,
         "height": 144
       }
@@ -3825,10 +3825,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06713579999996,
-      "runtimeSeconds": 5.087819600000103,
+      "startupSeconds": 0.041740799999956835,
+      "runtimeSeconds": 0.2728619999999182,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-3-channel-3-freq-change-delay-gb-cgb-08de8392.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-3-channel-3-freq-change-delay-gb-cgb-08de8392.png",
         "width": 160,
         "height": 144
       }
@@ -3844,10 +3844,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06426360000000386,
-      "runtimeSeconds": 5.184312899999895,
+      "startupSeconds": 0.05405510000002778,
+      "runtimeSeconds": 0.2908926000000065,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-3-channel-3-restart-delay-gb-cgb-00f96408.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-3-channel-3-restart-delay-gb-cgb-00f96408.png",
         "width": 160,
         "height": 144
       }
@@ -3863,10 +3863,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0633024999999634,
-      "runtimeSeconds": 5.226304200000186,
+      "startupSeconds": 0.04295220000005884,
+      "runtimeSeconds": 0.2586718000000019,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-3-channel-3-restart-during-delay-gb-cgb-4acdff61.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-3-channel-3-restart-during-delay-gb-cgb-4acdff61.png",
         "width": 160,
         "height": 144
       }
@@ -3882,10 +3882,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06427819999998974,
-      "runtimeSeconds": 5.200611999999865,
+      "startupSeconds": 0.04193920000000162,
+      "runtimeSeconds": 0.2886060999999245,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-3-channel-3-restart-stop-delay-gb-cgb-15fbee2c.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-3-channel-3-restart-stop-delay-gb-cgb-15fbee2c.png",
         "width": 160,
         "height": 144
       }
@@ -3901,10 +3901,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06290609999996377,
-      "runtimeSeconds": 5.09972619999985,
+      "startupSeconds": 0.04236649999995734,
+      "runtimeSeconds": 0.27055730000006406,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-3-channel-3-shift-delay-gb-cgb-13f2c3ba.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-3-channel-3-shift-delay-gb-cgb-13f2c3ba.png",
         "width": 160,
         "height": 144
       }
@@ -3920,10 +3920,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05327639999995881,
-      "runtimeSeconds": 5.144533899999942,
+      "startupSeconds": 0.04191070000001673,
+      "runtimeSeconds": 0.14449930000000677,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-3-channel-3-shift-skip-delay-gb-cgb-ccd7cc77.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-3-channel-3-shift-skip-delay-gb-cgb-ccd7cc77.png",
         "width": 160,
         "height": 144
       }
@@ -3939,10 +3939,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.056863199999952485,
-      "runtimeSeconds": 5.2355139000001145,
+      "startupSeconds": 0.04322830000000977,
+      "runtimeSeconds": 0.28329699999994773,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-3-channel-3-stop-delay-gb-cgb-3710d440.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-3-channel-3-stop-delay-gb-cgb-3710d440.png",
         "width": 160,
         "height": 144
       }
@@ -3958,10 +3958,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05452390000004925,
-      "runtimeSeconds": 5.233196599999928,
+      "startupSeconds": 0.06466089999992164,
+      "runtimeSeconds": 0.5519600999999739,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-3-channel-3-stop-div-gb-cgb-ffed553d.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-3-channel-3-stop-div-gb-cgb-ffed553d.png",
         "width": 160,
         "height": 144
       }
@@ -3977,10 +3977,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.060998700000027384,
-      "runtimeSeconds": 5.138018099999954,
+      "startupSeconds": 0.04750780000006216,
+      "runtimeSeconds": 0.13894310000000587,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-3-channel-3-wave-ram-locked-write-gb-cgb-5ffed63a.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-3-channel-3-wave-ram-locked-write-gb-cgb-5ffed63a.png",
         "width": 160,
         "height": 144
       }
@@ -3996,10 +3996,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06330459999981031,
-      "runtimeSeconds": 5.190744600000016,
+      "startupSeconds": 0.044224799999938114,
+      "runtimeSeconds": 0.25409259999992173,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-3-channel-3-wave-ram-sync-gb-cgb-4abcf802.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-3-channel-3-wave-ram-sync-gb-cgb-4abcf802.png",
         "width": 160,
         "height": 144
       }
@@ -4015,10 +4015,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05946110000013505,
-      "runtimeSeconds": 5.195111700000098,
+      "startupSeconds": 0.04292370000007395,
+      "runtimeSeconds": 0.14167390000000069,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-4-channel-4-align-gb-cgb-46ded3ff.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-4-channel-4-align-gb-cgb-46ded3ff.png",
         "width": 160,
         "height": 144
       }
@@ -4034,10 +4034,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06420360000015535,
-      "runtimeSeconds": 5.184375399999908,
+      "startupSeconds": 0.04434359999993376,
+      "runtimeSeconds": 0.14681469999993624,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-4-channel-4-delay-gb-cgb-b7166b08.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-4-channel-4-delay-gb-cgb-b7166b08.png",
         "width": 160,
         "height": 144
       }
@@ -4053,10 +4053,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0648575999998684,
-      "runtimeSeconds": 5.106115300000056,
+      "startupSeconds": 0.047017400000072485,
+      "runtimeSeconds": 0.285327299999949,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-4-channel-4-equivalent-frequencies-gb-cgb-4f2dcbc8.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-4-channel-4-equivalent-frequencies-gb-cgb-4f2dcbc8.png",
         "width": 160,
         "height": 144
       }
@@ -4072,10 +4072,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0603457999998227,
-      "runtimeSeconds": 5.180044700000053,
+      "startupSeconds": 0.04409380000004148,
+      "runtimeSeconds": 0.2721771000000217,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-4-channel-4-frequency-alignment-gb-cgb-c0cbbd50.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-4-channel-4-frequency-alignment-gb-cgb-c0cbbd50.png",
         "width": 160,
         "height": 144
       }
@@ -4091,10 +4091,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.059523399999989124,
-      "runtimeSeconds": 5.233220899999878,
+      "startupSeconds": 0.04501670000001923,
+      "runtimeSeconds": 0.2851634999999533,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-4-channel-4-freq-change-gb-cgb-a9079292.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-4-channel-4-freq-change-gb-cgb-a9079292.png",
         "width": 160,
         "height": 144
       }
@@ -4110,10 +4110,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0601065999999264,
-      "runtimeSeconds": 5.111919100000023,
+      "startupSeconds": 0.04177740000000085,
+      "runtimeSeconds": 0.27468820000001415,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-4-channel-4-lfsr-gb-cgb-80f6eabe.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-4-channel-4-lfsr-gb-cgb-80f6eabe.png",
         "width": 160,
         "height": 144
       }
@@ -4129,10 +4129,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.060374999999794454,
-      "runtimeSeconds": 5.108331299999918,
+      "startupSeconds": 0.042399999999929605,
+      "runtimeSeconds": 0.2749936999999818,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-4-channel-4-lfsr15-gb-cgb-bf546f26.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-4-channel-4-lfsr15-gb-cgb-bf546f26.png",
         "width": 160,
         "height": 144
       }
@@ -4148,10 +4148,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06972799999994095,
-      "runtimeSeconds": 5.16244880000022,
+      "startupSeconds": 0.04195700000002489,
+      "runtimeSeconds": 0.2845661000000064,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-4-channel-4-lfsr-15-7-gb-cgb-ad34c5e8.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-4-channel-4-lfsr-15-7-gb-cgb-ad34c5e8.png",
         "width": 160,
         "height": 144
       }
@@ -4167,10 +4167,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.060723699999925884,
-      "runtimeSeconds": 5.18493269999999,
+      "startupSeconds": 0.04242099999999027,
+      "runtimeSeconds": 0.2555791000000909,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-4-channel-4-lfsr-7-15-gb-cgb-f7d60273.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-4-channel-4-lfsr-7-15-gb-cgb-f7d60273.png",
         "width": 160,
         "height": 144
       }
@@ -4186,10 +4186,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06127220000007583,
-      "runtimeSeconds": 5.217573500000071,
+      "startupSeconds": 0.04358439999998609,
+      "runtimeSeconds": 0.28586510000002363,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-4-channel-4-lfsr-restart-gb-cgb-b29534c7.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-4-channel-4-lfsr-restart-gb-cgb-b29534c7.png",
         "width": 160,
         "height": 144
       }
@@ -4205,10 +4205,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06599329999994552,
-      "runtimeSeconds": 5.17288480000002,
+      "startupSeconds": 0.04148889999999028,
+      "runtimeSeconds": 0.2715172000000621,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-4-channel-4-lfsr-restart-fast-gb-cgb-a87e7e0a.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-4-channel-4-lfsr-restart-fast-gb-cgb-a87e7e0a.png",
         "width": 160,
         "height": 144
       }
@@ -4224,10 +4224,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.060677599999962695,
-      "runtimeSeconds": 5.14953289999994,
+      "startupSeconds": 0.053634900000020025,
+      "runtimeSeconds": 1.7483397999999397,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-channel-4-channel-4-volume-div-gb-cgb-660acde0.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-channel-4-channel-4-volume-div-gb-cgb-660acde0.png",
         "width": 160,
         "height": 144
       }
@@ -4243,10 +4243,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05317320000017389,
-      "runtimeSeconds": 5.166129799999908,
+      "startupSeconds": 0.0533636000000115,
+      "runtimeSeconds": 1.2537560000000667,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-div-trigger-volume-10-gb-cgb-c5771225.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-div-trigger-volume-10-gb-cgb-c5771225.png",
         "width": 160,
         "height": 144
       }
@@ -4262,10 +4262,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06012759999998707,
-      "runtimeSeconds": 5.200827300000128,
+      "startupSeconds": 0.05297849999999471,
+      "runtimeSeconds": 1.0795385000000124,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-div-write-trigger-gb-cgb-77b0b72f.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-div-write-trigger-gb-cgb-77b0b72f.png",
         "width": 160,
         "height": 144
       }
@@ -4281,10 +4281,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05292609999992237,
-      "runtimeSeconds": 5.145823199999995,
+      "startupSeconds": 0.042941900000073474,
+      "runtimeSeconds": 1.2139267000000018,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-div-write-trigger-10-gb-cgb-5d7be77f.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-div-write-trigger-10-gb-cgb-5d7be77f.png",
         "width": 160,
         "height": 144
       }
@@ -4300,10 +4300,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05603629999995974,
-      "runtimeSeconds": 5.116097899999886,
+      "startupSeconds": 0.05402100000003429,
+      "runtimeSeconds": 0.6872938000000204,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-div-write-trigger-volume-gb-cgb-d96e789a.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-div-write-trigger-volume-gb-cgb-d96e789a.png",
         "width": 160,
         "height": 144
       }
@@ -4319,10 +4319,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.058617500000082146,
-      "runtimeSeconds": 5.183584599999904,
+      "startupSeconds": 0.04309980000004998,
+      "runtimeSeconds": 0.6991193999999723,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-apu-div-write-trigger-volume-10-gb-cgb-9f46a579.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-apu-div-write-trigger-volume-10-gb-cgb-9f46a579.png",
         "width": 160,
         "height": 144
       }
@@ -4338,10 +4338,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0625620999999228,
-      "runtimeSeconds": 5.137221999999838,
+      "startupSeconds": 0.05332320000002255,
+      "runtimeSeconds": 0.27729549999992287,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-dma-gbc-dma-cont-gb-cgb-691bcf96.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-dma-gbc-dma-cont-gb-cgb-691bcf96.png",
         "width": 160,
         "height": 144
       }
@@ -4357,10 +4357,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.058293699999921955,
-      "runtimeSeconds": 5.186981599999854,
+      "startupSeconds": 0.054777500000000146,
+      "runtimeSeconds": 0.14511229999993702,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-dma-gdma-addr-mask-gb-cgb-5b964b62.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-dma-gdma-addr-mask-gb-cgb-5b964b62.png",
         "width": 160,
         "height": 144
       }
@@ -4376,10 +4376,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06540589999985968,
-      "runtimeSeconds": 5.135875299999952,
+      "startupSeconds": 0.045724699999937,
+      "runtimeSeconds": 0.2675537999999733,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-dma-hdma-lcd-off-gb-cgb-a3b41999.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-dma-hdma-lcd-off-gb-cgb-a3b41999.png",
         "width": 160,
         "height": 144
       }
@@ -4395,10 +4395,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06670599999984006,
-      "runtimeSeconds": 5.218764199999896,
+      "startupSeconds": 0.05453609999995024,
+      "runtimeSeconds": 0.27589259999990645,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-dma-hdma-mode0-gb-cgb-000cea33.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-dma-hdma-mode0-gb-cgb-000cea33.png",
         "width": 160,
         "height": 144
       }
@@ -4414,10 +4414,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06578959999978906,
-      "runtimeSeconds": 5.1271423000000595,
+      "startupSeconds": 0.06464389999996456,
+      "runtimeSeconds": 0.26702690000001894,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/samesuite-ppu-blocking-bgpi-increase-gb-cgb-08d7fc75.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-ppu-blocking-bgpi-increase-gb-cgb-08d7fc75.png",
         "width": 160,
         "height": 144
       }
@@ -4431,11 +4431,15 @@
       "system": "sgb",
       "description": null,
       "sourceUrl": null,
-      "status": "missing",
-      "reason": "No result was recorded; the legacy data does not identify why.",
-      "startupSeconds": null,
-      "runtimeSeconds": null,
-      "screenshot": null
+      "status": "fail",
+      "reason": null,
+      "startupSeconds": 0.046075900000005277,
+      "runtimeSeconds": 16.584699699999987,
+      "screenshot": {
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-sgb-command-mlt-req-gb-sgb-29553939.png",
+        "width": 160,
+        "height": 144
+      }
     },
     {
       "testId": "samesuite-sgb-command-mlt-req-1-incrementing-gb-sgb-f6819484",
@@ -4446,11 +4450,15 @@
       "system": "sgb",
       "description": null,
       "sourceUrl": null,
-      "status": "missing",
-      "reason": "No result was recorded; the legacy data does not identify why.",
-      "startupSeconds": null,
-      "runtimeSeconds": null,
-      "screenshot": null
+      "status": "fail",
+      "reason": null,
+      "startupSeconds": 0.06482169999992493,
+      "runtimeSeconds": 16.617326400000024,
+      "screenshot": {
+        "url": "screenshots/super-snes9x/legacy-1790260280/samesuite-sgb-command-mlt-req-1-incrementing-gb-sgb-f6819484.png",
+        "width": 160,
+        "height": 144
+      }
     },
     {
       "testId": "ashiepaws-bully-gb-dmg-dmg-fc52bff4",
@@ -4461,12 +4469,12 @@
       "system": "dmg",
       "description": "A collection of multiple test cases testing a variety of behaviors. (See Repository for Details)",
       "sourceUrl": "https://github.com/Ashiepaws/BullyGB",
-      "status": "fail",
+      "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06600129999992532,
-      "runtimeSeconds": 6.60838149999995,
+      "startupSeconds": 0.056752299999971,
+      "runtimeSeconds": 0.2714677000000165,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/ashiepaws-bully-gb-dmg-dmg-fc52bff4.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/ashiepaws-bully-gb-dmg-dmg-fc52bff4.png",
         "width": 160,
         "height": 144
       }
@@ -4482,10 +4490,10 @@
       "sourceUrl": "https://github.com/Ashiepaws/BullyGB",
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05192699999997785,
-      "runtimeSeconds": 5.192545399999972,
+      "startupSeconds": 0.05326399999989917,
+      "runtimeSeconds": 0.13101589999996577,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/ashiepaws-bully-gb-gbc-cgb-aca14ea5.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/ashiepaws-bully-gb-gbc-cgb-aca14ea5.png",
         "width": 160,
         "height": 144
       }
@@ -4501,10 +4509,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.060732100000223,
-      "runtimeSeconds": 5.206187799999952,
+      "startupSeconds": 0.053104699999948934,
+      "runtimeSeconds": 0.13159889999997176,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/ashiepaws-strikethrough-gb-dmg-60dd4d99.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/ashiepaws-strikethrough-gb-dmg-60dd4d99.png",
         "width": 160,
         "height": 144
       }
@@ -4520,10 +4528,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06380859999990207,
-      "runtimeSeconds": 5.0915257000001475,
+      "startupSeconds": 0.044892600000025595,
+      "runtimeSeconds": 0.2668522999999823,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/cpp-rtc-invalid-banks-test-gb-dmg-7abf0945.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/cpp-rtc-invalid-banks-test-gb-dmg-7abf0945.png",
         "width": 160,
         "height": 144
       }
@@ -4539,10 +4547,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06672859999980574,
-      "runtimeSeconds": 5.225307799999882,
+      "startupSeconds": 0.05599680000000262,
+      "runtimeSeconds": 0.27730129999997644,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/cpp-latch-rtc-test-gb-dmg-3307b249.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/cpp-latch-rtc-test-gb-dmg-3307b249.png",
         "width": 160,
         "height": 144
       }
@@ -4558,10 +4566,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06330849999994825,
-      "runtimeSeconds": 5.149691500000017,
+      "startupSeconds": 0.04310699999996359,
+      "runtimeSeconds": 0.25681809999991856,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/cpp-ramg-mbc3-test-gb-dmg-c4a5ad08.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/cpp-ramg-mbc3-test-gb-dmg-c4a5ad08.png",
         "width": 160,
         "height": 144
       }
@@ -4575,11 +4583,15 @@
       "system": "sgb",
       "description": "Tests the SGB packet protocol, doing various \"stress tests\" which cannot be passed without correctly emulating the SGB packet protocol. (See repository for passing reference)",
       "sourceUrl": "https://github.com/CasualPokePlayer/test-roms/tree/sgb-ext-test",
-      "status": "missing",
-      "reason": "No result was recorded; the legacy data does not identify why.",
-      "startupSeconds": null,
-      "runtimeSeconds": null,
-      "screenshot": null
+      "status": "fail",
+      "reason": null,
+      "startupSeconds": 0.043714699999895856,
+      "runtimeSeconds": 15.571688300000005,
+      "screenshot": {
+        "url": "screenshots/super-snes9x/legacy-1790260280/cpp-sgb-ext-test-gb-sgb-2aee2d24.png",
+        "width": 160,
+        "height": 144
+      }
     },
     {
       "testId": "mealybug-tearoom-tests-ppu-m2-win-en-toggle-gb-dmg-dmg-49d7cd7c",
@@ -4592,10 +4604,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06315380000000914,
-      "runtimeSeconds": 5.128433000000086,
+      "startupSeconds": 0.04428139999993164,
+      "runtimeSeconds": 0.25404760000003535,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mealybug-tearoom-tests-ppu-m2-win-en-toggle-gb-dmg-dmg-49d7cd7c.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mealybug-tearoom-tests-ppu-m2-win-en-toggle-gb-dmg-dmg-49d7cd7c.png",
         "width": 160,
         "height": 144
       }
@@ -4611,10 +4623,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06036539999990964,
-      "runtimeSeconds": 5.215731000000005,
+      "startupSeconds": 0.053037199999948825,
+      "runtimeSeconds": 0.13162830000010217,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mealybug-tearoom-tests-ppu-m3-bgp-change-gb-dmg-dmg-4ce20d7f.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mealybug-tearoom-tests-ppu-m3-bgp-change-gb-dmg-dmg-4ce20d7f.png",
         "width": 160,
         "height": 144
       }
@@ -4630,10 +4642,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06550939999988259,
-      "runtimeSeconds": 5.20129750000001,
+      "startupSeconds": 0.05433730000004289,
+      "runtimeSeconds": 0.14793989999998303,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mealybug-tearoom-tests-ppu-m3-bgp-change-sprites-gb-dmg-dmg-e41b5168.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mealybug-tearoom-tests-ppu-m3-bgp-change-sprites-gb-dmg-dmg-e41b5168.png",
         "width": 160,
         "height": 144
       }
@@ -4649,10 +4661,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06684210000003077,
-      "runtimeSeconds": 5.11158660000001,
+      "startupSeconds": 0.04200619999994615,
+      "runtimeSeconds": 0.12851929999999356,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mealybug-tearoom-tests-ppu-m3-lcdc-bg-en-change-gb-dmg-dmg-266fe81d.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mealybug-tearoom-tests-ppu-m3-lcdc-bg-en-change-gb-dmg-dmg-266fe81d.png",
         "width": 160,
         "height": 144
       }
@@ -4668,10 +4680,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0638690000000679,
-      "runtimeSeconds": 5.2066652999999405,
+      "startupSeconds": 0.04380589999993845,
+      "runtimeSeconds": 0.1410749000000351,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mealybug-tearoom-tests-ppu-m3-lcdc-bg-map-change-gb-dmg-dmg-91f40501.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mealybug-tearoom-tests-ppu-m3-lcdc-bg-map-change-gb-dmg-dmg-91f40501.png",
         "width": 160,
         "height": 144
       }
@@ -4687,10 +4699,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05953290000002198,
-      "runtimeSeconds": 5.184549400000151,
+      "startupSeconds": 0.044463500000006206,
+      "runtimeSeconds": 0.13973520000001827,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mealybug-tearoom-tests-ppu-m3-lcdc-obj-en-change-gb-dmg-dmg-277b5edf.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mealybug-tearoom-tests-ppu-m3-lcdc-obj-en-change-gb-dmg-dmg-277b5edf.png",
         "width": 160,
         "height": 144
       }
@@ -4706,10 +4718,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05370659999994132,
-      "runtimeSeconds": 5.1797039999999015,
+      "startupSeconds": 0.043243700000061835,
+      "runtimeSeconds": 0.1420368999999937,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mealybug-tearoom-tests-ppu-m3-lcdc-obj-en-change-variant-gb-dmg-dmg-88dd6675.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mealybug-tearoom-tests-ppu-m3-lcdc-obj-en-change-variant-gb-dmg-dmg-88dd6675.png",
         "width": 160,
         "height": 144
       }
@@ -4725,10 +4737,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06394399999999223,
-      "runtimeSeconds": 5.190502600000173,
+      "startupSeconds": 0.042664899999977024,
+      "runtimeSeconds": 0.14148199999999633,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mealybug-tearoom-tests-ppu-m3-lcdc-obj-size-change-gb-dmg-dmg-1a0cdefe.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mealybug-tearoom-tests-ppu-m3-lcdc-obj-size-change-gb-dmg-dmg-1a0cdefe.png",
         "width": 160,
         "height": 144
       }
@@ -4744,10 +4756,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05967789999999695,
-      "runtimeSeconds": 5.18246350000004,
+      "startupSeconds": 0.042296400000054746,
+      "runtimeSeconds": 0.14068680000002587,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mealybug-tearoom-tests-ppu-m3-lcdc-obj-size-change-scx-gb-dmg-dmg-c1b9b99e.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mealybug-tearoom-tests-ppu-m3-lcdc-obj-size-change-scx-gb-dmg-dmg-c1b9b99e.png",
         "width": 160,
         "height": 144
       }
@@ -4763,10 +4775,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0560221000000638,
-      "runtimeSeconds": 5.193680100000165,
+      "startupSeconds": 0.05495050000001811,
+      "runtimeSeconds": 0.1348815999999715,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mealybug-tearoom-tests-ppu-m3-lcdc-tile-sel-change-gb-dmg-dmg-975934db.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mealybug-tearoom-tests-ppu-m3-lcdc-tile-sel-change-gb-dmg-dmg-975934db.png",
         "width": 160,
         "height": 144
       }
@@ -4782,10 +4794,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06036399999993591,
-      "runtimeSeconds": 5.15604970000004,
+      "startupSeconds": 0.04274889999999232,
+      "runtimeSeconds": 0.12458089999995536,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mealybug-tearoom-tests-ppu-m3-lcdc-tile-sel-win-change-gb-dmg-dmg-cec19685.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mealybug-tearoom-tests-ppu-m3-lcdc-tile-sel-win-change-gb-dmg-dmg-cec19685.png",
         "width": 160,
         "height": 144
       }
@@ -4801,10 +4813,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06118949999995493,
-      "runtimeSeconds": 5.2185411999998905,
+      "startupSeconds": 0.04224900000008347,
+      "runtimeSeconds": 0.14288089999990916,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mealybug-tearoom-tests-ppu-m3-lcdc-win-en-change-multi-8f067cd6-dmg-2e2659c1.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mealybug-tearoom-tests-ppu-m3-lcdc-win-en-change-multi-8f067cd6-dmg-2e2659c1.png",
         "width": 160,
         "height": 144
       }
@@ -4820,10 +4832,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06585160000008727,
-      "runtimeSeconds": 5.09582290000003,
+      "startupSeconds": 0.04316429999994398,
+      "runtimeSeconds": 0.12715270000001055,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mealybug-tearoom-tests-ppu-m3-lcdc-win-en-change-multi-37be6e90-dmg-5ea411ff.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mealybug-tearoom-tests-ppu-m3-lcdc-win-en-change-multi-37be6e90-dmg-5ea411ff.png",
         "width": 160,
         "height": 144
       }
@@ -4839,10 +4851,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.057733099999950355,
-      "runtimeSeconds": 5.179153999999926,
+      "startupSeconds": 0.0444939000000204,
+      "runtimeSeconds": 0.13955929999997352,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mealybug-tearoom-tests-ppu-m3-lcdc-win-map-change-gb-dmg-dmg-d343d7a3.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mealybug-tearoom-tests-ppu-m3-lcdc-win-map-change-gb-dmg-dmg-d343d7a3.png",
         "width": 160,
         "height": 144
       }
@@ -4858,10 +4870,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05852730000015072,
-      "runtimeSeconds": 5.213155500000084,
+      "startupSeconds": 0.04264409999996133,
+      "runtimeSeconds": 0.13986420000003363,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mealybug-tearoom-tests-ppu-m3-obp0-change-gb-dmg-dmg-43692086.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mealybug-tearoom-tests-ppu-m3-obp0-change-gb-dmg-dmg-43692086.png",
         "width": 160,
         "height": 144
       }
@@ -4877,10 +4889,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06888600000002043,
-      "runtimeSeconds": 5.206622899999957,
+      "startupSeconds": 0.043784800000025825,
+      "runtimeSeconds": 0.12537520000000768,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mealybug-tearoom-tests-ppu-m3-scx-high-5-bits-gb-dmg-dmg-bd9b113e.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mealybug-tearoom-tests-ppu-m3-scx-high-5-bits-gb-dmg-dmg-bd9b113e.png",
         "width": 160,
         "height": 144
       }
@@ -4896,10 +4908,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06647459999999228,
-      "runtimeSeconds": 5.207627300000013,
+      "startupSeconds": 0.04216899999994439,
+      "runtimeSeconds": 0.12377419999995709,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mealybug-tearoom-tests-ppu-m3-scx-low-3-bits-gb-dmg-dmg-e6cdccf4.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mealybug-tearoom-tests-ppu-m3-scx-low-3-bits-gb-dmg-dmg-e6cdccf4.png",
         "width": 160,
         "height": 144
       }
@@ -4915,10 +4927,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05763180000008106,
-      "runtimeSeconds": 5.098940999999968,
+      "startupSeconds": 0.04385619999993651,
+      "runtimeSeconds": 0.2543945000001031,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mealybug-tearoom-tests-ppu-m3-scy-change-gb-dmg-dmg-c6113da3.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mealybug-tearoom-tests-ppu-m3-scy-change-gb-dmg-dmg-c6113da3.png",
         "width": 160,
         "height": 144
       }
@@ -4934,10 +4946,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05886179999993146,
-      "runtimeSeconds": 5.177842999999939,
+      "startupSeconds": 0.05478610000000117,
+      "runtimeSeconds": 0.13454679999995278,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mealybug-tearoom-tests-ppu-m3-window-timing-gb-dmg-dmg-67b4de78.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mealybug-tearoom-tests-ppu-m3-window-timing-gb-dmg-dmg-67b4de78.png",
         "width": 160,
         "height": 144
       }
@@ -4953,10 +4965,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.05938249999985601,
-      "runtimeSeconds": 5.219158800000059,
+      "startupSeconds": 0.04214420000005248,
+      "runtimeSeconds": 0.127070099999969,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mealybug-tearoom-tests-ppu-m3-window-timing-wx-0-gb-dmg-dmg-313602fb.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mealybug-tearoom-tests-ppu-m3-window-timing-wx-0-gb-dmg-dmg-313602fb.png",
         "width": 160,
         "height": 144
       }
@@ -4972,10 +4984,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.04904450000003635,
-      "runtimeSeconds": 5.203618499999948,
+      "startupSeconds": 0.04261799999994764,
+      "runtimeSeconds": 0.25558730000000196,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mealybug-tearoom-tests-ppu-m3-wx-4-change-gb-dmg-dmg-a4ee9ce6.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mealybug-tearoom-tests-ppu-m3-wx-4-change-gb-dmg-dmg-a4ee9ce6.png",
         "width": 160,
         "height": 144
       }
@@ -4991,10 +5003,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06841629999985344,
-      "runtimeSeconds": 5.164175599999908,
+      "startupSeconds": 0.05447490000005928,
+      "runtimeSeconds": 0.2541975999999977,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mealybug-tearoom-tests-ppu-m3-wx-4-change-sprites-gb-dmg-dmg-6bb9a727.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mealybug-tearoom-tests-ppu-m3-wx-4-change-sprites-gb-dmg-dmg-6bb9a727.png",
         "width": 160,
         "height": 144
       }
@@ -5010,10 +5022,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06327540000006593,
-      "runtimeSeconds": 5.192692699999952,
+      "startupSeconds": 0.05235940000000028,
+      "runtimeSeconds": 0.27739020000001346,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mealybug-tearoom-tests-ppu-m3-wx-5-change-gb-dmg-dmg-39e44f69.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mealybug-tearoom-tests-ppu-m3-wx-5-change-gb-dmg-dmg-39e44f69.png",
         "width": 160,
         "height": 144
       }
@@ -5029,10 +5041,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.059462100000018836,
-      "runtimeSeconds": 5.134502500000053,
+      "startupSeconds": 0.06747099999995498,
+      "runtimeSeconds": 0.28097569999999905,
       "screenshot": {
-        "url": "screenshots/super-snes9x/legacy-1790246480/mealybug-tearoom-tests-ppu-m3-wx-6-change-gb-dmg-dmg-96f73ce0.png",
+        "url": "screenshots/super-snes9x/legacy-1790260280/mealybug-tearoom-tests-ppu-m3-wx-6-change-gb-dmg-dmg-96f73ce0.png",
         "width": 160,
         "height": 144
       }
