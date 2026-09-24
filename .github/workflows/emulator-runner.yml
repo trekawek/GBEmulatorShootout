@@ -103,7 +103,9 @@ jobs:
           & $devcon install $screamInf '*Scream'
 
       - name: Run emulator tests
-        run: python -u main.py --emulator "${{ inputs.emulator }}"
+        env:
+          EMULATOR_ID: ${{ inputs.emulator }}
+        run: python -u main.py --emulator $env:EMULATOR_ID
 
       - name: Upload emulator results
         uses: actions/upload-artifact@v7

@@ -7,8 +7,8 @@ import time
 
 
 class Goomba(Emulator):
-    def __init__(self):
-        super().__init__("Goomba", "https://www.dwedit.org/gba/goombacolor.php", startup_time=1.0)
+    def __init__(self, spec):
+        super().__init__(spec.name, spec.url, startup_time=1.0)
         self.title_check = lambda title: "mGBA" in title
     
     def setup(self):

@@ -1,7 +1,13 @@
-name: CI - all emulators
+name: CI - emulators
 
 on:
   workflow_dispatch:
+    inputs:
+      emulator:
+        description: Emulator ID from catalog.yaml, or all
+        type: string
+        required: false
+        default: all
   schedule:
     # Run off the top of the hour to reduce GitHub Actions scheduling delays.
     - cron: '27 3 * * *'
@@ -10,93 +16,25 @@ permissions:
   contents: write
 
 jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.catalog.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v6
+      - name: Install catalog dependency
+        run: python3 -m pip install -r requirements-catalog.txt
+      - name: Select emulators from the catalog
+        id: catalog
+        env:
+          EMULATOR_SELECTION: ${{ inputs.emulator }}
+        run: python3 -m catalog ci-matrix >> "$GITHUB_OUTPUT"
+
   run-all:
+    needs: prepare
     strategy:
       fail-fast: false
-      matrix:
-        include:
-          - emulator: Beaten Dying Moon
-            needs_chromedriver: false
-            needs_audio: true
-            extra_requirements: ''
-          - emulator: mGBA
-            needs_chromedriver: false
-            needs_audio: true
-            extra_requirements: ''
-          - emulator: KiGB
-            needs_chromedriver: false
-            needs_audio: true
-            extra_requirements: ''
-          - emulator: SameBoy
-            needs_chromedriver: false
-            needs_audio: true
-            extra_requirements: ''
-          - emulator: SuperSnes9x
-            needs_chromedriver: false
-            needs_audio: true
-            extra_requirements: ''
-          - emulator: bgb
-            needs_chromedriver: false
-            needs_audio: true
-            extra_requirements: ''
-          - emulator: VisualBoyAdvance
-            needs_chromedriver: false
-            needs_audio: false
-            extra_requirements: ''
-          - emulator: VisualBoyAdvance-M
-            needs_chromedriver: false
-            needs_audio: true
-            extra_requirements: ''
-          - emulator: No$gmb
-            needs_chromedriver: false
-            needs_audio: true
-            extra_requirements: ''
-          - emulator: GambatteSpeedrun
-            needs_chromedriver: false
-            needs_audio: true
-            extra_requirements: ''
-          - emulator: Emulicious
-            needs_chromedriver: false
-            needs_audio: true
-            extra_requirements: ''
-          - emulator: Goomba
-            needs_chromedriver: false
-            needs_audio: true
-            extra_requirements: ''
-          - emulator: binjgb
-            needs_chromedriver: false
-            needs_audio: true
-            extra_requirements: ''
-          - emulator: Coffee GB
-            needs_chromedriver: false
-            needs_audio: false
-            needs_java: true
-            timeout_minutes: 60
-            extra_requirements: ''
-          - emulator: PyBoy
-            needs_chromedriver: false
-            needs_audio: true
-            extra_requirements: ''
-          - emulator: ares
-            needs_chromedriver: false
-            needs_audio: true
-            extra_requirements: ''
-          - emulator: Emmy
-            needs_chromedriver: true
-            needs_audio: false
-            extra_requirements: requirements-emmy.txt
-          - emulator: gameroy
-            needs_chromedriver: false
-            needs_audio: true
-            extra_requirements: ''
-          - emulator: DocBoy
-            needs_chromedriver: false
-            needs_audio: true
-            extra_requirements: ''
-          - emulator: GSE
-            needs_chromedriver: false
-            needs_audio: true
-            extra_requirements: ''
+      matrix: ${{ fromJSON(needs.prepare.outputs.matrix) }}
     uses: ./.github/workflows/emulator-runner.yml
     with:
       emulator: ${{ matrix.emulator }}
@@ -107,6 +45,6 @@ jobs:
       extra_requirements: ${{ matrix.extra_requirements }}
 
   deploy-pages:
-    if: ${{ always() }}
-    needs: run-all
+    if: ${{ always() && needs.prepare.result == 'success' && (github.event_name == 'schedule' || inputs.emulator == 'all' || needs.run-all.result == 'success') }}
+    needs: [prepare, run-all]
     uses: ./.github/workflows/deploy-pages.yml

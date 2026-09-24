@@ -7,8 +7,8 @@ import shutil
 
 
 class Binjgb(Emulator):
-    def __init__(self):
-        super().__init__("binjgb", "https://github.com/binji/binjgb", startup_time=1.0)
+    def __init__(self, spec):
+        super().__init__(spec.name, spec.url, startup_time=1.0)
     
     def setup(self):
         downloadGithubRelease("binji/binjgb", "downloads/binjgb.tar.gz")

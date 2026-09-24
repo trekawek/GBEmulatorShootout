@@ -7,8 +7,8 @@ import re
 
 
 class Emulicious(Emulator):
-    def __init__(self):
-        super().__init__("Emulicious", "https://emulicious.net/", startup_time=1.0, features=(PCM,))
+    def __init__(self, spec):
+        super().__init__(spec.name, spec.url, startup_time=1.0, features=(PCM,))
     
     def setup(self):
         download("https://emulicious.net/download/emulicious/?wpdmdl=205", "downloads/Emulicious.zip")

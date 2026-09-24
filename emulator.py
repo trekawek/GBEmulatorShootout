@@ -4,6 +4,7 @@ import PIL.Image
 from collections import namedtuple
 
 from util import *
+from catalog import result_filename
 
 
 TestResult = namedtuple('TestResult', ['result', 'screenshot', 'startuptime', 'runtime'])
@@ -153,7 +154,7 @@ class Emulator:
         return startup_time, screenshot
 
     def getJsonFilename(self):
-        return "%s.json" % (self.name.replace(" ", "_").lower())
+        return result_filename(self.name)
 
     def __repr__(self):
         return self.name

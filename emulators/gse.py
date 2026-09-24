@@ -4,8 +4,8 @@ from test import *
 
 
 class GSE(Emulator):
-    def __init__(self):
-        super().__init__("GSE", "https://github.com/CasualPokePlayer/GSE", startup_time=4.5, features=(PCM,))
+    def __init__(self, spec):
+        super().__init__(spec.name, spec.url, startup_time=4.5, features=(PCM,))
 
         self.title_check = lambda title: "GSE" in title
 

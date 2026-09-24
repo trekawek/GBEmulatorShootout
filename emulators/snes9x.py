@@ -10,14 +10,14 @@ from util import downloadGithubRelease, extract, getScreenshot, setDPIScaling
 
 
 class SuperSnes9x(Emulator):
-    def __init__(self):
+    def __init__(self, spec):
         super().__init__(
-            "SuperSnes9x",
-            "https://github.com/shanytc/snes9x/releases",
+            spec.name,
+            spec.url,
             startup_time=1.0,
             features=(PCM,),
         )
-        self.title_check = lambda title: "SuperSnes9x" in title
+        self.title_check = lambda title: self.name in title
 
     def setup(self):
         archive_filename = "downloads/super-snes9x-nightly-windows.zip"

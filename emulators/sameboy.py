@@ -11,8 +11,8 @@ class SameBoy(Emulator):
     PROMPT_TITLE = "Associate SameBoy with Game Boy ROMs"
     PROMPT_TIMEOUT = 15.0
 
-    def __init__(self):
-        super().__init__("SameBoy", "https://sameboy.github.io/", startup_time=4.5, features=(PCM,))
+    def __init__(self, spec):
+        super().__init__(spec.name, spec.url, startup_time=4.5, features=(PCM,))
     
     def setup(self):
         downloadGithubRelease("LIJI32/SameBoy", "downloads/sameboy.zip")

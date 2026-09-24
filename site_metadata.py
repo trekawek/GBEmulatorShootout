@@ -7,6 +7,8 @@ import os
 import re
 from pathlib import Path
 
+from catalog import EMULATORS as CATALOG_EMULATORS
+
 
 SCHEMA_VERSION = 1
 SCORE_POLICY = "legacy-nonfail-v1"
@@ -80,30 +82,9 @@ SUITES = [
 ]
 
 
-# These values describe what each adapter can select explicitly. ``None`` means
-# the adapter launches the emulator without forcing that model, so support is
-# unknown rather than absent.
 EMULATORS = {
-    "Beaten Dying Moon": {"id": "beaten-dying-moon", "systems": {"dmg": True, "cgb": True, "sgb": True}},
-    "mGBA": {"id": "mgba", "systems": {"dmg": True, "cgb": True, "sgb": True}},
-    "KiGB": {"id": "kigb", "systems": {"dmg": True, "cgb": True, "sgb": True}},
-    "SameBoy": {"id": "sameboy", "systems": {"dmg": True, "cgb": True, "sgb": True}},
-    "SuperSnes9x": {"id": "super-snes9x", "systems": {"dmg": True, "cgb": True, "sgb": False}},
-    "bgb": {"id": "bgb", "systems": {"dmg": True, "cgb": True, "sgb": True}},
-    "VisualBoyAdvance": {"id": "visualboyadvance", "systems": {"dmg": None, "cgb": None, "sgb": None}},
-    "VisualBoyAdvance-M": {"id": "visualboyadvance-m", "systems": {"dmg": True, "cgb": True, "sgb": True}},
-    "No$gmb": {"id": "no-gmb", "systems": {"dmg": None, "cgb": None, "sgb": None}},
-    "GambatteSpeedrun": {"id": "gambatte-speedrun", "systems": {"dmg": True, "cgb": True, "sgb": True}},
-    "Emulicious": {"id": "emulicious", "systems": {"dmg": True, "cgb": True, "sgb": False}},
-    "Goomba": {"id": "goomba", "systems": {"dmg": None, "cgb": None, "sgb": None}},
-    "binjgb": {"id": "binjgb", "systems": {"dmg": True, "cgb": None, "sgb": None}},
-    "Coffee GB": {"id": "coffee-gb", "systems": {"dmg": True, "cgb": True, "sgb": True}},
-    "PyBoy": {"id": "pyboy", "systems": {"dmg": True, "cgb": True, "sgb": False}},
-    "ares": {"id": "ares", "systems": {"dmg": True, "cgb": True, "sgb": False}},
-    "Emmy": {"id": "emmy", "systems": {"dmg": True, "cgb": True, "sgb": False}},
-    "gameroy": {"id": "gameroy", "systems": {"dmg": True, "cgb": False, "sgb": False}},
-    "docboy": {"id": "docboy", "systems": {"dmg": True, "cgb": True, "sgb": False}},
-    "GSE": {"id": "gse", "systems": {"dmg": True, "cgb": True, "sgb": True}},
+    spec.name: {"id": spec.page_id, "systems": spec.site_systems}
+    for spec in CATALOG_EMULATORS
 }
 
 

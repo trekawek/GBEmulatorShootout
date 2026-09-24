@@ -19,8 +19,8 @@ def _is_vbam_windows_x86_64_asset(name):
 
 
 class VBA(Emulator):
-    def __init__(self):
-        super().__init__("VisualBoyAdvance", "https://sourceforge.net/projects/vba", startup_time=0.6)
+    def __init__(self, spec):
+        super().__init__(spec.name, spec.url, startup_time=0.6)
 
     def _running_in_ci(self):
         return os.environ.get("CI") or os.environ.get("GITHUB_ACTIONS")
@@ -57,8 +57,8 @@ class VBA(Emulator):
 
 
 class VBAM(Emulator):
-    def __init__(self):
-        super().__init__("VisualBoyAdvance-M", "https://github.com/visualboyadvance-m/visualboyadvance-m", startup_time=1.0)
+    def __init__(self, spec):
+        super().__init__(spec.name, spec.url, startup_time=1.0)
         self.title_check = lambda title: "VisualBoyAdvance-M" in title
 
     def setup(self):

@@ -8,8 +8,8 @@ import PIL.Image
 import PIL.ImageOps
 
 class Ares(Emulator):
-    def __init__(self):
-        super().__init__("ares", "https://ares-emu.net/", startup_time=2.2, features=(PCM,))
+    def __init__(self, spec):
+        super().__init__(spec.name, spec.url, startup_time=2.2, features=(PCM,))
         self.title_check = lambda title: "ares" in title
 
     def setup(self):

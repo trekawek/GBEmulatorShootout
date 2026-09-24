@@ -10,7 +10,6 @@ import sys
 import argparse
 import json
 import traceback
-from importlib import import_module
 
 import testroms.blargg
 import testroms.mooneye
@@ -22,175 +21,8 @@ import testroms.ashiepaws
 import testroms.cpp
 import testroms.mealybug
 from test import *
-from site_metadata import EMULATORS as SITE_EMULATORS, test_to_metadata
-
-
-def _normalize_emulator_keyword(value):
-    return "".join(c for c in str(value).lower() if c.isalnum())
-
-
-def _matches_emulator_filter(filter_data, keywords):
-    if filter_data is None:
-        return True
-    normalized_keywords = {_normalize_emulator_keyword(keyword) for keyword in keywords}
-
-    out_filter = False
-    for f in filter_data:
-        if f.startswith("!"):
-            out_filter = True
-            if _normalize_emulator_keyword(f[1:]) in normalized_keywords:
-                return False
-    if out_filter:
-        return True
-
-    for f in filter_data:
-        if not f.startswith("!") and _normalize_emulator_keyword(f) in normalized_keywords:
-            return True
-    return False
-
-
-def _new_instance(module_name, class_name):
-    module = import_module(module_name)
-    return getattr(module, class_name)()
-
-
-EMULATOR_SPECS = [
-    {
-        'factory': lambda: _new_instance("emulators.bdm", "BDM"),
-        'keywords': ["Beaten Dying Moon", "bdm", "beaten"],
-        'name': "Beaten Dying Moon",
-        'url': "https://mattcurrie.com/bdm-demo/",
-    },
-    {
-        'factory': lambda: _new_instance("emulators.mgba", "MGBA"),
-        'keywords': ["mGBA", "mgba"],
-        'name': "mGBA",
-        'url': "https://mgba.io/",
-    },
-    {
-        'factory': lambda: _new_instance("emulators.kigb", "KiGB"),
-        'keywords': ["KiGB", "kigb"],
-        'name': "KiGB",
-        'url': "http://kigb.emuunlim.com/",
-    },
-    {
-        'factory': lambda: _new_instance("emulators.sameboy", "SameBoy"),
-        'keywords': ["SameBoy", "sameboy"],
-        'name': "SameBoy",
-        'url': "https://sameboy.github.io/",
-    },
-    {
-        'factory': lambda: _new_instance("emulators.snes9x", "SuperSnes9x"),
-        'keywords': ["SuperSnes9x", "Snes9x", "snes9x"],
-        'name': "SuperSnes9x",
-        'url': "https://github.com/shanytc/snes9x/releases",
-    },
-    {
-        'factory': lambda: _new_instance("emulators.bgb", "BGB"),
-        'keywords': ["bgb"],
-        'name': "bgb",
-        'url': "https://bgb.bircd.org/",
-    },
-    {
-        'factory': lambda: _new_instance("emulators.vba", "VBA"),
-        'keywords': ["VisualBoyAdvance", "vba"],
-        'name': "VisualBoyAdvance",
-        'url': "https://sourceforge.net/projects/vba",
-    },
-    {
-        'factory': lambda: _new_instance("emulators.vba", "VBAM"),
-        'keywords': ["VisualBoyAdvance-M", "vba-m", "vbam"],
-        'name': "VisualBoyAdvance-M",
-        'url': "https://github.com/visualboyadvance-m/visualboyadvance-m",
-    },
-    {
-        'factory': lambda: _new_instance("emulators.nocash", "NoCash"),
-        'keywords': ["No$gmb", "nocash", "no$gmb"],
-        'name': "No$gmb",
-        'url': "https://problemkaputt.de/gmb.htm",
-    },
-    {
-        'factory': lambda: _new_instance("emulators.gambatte", "GambatteSpeedrun"),
-        'keywords': ["GambatteSpeedrun", "gambatte"],
-        'name': "GambatteSpeedrun",
-        'url': "https://github.com/pokemon-speedrunning/gambatte-speedrun",
-    },
-    {
-        'factory': lambda: _new_instance("emulators.emulicious", "Emulicious"),
-        'keywords': ["Emulicious", "emulicious"],
-        'name': "Emulicious",
-        'url': "https://emulicious.net/",
-    },
-    {
-        'factory': lambda: _new_instance("emulators.goomba", "Goomba"),
-        'keywords': ["Goomba", "goomba"],
-        'name': "Goomba",
-        'url': "https://www.dwedit.org/gba/goombacolor.php",
-    },
-    {
-        'factory': lambda: _new_instance("emulators.binjgb", "Binjgb"),
-        'keywords': ["binjgb"],
-        'name': "binjgb",
-        'url': "https://github.com/binji/binjgb",
-    },
-    {
-        'factory': lambda: _new_instance("emulators.coffeegb", "CoffeeGB"),
-        'keywords': ["Coffee GB", "coffee-gb", "coffeegb"],
-        'name': "Coffee GB",
-        'url': "https://github.com/trekawek/coffee-gb",
-    },
-    {
-        'factory': lambda: _new_instance("emulators.pyboy", "PyBoy"),
-        'keywords': ["PyBoy", "pyboy"],
-        'name': "PyBoy",
-        'url': "https://github.com/Baekalfen/PyBoy",
-    },
-    {
-        'factory': lambda: _new_instance("emulators.ares", "Ares"),
-        'keywords': ["ares"],
-        'name': "ares",
-        'url': "https://ares-emu.net/",
-    },
-    {
-        'factory': lambda: _new_instance("emulators.emmy", "Emmy"),
-        'keywords': ["Emmy", "emmy"],
-        'name': "Emmy",
-        'url': "https://emmy.n1ark.com/",
-    },
-    {
-        'factory': lambda: _new_instance("emulators.gameroy", "GameRoy"),
-        'keywords': ["gameroy", "GameRoy"],
-        'name': "gameroy",
-        'url': "https://github.com/Rodrigodd/gameroy",
-    },
-    {
-        'factory': lambda: _new_instance("emulators.docboy", "DocBoy"),
-        'keywords': ["DocBoy", "docboy"],
-        'name': "docboy",
-        'url': "https://github.com/Docheinstein/docboy",
-    },
-    {
-        'factory': lambda: _new_instance("emulators.gse", "GSE"),
-        'keywords': ["Game Boy Speedrun Emulator", "GSE", "gse"],
-        'name': "GSE",
-        'url': "https://github.com/CasualPokePlayer/GSE",
-    },
-]
-
-
-def get_emulator_specs(filter_data):
-    return [
-        spec for spec in EMULATOR_SPECS
-        if _matches_emulator_filter(filter_data, spec['keywords'])
-    ]
-
-
-def get_emulator_json_filename(name):
-    return "%s.json" % (name.replace(" ", "_").lower())
-
-
-def load_emulators(filter_data):
-    return [spec['factory']() for spec in get_emulator_specs(filter_data)]
+from catalog import matching_emulators
+from site_metadata import test_to_metadata
 
 
 tests = testroms.acid.all + testroms.blargg.all + testroms.daid.all + testroms.ax6.all + testroms.mooneye.all + testroms.samesuite.all + testroms.ashiepaws.all + testroms.cpp.all + testroms.mealybug.all
@@ -241,15 +73,15 @@ if __name__ == "__main__":
         for test in tests
         if checkFilter(test, args.test) and checkFilter(test.model, args.model)
     ]
-    emulator_specs = get_emulator_specs(args.emulator)
+    emulator_specs = matching_emulators(args.emulator)
 
     if args.dump_emulators_json:
         json.dump({
-            spec['name']: {
-                'id': SITE_EMULATORS[spec['name']]['id'],
-                'file': get_emulator_json_filename(spec['name']),
-                'url': spec['url'],
-                'systems': SITE_EMULATORS[spec['name']]['systems'],
+            spec.name: {
+                'id': spec.page_id,
+                'file': spec.result_filename,
+                'url': spec.url,
+                'systems': spec.site_systems,
             } for spec in emulator_specs
         }, open("emulators.json", "wt"), indent="  ")
     if args.dump_tests_json:
@@ -259,7 +91,7 @@ if __name__ == "__main__":
         print("%d tests" % (len(tests)))
         sys.exit()
 
-    emulators = load_emulators(args.emulator)
+    emulators = [spec.create() for spec in emulator_specs]
 
     print("%d emulators" % (len(emulators)))
     print("%d tests" % (len(tests)))
