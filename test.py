@@ -34,6 +34,7 @@ class Test:
             result = [os.path.join("testroms", r) for r in result]
         else:
             result = [os.path.join("testroms", result)]
+        self.expected_paths = [filename for filename in result if os.path.isfile(filename)]
         
         def tryOpenImage(filename):
             if filename is not None and os.path.exists(filename):
