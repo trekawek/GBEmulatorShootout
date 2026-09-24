@@ -6,7 +6,7 @@ import PIL.Image
 
 from emulator import Emulator
 from test import CGB, DMG, PCM, SGB
-from util import downloadGithubRelease, extract, getScreenshot, setDPIScaling
+from util import download, downloadGithubRelease, extract, getScreenshot, setDPIScaling
 
 
 class SuperSnes9x(Emulator):
@@ -18,6 +18,7 @@ class SuperSnes9x(Emulator):
             features=(PCM,),
         )
         self.title_check = lambda title: self.name in title
+        self.sgb = False
 
     def setup(self):
         archive_filename = "downloads/super-snes9x-nightly-windows.zip"
@@ -43,22 +44,42 @@ class SuperSnes9x(Emulator):
         self.executable = executables[0]
         self.path = os.path.dirname(self.executable)
         setDPIScaling(self.executable)
+        # SGB mode also runs the SNES-side cartridge image.
+        download(
+            "https://raw.githubusercontent.com/interface/retroarch_system/"
+            "5f96368f6dbad5851cdb16a5041fefec4bdcd305/"
+            "Nintendo%20-%20Super%20Game%20Boy/SGB1.sfc",
+            os.path.join(self.path, "SGB1.sfc"),
+        )
+        download(
+            "https://gbdev.gg8.se/files/roms/bootroms/sgb_boot.bin",
+            os.path.join(self.path, "sgb_boot.bin"),
+        )
+        template = os.path.join(os.path.dirname(__file__), "snes9x.sgb.conf")
+        self.sgb_config = os.path.abspath(os.path.join(self.path, "snes9x.sgb.conf"))
+        with open(template, encoding="utf-8") as source:
+            config = source.read().format(
+                sgb1_bios=os.path.abspath(os.path.join(self.path, "SGB1.sfc")),
+                sgb1_boot_rom=os.path.abspath(os.path.join(self.path, "sgb_boot.bin")),
+            )
+        with open(self.sgb_config, "w", encoding="utf-8") as target:
+            target.write(config)
 
     def startProcess(self, rom, *, model, required_features):
-        # SuperSnes9x needs an external, copyrighted SGB/SGB2 BIOS for true
-        # Super Game Boy mode. The release does not include one.
-        if model == SGB:
-            return None
-
         config_name = {
             DMG: "snes9x.dmg.conf",
             CGB: "snes9x.gbc.conf",
+            SGB: "snes9x.sgb.conf",
         }.get(model)
         if config_name is None:
             return None
+        self.sgb = model == SGB
+        self.startup_time = 10.0 if self.sgb else 1.0
 
-        config = os.path.abspath(
-            os.path.join(os.path.dirname(__file__), config_name)
+        config = (
+            self.sgb_config
+            if model == SGB
+            else os.path.abspath(os.path.join(os.path.dirname(__file__), config_name))
         )
         return subprocess.Popen(
             [
@@ -76,6 +97,11 @@ class SuperSnes9x(Emulator):
         screenshot = getScreenshot(self.title_check)
         if screenshot is None:
             return None
+
+        if self.sgb:
+            # The SGB BIOS draws the GB picture at (48, 40) in the SNES
+            # frame; the configured window keeps that area at native size.
+            return screenshot.crop((48, 40, 208, 184))
 
         # SuperSnes9x uses one saved window size for both SNES and GB content,
         # so remove any letterboxing before normalizing the image.
