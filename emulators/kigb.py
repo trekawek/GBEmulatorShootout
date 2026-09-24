@@ -5,8 +5,8 @@ import os
 
 
 class KiGB(Emulator):
-    def __init__(self):
-        super().__init__("KiGB", "http://kigb.emuunlim.com/", startup_time=1.6)
+    def __init__(self, spec):
+        super().__init__(spec.name, spec.url, startup_time=1.6)
 
     def _running_in_ci(self):
         return os.environ.get("CI") or os.environ.get("GITHUB_ACTIONS")

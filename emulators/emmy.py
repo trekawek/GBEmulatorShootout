@@ -8,8 +8,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 import PIL.Image
 
 class Emmy(Emulator):
-    def __init__(self):
-        super().__init__("Emmy", "https://emmy.n1ark.com/", startup_time=0.5)
+    def __init__(self, spec):
+        super().__init__(spec.name, spec.url, startup_time=0.5)
         self.driver = None
         self.wait_timeout = 10.0
 

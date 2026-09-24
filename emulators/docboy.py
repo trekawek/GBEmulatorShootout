@@ -6,8 +6,8 @@ import shutil
 
 
 class DocBoy(Emulator):
-    def __init__(self):
-        super().__init__("DocBoy", "https://github.com/Docheinstein/docboy", startup_time=1, features=(PCM,))
+    def __init__(self, spec):
+        super().__init__(spec.name, spec.url, startup_time=1, features=(PCM,))
 
     def setup(self):
         for model in ["dmg", "cgb"]:

@@ -5,8 +5,8 @@ import shutil
 
 
 class BGB(Emulator):
-    def __init__(self):
-        super().__init__("bgb", "https://bgb.bircd.org/", startup_time=0.6, features=(PCM,))
+    def __init__(self, spec):
+        super().__init__(spec.name, spec.url, startup_time=0.6, features=(PCM,))
         self.speed = 10.0
 
     def setup(self):

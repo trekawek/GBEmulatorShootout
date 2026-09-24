@@ -20,25 +20,7 @@ If you'd like to contribute to the project, please read [CONTRIBUTING.md](CONTRI
 
 ## Tested emulators
 
-- [ares](https://ares-emu.net/)
-- [Beaten Dying Moon](https://mattcurrie.com/bdm-demo/)
-- [BGB](https://bgb.bircd.org/)
-- [binjgb](https://github.com/binji/binjgb)
-- [Coffee GB](https://github.com/trekawek/coffee-gb)
-- [DocBoy](https://github.com/Docheinstein/docboy)
-- [Emmy](https://emmy.n1ark.com/)
-- [Emulicious](https://emulicious.net/)
-- [Gambatte-Speedrun](https://github.com/pokemon-speedrunning/gambatte-speedrun)
-- [GameRoy](https://github.com/Rodrigodd/gameroy)
-- [Goomba Color](https://www.dwedit.org/gba/goombacolor.php)
-- [KiGB](http://kigb.emuunlim.com/)
-- [mGBA](https://mgba.io/)
-- [NO$GMB](https://problemkaputt.de/gmb.htm)
-- [PyBoy](https://github.com/Baekalfen/PyBoy)
-- [SameBoy](https://sameboy.github.io/)
-- [SuperSnes9x](https://github.com/shanytc/snes9x/releases)
-- [VisualBoyAdvance](https://sourceforge.net/projects/vba/)
-- [VisualBoyAdvance-M](https://github.com/visualboyadvance-m/visualboyadvance-m)
+The current emulator list and links are in the [results table](https://gbdev.io/GBEmulatorShootout/). The source of truth for running emulators is [`emulators/catalog.py`](emulators/catalog.py).
 
 ## System requirements
 

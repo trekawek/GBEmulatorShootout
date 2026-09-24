@@ -6,8 +6,8 @@ import os
 
 
 class GameRoy(Emulator):
-    def __init__(self):
-        super().__init__("gameroy", "https://github.com/Rodrigodd/gameroy", startup_time=0.8, features=None)
+    def __init__(self, spec):
+        super().__init__(spec.name, spec.url, startup_time=0.8, features=None)
         self.title_check = lambda title: title.endswith('gameroy')
         self.speed = 15.0
 

@@ -5,9 +5,9 @@ import shutil
 
 
 class BDM(Emulator):
-    def __init__(self):
-        super().__init__("Beaten Dying Moon", "https://mattcurrie.com/bdm-demo/", startup_time=5.0, features=(PCM,))
-        self.title_check = lambda title: "Beaten Dying Moon" in title
+    def __init__(self, spec):
+        super().__init__(spec.name, spec.url, startup_time=5.0, features=(PCM,))
+        self.title_check = lambda title: self.name in title
 
     def setup(self):
         download("https://mattcurrie.com/bdm/downloads/bdms-win.zip", "downloads/bdm.zip")
