@@ -62,9 +62,9 @@ emulators:
     adapter: emulators.vba:VBA
     site_id: visualboyadvance
     systems:
-      dmg: null
-      cgb: null
-      sgb: null
+      dmg: true
+      cgb: true
+      sgb: true
     needs_audio: false
   - id: vbam
     name: VisualBoyAdvance-M
@@ -81,9 +81,9 @@ emulators:
     adapter: emulators.nocash:NoCash
     site_id: no-gmb
     systems:
-      dmg: null
-      cgb: null
-      sgb: null
+      dmg: true
+      cgb: true
+      sgb: true
   - id: gambatte
     name: GambatteSpeedrun
     url: https://github.com/pokemon-speedrunning/gambatte-speedrun
@@ -106,17 +106,17 @@ emulators:
     url: https://www.dwedit.org/gba/goombacolor.php
     adapter: emulators.goomba:Goomba
     systems:
-      dmg: null
-      cgb: null
-      sgb: null
+      dmg: true
+      cgb: true
+      sgb: false
   - id: binjgb
     name: binjgb
     url: https://github.com/binji/binjgb
     adapter: emulators.binjgb:Binjgb
     systems:
       dmg: true
-      cgb: null
-      sgb: null
+      cgb: true
+      sgb: true
   - id: coffeegb
     name: Coffee GB
     url: https://github.com/trekawek/coffee-gb
