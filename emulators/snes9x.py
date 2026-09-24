@@ -101,7 +101,7 @@ class SuperSnes9x(Emulator):
         if self.sgb:
             # The SGB BIOS draws the GB picture at (48, 40) in the SNES
             # frame; the configured window keeps that area at native size.
-            return screenshot.crop((48, 40, 208, 184))
+            return screenshot.crop((48, 39, 208, 183))
 
         # SuperSnes9x uses one saved window size for both SNES and GB content,
         # so remove any letterboxing before normalizing the image.
