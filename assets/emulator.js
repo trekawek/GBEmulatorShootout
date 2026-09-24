@@ -2,6 +2,7 @@ import {
   element,
   fetchJson,
   formattedDate,
+  formattedGenerationTime,
   safeAssetUrl,
   safeExternalUrl,
   showError,
@@ -237,6 +238,7 @@ async function start() {
     homepage.target = "_blank";
     homepage.rel = "noopener noreferrer";
     document.querySelector("#tested-at").textContent = formattedDate(emulator.testedAt);
+    document.querySelector("#generated-at").textContent = formattedGenerationTime(index.publishedAt);
     document.querySelector("#score-value").textContent = emulator.score.value;
     document.querySelector("#score-recorded").textContent = emulator.score.recorded;
     renderResults();

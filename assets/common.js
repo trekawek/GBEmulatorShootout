@@ -53,6 +53,23 @@ export function formattedDate(value) {
   }).format(date)}`;
 }
 
+export function formattedGenerationTime(value) {
+  if (!value) return "Generation time not recorded";
+  const date = new Date(value);
+  if (Number.isNaN(date.valueOf())) return "Generation time not recorded";
+  const timestamp = new Intl.DateTimeFormat("en-GB", {
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hourCycle: "h23",
+    timeZone: "UTC",
+  }).format(date);
+  return `Results generated ${timestamp} UTC`;
+}
+
 export function systemBadges(systems) {
   const fragment = document.createDocumentFragment();
   for (const model of ["dmg", "cgb", "sgb"]) {

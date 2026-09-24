@@ -1,7 +1,7 @@
 import {
   element,
   fetchJson,
-  formattedDate,
+  formattedGenerationTime,
   safeExternalUrl,
   showError,
   systemBadges,
@@ -55,7 +55,7 @@ async function start() {
     document.querySelector("#overview-summary").textContent =
       `${data.emulators.length} emulators · accuracy results grouped by test suite`;
     document.querySelector("#snapshot").textContent =
-      `${formattedDate(data.publishedAt).replace("Tested", "Published")} · ${catalogCount} test catalog${catalogCount === 1 ? "" : "s"}`;
+      `${formattedGenerationTime(data.publishedAt)} · ${catalogCount} test catalog${catalogCount === 1 ? "" : "s"}`;
     for (const emulator of data.emulators) body.append(renderRow(emulator));
     document.querySelector("#results-table").hidden = false;
     document.querySelector("#page-notes").hidden = false;
