@@ -46,21 +46,12 @@
     </section>
   </main>
 
-  <dialog id="screenshot-dialog" aria-labelledby="dialog-title">
+  <dialog id="screenshot-dialog">
     <div class="dialog-heading">
       <p id="dialog-title"></p>
       <button class="text-button" id="close-dialog" type="button">Close <span aria-hidden="true">×</span></button>
     </div>
-    <div class="comparison">
-      <section class="comparison-column" aria-labelledby="expected-heading">
-        <h2 id="expected-heading">Expected</h2>
-        <div id="expected-images" class="expected-images"></div>
-      </section>
-      <section class="comparison-column" aria-labelledby="actual-heading">
-        <h2 id="actual-heading">Actual</h2>
-        <div class="comparison-image"><img id="dialog-image" alt=""></div>
-      </section>
-    </div>
+    <img id="dialog-image" alt="">
   </dialog>
   <footer><span>GB Emulator Shootout</span><span>Static results, generated from the latest accepted emulator runs.</span></footer>
 </body>

@@ -8,13 +8,12 @@ import {
 } from "./common.js";
 
 function renderRow(emulator) {
-  const name = emulator.resultsUrl
-    ? element("a", {
-        className: "emulator-name",
-        href: `emulator.html?id=${encodeURIComponent(emulator.id)}`,
-        "aria-label": `View test results for ${emulator.name}`,
-      }, emulator.name)
-    : element("span", { className: "emulator-name", text: emulator.name });
+  const homepage = element("a", {
+    className: "emulator-name",
+    href: safeExternalUrl(emulator.homepage),
+    target: "_blank",
+    rel: "noopener noreferrer",
+  }, [emulator.name, element("span", { className: "external", text: "↗", "aria-hidden": "true" })]);
 
   const scoreValue = emulator.score.recorded ? String(emulator.score.value) : "—";
   const percentage = emulator.score.recorded ? (emulator.score.value / emulator.score.recorded) * 100 : 0;
@@ -30,18 +29,18 @@ function renderRow(emulator) {
 
   const systems = element("div", { className: "systems" });
   systems.append(systemBadges(emulator.systems));
-  const homepage = element("a", {
-    className: "homepage-link",
-    href: safeExternalUrl(emulator.homepage),
-    target: "_blank",
-    rel: "noopener noreferrer",
-  }, ["Homepage", element("span", { text: "↗", "aria-hidden": "true" })]);
+  const details = emulator.resultsUrl
+    ? element("a", {
+        className: "details-link",
+        href: `emulator.html?id=${encodeURIComponent(emulator.id)}`,
+      }, ["View tests", element("span", { text: "→", "aria-hidden": "true" })])
+    : element("span", { className: "results-count", text: "No results" });
 
   return element("tr", {}, [
-    element("td", {}, name),
+    element("td", {}, homepage),
     element("td", {}, score),
     element("td", {}, systems),
-    element("td", { className: "align-right" }, homepage),
+    element("td", { className: "align-right" }, details),
   ]);
 }
 

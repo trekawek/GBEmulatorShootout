@@ -85,29 +85,9 @@ function suiteStatusSummary(results) {
 function openScreenshot(item) {
   const dialog = document.querySelector("#screenshot-dialog");
   const image = document.querySelector("#dialog-image");
-  const expectedImages = document.querySelector("#expected-images");
-  const expected = catalog.tests.find((test) => test.id === item.testId)?.expected || [];
   document.querySelector("#dialog-title").textContent = `${item.legacyName} · ${STATUS[item.status].label}`;
-  expectedImages.replaceChildren();
-  if (!expected.length) {
-    expectedImages.append(element("p", { className: "no-reference", text: "No reference image for this test." }));
-  }
-  for (const [index, reference] of expected.entries()) {
-    const figure = element("figure", { className: "reference-variant" }, [
-      element("div", { className: "comparison-image" }, element("img", {
-        src: safeAssetUrl(reference.url),
-        width: reference.width,
-        height: reference.height,
-        alt: `${item.legacyName}: expected image${expected.length > 1 ? `, variant ${index + 1}` : ""}`,
-      })),
-    ]);
-    if (expected.length > 1) figure.append(element("figcaption", { text: `Accepted variant ${index + 1}` }));
-    expectedImages.append(figure);
-  }
   image.src = safeAssetUrl(item.screenshot.url);
-  image.width = item.screenshot.width;
-  image.height = item.screenshot.height;
-  image.alt = `${item.legacyName}: actual ${STATUS[item.status].label.toLowerCase()} screenshot`;
+  image.alt = `${item.legacyName}: ${STATUS[item.status].label}`;
   dialog.showModal();
 }
 
