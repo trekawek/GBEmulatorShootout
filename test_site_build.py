@@ -5,6 +5,7 @@ import unittest
 from pathlib import Path
 
 from build import build_site
+from site_metadata import current_test_metadata
 
 
 PNG_1X1 = base64.b64encode(
@@ -99,6 +100,27 @@ class StaticSiteBuildTest(unittest.TestCase):
         self.assertEqual((1, 1), (record["screenshot"]["width"], record["screenshot"]["height"]))
         self.assertTrue(image_path.is_file())
         self.assertNotIn("screenshot", (self.output / "data" / "index.json").read_text(encoding="utf-8"))
+
+        catalog = json.loads((self.output / result["catalogUrl"]).read_text(encoding="utf-8"))
+        reference = catalog["tests"][0]["expected"][0]
+        self.assertTrue((self.output / reference["url"]).is_file())
+        self.assertGreater(reference["width"], 0)
+        self.assertNotIn("expectedPaths", catalog["tests"][0])
+
+    def test_publishes_every_accepted_reference_variant(self):
+        case = next(
+            item for item in current_test_metadata()
+            if item["legacyName"] == "daid/ppu_scanline_bgp.gb (DMG)"
+        )
+        self.tests.write_text(json.dumps([case]), encoding="utf-8")
+        self.build()
+
+        catalog_path = next((self.output / "data" / "catalogs").glob("*.json"))
+        catalog = json.loads(catalog_path.read_text(encoding="utf-8"))
+        references = catalog["tests"][0]["expected"]
+        self.assertEqual(3, len(references))
+        self.assertEqual(3, len({item["url"] for item in references}))
+        self.assertTrue(all((self.output / item["url"]).is_file() for item in references))
 
     def test_rejects_unknown_legacy_status(self):
         self.write_result(status="UNKNOWN")

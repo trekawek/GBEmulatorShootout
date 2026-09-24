@@ -74,6 +74,8 @@ def load_catalog_tests(tests_path: Path) -> list[dict]:
 
         if "id" in exported_item and "system" in exported_item:
             item = dict(exported_item)
+            if "expectedPaths" not in item and legacy_name in current:
+                item["expectedPaths"] = current[legacy_name]["expectedPaths"]
         elif legacy_name in current:
             item = dict(current[legacy_name])
             item["description"] = exported_item.get("description", item["description"])
@@ -99,6 +101,26 @@ def load_catalog_tests(tests_path: Path) -> list[dict]:
         tests.append(item)
 
     return tests
+
+
+def publish_reference_images(tests: list[dict], output_dir: Path) -> None:
+    """Move local reference paths into root-relative catalog URLs."""
+    source_root = (Path(__file__).parent / "testroms").resolve()
+    for test in tests:
+        expected = []
+        for filename in test.pop("expectedPaths", []):
+            source = (Path(__file__).parent / filename).resolve()
+            if source.suffix.lower() != ".png" or not source.is_relative_to(source_root):
+                raise ValueError(f"unsafe reference image path: {filename!r}")
+            if not source.is_file():
+                raise ValueError(f"missing reference image: {filename!r}")
+            relative = Path("references") / source.relative_to(source_root)
+            destination = output_dir / relative
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(source, destination)
+            width, height = png_size(source.read_bytes())
+            expected.append({"url": relative.as_posix(), "width": width, "height": height})
+        test["expected"] = expected
 
 
 def catalog_id_for(tests: list[dict], suites: list[dict]) -> str:
@@ -253,6 +275,7 @@ def build_site(
 
     exported_emulators = read_json(emulators_path)
     catalog_tests = load_catalog_tests(tests_path)
+    publish_reference_images(catalog_tests, output_dir)
     suites = [dict(suite) for suite in SUITES]
     catalog_id = catalog_id_for(catalog_tests, suites)
     catalog = {"schemaVersion": SCHEMA_VERSION, "id": catalog_id, "suites": suites, "tests": catalog_tests}
