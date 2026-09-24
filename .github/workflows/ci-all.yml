@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       emulator:
-        description: Emulator ID from emulators/catalog.py, or all
+        description: Emulator ID from emulators/catalog.yaml, or all
         type: string
         required: false
         default: all
@@ -22,6 +22,8 @@ jobs:
       matrix: ${{ steps.catalog.outputs.matrix }}
     steps:
       - uses: actions/checkout@v6
+      - name: Install catalog dependency
+        run: python3 -m pip install -r requirements-catalog.txt
       - name: Select emulators from the catalog
         id: catalog
         env:

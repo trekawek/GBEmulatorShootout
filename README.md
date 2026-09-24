@@ -20,7 +20,7 @@ If you'd like to contribute to the project, please read [CONTRIBUTING.md](CONTRI
 
 ## Tested emulators
 
-The current emulator list and links are in the [results table](https://gbdev.io/GBEmulatorShootout/). The source of truth for running emulators is [`emulators/catalog.py`](emulators/catalog.py).
+The current emulator list and links are in the [results table](https://gbdev.io/GBEmulatorShootout/). The source of truth for running emulators is [`emulators/catalog.yaml`](emulators/catalog.yaml).
 
 ## System requirements
 

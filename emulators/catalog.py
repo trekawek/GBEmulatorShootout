@@ -1,4 +1,4 @@
-"""The active emulator list and its report and CI metadata.
+"""Load emulator metadata for the runner, report, and CI from catalog.yaml.
 
 Keep this module free of adapter imports so CI can read it without installing
 Windows-only dependencies. Adapter modules are imported only when selected.
@@ -8,10 +8,15 @@ import ast
 import json
 import os
 import re
-from dataclasses import dataclass
+from dataclasses import dataclass, fields
 from importlib import import_module
 from importlib.util import find_spec
 from pathlib import Path
+
+import yaml
+
+
+CATALOG_PATH = Path(__file__).with_suffix(".yaml")
 
 
 def normalize(value):
@@ -55,26 +60,42 @@ class EmulatorSpec:
         }
 
 
-EMULATORS = (
-    EmulatorSpec("bdm", "Beaten Dying Moon", "https://mattcurrie.com/bdm-demo/", "emulators.bdm:BDM", aliases=("beaten",)),
-    EmulatorSpec("mgba", "mGBA", "https://mgba.io/", "emulators.mgba:MGBA"),
-    EmulatorSpec("kigb", "KiGB", "http://kigb.emuunlim.com/", "emulators.kigb:KiGB"),
-    EmulatorSpec("sameboy", "SameBoy", "https://sameboy.github.io/", "emulators.sameboy:SameBoy"),
-    EmulatorSpec("bgb", "bgb", "https://bgb.bircd.org/", "emulators.bgb:BGB"),
-    EmulatorSpec("vba", "VisualBoyAdvance", "https://sourceforge.net/projects/vba", "emulators.vba:VBA", needs_audio=False),
-    EmulatorSpec("vbam", "VisualBoyAdvance-M", "https://github.com/visualboyadvance-m/visualboyadvance-m", "emulators.vba:VBAM"),
-    EmulatorSpec("nocash", "No$gmb", "https://problemkaputt.de/gmb.htm", "emulators.nocash:NoCash"),
-    EmulatorSpec("gambatte", "GambatteSpeedrun", "https://github.com/pokemon-speedrunning/gambatte-speedrun", "emulators.gambatte:GambatteSpeedrun"),
-    EmulatorSpec("emulicious", "Emulicious", "https://emulicious.net/", "emulators.emulicious:Emulicious"),
-    EmulatorSpec("goomba", "Goomba", "https://www.dwedit.org/gba/goombacolor.php", "emulators.goomba:Goomba"),
-    EmulatorSpec("binjgb", "binjgb", "https://github.com/binji/binjgb", "emulators.binjgb:Binjgb"),
-    EmulatorSpec("pyboy", "PyBoy", "https://github.com/Baekalfen/PyBoy", "emulators.pyboy:PyBoy"),
-    EmulatorSpec("ares", "ares", "https://ares-emu.net/", "emulators.ares:Ares"),
-    EmulatorSpec("emmy", "Emmy", "https://emmy.n1ark.com/", "emulators.emmy:Emmy", needs_audio=False, needs_chromedriver=True, extra_requirements="requirements-emmy.txt"),
-    EmulatorSpec("gameroy", "gameroy", "https://github.com/Rodrigodd/gameroy", "emulators.gameroy:GameRoy"),
-    EmulatorSpec("docboy", "DocBoy", "https://github.com/Docheinstein/docboy", "emulators.docboy:DocBoy"),
-    EmulatorSpec("gse", "GSE", "https://github.com/CasualPokePlayer/GSE", "emulators.gse:GSE", aliases=("Game Boy Speedrun Emulator",)),
-)
+def load_emulators(path=CATALOG_PATH):
+    try:
+        document = yaml.safe_load(path.read_text(encoding="utf-8"))
+    except (OSError, yaml.YAMLError) as error:
+        raise ValueError("Cannot read emulator catalog %s: %s" % (path, error)) from error
+    if not isinstance(document, dict) or set(document) != {"emulators"}:
+        raise ValueError("Emulator catalog must contain only an 'emulators' list")
+    entries = document["emulators"]
+    if not isinstance(entries, list) or not entries:
+        raise ValueError("Emulator catalog must contain at least one emulator")
+
+    required = {"id", "name", "url", "adapter"}
+    allowed = {field.name for field in fields(EmulatorSpec)}
+    specs = []
+    for index, entry in enumerate(entries, 1):
+        if not isinstance(entry, dict):
+            raise ValueError("Emulator entry %d must be a mapping" % index)
+        missing = required - entry.keys()
+        unknown = entry.keys() - allowed
+        if missing or unknown:
+            raise ValueError("Emulator entry %d has missing fields %s or unknown fields %s" % (index, sorted(missing), sorted(unknown)))
+        for key in required | {"extra_requirements"}:
+            value = entry.get(key, "")
+            if not isinstance(value, str) or (key in required and not value):
+                raise ValueError("Emulator entry %d has an invalid %s" % (index, key))
+        for key in ("needs_audio", "needs_chromedriver"):
+            if key in entry and type(entry[key]) is not bool:
+                raise ValueError("Emulator entry %d has an invalid %s" % (index, key))
+        aliases = entry.get("aliases", [])
+        if not isinstance(aliases, list) or not all(isinstance(alias, str) for alias in aliases):
+            raise ValueError("Emulator entry %d has invalid aliases" % index)
+        specs.append(EmulatorSpec(**{**entry, "aliases": tuple(aliases)}))
+    return tuple(specs)
+
+
+EMULATORS = load_emulators()
 
 
 def matching_emulators(filters=None):

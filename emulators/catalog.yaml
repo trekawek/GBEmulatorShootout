@@ -1,0 +1,99 @@
+# Add new emulators here. IDs are used by the CLI and CI; keep them stable.
+# Optional fields: aliases, needs_audio (true), needs_chromedriver (false),
+# extra_requirements (empty).
+emulators:
+  - id: bdm
+    name: Beaten Dying Moon
+    url: https://mattcurrie.com/bdm-demo/
+    adapter: emulators.bdm:BDM
+    aliases: [beaten]
+
+  - id: mgba
+    name: mGBA
+    url: https://mgba.io/
+    adapter: emulators.mgba:MGBA
+
+  - id: kigb
+    name: KiGB
+    url: http://kigb.emuunlim.com/
+    adapter: emulators.kigb:KiGB
+
+  - id: sameboy
+    name: SameBoy
+    url: https://sameboy.github.io/
+    adapter: emulators.sameboy:SameBoy
+
+  - id: bgb
+    name: bgb
+    url: https://bgb.bircd.org/
+    adapter: emulators.bgb:BGB
+
+  - id: vba
+    name: VisualBoyAdvance
+    url: https://sourceforge.net/projects/vba
+    adapter: emulators.vba:VBA
+    needs_audio: false
+
+  - id: vbam
+    name: VisualBoyAdvance-M
+    url: https://github.com/visualboyadvance-m/visualboyadvance-m
+    adapter: emulators.vba:VBAM
+
+  - id: nocash
+    name: No$gmb
+    url: https://problemkaputt.de/gmb.htm
+    adapter: emulators.nocash:NoCash
+
+  - id: gambatte
+    name: GambatteSpeedrun
+    url: https://github.com/pokemon-speedrunning/gambatte-speedrun
+    adapter: emulators.gambatte:GambatteSpeedrun
+
+  - id: emulicious
+    name: Emulicious
+    url: https://emulicious.net/
+    adapter: emulators.emulicious:Emulicious
+
+  - id: goomba
+    name: Goomba
+    url: https://www.dwedit.org/gba/goombacolor.php
+    adapter: emulators.goomba:Goomba
+
+  - id: binjgb
+    name: binjgb
+    url: https://github.com/binji/binjgb
+    adapter: emulators.binjgb:Binjgb
+
+  - id: pyboy
+    name: PyBoy
+    url: https://github.com/Baekalfen/PyBoy
+    adapter: emulators.pyboy:PyBoy
+
+  - id: ares
+    name: ares
+    url: https://ares-emu.net/
+    adapter: emulators.ares:Ares
+
+  - id: emmy
+    name: Emmy
+    url: https://emmy.n1ark.com/
+    adapter: emulators.emmy:Emmy
+    needs_audio: false
+    needs_chromedriver: true
+    extra_requirements: requirements-emmy.txt
+
+  - id: gameroy
+    name: gameroy
+    url: https://github.com/Rodrigodd/gameroy
+    adapter: emulators.gameroy:GameRoy
+
+  - id: docboy
+    name: DocBoy
+    url: https://github.com/Docheinstein/docboy
+    adapter: emulators.docboy:DocBoy
+
+  - id: gse
+    name: GSE
+    url: https://github.com/CasualPokePlayer/GSE
+    adapter: emulators.gse:GSE
+    aliases: [Game Boy Speedrun Emulator]
