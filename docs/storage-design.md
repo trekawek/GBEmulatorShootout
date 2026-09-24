@@ -24,10 +24,10 @@ Catalog drift is already visible in the local snapshot: `tests.json` lists 264 c
 
 ## Pages and behavior
 
-- **Overview:** a semantic table with Name (homepage link), Score, Supported systems (DMG/CGB/SGB), and Details. Put emulator version and test date below the name, avoiding extra columns. Default sorting preserves the existing score order. Search and system filters are optional conveniences.
+- **Overview:** a semantic table with Name (results link), Score, Supported systems (DMG/CGB/SGB), and Homepage (external link). Names without results remain plain text. Default sorting preserves the existing score order. Search and system filters are optional conveniences.
 - **Details:** emulator heading and run information, then suites with source links and their own totals. Within each suite, display a grid of test cards containing case name, system, text status, and screenshot. Preserve test subgroup paths such as `acceptance/ppu` for orientation.
 - **Filtering:** All, Passed, Failed, and Other. Other keeps informational, skipped, error, and missing cases discoverable. Filters combine with suite/system/search filters and show the number of visible results. Filtering must not change the emulator's overall score.
-- **Images:** every available screenshot belongs to a card in All. Use native pixel dimensions, `image-rendering: pixelated`, explicit width/height, and `loading="lazy"`; clicking opens a larger view with the case name and status. Missing captures display an explanation instead of a broken image. Reference images can be a separate, clearly labelled optional comparison.
+- **Images:** every available screenshot belongs to a card in All. Use native pixel dimensions, `image-rendering: pixelated`, explicit width/height, and `loading="lazy"`; clicking opens a comparison with the captured image beside every accepted reference variant. Cases without a reference show a clear message. Missing captures display an explanation instead of a broken image.
 - **Suite sources:** most suites have one repository link. Acid and Ashiepaws group multiple projects, so store a list of sources and retain individual test URLs. Do not synthesize an incorrect single repository for such groups.
 
 ## Minimum published layout
@@ -53,6 +53,9 @@ site/
     mgba/
       run-002/
         acid-dmg-acid2-dmg.png
+  references/
+    acid/
+      dmg-acid2.png                   # shared accepted reference image
   .nojekyll
 ```
 
@@ -123,7 +126,10 @@ Use `supported`, `unsupported`, or `unknown` for each system; a blank or unknown
       "variant": null,
       "requiredFeatures": [],
       "description": "Rendering test for classic Game Boy.",
-      "sourceUrl": "https://github.com/mattcurrie/dmg-acid2"
+      "sourceUrl": "https://github.com/mattcurrie/dmg-acid2",
+      "expected": [
+        {"url": "references/acid/dmg-acid2.png", "width": 160, "height": 144}
+      ]
     }
   ]
 }

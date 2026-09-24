@@ -3,7 +3,9 @@
 from __future__ import annotations
 
 import hashlib
+import os
 import re
+from pathlib import Path
 
 
 SCHEMA_VERSION = 1
@@ -146,6 +148,7 @@ def test_to_metadata(test) -> dict:
         "requiredFeatures": sorted(test.required_features),
         "description": test.description,
         "sourceUrl": test.url,
+        "expectedPaths": list(test.expected_paths),
     }
 
 
@@ -174,6 +177,15 @@ def current_test_metadata() -> list[dict]:
             self.required_features = set(required_features or ())
             self.description = description
             self.url = url
+            if result is None:
+                result = os.path.splitext(rom or name)[0] + ".png"
+            candidates = result if isinstance(result, list) else [result]
+            root = Path(__file__).parent / "testroms"
+            self.expected_paths = [
+                str(Path("testroms") / candidate)
+                for candidate in candidates
+                if (root / candidate).is_file()
+            ]
 
         def __str__(self):
             return self.name
