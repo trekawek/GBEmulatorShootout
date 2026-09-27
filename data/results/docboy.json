@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "emulatorId": "docboy",
-  "runId": "legacy-1790412647",
+  "runId": "legacy-1790501465",
   "runState": "legacy",
-  "testedAt": "2026-09-26T08:50:47.425996Z",
+  "testedAt": "2026-09-27T09:31:05.645722Z",
   "emulatorVersion": null,
   "catalogId": "catalog-51bc0aea4c76",
   "catalogUrl": "data/catalogs/catalog-51bc0aea4c76.json",
@@ -21,15 +21,15 @@
     "importedLegacy": true
   },
   "counts": {
-    "pass": 255,
-    "fail": 3,
+    "pass": 254,
+    "fail": 4,
     "info": 3,
     "error": 0,
     "skipped": 0,
     "missing": 3
   },
   "score": {
-    "value": 258,
+    "value": 257,
     "recorded": 261
   },
   "results": [
@@ -44,10 +44,10 @@
       "sourceUrl": null,
       "status": "info",
       "reason": null,
-      "startupSeconds": 0.13388530000000287,
-      "runtimeSeconds": 7.588157499999994,
+      "startupSeconds": 0.21983130000000983,
+      "runtimeSeconds": 7.618093700000003,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/acid-which-gb-dmg-dmg-0669633f.png",
+        "url": "screenshots/docboy/legacy-1790501465/acid-which-gb-dmg-dmg-0669633f.png",
         "width": 160,
         "height": 144
       }
@@ -63,10 +63,10 @@
       "sourceUrl": null,
       "status": "info",
       "reason": null,
-      "startupSeconds": 0.08367319999999268,
-      "runtimeSeconds": 7.534375399999988,
+      "startupSeconds": 0.06602399999999875,
+      "runtimeSeconds": 7.513610999999997,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/acid-which-gb-gbc-cgb-38eb7aac.png",
+        "url": "screenshots/docboy/legacy-1790501465/acid-which-gb-gbc-cgb-38eb7aac.png",
         "width": 160,
         "height": 144
       }
@@ -82,10 +82,10 @@
       "sourceUrl": "https://github.com/mattcurrie/dmg-acid2",
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08704259999998953,
-      "runtimeSeconds": 0.2681565999999975,
+      "startupSeconds": 0.06583539999999743,
+      "runtimeSeconds": 0.26652720000001295,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/acid-dmg-acid2-gb-dmg-b16e8597.png",
+        "url": "screenshots/docboy/legacy-1790501465/acid-dmg-acid2-gb-dmg-b16e8597.png",
         "width": 160,
         "height": 144
       }
@@ -101,10 +101,10 @@
       "sourceUrl": "https://github.com/mattcurrie/cgb-acid2",
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07585659999998029,
-      "runtimeSeconds": 0.3947145000000205,
+      "startupSeconds": 0.07360439999999357,
+      "runtimeSeconds": 0.40666559999999663,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/acid-cgb-acid2-gbc-cgb-88e4b3b3.png",
+        "url": "screenshots/docboy/legacy-1790501465/acid-cgb-acid2-gbc-cgb-88e4b3b3.png",
         "width": 160,
         "height": 144
       }
@@ -120,10 +120,10 @@
       "sourceUrl": "https://github.com/mattcurrie/cgb-acid-hell",
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.07754260000001523,
-      "runtimeSeconds": 7.525396499999999,
+      "startupSeconds": 0.06583620000000678,
+      "runtimeSeconds": 7.572991999999999,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/acid-cgb-acid-hell-gbc-cgb-ee00bb31.png",
+        "url": "screenshots/docboy/legacy-1790501465/acid-cgb-acid-hell-gbc-cgb-ee00bb31.png",
         "width": 160,
         "height": 144
       }
@@ -139,10 +139,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07670419999999467,
-      "runtimeSeconds": 2.5219524999999976,
+      "startupSeconds": 0.06420780000001969,
+      "runtimeSeconds": 2.468966899999998,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-cpu-instrs-01-special-gb-dmg-cffd5d76.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-cpu-instrs-01-special-gb-dmg-cffd5d76.png",
         "width": 160,
         "height": 144
       }
@@ -158,10 +158,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07975709999999481,
-      "runtimeSeconds": 0.5441201000000149,
+      "startupSeconds": 0.06418859999999427,
+      "runtimeSeconds": 0.5481638999999916,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-cpu-instrs-02-interrupts-gb-dmg-4b97e44a.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-cpu-instrs-02-interrupts-gb-dmg-4b97e44a.png",
         "width": 160,
         "height": 144
       }
@@ -177,10 +177,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.09295810000000415,
-      "runtimeSeconds": 2.4574822000000154,
+      "startupSeconds": 0.06606080000000247,
+      "runtimeSeconds": 2.4517887000000087,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-cpu-instrs-03-op-sp-hl-gb-dmg-8216b96f.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-cpu-instrs-03-op-sp-hl-gb-dmg-8216b96f.png",
         "width": 160,
         "height": 144
       }
@@ -196,10 +196,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07686780000000226,
-      "runtimeSeconds": 2.889973600000019,
+      "startupSeconds": 0.0648926000000074,
+      "runtimeSeconds": 2.8899854000000005,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-cpu-instrs-04-op-r-imm-gb-dmg-f1f9114b.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-cpu-instrs-04-op-r-imm-gb-dmg-f1f9114b.png",
         "width": 160,
         "height": 144
       }
@@ -215,10 +215,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07486550000001557,
-      "runtimeSeconds": 3.958186799999993,
+      "startupSeconds": 0.0649219999999957,
+      "runtimeSeconds": 3.9596404999999777,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-cpu-instrs-05-op-rp-gb-dmg-8a4b3fbc.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-cpu-instrs-05-op-rp-gb-dmg-8a4b3fbc.png",
         "width": 160,
         "height": 144
       }
@@ -234,10 +234,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08040029999997955,
-      "runtimeSeconds": 0.6736528000000135,
+      "startupSeconds": 0.06664450000005218,
+      "runtimeSeconds": 0.6850148999999988,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-cpu-instrs-06-ld-r-r-gb-dmg-55b14397.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-cpu-instrs-06-ld-r-r-gb-dmg-55b14397.png",
         "width": 160,
         "height": 144
       }
@@ -253,10 +253,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07564949999999726,
-      "runtimeSeconds": 0.8284166999999911,
+      "startupSeconds": 0.06551749999999856,
+      "runtimeSeconds": 0.804091700000015,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-cpu-instrs-07-jr-jp-call-ret-rst-gb-dmg-c71bd785.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-cpu-instrs-07-jr-jp-call-ret-rst-gb-dmg-c71bd785.png",
         "width": 160,
         "height": 144
       }
@@ -272,10 +272,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.09102679999998031,
-      "runtimeSeconds": 0.6855894999999919,
+      "startupSeconds": 0.0671317999999701,
+      "runtimeSeconds": 0.6760226000000102,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-cpu-instrs-08-misc-instrs-gb-dmg-00795987.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-cpu-instrs-08-misc-instrs-gb-dmg-00795987.png",
         "width": 160,
         "height": 144
       }
@@ -291,10 +291,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.09163789999999494,
-      "runtimeSeconds": 9.34389109999998,
+      "startupSeconds": 0.06597790000000714,
+      "runtimeSeconds": 9.323078400000043,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-cpu-instrs-09-op-r-r-gb-dmg-78b33163.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-cpu-instrs-09-op-r-r-gb-dmg-78b33163.png",
         "width": 160,
         "height": 144
       }
@@ -310,10 +310,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0752221999999847,
-      "runtimeSeconds": 13.98220329999998,
+      "startupSeconds": 0.06401699999997845,
+      "runtimeSeconds": 13.97507900000005,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-cpu-instrs-10-bit-ops-gb-dmg-60628809.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-cpu-instrs-10-bit-ops-gb-dmg-60628809.png",
         "width": 160,
         "height": 144
       }
@@ -329,10 +329,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07781420000000594,
-      "runtimeSeconds": 17.748515999999995,
+      "startupSeconds": 0.06551139999999123,
+      "runtimeSeconds": 17.742752399999972,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-cpu-instrs-11-op-a-hl-gb-dmg-f37eee43.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-cpu-instrs-11-op-a-hl-gb-dmg-f37eee43.png",
         "width": 160,
         "height": 144
       }
@@ -348,10 +348,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07853549999998677,
-      "runtimeSeconds": 1.9186726000000078,
+      "startupSeconds": 0.06502279999995153,
+      "runtimeSeconds": 1.9461281999999755,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-halt-bug-gb-dmg-6bd4a24d.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-halt-bug-gb-dmg-6bd4a24d.png",
         "width": 160,
         "height": 144
       }
@@ -367,10 +367,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07563030000000026,
-      "runtimeSeconds": 0.8520628999999929,
+      "startupSeconds": 0.06660270000003266,
+      "runtimeSeconds": 0.8145428999999922,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-instr-timing-gb-dmg-584a3698.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-instr-timing-gb-dmg-584a3698.png",
         "width": 160,
         "height": 144
       }
@@ -386,10 +386,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07453519999998548,
-      "runtimeSeconds": 0.6923865999999919,
+      "startupSeconds": 0.06475710000000845,
+      "runtimeSeconds": 0.6765373000000068,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-interrupt-time-gb-cgb-4d659e2c.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-interrupt-time-gb-cgb-4d659e2c.png",
         "width": 160,
         "height": 144
       }
@@ -405,10 +405,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07554099999998698,
-      "runtimeSeconds": 0.6853342999999938,
+      "startupSeconds": 0.06600539999999455,
+      "runtimeSeconds": 0.5522197000000233,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-mem-timing-01-read-timing-gb-dmg-547bd6f6.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-mem-timing-01-read-timing-gb-dmg-547bd6f6.png",
         "width": 160,
         "height": 144
       }
@@ -424,10 +424,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07531310000001668,
-      "runtimeSeconds": 0.6621426000000099,
+      "startupSeconds": 0.0667730999999776,
+      "runtimeSeconds": 0.5587507000000187,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-mem-timing-02-write-timing-gb-dmg-1f4d9a88.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-mem-timing-02-write-timing-gb-dmg-1f4d9a88.png",
         "width": 160,
         "height": 144
       }
@@ -443,10 +443,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07677270000002068,
-      "runtimeSeconds": 0.703324600000002,
+      "startupSeconds": 0.06339109999998982,
+      "runtimeSeconds": 0.8228086000000303,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-mem-timing-03-modify-timing-gb-dmg-01c8cea5.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-mem-timing-03-modify-timing-gb-dmg-01c8cea5.png",
         "width": 160,
         "height": 144
       }
@@ -462,10 +462,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08022429999999758,
-      "runtimeSeconds": 0.5603261999999916,
+      "startupSeconds": 0.057552499999985685,
+      "runtimeSeconds": 0.5522523000000206,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-mem-timing-2-01-read-timing-gb-dmg-20f1120e.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-mem-timing-2-01-read-timing-gb-dmg-20f1120e.png",
         "width": 160,
         "height": 144
       }
@@ -481,10 +481,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07702229999998167,
-      "runtimeSeconds": 0.5647438999999963,
+      "startupSeconds": 0.06566529999997783,
+      "runtimeSeconds": 0.5411502999999698,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-mem-timing-2-02-write-timing-gb-dmg-c1785f08.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-mem-timing-2-02-write-timing-gb-dmg-c1785f08.png",
         "width": 160,
         "height": 144
       }
@@ -500,10 +500,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07483430000002045,
-      "runtimeSeconds": 0.7084501999999873,
+      "startupSeconds": 0.0637787000000003,
+      "runtimeSeconds": 0.5572578999999678,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-mem-timing-2-03-modify-timing-gb-dmg-8bbbccfc.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-mem-timing-2-03-modify-timing-gb-dmg-8bbbccfc.png",
         "width": 160,
         "height": 144
       }
@@ -519,10 +519,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07669309999999996,
-      "runtimeSeconds": 0.6833749999999839,
+      "startupSeconds": 0.06436390000004621,
+      "runtimeSeconds": 0.6770678999999973,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-oam-bug-1-lcd-sync-gb-dmg-5e66d0de.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-oam-bug-1-lcd-sync-gb-dmg-5e66d0de.png",
         "width": 160,
         "height": 144
       }
@@ -538,10 +538,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07600460000000453,
-      "runtimeSeconds": 1.9298558999999784,
+      "startupSeconds": 0.06924419999995735,
+      "runtimeSeconds": 1.9115113999999949,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-oam-bug-2-causes-gb-dmg-b608de0a.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-oam-bug-2-causes-gb-dmg-b608de0a.png",
         "width": 160,
         "height": 144
       }
@@ -557,10 +557,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07524209999999698,
-      "runtimeSeconds": 1.9349784000000056,
+      "startupSeconds": 0.06335419999999203,
+      "runtimeSeconds": 1.8968110999999794,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-oam-bug-3-non-causes-gb-dmg-ae05f385.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-oam-bug-3-non-causes-gb-dmg-ae05f385.png",
         "width": 160,
         "height": 144
       }
@@ -576,10 +576,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07563109999998119,
-      "runtimeSeconds": 1.1062397000000033,
+      "startupSeconds": 0.06605919999998378,
+      "runtimeSeconds": 1.0954011999999693,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-oam-bug-4-scanline-timing-gb-dmg-2da61991.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-oam-bug-4-scanline-timing-gb-dmg-2da61991.png",
         "width": 160,
         "height": 144
       }
@@ -595,10 +595,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07592990000000555,
-      "runtimeSeconds": 1.0902805999999998,
+      "startupSeconds": 0.06413169999996171,
+      "runtimeSeconds": 1.0982259999999542,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-oam-bug-5-timing-bug-gb-dmg-ee74faf3.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-oam-bug-5-timing-bug-gb-dmg-ee74faf3.png",
         "width": 160,
         "height": 144
       }
@@ -614,10 +614,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07525900000001684,
-      "runtimeSeconds": 1.6678021000000172,
+      "startupSeconds": 0.06403540000002295,
+      "runtimeSeconds": 1.672114400000055,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-oam-bug-6-timing-no-bug-gb-dmg-607a177d.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-oam-bug-6-timing-no-bug-gb-dmg-607a177d.png",
         "width": 160,
         "height": 144
       }
@@ -633,10 +633,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07752879999998186,
-      "runtimeSeconds": 6.4656472000000065,
+      "startupSeconds": 0.0638091000000145,
+      "runtimeSeconds": 6.501545700000008,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-oam-bug-8-instr-effect-gb-dmg-9ca7f84f.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-oam-bug-8-instr-effect-gb-dmg-9ca7f84f.png",
         "width": 160,
         "height": 144
       }
@@ -652,10 +652,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07517479999995658,
-      "runtimeSeconds": 0.9409171000000356,
+      "startupSeconds": 0.06611159999999927,
+      "runtimeSeconds": 0.962461200000007,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-dmg-sound-01-registers-gb-dmg-dd73c6e4.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-dmg-sound-01-registers-gb-dmg-dd73c6e4.png",
         "width": 160,
         "height": 144
       }
@@ -671,10 +671,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07403229999999894,
-      "runtimeSeconds": 9.539207299999987,
+      "startupSeconds": 0.06543749999997317,
+      "runtimeSeconds": 9.534114500000044,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-dmg-sound-02-len-ctr-gb-dmg-081a2fae.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-dmg-sound-02-len-ctr-gb-dmg-081a2fae.png",
         "width": 160,
         "height": 144
       }
@@ -690,10 +690,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07609250000001566,
-      "runtimeSeconds": 17.00986819999997,
+      "startupSeconds": 0.0667915000000221,
+      "runtimeSeconds": 17.055069899999978,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-dmg-sound-03-trigger-gb-dmg-dfb2b658.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-dmg-sound-03-trigger-gb-dmg-dfb2b658.png",
         "width": 160,
         "height": 144
       }
@@ -709,10 +709,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07352620000000343,
-      "runtimeSeconds": 1.4043363000000113,
+      "startupSeconds": 0.0657003999999688,
+      "runtimeSeconds": 1.3622726999999486,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-dmg-sound-04-sweep-gb-dmg-9193ca89.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-dmg-sound-04-sweep-gb-dmg-9193ca89.png",
         "width": 160,
         "height": 144
       }
@@ -728,10 +728,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07332270000000563,
-      "runtimeSeconds": 1.3859790000000203,
+      "startupSeconds": 0.06702340000003915,
+      "runtimeSeconds": 1.3740991000000236,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-dmg-sound-05-sweep-details-gb-dmg-3a3cf981.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-dmg-sound-05-sweep-details-gb-dmg-3a3cf981.png",
         "width": 160,
         "height": 144
       }
@@ -747,10 +747,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07344490000002679,
-      "runtimeSeconds": 1.1134803999999576,
+      "startupSeconds": 0.06330930000001445,
+      "runtimeSeconds": 1.0784682999999973,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-dmg-sound-06-overflow-on-trigger-gb-dmg-5428a1fc.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-dmg-sound-06-overflow-on-trigger-gb-dmg-5428a1fc.png",
         "width": 160,
         "height": 144
       }
@@ -766,10 +766,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07543659999998908,
-      "runtimeSeconds": 0.685694299999966,
+      "startupSeconds": 0.06463869999998906,
+      "runtimeSeconds": 0.703049099999987,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-dmg-sound-07-len-sweep-period-sync-gb-dmg-ef480eef.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-dmg-sound-07-len-sweep-period-sync-gb-dmg-ef480eef.png",
         "width": 160,
         "height": 144
       }
@@ -785,10 +785,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07485699999995177,
-      "runtimeSeconds": 1.5040298999999777,
+      "startupSeconds": 0.06397249999997712,
+      "runtimeSeconds": 1.5015855999999985,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-dmg-sound-08-len-ctr-during-power-gb-dmg-94b9b87f.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-dmg-sound-08-len-ctr-during-power-gb-dmg-94b9b87f.png",
         "width": 160,
         "height": 144
       }
@@ -804,10 +804,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07440919999999096,
-      "runtimeSeconds": 0.7081029999999942,
+      "startupSeconds": 0.06294830000001639,
+      "runtimeSeconds": 0.6913401999999564,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-dmg-sound-09-wave-read-while-on-gb-dmg-6bce549d.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-dmg-sound-09-wave-read-while-on-gb-dmg-6bce549d.png",
         "width": 160,
         "height": 144
       }
@@ -823,10 +823,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0757007999999928,
-      "runtimeSeconds": 3.997143400000027,
+      "startupSeconds": 0.06337300000001278,
+      "runtimeSeconds": 4.103291000000013,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-dmg-sound-10-wave-trigger-while-on-gb-dmg-9186e94d.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-dmg-sound-10-wave-trigger-while-on-gb-dmg-9186e94d.png",
         "width": 160,
         "height": 144
       }
@@ -842,10 +842,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07325940000004039,
-      "runtimeSeconds": 0.794908200000009,
+      "startupSeconds": 0.06340539999996508,
+      "runtimeSeconds": 0.8507468999999901,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-dmg-sound-11-regs-after-power-gb-dmg-6dc2c147.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-dmg-sound-11-regs-after-power-gb-dmg-6dc2c147.png",
         "width": 160,
         "height": 144
       }
@@ -861,10 +861,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07492439999998624,
-      "runtimeSeconds": 3.9886150000000384,
+      "startupSeconds": 0.06412640000002057,
+      "runtimeSeconds": 3.9879256000000396,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-dmg-sound-12-wave-write-while-on-gb-dmg-765a84aa.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-dmg-sound-12-wave-write-while-on-gb-dmg-765a84aa.png",
         "width": 160,
         "height": 144
       }
@@ -880,10 +880,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07600610000002916,
-      "runtimeSeconds": 0.9827368999999635,
+      "startupSeconds": 0.0656184000000053,
+      "runtimeSeconds": 0.9747441000000094,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-cgb-sound-01-registers-gb-cgb-962f11c5.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-cgb-sound-01-registers-gb-cgb-962f11c5.png",
         "width": 160,
         "height": 144
       }
@@ -899,10 +899,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08528519999998707,
-      "runtimeSeconds": 9.62806599999999,
+      "startupSeconds": 0.06364170000000513,
+      "runtimeSeconds": 9.549047599999994,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-cgb-sound-02-len-ctr-gb-cgb-2cde1cfa.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-cgb-sound-02-len-ctr-gb-cgb-2cde1cfa.png",
         "width": 160,
         "height": 144
       }
@@ -918,10 +918,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08628040000002102,
-      "runtimeSeconds": 17.0473528,
+      "startupSeconds": 0.06511599999998907,
+      "runtimeSeconds": 17.0784314,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-cgb-sound-03-trigger-gb-cgb-62801ad3.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-cgb-sound-03-trigger-gb-cgb-62801ad3.png",
         "width": 160,
         "height": 144
       }
@@ -937,10 +937,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07519669999999223,
-      "runtimeSeconds": 1.3902992000000154,
+      "startupSeconds": 0.06809920000000602,
+      "runtimeSeconds": 1.351168400000006,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-cgb-sound-04-sweep-gb-cgb-c659f04f.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-cgb-sound-04-sweep-gb-cgb-c659f04f.png",
         "width": 160,
         "height": 144
       }
@@ -956,10 +956,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07473440000001119,
-      "runtimeSeconds": 1.3445421000000124,
+      "startupSeconds": 0.06400129999997262,
+      "runtimeSeconds": 1.3704106999999794,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-cgb-sound-05-sweep-details-gb-cgb-122d1068.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-cgb-sound-05-sweep-details-gb-cgb-122d1068.png",
         "width": 160,
         "height": 144
       }
@@ -975,10 +975,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07498860000004015,
-      "runtimeSeconds": 1.0928432000000043,
+      "startupSeconds": 0.06665970000000243,
+      "runtimeSeconds": 1.0733589999999822,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-cgb-sound-06-overflow-on-trigger-gb-cgb-cff874cf.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-cgb-sound-06-overflow-on-trigger-gb-cgb-cff874cf.png",
         "width": 160,
         "height": 144
       }
@@ -994,10 +994,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07536160000000791,
-      "runtimeSeconds": 0.6816347000000178,
+      "startupSeconds": 0.06877009999999473,
+      "runtimeSeconds": 0.6857334000000037,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-cgb-sound-07-len-sweep-period-sync-gb-cgb-c26ce5bc.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-cgb-sound-07-len-sweep-period-sync-gb-cgb-c26ce5bc.png",
         "width": 160,
         "height": 144
       }
@@ -1013,10 +1013,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07377420000000257,
-      "runtimeSeconds": 2.6426615999999967,
+      "startupSeconds": 0.06454539999998588,
+      "runtimeSeconds": 2.5574997999999596,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-cgb-sound-08-len-ctr-during-power-gb-cgb-e3d75429.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-cgb-sound-08-len-ctr-during-power-gb-cgb-e3d75429.png",
         "width": 160,
         "height": 144
       }
@@ -1032,10 +1032,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07461140000003752,
-      "runtimeSeconds": 0.8214088999999944,
+      "startupSeconds": 0.06385360000001583,
+      "runtimeSeconds": 0.6861453999999867,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-cgb-sound-09-wave-read-while-on-gb-cgb-efcaf116.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-cgb-sound-09-wave-read-while-on-gb-cgb-efcaf116.png",
         "width": 160,
         "height": 144
       }
@@ -1051,10 +1051,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07471170000002303,
-      "runtimeSeconds": 4.099502200000018,
+      "startupSeconds": 0.06463389999998981,
+      "runtimeSeconds": 4.060536599999978,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-cgb-sound-10-wave-trigger-while-on-gb-cgb-2789e4c0.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-cgb-sound-10-wave-trigger-while-on-gb-cgb-2789e4c0.png",
         "width": 160,
         "height": 144
       }
@@ -1070,10 +1070,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07452080000001615,
-      "runtimeSeconds": 1.1050711999999976,
+      "startupSeconds": 0.06595360000000028,
+      "runtimeSeconds": 1.0990858000000117,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-cgb-sound-11-regs-after-power-gb-cgb-ca02c1f6.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-cgb-sound-11-regs-after-power-gb-cgb-ca02c1f6.png",
         "width": 160,
         "height": 144
       }
@@ -1089,10 +1089,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07328319999999167,
-      "runtimeSeconds": 0.560380299999963,
+      "startupSeconds": 0.06523069999997233,
+      "runtimeSeconds": 0.5453979000000118,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/blargg-cgb-sound-12-wave-gb-cgb-4c83bcb2.png",
+        "url": "screenshots/docboy/legacy-1790501465/blargg-cgb-sound-12-wave-gb-cgb-4c83bcb2.png",
         "width": 160,
         "height": 144
       }
@@ -1108,10 +1108,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07423139999997375,
-      "runtimeSeconds": 0.14318779999996423,
+      "startupSeconds": 0.06350600000001805,
+      "runtimeSeconds": 0.14120600000001104,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/daid-ppu-scanline-bgp-gb-dmg-dmg-5f7dae47.png",
+        "url": "screenshots/docboy/legacy-1790501465/daid-ppu-scanline-bgp-gb-dmg-dmg-5f7dae47.png",
         "width": 160,
         "height": 144
       }
@@ -1127,10 +1127,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07449980000001233,
-      "runtimeSeconds": 0.14119950000002746,
+      "startupSeconds": 0.06987340000000586,
+      "runtimeSeconds": 0.1292591999999786,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/daid-ppu-scanline-bgp-gb-gbc-cgb-5de4d6ea.png",
+        "url": "screenshots/docboy/legacy-1790501465/daid-ppu-scanline-bgp-gb-gbc-cgb-5de4d6ea.png",
         "width": 160,
         "height": 144
       }
@@ -1146,10 +1146,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07504459999995561,
-      "runtimeSeconds": 0.2852664000000118,
+      "startupSeconds": 0.06362120000000004,
+      "runtimeSeconds": 0.26858510000005253,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/daid-stop-instr-gb-dmg-dmg-4117a58f.png",
+        "url": "screenshots/docboy/legacy-1790501465/daid-stop-instr-gb-dmg-dmg-4117a58f.png",
         "width": 160,
         "height": 144
       }
@@ -1165,10 +1165,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07780819999999267,
-      "runtimeSeconds": 0.14057130000003326,
+      "startupSeconds": 0.06420099999996864,
+      "runtimeSeconds": 0.2804395999999656,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/daid-stop-instr-gb-gbc-cgb-6ca6899d.png",
+        "url": "screenshots/docboy/legacy-1790501465/daid-stop-instr-gb-gbc-cgb-6ca6899d.png",
         "width": 160,
         "height": 144
       }
@@ -1184,10 +1184,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07455370000002404,
-      "runtimeSeconds": 0.2840175000000045,
+      "startupSeconds": 0.06621009999997796,
+      "runtimeSeconds": 0.26969270000000733,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/daid-stop-instr-gbc-mode3-gb-cgb-705e7fd0.png",
+        "url": "screenshots/docboy/legacy-1790501465/daid-stop-instr-gbc-mode3-gb-cgb-705e7fd0.png",
         "width": 160,
         "height": 144
       }
@@ -1203,10 +1203,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07494319999995014,
-      "runtimeSeconds": 0.2872327000000041,
+      "startupSeconds": 0.06471090000002278,
+      "runtimeSeconds": 0.1486709999999789,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/daid-speed-switch-timing-div-gbc-cgb-d436edd5.png",
+        "url": "screenshots/docboy/legacy-1790501465/daid-speed-switch-timing-div-gbc-cgb-d436edd5.png",
         "width": 160,
         "height": 144
       }
@@ -1222,10 +1222,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07432419999997819,
-      "runtimeSeconds": 0.28652059999996027,
+      "startupSeconds": 0.06305969999999661,
+      "runtimeSeconds": 0.13881729999997106,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/daid-speed-switch-timing-ly-gbc-cgb-bd931d6c.png",
+        "url": "screenshots/docboy/legacy-1790501465/daid-speed-switch-timing-ly-gbc-cgb-bd931d6c.png",
         "width": 160,
         "height": 144
       }
@@ -1241,10 +1241,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07333470000003217,
-      "runtimeSeconds": 0.2787385000000313,
+      "startupSeconds": 0.06905089999997926,
+      "runtimeSeconds": 0.13317569999998113,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/daid-speed-switch-timing-stat-gbc-cgb-e14b6b04.png",
+        "url": "screenshots/docboy/legacy-1790501465/daid-speed-switch-timing-stat-gbc-cgb-e14b6b04.png",
         "width": 160,
         "height": 144
       }
@@ -1260,10 +1260,10 @@
       "sourceUrl": "https://github.com/daid/GBEmulatorShootout/blob/main/tests/daid/rom_and_ram.gb",
       "status": "info",
       "reason": null,
-      "startupSeconds": 0.07397490000005291,
-      "runtimeSeconds": 6.524148000000025,
+      "startupSeconds": 0.06385720000002948,
+      "runtimeSeconds": 6.5381049000000075,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/daid-rom-and-ram-gb-dmg-b9c8f9a6.png",
+        "url": "screenshots/docboy/legacy-1790501465/daid-rom-and-ram-gb-dmg-b9c8f9a6.png",
         "width": 160,
         "height": 144
       }
@@ -1277,12 +1277,12 @@
       "system": "cgb",
       "description": null,
       "sourceUrl": null,
-      "status": "pass",
+      "status": "fail",
       "reason": null,
-      "startupSeconds": 0.07417569999995521,
-      "runtimeSeconds": 11.664910399999997,
+      "startupSeconds": 0.06745829999999842,
+      "runtimeSeconds": 15.561955000000012,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/ax6-rtc3test-1-gb-cgb-a5e04b04.png",
+        "url": "screenshots/docboy/legacy-1790501465/ax6-rtc3test-1-gb-cgb-a5e04b04.png",
         "width": 160,
         "height": 144
       }
@@ -1298,10 +1298,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08736670000001823,
-      "runtimeSeconds": 7.460303699999997,
+      "startupSeconds": 0.06522049999995261,
+      "runtimeSeconds": 7.514833600000031,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/ax6-rtc3test-2-gb-cgb-c729fd95.png",
+        "url": "screenshots/docboy/legacy-1790501465/ax6-rtc3test-2-gb-cgb-c729fd95.png",
         "width": 160,
         "height": 144
       }
@@ -1317,10 +1317,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07421759999999722,
-      "runtimeSeconds": 25.245688299999983,
+      "startupSeconds": 0.06643719999999576,
+      "runtimeSeconds": 25.185821999999973,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/ax6-rtc3test-3-gb-cgb-ff119bea.png",
+        "url": "screenshots/docboy/legacy-1790501465/ax6-rtc3test-3-gb-cgb-ff119bea.png",
         "width": 160,
         "height": 144
       }
@@ -1336,10 +1336,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08664070000003221,
-      "runtimeSeconds": 0.41731909999998607,
+      "startupSeconds": 0.06539939999998978,
+      "runtimeSeconds": 0.41120490000002974,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-add-sp-e-timing-gb-dmg-a2e530e4.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-add-sp-e-timing-gb-dmg-a2e530e4.png",
         "width": 160,
         "height": 144
       }
@@ -1355,10 +1355,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08547820000001138,
-      "runtimeSeconds": 0.2942564999999604,
+      "startupSeconds": 0.06472289999999248,
+      "runtimeSeconds": 0.28056500000002416,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-bits-mem-oam-gb-dmg-0ed150b2.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-bits-mem-oam-gb-dmg-0ed150b2.png",
         "width": 160,
         "height": 144
       }
@@ -1374,10 +1374,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08051549999998997,
-      "runtimeSeconds": 0.2783145999999874,
+      "startupSeconds": 0.06379549999996925,
+      "runtimeSeconds": 0.26325930000001563,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-bits-reg-f-gb-dmg-44f3890a.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-bits-reg-f-gb-dmg-44f3890a.png",
         "width": 160,
         "height": 144
       }
@@ -1393,10 +1393,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0918439999999805,
-      "runtimeSeconds": 0.28451619999998456,
+      "startupSeconds": 0.06460889999999608,
+      "runtimeSeconds": 0.25409079999997175,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-bits-unused-hwio-gs-gb-dmg-30860ad6.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-bits-unused-hwio-gs-gb-dmg-30860ad6.png",
         "width": 160,
         "height": 144
       }
@@ -1412,10 +1412,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.10964300000000549,
-      "runtimeSeconds": 0.2704001999999832,
+      "startupSeconds": 0.06570300000004181,
+      "runtimeSeconds": 0.26876709999999093,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-boot-div-dmgabcmgb-gb-dmg-f2165691.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-boot-div-dmgabcmgb-gb-dmg-f2165691.png",
         "width": 160,
         "height": 144
       }
@@ -1431,10 +1431,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07412419999997155,
-      "runtimeSeconds": 0.2686245999999528,
+      "startupSeconds": 0.06295389999996814,
+      "runtimeSeconds": 0.2824363999999946,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-boot-hwio-dmgabcmgb-gb-dmg-342e80c6.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-boot-hwio-dmgabcmgb-gb-dmg-342e80c6.png",
         "width": 160,
         "height": 144
       }
@@ -1450,10 +1450,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.11446169999999256,
-      "runtimeSeconds": 0.2725191000000109,
+      "startupSeconds": 0.06422690000005105,
+      "runtimeSeconds": 0.2790042999999969,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-boot-regs-dmgabc-gb-dmg-9e623b30.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-boot-regs-dmgabc-gb-dmg-9e623b30.png",
         "width": 160,
         "height": 144
       }
@@ -1469,10 +1469,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.13018320000003314,
-      "runtimeSeconds": 0.42445999999995365,
+      "startupSeconds": 0.06314850000001115,
+      "runtimeSeconds": 0.2831456999999773,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-call-cc-timing-gb-dmg-fa9ca02c.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-call-cc-timing-gb-dmg-fa9ca02c.png",
         "width": 160,
         "height": 144
       }
@@ -1488,10 +1488,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08871620000002167,
-      "runtimeSeconds": 0.4086781999999971,
+      "startupSeconds": 0.06411589999999023,
+      "runtimeSeconds": 0.41201159999997117,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-call-cc-timing2-gb-dmg-b792d341.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-call-cc-timing2-gb-dmg-b792d341.png",
         "width": 160,
         "height": 144
       }
@@ -1507,10 +1507,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07344219999998813,
-      "runtimeSeconds": 0.42444609999995464,
+      "startupSeconds": 0.0531177000000298,
+      "runtimeSeconds": 0.2862663000000225,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-call-timing-gb-dmg-ac23c2da.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-call-timing-gb-dmg-ac23c2da.png",
         "width": 160,
         "height": 144
       }
@@ -1526,10 +1526,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08740149999999858,
-      "runtimeSeconds": 0.4072253999999589,
+      "startupSeconds": 0.06471240000001899,
+      "runtimeSeconds": 0.4199329999999577,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-call-timing2-gb-dmg-155ad496.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-call-timing2-gb-dmg-155ad496.png",
         "width": 160,
         "height": 144
       }
@@ -1545,10 +1545,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08046569999999065,
-      "runtimeSeconds": 0.27709279999999126,
+      "startupSeconds": 0.052362700000003315,
+      "runtimeSeconds": 0.2850654000000077,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-div-timing-gb-dmg-aaad1d62.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-div-timing-gb-dmg-aaad1d62.png",
         "width": 160,
         "height": 144
       }
@@ -1564,10 +1564,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07517810000001646,
-      "runtimeSeconds": 0.418043100000034,
+      "startupSeconds": 0.06448699999998553,
+      "runtimeSeconds": 0.41006220000002713,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-di-timing-gs-gb-dmg-909a5bc3.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-di-timing-gs-gb-dmg-909a5bc3.png",
         "width": 160,
         "height": 144
       }
@@ -1583,10 +1583,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07763060000002042,
-      "runtimeSeconds": 0.275372300000015,
+      "startupSeconds": 0.06413580000003094,
+      "runtimeSeconds": 0.28426129999996874,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-ei-sequence-gb-dmg-5ebdd542.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-ei-sequence-gb-dmg-5ebdd542.png",
         "width": 160,
         "height": 144
       }
@@ -1602,10 +1602,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07784060000000181,
-      "runtimeSeconds": 0.25926259999999957,
+      "startupSeconds": 0.06288080000001628,
+      "runtimeSeconds": 0.26496460000004163,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-ei-timing-gb-dmg-cf34a2aa.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-ei-timing-gb-dmg-cf34a2aa.png",
         "width": 160,
         "height": 144
       }
@@ -1621,10 +1621,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08518459999999095,
-      "runtimeSeconds": 0.2826191999999992,
+      "startupSeconds": 0.06372479999998859,
+      "runtimeSeconds": 0.2525402999999642,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-halt-ime0-ei-gb-dmg-f1bd4bba.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-halt-ime0-ei-gb-dmg-f1bd4bba.png",
         "width": 160,
         "height": 144
       }
@@ -1640,10 +1640,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07549349999999322,
-      "runtimeSeconds": 0.4017436000000316,
+      "startupSeconds": 0.06488249999995332,
+      "runtimeSeconds": 0.4121653000000265,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-halt-ime0-nointr-timing-gb-dmg-cd224952.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-halt-ime0-nointr-timing-gb-dmg-cd224952.png",
         "width": 160,
         "height": 144
       }
@@ -1659,10 +1659,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08489459999998417,
-      "runtimeSeconds": 0.27628440000000865,
+      "startupSeconds": 0.06436769999999115,
+      "runtimeSeconds": 0.2658313000000021,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-halt-ime1-timing-gb-dmg-518a499c.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-halt-ime1-timing-gb-dmg-518a499c.png",
         "width": 160,
         "height": 144
       }
@@ -1678,10 +1678,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.09869449999996505,
-      "runtimeSeconds": 0.4138458999999557,
+      "startupSeconds": 0.06516249999998536,
+      "runtimeSeconds": 0.4300216999999975,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-halt-ime1-timing2-gs-gb-dmg-1cef7c39.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-halt-ime1-timing2-gs-gb-dmg-1cef7c39.png",
         "width": 160,
         "height": 144
       }
@@ -1697,10 +1697,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.10051270000002432,
-      "runtimeSeconds": 0.41179360000001,
+      "startupSeconds": 0.06621589999997468,
+      "runtimeSeconds": 0.26481549999999743,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-if-ie-registers-gb-dmg-7fa01a0b.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-if-ie-registers-gb-dmg-7fa01a0b.png",
         "width": 160,
         "height": 144
       }
@@ -1716,10 +1716,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.12022949999999355,
-      "runtimeSeconds": 0.5750042000000235,
+      "startupSeconds": 0.06335480000001326,
+      "runtimeSeconds": 0.5492934000000105,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-instr-daa-gb-dmg-f4c07657.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-instr-daa-gb-dmg-f4c07657.png",
         "width": 160,
         "height": 144
       }
@@ -1735,10 +1735,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.15279400000002852,
-      "runtimeSeconds": 0.27822780000002467,
+      "startupSeconds": 0.06464849999997568,
+      "runtimeSeconds": 0.27006149999999707,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-interrupts-ie-push-gb-dmg-cbac7df0.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-interrupts-ie-push-gb-dmg-cbac7df0.png",
         "width": 160,
         "height": 144
       }
@@ -1754,10 +1754,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07986010000001897,
-      "runtimeSeconds": 0.27614099999999553,
+      "startupSeconds": 0.063370099999986,
+      "runtimeSeconds": 0.28096900000002734,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-intr-timing-gb-dmg-751c15a5.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-intr-timing-gb-dmg-751c15a5.png",
         "width": 160,
         "height": 144
       }
@@ -1773,10 +1773,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07992400000000544,
-      "runtimeSeconds": 0.41700839999998607,
+      "startupSeconds": 0.06585849999999027,
+      "runtimeSeconds": 0.3942205999999828,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-jp-cc-timing-gb-dmg-44fc5de2.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-jp-cc-timing-gb-dmg-44fc5de2.png",
         "width": 160,
         "height": 144
       }
@@ -1792,10 +1792,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.09012100000001055,
-      "runtimeSeconds": 0.42397540000001754,
+      "startupSeconds": 0.06443939999996928,
+      "runtimeSeconds": 0.2794640000000186,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-jp-timing-gb-dmg-3ae9e8b0.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-jp-timing-gb-dmg-3ae9e8b0.png",
         "width": 160,
         "height": 144
       }
@@ -1811,10 +1811,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0807168000000047,
-      "runtimeSeconds": 0.41991110000003573,
+      "startupSeconds": 0.06360749999998916,
+      "runtimeSeconds": 0.4283320000000117,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-ld-hl-sp-e-timing-gb-dmg-52cce822.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-ld-hl-sp-e-timing-gb-dmg-52cce822.png",
         "width": 160,
         "height": 144
       }
@@ -1830,10 +1830,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08105079999995723,
-      "runtimeSeconds": 0.27941700000002356,
+      "startupSeconds": 0.06473130000000538,
+      "runtimeSeconds": 0.26237390000000005,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-oam-dma-basic-gb-dmg-3a9f8c15.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-oam-dma-basic-gb-dmg-3a9f8c15.png",
         "width": 160,
         "height": 144
       }
@@ -1849,10 +1849,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0760230000000206,
-      "runtimeSeconds": 0.27858770000000277,
+      "startupSeconds": 0.06374170000003687,
+      "runtimeSeconds": 0.2797335999999859,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-oam-dma-reg-read-gb-dmg-4900f1f3.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-oam-dma-reg-read-gb-dmg-4900f1f3.png",
         "width": 160,
         "height": 144
       }
@@ -1868,10 +1868,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08526030000001583,
-      "runtimeSeconds": 0.8159511000000066,
+      "startupSeconds": 0.06365170000003673,
+      "runtimeSeconds": 0.6899384000000168,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-oam-dma-sources-gs-gb-dmg-5074f6c9.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-oam-dma-sources-gs-gb-dmg-5074f6c9.png",
         "width": 160,
         "height": 144
       }
@@ -1887,10 +1887,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08187509999999065,
-      "runtimeSeconds": 0.4299136000000203,
+      "startupSeconds": 0.06339719999999716,
+      "runtimeSeconds": 0.4090335000000209,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-oam-dma-restart-gb-dmg-a47d1dfa.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-oam-dma-restart-gb-dmg-a47d1dfa.png",
         "width": 160,
         "height": 144
       }
@@ -1906,10 +1906,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08812199999999848,
-      "runtimeSeconds": 0.42404140000002144,
+      "startupSeconds": 0.06615709999999808,
+      "runtimeSeconds": 0.4095154999999977,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-oam-dma-start-gb-dmg-b7ed9f09.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-oam-dma-start-gb-dmg-b7ed9f09.png",
         "width": 160,
         "height": 144
       }
@@ -1925,10 +1925,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08768839999999045,
-      "runtimeSeconds": 0.40724050000000034,
+      "startupSeconds": 0.05307229999999663,
+      "runtimeSeconds": 0.42111899999997604,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-oam-dma-timing-gb-dmg-0e573056.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-oam-dma-timing-gb-dmg-0e573056.png",
         "width": 160,
         "height": 144
       }
@@ -1944,10 +1944,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07998209999999517,
-      "runtimeSeconds": 0.28498619999999164,
+      "startupSeconds": 0.06473420000003216,
+      "runtimeSeconds": 0.27694789999998193,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-pop-timing-gb-dmg-ce1bbc67.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-pop-timing-gb-dmg-ce1bbc67.png",
         "width": 160,
         "height": 144
       }
@@ -1963,10 +1963,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0768987000000152,
-      "runtimeSeconds": 0.9957228999999757,
+      "startupSeconds": 0.06374499999998307,
+      "runtimeSeconds": 0.9647643999999787,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-ppu-hblank-ly-scx-timing-gs-gb-dmg-05e4e6ce.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-ppu-hblank-ly-scx-timing-gs-gb-dmg-05e4e6ce.png",
         "width": 160,
         "height": 144
       }
@@ -1982,10 +1982,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07689340000001721,
-      "runtimeSeconds": 0.41128600000001825,
+      "startupSeconds": 0.063657199999966,
+      "runtimeSeconds": 0.41017080000000306,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-ppu-intr-1-2-timing-gs-gb-dmg-f0241de3.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-ppu-intr-1-2-timing-gs-gb-dmg-f0241de3.png",
         "width": 160,
         "height": 144
       }
@@ -2001,10 +2001,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07296870000004674,
-      "runtimeSeconds": 0.4193659000000025,
+      "startupSeconds": 0.06363790000000336,
+      "runtimeSeconds": 0.2804265999999984,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-ppu-intr-2-0-timing-gb-dmg-4e7b1d8c.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-ppu-intr-2-0-timing-gb-dmg-4e7b1d8c.png",
         "width": 160,
         "height": 144
       }
@@ -2020,10 +2020,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07721660000004249,
-      "runtimeSeconds": 0.4180075999999531,
+      "startupSeconds": 0.05296940000005179,
+      "runtimeSeconds": 0.40280209999997396,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-ppu-intr-2-mode0-timing-gb-dmg-494323d6.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-ppu-intr-2-mode0-timing-gb-dmg-494323d6.png",
         "width": 160,
         "height": 144
       }
@@ -2039,10 +2039,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07446320000002515,
-      "runtimeSeconds": 5.689183600000035,
+      "startupSeconds": 0.06579329999999572,
+      "runtimeSeconds": 5.64417259999999,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-ppu-intr-2-mode0-timing-sprites-gb-dmg-e9daeba9.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-ppu-intr-2-mode0-timing-sprites-gb-dmg-e9daeba9.png",
         "width": 160,
         "height": 144
       }
@@ -2058,10 +2058,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07987889999998288,
-      "runtimeSeconds": 0.4180403000000297,
+      "startupSeconds": 0.06420709999997598,
+      "runtimeSeconds": 0.2801482000000419,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-ppu-intr-2-mode3-timing-gb-dmg-07b8cb40.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-ppu-intr-2-mode3-timing-gb-dmg-07b8cb40.png",
         "width": 160,
         "height": 144
       }
@@ -2077,10 +2077,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08497499999998581,
-      "runtimeSeconds": 0.41013789999999517,
+      "startupSeconds": 0.06363439999995535,
+      "runtimeSeconds": 0.28199890000001915,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-ppu-intr-2-oam-ok-timing-gb-dmg-56282d1b.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-ppu-intr-2-oam-ok-timing-gb-dmg-56282d1b.png",
         "width": 160,
         "height": 144
       }
@@ -2096,10 +2096,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07426089999995611,
-      "runtimeSeconds": 0.9520259999999894,
+      "startupSeconds": 0.0633576999999832,
+      "runtimeSeconds": 0.9147990000000163,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-ppu-lcdon-timing-gs-gb-dmg-8505214e.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-ppu-lcdon-timing-gs-gb-dmg-8505214e.png",
         "width": 160,
         "height": 144
       }
@@ -2115,10 +2115,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07472919999997885,
-      "runtimeSeconds": 1.6904261999999903,
+      "startupSeconds": 0.06315430000000788,
+      "runtimeSeconds": 1.6689569999999776,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-ppu-lcdon-write-timing-gs-gb-dmg-f79fbd79.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-ppu-lcdon-write-timing-gs-gb-dmg-f79fbd79.png",
         "width": 160,
         "height": 144
       }
@@ -2134,10 +2134,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08121389999996609,
-      "runtimeSeconds": 0.27162930000002916,
+      "startupSeconds": 0.06559440000000905,
+      "runtimeSeconds": 0.2748656999999639,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-ppu-stat-irq-blocking-gb-dmg-264b995e.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-ppu-stat-irq-blocking-gb-dmg-264b995e.png",
         "width": 160,
         "height": 144
       }
@@ -2153,10 +2153,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0783877000000075,
-      "runtimeSeconds": 0.3889942000000133,
+      "startupSeconds": 0.06414200000000392,
+      "runtimeSeconds": 0.41899779999999964,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-ppu-stat-lyc-onoff-gb-dmg-7bc03421.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-ppu-stat-lyc-onoff-gb-dmg-7bc03421.png",
         "width": 160,
         "height": 144
       }
@@ -2172,10 +2172,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07466419999997242,
-      "runtimeSeconds": 0.4223842000000104,
+      "startupSeconds": 0.06377270000001545,
+      "runtimeSeconds": 0.4215363999999795,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-ppu-vblank-stat-intr-gs-gb-dmg-480f42b9.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-ppu-vblank-stat-intr-gs-gb-dmg-480f42b9.png",
         "width": 160,
         "height": 144
       }
@@ -2191,10 +2191,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07503380000002835,
-      "runtimeSeconds": 0.4199310000000196,
+      "startupSeconds": 0.0640025999999807,
+      "runtimeSeconds": 0.3880072000000041,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-push-timing-gb-dmg-710b9556.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-push-timing-gb-dmg-710b9556.png",
         "width": 160,
         "height": 144
       }
@@ -2210,10 +2210,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07467900000000327,
-      "runtimeSeconds": 0.26857039999998733,
+      "startupSeconds": 0.06479560000002493,
+      "runtimeSeconds": 0.2801825999999892,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-rapid-di-ei-gb-dmg-4084bb73.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-rapid-di-ei-gb-dmg-4084bb73.png",
         "width": 160,
         "height": 144
       }
@@ -2229,10 +2229,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08651389999999992,
-      "runtimeSeconds": 0.2802512999999749,
+      "startupSeconds": 0.06585080000002108,
+      "runtimeSeconds": 0.2596161999999822,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-reti-intr-timing-gb-dmg-2f8b895c.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-reti-intr-timing-gb-dmg-2f8b895c.png",
         "width": 160,
         "height": 144
       }
@@ -2248,10 +2248,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07442509999998492,
-      "runtimeSeconds": 0.41537230000000136,
+      "startupSeconds": 0.06391359999997803,
+      "runtimeSeconds": 0.42041799999998375,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-reti-timing-gb-dmg-ec787688.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-reti-timing-gb-dmg-ec787688.png",
         "width": 160,
         "height": 144
       }
@@ -2267,10 +2267,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07623149999994894,
-      "runtimeSeconds": 0.4238694999999666,
+      "startupSeconds": 0.06471169999997528,
+      "runtimeSeconds": 0.28913299999999253,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-ret-cc-timing-gb-dmg-c6dae4bb.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-ret-cc-timing-gb-dmg-c6dae4bb.png",
         "width": 160,
         "height": 144
       }
@@ -2286,10 +2286,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07588700000002291,
-      "runtimeSeconds": 0.4108043999999609,
+      "startupSeconds": 0.05531940000003033,
+      "runtimeSeconds": 0.4104037999999832,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-ret-timing-gb-dmg-e73ee096.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-ret-timing-gb-dmg-e73ee096.png",
         "width": 160,
         "height": 144
       }
@@ -2305,10 +2305,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07639950000003637,
-      "runtimeSeconds": 0.3983887999999638,
+      "startupSeconds": 0.06469369999996388,
+      "runtimeSeconds": 0.4167105999999876,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-rst-timing-gb-dmg-ceee4af4.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-rst-timing-gb-dmg-ceee4af4.png",
         "width": 160,
         "height": 144
       }
@@ -2324,10 +2324,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07728720000000067,
-      "runtimeSeconds": 0.287432200000012,
+      "startupSeconds": 0.06595360000000028,
+      "runtimeSeconds": 0.27866819999997006,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-serial-boot-sclk-align-dmgabcmgb-gb-dmg-45c85de9.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-serial-boot-sclk-align-dmgabcmgb-gb-dmg-45c85de9.png",
         "width": 160,
         "height": 144
       }
@@ -2343,10 +2343,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07820190000001048,
-      "runtimeSeconds": 0.9414205999999581,
+      "startupSeconds": 0.06553660000002992,
+      "runtimeSeconds": 0.9435033999999973,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-timer-div-write-gb-dmg-fe22c522.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-timer-div-write-gb-dmg-fe22c522.png",
         "width": 160,
         "height": 144
       }
@@ -2362,10 +2362,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07737439999999651,
-      "runtimeSeconds": 0.2583748000000128,
+      "startupSeconds": 0.07041440000000421,
+      "runtimeSeconds": 0.27007109999999557,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-timer-rapid-toggle-gb-dmg-0843c009.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-timer-rapid-toggle-gb-dmg-0843c009.png",
         "width": 160,
         "height": 144
       }
@@ -2381,10 +2381,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07649589999999762,
-      "runtimeSeconds": 0.2756754999999771,
+      "startupSeconds": 0.06720580000001064,
+      "runtimeSeconds": 0.2583559000000264,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-timer-tim00-gb-dmg-2b8833ad.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-timer-tim00-gb-dmg-2b8833ad.png",
         "width": 160,
         "height": 144
       }
@@ -2400,10 +2400,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07556700000003502,
-      "runtimeSeconds": 0.2599089999999933,
+      "startupSeconds": 0.06706550000001243,
+      "runtimeSeconds": 0.2695643000000132,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-timer-tim00-div-trigger-gb-dmg-c8b5f243.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-timer-tim00-div-trigger-gb-dmg-c8b5f243.png",
         "width": 160,
         "height": 144
       }
@@ -2419,10 +2419,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08544399999999541,
-      "runtimeSeconds": 0.280466400000023,
+      "startupSeconds": 0.09118449999999712,
+      "runtimeSeconds": 0.27787779999999884,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-timer-tim01-gb-dmg-f495fe5e.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-timer-tim01-gb-dmg-f495fe5e.png",
         "width": 160,
         "height": 144
       }
@@ -2438,10 +2438,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07473629999998366,
-      "runtimeSeconds": 0.25875380000002224,
+      "startupSeconds": 0.0638110000000438,
+      "runtimeSeconds": 0.2917706999999723,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-timer-tim01-div-trigger-gb-dmg-a64d59b3.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-timer-tim01-div-trigger-gb-dmg-a64d59b3.png",
         "width": 160,
         "height": 144
       }
@@ -2457,10 +2457,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0751777000000402,
-      "runtimeSeconds": 0.25650819999998475,
+      "startupSeconds": 0.06694299999998066,
+      "runtimeSeconds": 0.2857645000000275,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-timer-tim10-gb-dmg-fb4191da.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-timer-tim10-gb-dmg-fb4191da.png",
         "width": 160,
         "height": 144
       }
@@ -2476,10 +2476,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0745567999999821,
-      "runtimeSeconds": 0.275095599999986,
+      "startupSeconds": 0.06415679999997792,
+      "runtimeSeconds": 0.2867792000000122,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-timer-tim10-div-trigger-gb-dmg-da0af375.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-timer-tim10-div-trigger-gb-dmg-da0af375.png",
         "width": 160,
         "height": 144
       }
@@ -2495,10 +2495,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07741260000000239,
-      "runtimeSeconds": 0.2731224999999995,
+      "startupSeconds": 0.06622980000003054,
+      "runtimeSeconds": 0.2855094999999892,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-timer-tim11-gb-dmg-beb24be1.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-timer-tim11-gb-dmg-beb24be1.png",
         "width": 160,
         "height": 144
       }
@@ -2514,10 +2514,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07845059999999648,
-      "runtimeSeconds": 0.28489170000000286,
+      "startupSeconds": 0.07639949999997953,
+      "runtimeSeconds": 0.27861839999997073,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-timer-tim11-div-trigger-gb-dmg-8556ea9c.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-timer-tim11-div-trigger-gb-dmg-8556ea9c.png",
         "width": 160,
         "height": 144
       }
@@ -2533,10 +2533,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07827070000001868,
-      "runtimeSeconds": 0.28536880000001474,
+      "startupSeconds": 0.06840689999995675,
+      "runtimeSeconds": 0.2864385000000311,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-timer-tima-reload-gb-dmg-8b65a601.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-timer-tima-reload-gb-dmg-8b65a601.png",
         "width": 160,
         "height": 144
       }
@@ -2552,10 +2552,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.074006699999984,
-      "runtimeSeconds": 0.27536220000001776,
+      "startupSeconds": 0.06973010000001523,
+      "runtimeSeconds": 0.2561015999999654,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-timer-tima-write-reloading-gb-dmg-4904e31b.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-timer-tima-write-reloading-gb-dmg-4904e31b.png",
         "width": 160,
         "height": 144
       }
@@ -2571,10 +2571,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08010200000001078,
-      "runtimeSeconds": 0.2863404000000287,
+      "startupSeconds": 0.06727080000001706,
+      "runtimeSeconds": 0.27083929999997736,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-acceptance-timer-tma-write-reloading-gb-dmg-0d6b2680.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-acceptance-timer-tma-write-reloading-gb-dmg-0d6b2680.png",
         "width": 160,
         "height": 144
       }
@@ -2590,10 +2590,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07574329999999918,
-      "runtimeSeconds": 3.1416239000000132,
+      "startupSeconds": 0.06625929999995606,
+      "runtimeSeconds": 3.17478490000002,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-emulator-only-mbc1-bits-bank1-gb-dmg-d4779942.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-emulator-only-mbc1-bits-bank1-gb-dmg-d4779942.png",
         "width": 160,
         "height": 144
       }
@@ -2609,10 +2609,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0756272000000422,
-      "runtimeSeconds": 3.011288400000012,
+      "startupSeconds": 0.06753009999999904,
+      "runtimeSeconds": 3.0096181000000115,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-emulator-only-mbc1-bits-bank2-gb-dmg-ad4d785a.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-emulator-only-mbc1-bits-bank2-gb-dmg-ad4d785a.png",
         "width": 160,
         "height": 144
       }
@@ -2628,10 +2628,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07535259999997379,
-      "runtimeSeconds": 3.0638232000000016,
+      "startupSeconds": 0.06528789999998708,
+      "runtimeSeconds": 3.1276721000000407,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-emulator-only-mbc1-bits-mode-gb-dmg-39790683.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-emulator-only-mbc1-bits-mode-gb-dmg-39790683.png",
         "width": 160,
         "height": 144
       }
@@ -2647,10 +2647,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.06715249999996331,
-      "runtimeSeconds": 5.973891500000036,
+      "startupSeconds": 0.07892389999994975,
+      "runtimeSeconds": 5.939206199999944,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-emulator-only-mbc1-bits-ramg-gb-dmg-8b7f2c6e.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-emulator-only-mbc1-bits-ramg-gb-dmg-8b7f2c6e.png",
         "width": 160,
         "height": 144
       }
@@ -2666,10 +2666,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07414129999995112,
-      "runtimeSeconds": 0.43516699999997854,
+      "startupSeconds": 0.06328750000000127,
+      "runtimeSeconds": 0.2829654000000801,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-emulator-only-mbc1-multicart-rom-8mb-gb-dmg-2a8c180d.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-emulator-only-mbc1-multicart-rom-8mb-gb-dmg-2a8c180d.png",
         "width": 160,
         "height": 144
       }
@@ -2685,10 +2685,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07700119999998378,
-      "runtimeSeconds": 1.1219206999999756,
+      "startupSeconds": 0.06442340000000968,
+      "runtimeSeconds": 1.093200300000035,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-emulator-only-mbc1-ram-256kb-gb-dmg-4f19a03b.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-emulator-only-mbc1-ram-256kb-gb-dmg-4f19a03b.png",
         "width": 160,
         "height": 144
       }
@@ -2704,10 +2704,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07509420000002365,
-      "runtimeSeconds": 1.114016300000003,
+      "startupSeconds": 0.06575699999996232,
+      "runtimeSeconds": 1.1057426999999507,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-emulator-only-mbc1-ram-64kb-gb-dmg-e6a8f87c.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-emulator-only-mbc1-ram-64kb-gb-dmg-e6a8f87c.png",
         "width": 160,
         "height": 144
       }
@@ -2723,10 +2723,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07382599999999684,
-      "runtimeSeconds": 0.40054859999997916,
+      "startupSeconds": 0.063297700000021,
+      "runtimeSeconds": 0.41612820000000283,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-emulator-only-mbc1-rom-16mb-gb-dmg-ea133176.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-emulator-only-mbc1-rom-16mb-gb-dmg-ea133176.png",
         "width": 160,
         "height": 144
       }
@@ -2742,10 +2742,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0769506999999976,
-      "runtimeSeconds": 0.4222526000000357,
+      "startupSeconds": 0.066338099999939,
+      "runtimeSeconds": 0.28005689999997685,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-emulator-only-mbc1-rom-1mb-gb-dmg-4ab29126.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-emulator-only-mbc1-rom-1mb-gb-dmg-4ab29126.png",
         "width": 160,
         "height": 144
       }
@@ -2761,10 +2761,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07706830000000764,
-      "runtimeSeconds": 0.410201499999971,
+      "startupSeconds": 0.06640590000006341,
+      "runtimeSeconds": 0.28943920000006074,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-emulator-only-mbc1-rom-2mb-gb-dmg-b335b204.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-emulator-only-mbc1-rom-2mb-gb-dmg-b335b204.png",
         "width": 160,
         "height": 144
       }
@@ -2780,10 +2780,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07860579999999118,
-      "runtimeSeconds": 0.4290690000000268,
+      "startupSeconds": 0.07068019999996977,
+      "runtimeSeconds": 0.27713840000001255,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-emulator-only-mbc1-rom-4mb-gb-dmg-012aacea.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-emulator-only-mbc1-rom-4mb-gb-dmg-012aacea.png",
         "width": 160,
         "height": 144
       }
@@ -2799,10 +2799,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08499969999996893,
-      "runtimeSeconds": 0.41119489999999814,
+      "startupSeconds": 0.06380500000000211,
+      "runtimeSeconds": 0.2806329000000005,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-emulator-only-mbc1-rom-512kb-gb-dmg-f61866d0.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-emulator-only-mbc1-rom-512kb-gb-dmg-f61866d0.png",
         "width": 160,
         "height": 144
       }
@@ -2818,10 +2818,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07520479999999452,
-      "runtimeSeconds": 0.39113709999998036,
+      "startupSeconds": 0.06924670000000788,
+      "runtimeSeconds": 0.28023589999997967,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-emulator-only-mbc1-rom-8mb-gb-dmg-4a58da3c.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-emulator-only-mbc1-rom-8mb-gb-dmg-4a58da3c.png",
         "width": 160,
         "height": 144
       }
@@ -2837,10 +2837,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07509809999999106,
-      "runtimeSeconds": 6.066974300000027,
+      "startupSeconds": 0.06532110000000557,
+      "runtimeSeconds": 6.028358400000002,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-emulator-only-mbc2-bits-ramg-gb-dmg-d40e6933.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-emulator-only-mbc2-bits-ramg-gb-dmg-d40e6933.png",
         "width": 160,
         "height": 144
       }
@@ -2856,10 +2856,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07486959999999954,
-      "runtimeSeconds": 3.2189948000000186,
+      "startupSeconds": 0.06487770000001092,
+      "runtimeSeconds": 3.288734599999998,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-emulator-only-mbc2-bits-romb-gb-dmg-8042ce4a.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-emulator-only-mbc2-bits-romb-gb-dmg-8042ce4a.png",
         "width": 160,
         "height": 144
       }
@@ -2875,10 +2875,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07837809999995216,
-      "runtimeSeconds": 3.062026000000003,
+      "startupSeconds": 0.06738450000000284,
+      "runtimeSeconds": 3.068894499999942,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-emulator-only-mbc2-bits-unused-gb-dmg-b0f22d36.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-emulator-only-mbc2-bits-unused-gb-dmg-b0f22d36.png",
         "width": 160,
         "height": 144
       }
@@ -2894,10 +2894,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07579780000003211,
-      "runtimeSeconds": 0.5436416000000008,
+      "startupSeconds": 0.06648210000003019,
+      "runtimeSeconds": 0.5403787000000193,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-emulator-only-mbc2-ram-gb-dmg-c8cb9a3f.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-emulator-only-mbc2-ram-gb-dmg-c8cb9a3f.png",
         "width": 160,
         "height": 144
       }
@@ -2913,10 +2913,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0748070999999868,
-      "runtimeSeconds": 0.2922913999999537,
+      "startupSeconds": 0.06667170000002898,
+      "runtimeSeconds": 0.27855810000005476,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-emulator-only-mbc2-rom-1mb-gb-dmg-38a66bb1.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-emulator-only-mbc2-rom-1mb-gb-dmg-38a66bb1.png",
         "width": 160,
         "height": 144
       }
@@ -2932,10 +2932,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07857749999999442,
-      "runtimeSeconds": 0.2843225999999959,
+      "startupSeconds": 0.06405889999996361,
+      "runtimeSeconds": 0.2830385000000888,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-emulator-only-mbc2-rom-2mb-gb-dmg-8c4129d6.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-emulator-only-mbc2-rom-2mb-gb-dmg-8c4129d6.png",
         "width": 160,
         "height": 144
       }
@@ -2951,10 +2951,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07479369999998653,
-      "runtimeSeconds": 0.257085399999994,
+      "startupSeconds": 0.06439990000001217,
+      "runtimeSeconds": 0.2831833000000188,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-emulator-only-mbc2-rom-512kb-gb-dmg-75f74a5d.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-emulator-only-mbc2-rom-512kb-gb-dmg-75f74a5d.png",
         "width": 160,
         "height": 144
       }
@@ -2970,10 +2970,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07511210000001256,
-      "runtimeSeconds": 0.2921206999999981,
+      "startupSeconds": 0.06472619999999552,
+      "runtimeSeconds": 0.4009995000000117,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-emulator-only-mbc5-rom-16mb-gb-dmg-8d45404f.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-emulator-only-mbc5-rom-16mb-gb-dmg-8d45404f.png",
         "width": 160,
         "height": 144
       }
@@ -2989,10 +2989,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07771189999999706,
-      "runtimeSeconds": 0.42045990000002575,
+      "startupSeconds": 0.06628969999997025,
+      "runtimeSeconds": 0.39807519999999386,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-emulator-only-mbc5-rom-1mb-gb-dmg-5cacf3a9.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-emulator-only-mbc5-rom-1mb-gb-dmg-5cacf3a9.png",
         "width": 160,
         "height": 144
       }
@@ -3008,10 +3008,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07581049999998868,
-      "runtimeSeconds": 0.40050200000001723,
+      "startupSeconds": 0.06701910000003863,
+      "runtimeSeconds": 0.2803050999999641,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-emulator-only-mbc5-rom-2mb-gb-dmg-2e2aca69.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-emulator-only-mbc5-rom-2mb-gb-dmg-2e2aca69.png",
         "width": 160,
         "height": 144
       }
@@ -3027,10 +3027,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07680930000003627,
-      "runtimeSeconds": 0.4201549,
+      "startupSeconds": 0.0633164000000761,
+      "runtimeSeconds": 0.28604840000002696,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-emulator-only-mbc5-rom-32mb-gb-dmg-ace23259.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-emulator-only-mbc5-rom-32mb-gb-dmg-ace23259.png",
         "width": 160,
         "height": 144
       }
@@ -3046,10 +3046,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07443699999998898,
-      "runtimeSeconds": 0.4230543999999554,
+      "startupSeconds": 0.0661733000000595,
+      "runtimeSeconds": 0.2788375999999744,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-emulator-only-mbc5-rom-4mb-gb-dmg-180a2f1a.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-emulator-only-mbc5-rom-4mb-gb-dmg-180a2f1a.png",
         "width": 160,
         "height": 144
       }
@@ -3065,10 +3065,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07484360000000834,
-      "runtimeSeconds": 0.4231742000000054,
+      "startupSeconds": 0.0665491000000884,
+      "runtimeSeconds": 0.2807527999999593,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-emulator-only-mbc5-rom-512kb-gb-dmg-32e195d5.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-emulator-only-mbc5-rom-512kb-gb-dmg-32e195d5.png",
         "width": 160,
         "height": 144
       }
@@ -3084,10 +3084,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07505239999994728,
-      "runtimeSeconds": 0.41999810000004345,
+      "startupSeconds": 0.06505519999996068,
+      "runtimeSeconds": 0.40909820000001673,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-emulator-only-mbc5-rom-64mb-gb-dmg-e6ab18f6.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-emulator-only-mbc5-rom-64mb-gb-dmg-e6ab18f6.png",
         "width": 160,
         "height": 144
       }
@@ -3103,10 +3103,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0797954999999888,
-      "runtimeSeconds": 0.4145204000000149,
+      "startupSeconds": 0.06440269999995962,
+      "runtimeSeconds": 0.40848429999994096,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-emulator-only-mbc5-rom-8mb-gb-dmg-f19d2327.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-emulator-only-mbc5-rom-8mb-gb-dmg-f19d2327.png",
         "width": 160,
         "height": 144
       }
@@ -3122,10 +3122,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0756015999999704,
-      "runtimeSeconds": 0.2838993999999957,
+      "startupSeconds": 0.06727949999992688,
+      "runtimeSeconds": 0.27698659999998654,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-manual-only-sprite-priority-gb-dmg-e44061f7.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-manual-only-sprite-priority-gb-dmg-e44061f7.png",
         "width": 160,
         "height": 144
       }
@@ -3141,10 +3141,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07796170000000302,
-      "runtimeSeconds": 0.2805792999999994,
+      "startupSeconds": 0.06290920000003553,
+      "runtimeSeconds": 0.2853599000000031,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-misc-boot-div-cgbabcde-gb-cgb-4718e3a1.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-misc-boot-div-cgbabcde-gb-cgb-4718e3a1.png",
         "width": 160,
         "height": 144
       }
@@ -3160,10 +3160,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07632139999998344,
-      "runtimeSeconds": 0.25880390000003217,
+      "startupSeconds": 0.06532759999993232,
+      "runtimeSeconds": 0.26740959999995084,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mooneye-misc-boot-regs-cgb-gb-cgb-e3f63362.png",
+        "url": "screenshots/docboy/legacy-1790501465/mooneye-misc-boot-regs-cgb-gb-cgb-e3f63362.png",
         "width": 160,
         "height": 144
       }
@@ -3179,10 +3179,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07842789999995148,
-      "runtimeSeconds": 0.2732439000000113,
+      "startupSeconds": 0.06868819999999687,
+      "runtimeSeconds": 0.13376110000001518,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-1-channel-1-align-gb-cgb-fe5d98f2.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-1-channel-1-align-gb-cgb-fe5d98f2.png",
         "width": 160,
         "height": 144
       }
@@ -3198,10 +3198,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0857607000000371,
-      "runtimeSeconds": 0.1547466999999756,
+      "startupSeconds": 0.0659302999999909,
+      "runtimeSeconds": 0.13647680000008222,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-1-channel-1-align-cpu-gb-cgb-de51ba29.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-1-channel-1-align-cpu-gb-cgb-de51ba29.png",
         "width": 160,
         "height": 144
       }
@@ -3217,10 +3217,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07335939999995844,
-      "runtimeSeconds": 0.15014940000003207,
+      "startupSeconds": 0.06508309999992434,
+      "runtimeSeconds": 0.13579890000005435,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-1-channel-1-delay-gb-cgb-e6191b9b.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-1-channel-1-delay-gb-cgb-e6191b9b.png",
         "width": 160,
         "height": 144
       }
@@ -3236,10 +3236,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08568950000000086,
-      "runtimeSeconds": 0.2737243999999919,
+      "startupSeconds": 0.06900039999993623,
+      "runtimeSeconds": 0.1318516000000045,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-1-channel-1-duty-gb-cgb-c5587f25.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-1-channel-1-duty-gb-cgb-c5587f25.png",
         "width": 160,
         "height": 144
       }
@@ -3255,10 +3255,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07579960000003894,
-      "runtimeSeconds": 0.28138580000000957,
+      "startupSeconds": 0.06347840000000815,
+      "runtimeSeconds": 0.13916059999996833,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-1-channel-1-duty-delay-gb-cgb-cc8cf400.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-1-channel-1-duty-delay-gb-cgb-cc8cf400.png",
         "width": 160,
         "height": 144
       }
@@ -3274,10 +3274,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07585360000001629,
-      "runtimeSeconds": 0.15129699999999957,
+      "startupSeconds": 0.0671193000000585,
+      "runtimeSeconds": 0.15074839999999767,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-1-channel-1-freq-change-gb-cgb-3635dd1c.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-1-channel-1-freq-change-gb-cgb-3635dd1c.png",
         "width": 160,
         "height": 144
       }
@@ -3293,10 +3293,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07657820000002857,
-      "runtimeSeconds": 0.4146186999999486,
+      "startupSeconds": 0.06371649999994133,
+      "runtimeSeconds": 0.41498169999999845,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-1-channel-1-nrx2-glitch-gb-cgb-4a3f3319.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-1-channel-1-nrx2-glitch-gb-cgb-4a3f3319.png",
         "width": 160,
         "height": 144
       }
@@ -3312,10 +3312,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07454040000004625,
-      "runtimeSeconds": 2.8862018000000376,
+      "startupSeconds": 0.0641213000000107,
+      "runtimeSeconds": 2.8592629999999417,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-1-channel-1-nrx2-speed-change-gb-cgb-5eb918f2.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-1-channel-1-nrx2-speed-change-gb-cgb-5eb918f2.png",
         "width": 160,
         "height": 144
       }
@@ -3331,10 +3331,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07866740000002892,
-      "runtimeSeconds": 0.2739453000000367,
+      "startupSeconds": 0.06337710000002517,
+      "runtimeSeconds": 0.139104800000041,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-1-channel-1-restart-gb-cgb-795b4b47.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-1-channel-1-restart-gb-cgb-795b4b47.png",
         "width": 160,
         "height": 144
       }
@@ -3350,10 +3350,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08535950000003822,
-      "runtimeSeconds": 0.2698098999999843,
+      "startupSeconds": 0.06462499999997817,
+      "runtimeSeconds": 0.1354571000000533,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-1-channel-1-restart-nrx2-glitch-gb-cgb-f0572b8b.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-1-channel-1-restart-nrx2-glitch-gb-cgb-f0572b8b.png",
         "width": 160,
         "height": 144
       }
@@ -3369,10 +3369,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0869162999999844,
-      "runtimeSeconds": 0.4247341000000233,
+      "startupSeconds": 0.06604649999997037,
+      "runtimeSeconds": 0.4103169999999636,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-1-channel-1-stop-div-gb-cgb-6a8b2e84.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-1-channel-1-stop-div-gb-cgb-6a8b2e84.png",
         "width": 160,
         "height": 144
       }
@@ -3388,10 +3388,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07959070000003976,
-      "runtimeSeconds": 0.2887087999999949,
+      "startupSeconds": 0.06642170000009173,
+      "runtimeSeconds": 0.1509476999999606,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-1-channel-1-stop-restart-gb-cgb-990aa00e.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-1-channel-1-stop-restart-gb-cgb-990aa00e.png",
         "width": 160,
         "height": 144
       }
@@ -3407,10 +3407,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07399590000005674,
-      "runtimeSeconds": 1.117687100000012,
+      "startupSeconds": 0.06766189999996186,
+      "runtimeSeconds": 1.109630300000049,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-1-channel-1-sweep-gb-cgb-4ffcf7ff.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-1-channel-1-sweep-gb-cgb-4ffcf7ff.png",
         "width": 160,
         "height": 144
       }
@@ -3426,10 +3426,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07733150000001388,
-      "runtimeSeconds": 1.132432300000005,
+      "startupSeconds": 0.06470039999999244,
+      "runtimeSeconds": 1.0949150000000145,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-1-channel-1-sweep-restart-gb-cgb-3f90b4bb.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-1-channel-1-sweep-restart-gb-cgb-3f90b4bb.png",
         "width": 160,
         "height": 144
       }
@@ -3445,10 +3445,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.07618110000004208,
-      "runtimeSeconds": 7.613772299999994,
+      "startupSeconds": 0.06567470000004505,
+      "runtimeSeconds": 7.52310650000004,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-1-channel-1-sweep-restart-2-gb-cgb-0fc030b8.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-1-channel-1-sweep-restart-2-gb-cgb-0fc030b8.png",
         "width": 160,
         "height": 144
       }
@@ -3464,10 +3464,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08761749999996482,
-      "runtimeSeconds": 0.27544829999999365,
+      "startupSeconds": 0.06394290000002911,
+      "runtimeSeconds": 0.14049619999991592,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-1-channel-1-volume-gb-cgb-7039a291.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-1-channel-1-volume-gb-cgb-7039a291.png",
         "width": 160,
         "height": 144
       }
@@ -3483,10 +3483,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.09148160000000871,
-      "runtimeSeconds": 1.9160803999999985,
+      "startupSeconds": 0.07713920000003327,
+      "runtimeSeconds": 1.9361716000000797,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-1-channel-1-volume-div-gb-cgb-9bc7839f.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-1-channel-1-volume-div-gb-cgb-9bc7839f.png",
         "width": 160,
         "height": 144
       }
@@ -3502,10 +3502,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0876311999999757,
-      "runtimeSeconds": 0.27479970000001686,
+      "startupSeconds": 0.0672073000000637,
+      "runtimeSeconds": 0.14825900000005277,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-2-channel-2-align-gb-cgb-7fbe7c8a.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-2-channel-2-align-gb-cgb-7fbe7c8a.png",
         "width": 160,
         "height": 144
       }
@@ -3521,10 +3521,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07177440000003799,
-      "runtimeSeconds": 0.2801666000000296,
+      "startupSeconds": 0.06581430000005639,
+      "runtimeSeconds": 0.13955639999994673,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-2-channel-2-align-cpu-gb-cgb-54c1f6a1.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-2-channel-2-align-cpu-gb-cgb-54c1f6a1.png",
         "width": 160,
         "height": 144
       }
@@ -3540,10 +3540,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07365839999999935,
-      "runtimeSeconds": 0.13894790000000512,
+      "startupSeconds": 0.06963740000003327,
+      "runtimeSeconds": 0.14038700000003246,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-2-channel-2-delay-gb-cgb-967667ca.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-2-channel-2-delay-gb-cgb-967667ca.png",
         "width": 160,
         "height": 144
       }
@@ -3559,10 +3559,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08992129999995768,
-      "runtimeSeconds": 0.27908100000001923,
+      "startupSeconds": 0.06786729999998897,
+      "runtimeSeconds": 0.13846490000003087,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-2-channel-2-duty-gb-cgb-838ec8a8.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-2-channel-2-duty-gb-cgb-838ec8a8.png",
         "width": 160,
         "height": 144
       }
@@ -3578,10 +3578,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0766519999999673,
-      "runtimeSeconds": 0.27586800000000267,
+      "startupSeconds": 0.07618319999994583,
+      "runtimeSeconds": 0.14325590000009925,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-2-channel-2-duty-delay-gb-cgb-28bdea08.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-2-channel-2-duty-delay-gb-cgb-28bdea08.png",
         "width": 160,
         "height": 144
       }
@@ -3597,10 +3597,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08885320000001684,
-      "runtimeSeconds": 0.2778210000000172,
+      "startupSeconds": 0.06324869999991733,
+      "runtimeSeconds": 0.13673960000005536,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-2-channel-2-freq-change-gb-cgb-af9d918e.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-2-channel-2-freq-change-gb-cgb-af9d918e.png",
         "width": 160,
         "height": 144
       }
@@ -3616,10 +3616,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0753840999999511,
-      "runtimeSeconds": 0.43444720000002235,
+      "startupSeconds": 0.06277420000003531,
+      "runtimeSeconds": 0.3977641000000176,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-2-channel-2-nrx2-glitch-gb-cgb-c976266e.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-2-channel-2-nrx2-glitch-gb-cgb-c976266e.png",
         "width": 160,
         "height": 144
       }
@@ -3635,10 +3635,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07413420000000315,
-      "runtimeSeconds": 2.9123913000000243,
+      "startupSeconds": 0.0641177999999627,
+      "runtimeSeconds": 2.863784799999962,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-2-channel-2-nrx2-speed-change-gb-cgb-aab182ec.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-2-channel-2-nrx2-speed-change-gb-cgb-aab182ec.png",
         "width": 160,
         "height": 144
       }
@@ -3654,10 +3654,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07476520000000164,
-      "runtimeSeconds": 0.2811928999999509,
+      "startupSeconds": 0.06346539999992729,
+      "runtimeSeconds": 0.13777879999997822,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-2-channel-2-restart-gb-cgb-b447eb34.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-2-channel-2-restart-gb-cgb-b447eb34.png",
         "width": 160,
         "height": 144
       }
@@ -3673,10 +3673,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07731619999998429,
-      "runtimeSeconds": 0.12619130000001633,
+      "startupSeconds": 0.07392379999998866,
+      "runtimeSeconds": 0.13292570000010073,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-2-channel-2-restart-nrx2-glitch-gb-cgb-a5114bee.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-2-channel-2-restart-nrx2-glitch-gb-cgb-a5114bee.png",
         "width": 160,
         "height": 144
       }
@@ -3692,10 +3692,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.09198250000002872,
-      "runtimeSeconds": 0.4173511999999846,
+      "startupSeconds": 0.06695460000003095,
+      "runtimeSeconds": 0.4106044000000111,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-2-channel-2-stop-div-gb-cgb-f2c9f0bb.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-2-channel-2-stop-div-gb-cgb-f2c9f0bb.png",
         "width": 160,
         "height": 144
       }
@@ -3711,10 +3711,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07768249999998034,
-      "runtimeSeconds": 0.2795433999999659,
+      "startupSeconds": 0.06324960000006286,
+      "runtimeSeconds": 0.14139959999999974,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-2-channel-2-stop-restart-gb-cgb-b2a94b06.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-2-channel-2-stop-restart-gb-cgb-b2a94b06.png",
         "width": 160,
         "height": 144
       }
@@ -3730,10 +3730,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08467330000001994,
-      "runtimeSeconds": 0.2751564000000144,
+      "startupSeconds": 0.06613609999999426,
+      "runtimeSeconds": 0.263776499999949,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-2-channel-2-volume-gb-cgb-7dabd4e6.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-2-channel-2-volume-gb-cgb-7dabd4e6.png",
         "width": 160,
         "height": 144
       }
@@ -3749,10 +3749,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.073714300000006,
-      "runtimeSeconds": 0.969755599999985,
+      "startupSeconds": 0.06337780000001203,
+      "runtimeSeconds": 0.9460851999999704,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-2-channel-2-volume-div-gb-cgb-8e47ba64.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-2-channel-2-volume-div-gb-cgb-8e47ba64.png",
         "width": 160,
         "height": 144
       }
@@ -3768,10 +3768,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07471930000002658,
-      "runtimeSeconds": 0.2903769000000125,
+      "startupSeconds": 0.06347959999993691,
+      "runtimeSeconds": 0.2851861999999983,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-3-channel-3-and-glitch-gb-cgb-7fbae8e6.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-3-channel-3-and-glitch-gb-cgb-7fbae8e6.png",
         "width": 160,
         "height": 144
       }
@@ -3787,10 +3787,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07484069999998155,
-      "runtimeSeconds": 0.2792532999999935,
+      "startupSeconds": 0.06877819999999701,
+      "runtimeSeconds": 0.13507960000004005,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-3-channel-3-delay-gb-cgb-00e9ef09.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-3-channel-3-delay-gb-cgb-00e9ef09.png",
         "width": 160,
         "height": 144
       }
@@ -3806,10 +3806,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08587449999998853,
-      "runtimeSeconds": 0.15158120000000963,
+      "startupSeconds": 0.06304309999995894,
+      "runtimeSeconds": 0.1393430000000535,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-3-channel-3-first-sample-gb-cgb-cb1642e5.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-3-channel-3-first-sample-gb-cgb-cb1642e5.png",
         "width": 160,
         "height": 144
       }
@@ -3825,10 +3825,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08922450000000026,
-      "runtimeSeconds": 0.1412187999999901,
+      "startupSeconds": 0.06940620000000308,
+      "runtimeSeconds": 0.15214070000001811,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-3-channel-3-freq-change-delay-gb-cgb-08de8392.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-3-channel-3-freq-change-delay-gb-cgb-08de8392.png",
         "width": 160,
         "height": 144
       }
@@ -3844,10 +3844,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08565190000001621,
-      "runtimeSeconds": 0.14750709999998435,
+      "startupSeconds": 0.0628474999999753,
+      "runtimeSeconds": 0.13814960000001975,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-3-channel-3-restart-delay-gb-cgb-00f96408.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-3-channel-3-restart-delay-gb-cgb-00f96408.png",
         "width": 160,
         "height": 144
       }
@@ -3863,10 +3863,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07419229999999288,
-      "runtimeSeconds": 0.27145229999996445,
+      "startupSeconds": 0.06664880000005269,
+      "runtimeSeconds": 0.1516890999999987,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-3-channel-3-restart-during-delay-gb-cgb-4acdff61.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-3-channel-3-restart-during-delay-gb-cgb-4acdff61.png",
         "width": 160,
         "height": 144
       }
@@ -3882,10 +3882,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08609990000002199,
-      "runtimeSeconds": 0.13691460000001143,
+      "startupSeconds": 0.06363549999991847,
+      "runtimeSeconds": 0.14001259999997728,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-3-channel-3-restart-stop-delay-gb-cgb-15fbee2c.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-3-channel-3-restart-stop-delay-gb-cgb-15fbee2c.png",
         "width": 160,
         "height": 144
       }
@@ -3901,10 +3901,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07636600000000726,
-      "runtimeSeconds": 0.29135519999999815,
+      "startupSeconds": 0.07396529999994073,
+      "runtimeSeconds": 0.14689369999996416,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-3-channel-3-shift-delay-gb-cgb-13f2c3ba.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-3-channel-3-shift-delay-gb-cgb-13f2c3ba.png",
         "width": 160,
         "height": 144
       }
@@ -3920,10 +3920,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07442559999998366,
-      "runtimeSeconds": 0.2793346999999926,
+      "startupSeconds": 0.06524930000000495,
+      "runtimeSeconds": 0.1378592999999455,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-3-channel-3-shift-skip-delay-gb-cgb-ccd7cc77.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-3-channel-3-shift-skip-delay-gb-cgb-ccd7cc77.png",
         "width": 160,
         "height": 144
       }
@@ -3939,10 +3939,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07586620000000721,
-      "runtimeSeconds": 0.26751189999998815,
+      "startupSeconds": 0.06839610000008634,
+      "runtimeSeconds": 0.13513549999993302,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-3-channel-3-stop-delay-gb-cgb-3710d440.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-3-channel-3-stop-delay-gb-cgb-3710d440.png",
         "width": 160,
         "height": 144
       }
@@ -3958,10 +3958,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08446010000000115,
-      "runtimeSeconds": 0.41240609999999833,
+      "startupSeconds": 0.06493679999994129,
+      "runtimeSeconds": 0.42833810000001904,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-3-channel-3-stop-div-gb-cgb-ffed553d.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-3-channel-3-stop-div-gb-cgb-ffed553d.png",
         "width": 160,
         "height": 144
       }
@@ -3977,10 +3977,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07457040000002735,
-      "runtimeSeconds": 0.2837805000000344,
+      "startupSeconds": 0.06891650000000027,
+      "runtimeSeconds": 0.14965840000002117,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-3-channel-3-wave-ram-locked-write-gb-cgb-5ffed63a.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-3-channel-3-wave-ram-locked-write-gb-cgb-5ffed63a.png",
         "width": 160,
         "height": 144
       }
@@ -3996,10 +3996,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0870595000000094,
-      "runtimeSeconds": 0.150042400000018,
+      "startupSeconds": 0.06629870000006122,
+      "runtimeSeconds": 0.13396350000004986,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-3-channel-3-wave-ram-sync-gb-cgb-4abcf802.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-3-channel-3-wave-ram-sync-gb-cgb-4abcf802.png",
         "width": 160,
         "height": 144
       }
@@ -4015,10 +4015,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08843109999997978,
-      "runtimeSeconds": 0.27581270000001723,
+      "startupSeconds": 0.06634340000005068,
+      "runtimeSeconds": 0.1443388000000141,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-4-channel-4-align-gb-cgb-46ded3ff.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-4-channel-4-align-gb-cgb-46ded3ff.png",
         "width": 160,
         "height": 144
       }
@@ -4034,10 +4034,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08741760000003751,
-      "runtimeSeconds": 0.1494539000000259,
+      "startupSeconds": 0.06338499999992564,
+      "runtimeSeconds": 0.12942430000009608,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-4-channel-4-delay-gb-cgb-b7166b08.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-4-channel-4-delay-gb-cgb-b7166b08.png",
         "width": 160,
         "height": 144
       }
@@ -4053,10 +4053,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07393749999999955,
-      "runtimeSeconds": 0.28159049999999297,
+      "startupSeconds": 0.08282059999999092,
+      "runtimeSeconds": 0.2787144999999782,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-4-channel-4-equivalent-frequencies-gb-cgb-4f2dcbc8.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-4-channel-4-equivalent-frequencies-gb-cgb-4f2dcbc8.png",
         "width": 160,
         "height": 144
       }
@@ -4072,10 +4072,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08593419999999696,
-      "runtimeSeconds": 0.285775000000001,
+      "startupSeconds": 0.06558499999994183,
+      "runtimeSeconds": 0.13128519999997934,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-4-channel-4-frequency-alignment-gb-cgb-c0cbbd50.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-4-channel-4-frequency-alignment-gb-cgb-c0cbbd50.png",
         "width": 160,
         "height": 144
       }
@@ -4091,10 +4091,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07548940000003768,
-      "runtimeSeconds": 0.2612914000000046,
+      "startupSeconds": 0.08157860000005712,
+      "runtimeSeconds": 0.14270510000005743,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-4-channel-4-freq-change-gb-cgb-a9079292.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-4-channel-4-freq-change-gb-cgb-a9079292.png",
         "width": 160,
         "height": 144
       }
@@ -4110,10 +4110,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07526740000002974,
-      "runtimeSeconds": 0.2815828999999894,
+      "startupSeconds": 0.06370260000005601,
+      "runtimeSeconds": 0.2814049999999497,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-4-channel-4-lfsr-gb-cgb-80f6eabe.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-4-channel-4-lfsr-gb-cgb-80f6eabe.png",
         "width": 160,
         "height": 144
       }
@@ -4129,10 +4129,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.1054454000000078,
-      "runtimeSeconds": 0.27960749999999734,
+      "startupSeconds": 0.06300579999992806,
+      "runtimeSeconds": 0.28376939999998285,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-4-channel-4-lfsr15-gb-cgb-bf546f26.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-4-channel-4-lfsr15-gb-cgb-bf546f26.png",
         "width": 160,
         "height": 144
       }
@@ -4148,10 +4148,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08715100000000575,
-      "runtimeSeconds": 0.285030699999993,
+      "startupSeconds": 0.06682839999996304,
+      "runtimeSeconds": 0.2643108999999413,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-4-channel-4-lfsr-15-7-gb-cgb-ad34c5e8.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-4-channel-4-lfsr-15-7-gb-cgb-ad34c5e8.png",
         "width": 160,
         "height": 144
       }
@@ -4167,10 +4167,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08708479999995689,
-      "runtimeSeconds": 0.283639600000015,
+      "startupSeconds": 0.06261419999998452,
+      "runtimeSeconds": 0.2838464000000158,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-4-channel-4-lfsr-7-15-gb-cgb-f7d60273.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-4-channel-4-lfsr-7-15-gb-cgb-f7d60273.png",
         "width": 160,
         "height": 144
       }
@@ -4186,10 +4186,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07734260000000859,
-      "runtimeSeconds": 0.2889806999999678,
+      "startupSeconds": 0.06471840000006068,
+      "runtimeSeconds": 0.284803600000032,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-4-channel-4-lfsr-restart-gb-cgb-b29534c7.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-4-channel-4-lfsr-restart-gb-cgb-b29534c7.png",
         "width": 160,
         "height": 144
       }
@@ -4205,10 +4205,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07446480000004385,
-      "runtimeSeconds": 0.2868502000000035,
+      "startupSeconds": 0.0665384000000131,
+      "runtimeSeconds": 0.28446919999998954,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-4-channel-4-lfsr-restart-fast-gb-cgb-a87e7e0a.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-4-channel-4-lfsr-restart-fast-gb-cgb-a87e7e0a.png",
         "width": 160,
         "height": 144
       }
@@ -4224,10 +4224,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08692330000002357,
-      "runtimeSeconds": 1.8908090999999558,
+      "startupSeconds": 0.06661819999999352,
+      "runtimeSeconds": 1.7890927999999349,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-channel-4-channel-4-volume-div-gb-cgb-660acde0.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-channel-4-channel-4-volume-div-gb-cgb-660acde0.png",
         "width": 160,
         "height": 144
       }
@@ -4243,10 +4243,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08638910000001943,
-      "runtimeSeconds": 1.268209499999898,
+      "startupSeconds": 0.06605309999997644,
+      "runtimeSeconds": 1.219602000000009,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-div-trigger-volume-10-gb-cgb-c5771225.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-div-trigger-volume-10-gb-cgb-c5771225.png",
         "width": 160,
         "height": 144
       }
@@ -4262,10 +4262,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07852290000005269,
-      "runtimeSeconds": 1.2637485000000197,
+      "startupSeconds": 0.06462920000001304,
+      "runtimeSeconds": 1.2249501999999666,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-div-write-trigger-gb-cgb-77b0b72f.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-div-write-trigger-gb-cgb-77b0b72f.png",
         "width": 160,
         "height": 144
       }
@@ -4281,10 +4281,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07650469999998677,
-      "runtimeSeconds": 1.2123434000000088,
+      "startupSeconds": 0.06814769999994041,
+      "runtimeSeconds": 1.2051543000000038,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-div-write-trigger-10-gb-cgb-5d7be77f.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-div-write-trigger-10-gb-cgb-5d7be77f.png",
         "width": 160,
         "height": 144
       }
@@ -4300,10 +4300,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07371209999996609,
-      "runtimeSeconds": 0.8068630999999868,
+      "startupSeconds": 0.06370449999997163,
+      "runtimeSeconds": 0.80270459999997,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-div-write-trigger-volume-gb-cgb-d96e789a.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-div-write-trigger-volume-gb-cgb-d96e789a.png",
         "width": 160,
         "height": 144
       }
@@ -4319,10 +4319,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07554470000002311,
-      "runtimeSeconds": 0.7022759999999835,
+      "startupSeconds": 0.06346999999993841,
+      "runtimeSeconds": 0.8071357000000035,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-apu-div-write-trigger-volume-10-gb-cgb-9f46a579.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-apu-div-write-trigger-volume-10-gb-cgb-9f46a579.png",
         "width": 160,
         "height": 144
       }
@@ -4338,10 +4338,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07618149999996149,
-      "runtimeSeconds": 0.272034099999928,
+      "startupSeconds": 0.06544700000006287,
+      "runtimeSeconds": 0.13609659999997348,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-dma-gbc-dma-cont-gb-cgb-691bcf96.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-dma-gbc-dma-cont-gb-cgb-691bcf96.png",
         "width": 160,
         "height": 144
       }
@@ -4357,10 +4357,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07723249999992277,
-      "runtimeSeconds": 0.2784824000000299,
+      "startupSeconds": 0.06550930000003063,
+      "runtimeSeconds": 0.1415810999999394,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-dma-gdma-addr-mask-gb-cgb-5b964b62.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-dma-gdma-addr-mask-gb-cgb-5b964b62.png",
         "width": 160,
         "height": 144
       }
@@ -4376,10 +4376,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07707859999993616,
-      "runtimeSeconds": 0.2764450999999326,
+      "startupSeconds": 0.06599500000004355,
+      "runtimeSeconds": 0.13939840000000459,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-dma-hdma-lcd-off-gb-cgb-a3b41999.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-dma-hdma-lcd-off-gb-cgb-a3b41999.png",
         "width": 160,
         "height": 144
       }
@@ -4395,10 +4395,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07681750000006105,
-      "runtimeSeconds": 0.28939089999994394,
+      "startupSeconds": 0.06543630000010126,
+      "runtimeSeconds": 0.28077589999998054,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-dma-hdma-mode0-gb-cgb-000cea33.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-dma-hdma-mode0-gb-cgb-000cea33.png",
         "width": 160,
         "height": 144
       }
@@ -4414,10 +4414,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07617100000004484,
-      "runtimeSeconds": 0.2756937999999991,
+      "startupSeconds": 0.06696520000002693,
+      "runtimeSeconds": 0.2798033999999916,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/samesuite-ppu-blocking-bgpi-increase-gb-cgb-08d7fc75.png",
+        "url": "screenshots/docboy/legacy-1790501465/samesuite-ppu-blocking-bgpi-increase-gb-cgb-08d7fc75.png",
         "width": 160,
         "height": 144
       }
@@ -4463,10 +4463,10 @@
       "sourceUrl": "https://github.com/Ashiepaws/BullyGB",
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07551630000000387,
-      "runtimeSeconds": 0.2790198999999802,
+      "startupSeconds": 0.06829670000001897,
+      "runtimeSeconds": 0.27850660000001426,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/ashiepaws-bully-gb-dmg-dmg-fc52bff4.png",
+        "url": "screenshots/docboy/legacy-1790501465/ashiepaws-bully-gb-dmg-dmg-fc52bff4.png",
         "width": 160,
         "height": 144
       }
@@ -4482,10 +4482,10 @@
       "sourceUrl": "https://github.com/Ashiepaws/BullyGB",
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08680360000005294,
-      "runtimeSeconds": 0.1309367999999722,
+      "startupSeconds": 0.06437689999995655,
+      "runtimeSeconds": 0.1249536000000262,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/ashiepaws-bully-gb-gbc-cgb-aca14ea5.png",
+        "url": "screenshots/docboy/legacy-1790501465/ashiepaws-bully-gb-gbc-cgb-aca14ea5.png",
         "width": 160,
         "height": 144
       }
@@ -4501,10 +4501,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07522189999997408,
-      "runtimeSeconds": 0.28825749999998607,
+      "startupSeconds": 0.0671429999999873,
+      "runtimeSeconds": 0.13690140000005613,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/ashiepaws-strikethrough-gb-dmg-60dd4d99.png",
+        "url": "screenshots/docboy/legacy-1790501465/ashiepaws-strikethrough-gb-dmg-60dd4d99.png",
         "width": 160,
         "height": 144
       }
@@ -4520,10 +4520,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07469329999992169,
-      "runtimeSeconds": 0.28442500000005566,
+      "startupSeconds": 0.0655795999999782,
+      "runtimeSeconds": 0.2697296000000051,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/cpp-rtc-invalid-banks-test-gb-dmg-7abf0945.png",
+        "url": "screenshots/docboy/legacy-1790501465/cpp-rtc-invalid-banks-test-gb-dmg-7abf0945.png",
         "width": 160,
         "height": 144
       }
@@ -4539,10 +4539,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.07621340000002874,
-      "runtimeSeconds": 6.595655699999952,
+      "startupSeconds": 0.06626089999997475,
+      "runtimeSeconds": 6.6096116999999595,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/cpp-latch-rtc-test-gb-dmg-3307b249.png",
+        "url": "screenshots/docboy/legacy-1790501465/cpp-latch-rtc-test-gb-dmg-3307b249.png",
         "width": 160,
         "height": 144
       }
@@ -4558,10 +4558,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0788834999999608,
-      "runtimeSeconds": 0.2687032999999701,
+      "startupSeconds": 0.06319389999998748,
+      "runtimeSeconds": 0.2816868999999542,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/cpp-ramg-mbc3-test-gb-dmg-c4a5ad08.png",
+        "url": "screenshots/docboy/legacy-1790501465/cpp-ramg-mbc3-test-gb-dmg-c4a5ad08.png",
         "width": 160,
         "height": 144
       }
@@ -4592,10 +4592,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07534859999998389,
-      "runtimeSeconds": 0.2724476999999297,
+      "startupSeconds": 0.07259859999999208,
+      "runtimeSeconds": 0.2749898000000712,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mealybug-tearoom-tests-ppu-m2-win-en-toggle-gb-dmg-dmg-49d7cd7c.png",
+        "url": "screenshots/docboy/legacy-1790501465/mealybug-tearoom-tests-ppu-m2-win-en-toggle-gb-dmg-dmg-49d7cd7c.png",
         "width": 160,
         "height": 144
       }
@@ -4611,10 +4611,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07607510000002549,
-      "runtimeSeconds": 0.14254440000001978,
+      "startupSeconds": 0.06552350000004026,
+      "runtimeSeconds": 0.1510508999999729,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mealybug-tearoom-tests-ppu-m3-bgp-change-gb-dmg-dmg-4ce20d7f.png",
+        "url": "screenshots/docboy/legacy-1790501465/mealybug-tearoom-tests-ppu-m3-bgp-change-gb-dmg-dmg-4ce20d7f.png",
         "width": 160,
         "height": 144
       }
@@ -4630,10 +4630,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07476570000005722,
-      "runtimeSeconds": 0.12804860000005647,
+      "startupSeconds": 0.06671620000008716,
+      "runtimeSeconds": 0.13806590000001506,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mealybug-tearoom-tests-ppu-m3-bgp-change-sprites-gb-dmg-dmg-e41b5168.png",
+        "url": "screenshots/docboy/legacy-1790501465/mealybug-tearoom-tests-ppu-m3-bgp-change-sprites-gb-dmg-dmg-e41b5168.png",
         "width": 160,
         "height": 144
       }
@@ -4649,10 +4649,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07226569999988897,
-      "runtimeSeconds": 0.14684999999997217,
+      "startupSeconds": 0.06540100000006532,
+      "runtimeSeconds": 0.13672410000003765,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mealybug-tearoom-tests-ppu-m3-lcdc-bg-en-change-gb-dmg-dmg-266fe81d.png",
+        "url": "screenshots/docboy/legacy-1790501465/mealybug-tearoom-tests-ppu-m3-lcdc-bg-en-change-gb-dmg-dmg-266fe81d.png",
         "width": 160,
         "height": 144
       }
@@ -4668,10 +4668,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07492900000011105,
-      "runtimeSeconds": 0.14710839999997916,
+      "startupSeconds": 0.06859719999999925,
+      "runtimeSeconds": 0.1489009999999098,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mealybug-tearoom-tests-ppu-m3-lcdc-bg-map-change-gb-dmg-dmg-91f40501.png",
+        "url": "screenshots/docboy/legacy-1790501465/mealybug-tearoom-tests-ppu-m3-lcdc-bg-map-change-gb-dmg-dmg-91f40501.png",
         "width": 160,
         "height": 144
       }
@@ -4687,10 +4687,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08542870000007952,
-      "runtimeSeconds": 0.13607949999993707,
+      "startupSeconds": 0.06457269999998516,
+      "runtimeSeconds": 0.13425050000000738,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mealybug-tearoom-tests-ppu-m3-lcdc-obj-en-change-gb-dmg-dmg-277b5edf.png",
+        "url": "screenshots/docboy/legacy-1790501465/mealybug-tearoom-tests-ppu-m3-lcdc-obj-en-change-gb-dmg-dmg-277b5edf.png",
         "width": 160,
         "height": 144
       }
@@ -4706,10 +4706,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07524499999999534,
-      "runtimeSeconds": 0.14080909999995583,
+      "startupSeconds": 0.06575369999995928,
+      "runtimeSeconds": 0.14004589999990458,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mealybug-tearoom-tests-ppu-m3-lcdc-obj-en-change-variant-gb-dmg-dmg-88dd6675.png",
+        "url": "screenshots/docboy/legacy-1790501465/mealybug-tearoom-tests-ppu-m3-lcdc-obj-en-change-variant-gb-dmg-dmg-88dd6675.png",
         "width": 160,
         "height": 144
       }
@@ -4725,10 +4725,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0863185999999132,
-      "runtimeSeconds": 0.14413379999996323,
+      "startupSeconds": 0.06716400000004796,
+      "runtimeSeconds": 0.13581340000007458,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mealybug-tearoom-tests-ppu-m3-lcdc-obj-size-change-gb-dmg-dmg-1a0cdefe.png",
+        "url": "screenshots/docboy/legacy-1790501465/mealybug-tearoom-tests-ppu-m3-lcdc-obj-size-change-gb-dmg-dmg-1a0cdefe.png",
         "width": 160,
         "height": 144
       }
@@ -4744,10 +4744,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08990649999998368,
-      "runtimeSeconds": 0.27586889999997766,
+      "startupSeconds": 0.06836600000008275,
+      "runtimeSeconds": 0.15128170000002683,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mealybug-tearoom-tests-ppu-m3-lcdc-obj-size-change-scx-gb-dmg-dmg-c1b9b99e.png",
+        "url": "screenshots/docboy/legacy-1790501465/mealybug-tearoom-tests-ppu-m3-lcdc-obj-size-change-scx-gb-dmg-dmg-c1b9b99e.png",
         "width": 160,
         "height": 144
       }
@@ -4763,10 +4763,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0860543000000007,
-      "runtimeSeconds": 0.14416800000003605,
+      "startupSeconds": 0.06640139999990424,
+      "runtimeSeconds": 0.13115290000007462,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mealybug-tearoom-tests-ppu-m3-lcdc-tile-sel-change-gb-dmg-dmg-975934db.png",
+        "url": "screenshots/docboy/legacy-1790501465/mealybug-tearoom-tests-ppu-m3-lcdc-tile-sel-change-gb-dmg-dmg-975934db.png",
         "width": 160,
         "height": 144
       }
@@ -4782,10 +4782,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08606870000005529,
-      "runtimeSeconds": 0.27357610000001387,
+      "startupSeconds": 0.07095640000000003,
+      "runtimeSeconds": 0.12949710000009418,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mealybug-tearoom-tests-ppu-m3-lcdc-tile-sel-win-change-gb-dmg-dmg-cec19685.png",
+        "url": "screenshots/docboy/legacy-1790501465/mealybug-tearoom-tests-ppu-m3-lcdc-tile-sel-win-change-gb-dmg-dmg-cec19685.png",
         "width": 160,
         "height": 144
       }
@@ -4801,10 +4801,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08096199999999953,
-      "runtimeSeconds": 0.2696071000000302,
+      "startupSeconds": 0.06659110000009605,
+      "runtimeSeconds": 0.27922019999994063,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mealybug-tearoom-tests-ppu-m3-lcdc-win-en-change-multi-8f067cd6-dmg-2e2659c1.png",
+        "url": "screenshots/docboy/legacy-1790501465/mealybug-tearoom-tests-ppu-m3-lcdc-win-en-change-multi-8f067cd6-dmg-2e2659c1.png",
         "width": 160,
         "height": 144
       }
@@ -4820,10 +4820,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.09418230000005678,
-      "runtimeSeconds": 0.13077199999997902,
+      "startupSeconds": 0.06548180000004322,
+      "runtimeSeconds": 0.13937160000000404,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mealybug-tearoom-tests-ppu-m3-lcdc-win-en-change-multi-37be6e90-dmg-5ea411ff.png",
+        "url": "screenshots/docboy/legacy-1790501465/mealybug-tearoom-tests-ppu-m3-lcdc-win-en-change-multi-37be6e90-dmg-5ea411ff.png",
         "width": 160,
         "height": 144
       }
@@ -4839,10 +4839,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08569069999998646,
-      "runtimeSeconds": 0.12968480000006366,
+      "startupSeconds": 0.06348930000001474,
+      "runtimeSeconds": 0.13956590000009328,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mealybug-tearoom-tests-ppu-m3-lcdc-win-map-change-gb-dmg-dmg-d343d7a3.png",
+        "url": "screenshots/docboy/legacy-1790501465/mealybug-tearoom-tests-ppu-m3-lcdc-win-map-change-gb-dmg-dmg-d343d7a3.png",
         "width": 160,
         "height": 144
       }
@@ -4858,10 +4858,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07928489999994781,
-      "runtimeSeconds": 0.1383895000000166,
+      "startupSeconds": 0.0526131000000305,
+      "runtimeSeconds": 0.14208340000004682,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mealybug-tearoom-tests-ppu-m3-obp0-change-gb-dmg-dmg-43692086.png",
+        "url": "screenshots/docboy/legacy-1790501465/mealybug-tearoom-tests-ppu-m3-obp0-change-gb-dmg-dmg-43692086.png",
         "width": 160,
         "height": 144
       }
@@ -4877,10 +4877,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08125450000000001,
-      "runtimeSeconds": 0.15090710000004037,
+      "startupSeconds": 0.06291329999999107,
+      "runtimeSeconds": 0.13890309999999317,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mealybug-tearoom-tests-ppu-m3-scx-high-5-bits-gb-dmg-dmg-bd9b113e.png",
+        "url": "screenshots/docboy/legacy-1790501465/mealybug-tearoom-tests-ppu-m3-scx-high-5-bits-gb-dmg-dmg-bd9b113e.png",
         "width": 160,
         "height": 144
       }
@@ -4896,10 +4896,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0852118000000246,
-      "runtimeSeconds": 0.12571150000007947,
+      "startupSeconds": 0.06413040000006731,
+      "runtimeSeconds": 0.14741019999996752,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mealybug-tearoom-tests-ppu-m3-scx-low-3-bits-gb-dmg-dmg-e6cdccf4.png",
+        "url": "screenshots/docboy/legacy-1790501465/mealybug-tearoom-tests-ppu-m3-scx-low-3-bits-gb-dmg-dmg-e6cdccf4.png",
         "width": 160,
         "height": 144
       }
@@ -4915,10 +4915,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08953549999989718,
-      "runtimeSeconds": 0.15135799999995925,
+      "startupSeconds": 0.06544719999999415,
+      "runtimeSeconds": 0.15189599999996517,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mealybug-tearoom-tests-ppu-m3-scy-change-gb-dmg-dmg-c6113da3.png",
+        "url": "screenshots/docboy/legacy-1790501465/mealybug-tearoom-tests-ppu-m3-scy-change-gb-dmg-dmg-c6113da3.png",
         "width": 160,
         "height": 144
       }
@@ -4934,10 +4934,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.09371569999996154,
-      "runtimeSeconds": 0.13706790000003366,
+      "startupSeconds": 0.06523550000008527,
+      "runtimeSeconds": 0.13914899999997488,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mealybug-tearoom-tests-ppu-m3-window-timing-gb-dmg-dmg-67b4de78.png",
+        "url": "screenshots/docboy/legacy-1790501465/mealybug-tearoom-tests-ppu-m3-window-timing-gb-dmg-dmg-67b4de78.png",
         "width": 160,
         "height": 144
       }
@@ -4953,10 +4953,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07733910000001742,
-      "runtimeSeconds": 0.14298380000002453,
+      "startupSeconds": 0.06521720000000641,
+      "runtimeSeconds": 0.13596469999993133,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mealybug-tearoom-tests-ppu-m3-window-timing-wx-0-gb-dmg-dmg-313602fb.png",
+        "url": "screenshots/docboy/legacy-1790501465/mealybug-tearoom-tests-ppu-m3-window-timing-wx-0-gb-dmg-dmg-313602fb.png",
         "width": 160,
         "height": 144
       }
@@ -4972,10 +4972,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.0870019000000184,
-      "runtimeSeconds": 0.2783514999999852,
+      "startupSeconds": 0.06364899999994122,
+      "runtimeSeconds": 0.2769561000000067,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mealybug-tearoom-tests-ppu-m3-wx-4-change-gb-dmg-dmg-a4ee9ce6.png",
+        "url": "screenshots/docboy/legacy-1790501465/mealybug-tearoom-tests-ppu-m3-wx-4-change-gb-dmg-dmg-a4ee9ce6.png",
         "width": 160,
         "height": 144
       }
@@ -4991,10 +4991,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08818800000005922,
-      "runtimeSeconds": 0.28380509999999504,
+      "startupSeconds": 0.06468410000002223,
+      "runtimeSeconds": 0.2820868999999675,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mealybug-tearoom-tests-ppu-m3-wx-4-change-sprites-gb-dmg-dmg-6bb9a727.png",
+        "url": "screenshots/docboy/legacy-1790501465/mealybug-tearoom-tests-ppu-m3-wx-4-change-sprites-gb-dmg-dmg-6bb9a727.png",
         "width": 160,
         "height": 144
       }
@@ -5010,10 +5010,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.07879830000001675,
-      "runtimeSeconds": 0.2841574000000264,
+      "startupSeconds": 0.06589709999991555,
+      "runtimeSeconds": 0.13958339999999225,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mealybug-tearoom-tests-ppu-m3-wx-5-change-gb-dmg-dmg-39e44f69.png",
+        "url": "screenshots/docboy/legacy-1790501465/mealybug-tearoom-tests-ppu-m3-wx-5-change-gb-dmg-dmg-39e44f69.png",
         "width": 160,
         "height": 144
       }
@@ -5029,10 +5029,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.08626620000006824,
-      "runtimeSeconds": 0.2775662999999895,
+      "startupSeconds": 0.06536470000003192,
+      "runtimeSeconds": 0.2800173000000541,
       "screenshot": {
-        "url": "screenshots/docboy/legacy-1790412647/mealybug-tearoom-tests-ppu-m3-wx-6-change-gb-dmg-dmg-96f73ce0.png",
+        "url": "screenshots/docboy/legacy-1790501465/mealybug-tearoom-tests-ppu-m3-wx-6-change-gb-dmg-dmg-96f73ce0.png",
         "width": 160,
         "height": 144
       }
