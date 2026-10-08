@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-07T11:13:24.546986Z",
+  "publishedAt": "2026-10-08T11:26:03.129360Z",
   "scorePolicy": "legacy-nonfail-v1",
   "emulators": [
     {
@@ -14,8 +14,8 @@
       },
       "version": null,
       "resultsUrl": "data/results/coffee-gb.json",
-      "testedAt": "2026-10-07T10:59:36.034531Z",
-      "runId": "legacy-1791370776",
+      "testedAt": "2026-10-08T11:20:43.512713Z",
+      "runId": "legacy-1791458443",
       "runState": "legacy",
       "catalogId": "catalog-51bc0aea4c76",
       "counts": {
@@ -46,8 +46,8 @@
       },
       "version": null,
       "resultsUrl": "data/results/super-snes9x.json",
-      "testedAt": "2026-10-07T10:32:39.062395Z",
-      "runId": "legacy-1791369159",
+      "testedAt": "2026-10-08T10:53:12.758955Z",
+      "runId": "legacy-1791456792",
       "runState": "legacy",
       "catalogId": "catalog-51bc0aea4c76",
       "counts": {
@@ -78,8 +78,8 @@
       },
       "version": null,
       "resultsUrl": "data/results/docboy.json",
-      "testedAt": "2026-10-07T10:32:34.343872Z",
-      "runId": "legacy-1791369154",
+      "testedAt": "2026-10-08T10:53:25.637138Z",
+      "runId": "legacy-1791456805",
       "runState": "legacy",
       "catalogId": "catalog-51bc0aea4c76",
       "counts": {
@@ -110,8 +110,8 @@
       },
       "version": null,
       "resultsUrl": "data/results/emulicious.json",
-      "testedAt": "2026-10-07T10:33:28.335482Z",
-      "runId": "legacy-1791369208",
+      "testedAt": "2026-10-08T10:57:06.114988Z",
+      "runId": "legacy-1791457026",
       "runState": "legacy",
       "catalogId": "catalog-51bc0aea4c76",
       "counts": {
@@ -142,8 +142,8 @@
       },
       "version": null,
       "resultsUrl": "data/results/sameboy.json",
-      "testedAt": "2026-10-07T10:53:33.831473Z",
-      "runId": "legacy-1791370413",
+      "testedAt": "2026-10-08T11:14:50.337167Z",
+      "runId": "legacy-1791458090",
       "runState": "legacy",
       "catalogId": "catalog-51bc0aea4c76",
       "counts": {
@@ -174,8 +174,8 @@
       },
       "version": null,
       "resultsUrl": "data/results/beaten-dying-moon.json",
-      "testedAt": "2026-10-07T10:32:22.103494Z",
-      "runId": "legacy-1791369142",
+      "testedAt": "2026-10-08T10:52:41.745454Z",
+      "runId": "legacy-1791456761",
       "runState": "legacy",
       "catalogId": "catalog-51bc0aea4c76",
       "counts": {
@@ -206,24 +206,56 @@
       },
       "version": null,
       "resultsUrl": "data/results/gse.json",
-      "testedAt": "2026-10-07T10:57:57.521905Z",
-      "runId": "legacy-1791370677",
+      "testedAt": "2026-10-08T11:18:26.603658Z",
+      "runId": "legacy-1791458306",
       "runState": "legacy",
       "catalogId": "catalog-51bc0aea4c76",
       "counts": {
-        "pass": 216,
-        "fail": 45,
+        "pass": 215,
+        "fail": 46,
         "info": 3,
         "error": 0,
         "skipped": 0,
         "missing": 0
       },
       "score": {
-        "value": 219,
+        "value": 218,
         "recorded": 264
       },
       "coverage": {
         "recorded": 264,
+        "catalogTotal": 264
+      }
+    },
+    {
+      "id": "pyboy",
+      "name": "PyBoy",
+      "homepage": "https://github.com/Baekalfen/PyBoy",
+      "systems": {
+        "dmg": true,
+        "cgb": true,
+        "sgb": false
+      },
+      "version": null,
+      "resultsUrl": "data/results/pyboy.json",
+      "testedAt": "2026-10-08T11:19:42.795539Z",
+      "runId": "legacy-1791458382",
+      "runState": "legacy",
+      "catalogId": "catalog-51bc0aea4c76",
+      "counts": {
+        "pass": 204,
+        "fail": 54,
+        "info": 3,
+        "error": 0,
+        "skipped": 0,
+        "missing": 3
+      },
+      "score": {
+        "value": 207,
+        "recorded": 261
+      },
+      "coverage": {
+        "recorded": 261,
         "catalogTotal": 264
       }
     },
@@ -238,8 +270,8 @@
       },
       "version": null,
       "resultsUrl": "data/results/bgb.json",
-      "testedAt": "2026-10-07T10:33:31.680248Z",
-      "runId": "legacy-1791369211",
+      "testedAt": "2026-10-08T10:54:26.811227Z",
+      "runId": "legacy-1791456866",
       "runState": "legacy",
       "catalogId": "catalog-51bc0aea4c76",
       "counts": {
@@ -270,8 +302,8 @@
       },
       "version": null,
       "resultsUrl": "data/results/gambatte-speedrun.json",
-      "testedAt": "2026-10-07T10:52:58.149507Z",
-      "runId": "legacy-1791370378",
+      "testedAt": "2026-10-08T11:13:33.387888Z",
+      "runId": "legacy-1791458013",
       "runState": "legacy",
       "catalogId": "catalog-51bc0aea4c76",
       "counts": {
@@ -302,20 +334,20 @@
       },
       "version": null,
       "resultsUrl": "data/results/mgba.json",
-      "testedAt": "2026-10-07T10:47:47.975148Z",
-      "runId": "legacy-1791370067",
+      "testedAt": "2026-10-08T11:08:37.353905Z",
+      "runId": "legacy-1791457717",
       "runState": "legacy",
       "catalogId": "catalog-51bc0aea4c76",
       "counts": {
-        "pass": 147,
-        "fail": 114,
+        "pass": 148,
+        "fail": 113,
         "info": 3,
         "error": 0,
         "skipped": 0,
         "missing": 0
       },
       "score": {
-        "value": 150,
+        "value": 151,
         "recorded": 264
       },
       "coverage": {
@@ -334,8 +366,8 @@
       },
       "version": null,
       "resultsUrl": "data/results/gameroy.json",
-      "testedAt": "2026-10-07T10:29:45.394936Z",
-      "runId": "legacy-1791368985",
+      "testedAt": "2026-10-08T10:50:22.366231Z",
+      "runId": "legacy-1791456622",
       "runState": "legacy",
       "catalogId": "catalog-51bc0aea4c76",
       "counts": {
@@ -366,20 +398,20 @@
       },
       "version": null,
       "resultsUrl": "data/results/binjgb.json",
-      "testedAt": "2026-10-07T10:38:28.080777Z",
-      "runId": "legacy-1791369508",
+      "testedAt": "2026-10-08T10:58:43.719135Z",
+      "runId": "legacy-1791457123",
       "runState": "legacy",
       "catalogId": "catalog-51bc0aea4c76",
       "counts": {
-        "pass": 141,
-        "fail": 63,
+        "pass": 142,
+        "fail": 62,
         "info": 3,
         "error": 0,
         "skipped": 0,
         "missing": 57
       },
       "score": {
-        "value": 144,
+        "value": 145,
         "recorded": 207
       },
       "coverage": {
@@ -398,8 +430,8 @@
       },
       "version": null,
       "resultsUrl": "data/results/visualboyadvance-m.json",
-      "testedAt": "2026-10-07T10:45:46.638928Z",
-      "runId": "legacy-1791369946",
+      "testedAt": "2026-10-08T11:04:24.358463Z",
+      "runId": "legacy-1791457464",
       "runState": "legacy",
       "catalogId": "catalog-51bc0aea4c76",
       "counts": {
@@ -430,8 +462,8 @@
       },
       "version": null,
       "resultsUrl": "data/results/emmy.json",
-      "testedAt": "2026-10-07T10:45:00.064853Z",
-      "runId": "legacy-1791369900",
+      "testedAt": "2026-10-08T11:05:37.716234Z",
+      "runId": "legacy-1791457537",
       "runState": "legacy",
       "catalogId": "catalog-51bc0aea4c76",
       "counts": {
@@ -452,38 +484,6 @@
       }
     },
     {
-      "id": "pyboy",
-      "name": "PyBoy",
-      "homepage": "https://github.com/Baekalfen/PyBoy",
-      "systems": {
-        "dmg": true,
-        "cgb": true,
-        "sgb": false
-      },
-      "version": null,
-      "resultsUrl": "data/results/pyboy.json",
-      "testedAt": "2026-10-07T11:12:10.344855Z",
-      "runId": "legacy-1791371530",
-      "runState": "legacy",
-      "catalogId": "catalog-51bc0aea4c76",
-      "counts": {
-        "pass": 88,
-        "fail": 170,
-        "info": 3,
-        "error": 0,
-        "skipped": 0,
-        "missing": 3
-      },
-      "score": {
-        "value": 91,
-        "recorded": 261
-      },
-      "coverage": {
-        "recorded": 261,
-        "catalogTotal": 264
-      }
-    },
-    {
       "id": "goomba",
       "name": "Goomba",
       "homepage": "https://www.dwedit.org/gba/goombacolor.php",
@@ -494,24 +494,24 @@
       },
       "version": null,
       "resultsUrl": "data/results/goomba.json",
-      "testedAt": "2026-10-07T10:50:16.934511Z",
-      "runId": "legacy-1791370216",
+      "testedAt": "2026-10-08T11:10:39.950014Z",
+      "runId": "legacy-1791457839",
       "runState": "legacy",
       "catalogId": "catalog-51bc0aea4c76",
       "counts": {
-        "pass": 44,
-        "fail": 159,
+        "pass": 43,
+        "fail": 155,
         "info": 3,
         "error": 0,
         "skipped": 0,
-        "missing": 58
+        "missing": 63
       },
       "score": {
-        "value": 47,
-        "recorded": 206
+        "value": 46,
+        "recorded": 201
       },
       "coverage": {
-        "recorded": 206,
+        "recorded": 201,
         "catalogTotal": 264
       }
     },
@@ -558,8 +558,8 @@
       },
       "version": null,
       "resultsUrl": "data/results/visualboyadvance.json",
-      "testedAt": "2026-10-07T10:48:19.292467Z",
-      "runId": "legacy-1791370099",
+      "testedAt": "2026-10-08T11:08:50.305703Z",
+      "runId": "legacy-1791457730",
       "runState": "legacy",
       "catalogId": "catalog-51bc0aea4c76",
       "counts": {
@@ -622,8 +622,8 @@
       },
       "version": null,
       "resultsUrl": "data/results/ares.json",
-      "testedAt": "2026-10-07T11:04:28.748956Z",
-      "runId": "legacy-1791371068",
+      "testedAt": "2026-10-08T11:24:58.784542Z",
+      "runId": "legacy-1791458698",
       "runState": "legacy",
       "catalogId": "catalog-51bc0aea4c76",
       "counts": {
