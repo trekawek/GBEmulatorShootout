@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "emulatorId": "ares",
-  "runId": "legacy-1791970296",
+  "runId": "legacy-1792055163",
   "runState": "legacy",
-  "testedAt": "2026-10-14T09:31:36.133934Z",
+  "testedAt": "2026-10-15T09:06:03.396379Z",
   "emulatorVersion": null,
   "catalogId": "catalog-51bc0aea4c76",
   "catalogUrl": "data/catalogs/catalog-51bc0aea4c76.json",
@@ -21,15 +21,15 @@
     "importedLegacy": true
   },
   "counts": {
-    "pass": 24,
-    "fail": 234,
+    "pass": 23,
+    "fail": 235,
     "info": 3,
     "error": 0,
     "skipped": 0,
     "missing": 3
   },
   "score": {
-    "value": 27,
+    "value": 26,
     "recorded": 261
   },
   "results": [
@@ -44,10 +44,10 @@
       "sourceUrl": null,
       "status": "info",
       "reason": null,
-      "startupSeconds": 0.40179169999998976,
-      "runtimeSeconds": 8.756480199999999,
+      "startupSeconds": 0.32670590000000743,
+      "runtimeSeconds": 8.728977200000003,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/acid-which-gb-dmg-dmg-0669633f.png",
+        "url": "screenshots/ares/legacy-1792055163/acid-which-gb-dmg-dmg-0669633f.png",
         "width": 160,
         "height": 144
       }
@@ -63,10 +63,10 @@
       "sourceUrl": null,
       "status": "info",
       "reason": null,
-      "startupSeconds": 0.26366649999999936,
-      "runtimeSeconds": 8.731153899999981,
+      "startupSeconds": 0.2026151000000027,
+      "runtimeSeconds": 8.744182799999976,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/acid-which-gb-gbc-cgb-38eb7aac.png",
+        "url": "screenshots/ares/legacy-1792055163/acid-which-gb-gbc-cgb-38eb7aac.png",
         "width": 160,
         "height": 144
       }
@@ -82,10 +82,10 @@
       "sourceUrl": "https://github.com/mattcurrie/dmg-acid2",
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2526706999999533,
-      "runtimeSeconds": 8.769577400000003,
+      "startupSeconds": 0.1977493999999922,
+      "runtimeSeconds": 8.745807600000006,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/acid-dmg-acid2-gb-dmg-b16e8597.png",
+        "url": "screenshots/ares/legacy-1792055163/acid-dmg-acid2-gb-dmg-b16e8597.png",
         "width": 160,
         "height": 144
       }
@@ -101,10 +101,10 @@
       "sourceUrl": "https://github.com/mattcurrie/cgb-acid2",
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.2529852000000119,
-      "runtimeSeconds": 1.6797355000000493,
+      "startupSeconds": 0.19441739999999186,
+      "runtimeSeconds": 1.4338853000000142,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/acid-cgb-acid2-gbc-cgb-88e4b3b3.png",
+        "url": "screenshots/ares/legacy-1792055163/acid-cgb-acid2-gbc-cgb-88e4b3b3.png",
         "width": 160,
         "height": 144
       }
@@ -120,10 +120,10 @@
       "sourceUrl": "https://github.com/mattcurrie/cgb-acid-hell",
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.24129460000000336,
-      "runtimeSeconds": 8.798895500000015,
+      "startupSeconds": 0.2009254000000169,
+      "runtimeSeconds": 8.798928200000006,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/acid-cgb-acid-hell-gbc-cgb-ee00bb31.png",
+        "url": "screenshots/ares/legacy-1792055163/acid-cgb-acid-hell-gbc-cgb-ee00bb31.png",
         "width": 160,
         "height": 144
       }
@@ -139,10 +139,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.24233720000000858,
-      "runtimeSeconds": 10.247672199999954,
+      "startupSeconds": 0.18827329999999165,
+      "runtimeSeconds": 10.261698799999976,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-cpu-instrs-01-special-gb-dmg-cffd5d76.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-cpu-instrs-01-special-gb-dmg-cffd5d76.png",
         "width": 160,
         "height": 144
       }
@@ -158,10 +158,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2430635000000052,
-      "runtimeSeconds": 8.322694499999955,
+      "startupSeconds": 0.18959240000000932,
+      "runtimeSeconds": 8.316922099999971,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-cpu-instrs-02-interrupts-gb-dmg-4b97e44a.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-cpu-instrs-02-interrupts-gb-dmg-4b97e44a.png",
         "width": 160,
         "height": 144
       }
@@ -177,10 +177,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.24785750000000917,
-      "runtimeSeconds": 9.815940599999976,
+      "startupSeconds": 0.1936079000000177,
+      "runtimeSeconds": 9.81309010000001,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-cpu-instrs-03-op-sp-hl-gb-dmg-8216b96f.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-cpu-instrs-03-op-sp-hl-gb-dmg-8216b96f.png",
         "width": 160,
         "height": 144
       }
@@ -196,10 +196,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25295720000002575,
-      "runtimeSeconds": 9.820953900000006,
+      "startupSeconds": 0.1926363999999694,
+      "runtimeSeconds": 9.773540300000036,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-cpu-instrs-04-op-r-imm-gb-dmg-f1f9114b.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-cpu-instrs-04-op-r-imm-gb-dmg-f1f9114b.png",
         "width": 160,
         "height": 144
       }
@@ -215,10 +215,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25512390000000096,
-      "runtimeSeconds": 10.281905900000027,
+      "startupSeconds": 0.1872649000000024,
+      "runtimeSeconds": 10.22387299999997,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-cpu-instrs-05-op-rp-gb-dmg-8a4b3fbc.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-cpu-instrs-05-op-rp-gb-dmg-8a4b3fbc.png",
         "width": 160,
         "height": 144
       }
@@ -234,10 +234,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2530403000000092,
-      "runtimeSeconds": 8.311190900000042,
+      "startupSeconds": 0.19498269999996864,
+      "runtimeSeconds": 8.231806900000038,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-cpu-instrs-06-ld-r-r-gb-dmg-55b14397.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-cpu-instrs-06-ld-r-r-gb-dmg-55b14397.png",
         "width": 160,
         "height": 144
       }
@@ -253,10 +253,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2514696000000072,
-      "runtimeSeconds": 8.264673500000015,
+      "startupSeconds": 0.19200950000004013,
+      "runtimeSeconds": 8.252034300000048,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-cpu-instrs-07-jr-jp-call-ret-rst-gb-dmg-c71bd785.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-cpu-instrs-07-jr-jp-call-ret-rst-gb-dmg-c71bd785.png",
         "width": 160,
         "height": 144
       }
@@ -272,10 +272,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.24961999999999307,
-      "runtimeSeconds": 8.21879130000002,
+      "startupSeconds": 0.19117640000001757,
+      "runtimeSeconds": 8.231327499999963,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-cpu-instrs-08-misc-instrs-gb-dmg-00795987.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-cpu-instrs-08-misc-instrs-gb-dmg-00795987.png",
         "width": 160,
         "height": 144
       }
@@ -291,10 +291,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2554415999999833,
-      "runtimeSeconds": 14.224844100000041,
+      "startupSeconds": 0.18880819999998266,
+      "runtimeSeconds": 14.300044900000046,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-cpu-instrs-09-op-r-r-gb-dmg-78b33163.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-cpu-instrs-09-op-r-r-gb-dmg-78b33163.png",
         "width": 160,
         "height": 144
       }
@@ -310,10 +310,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2539675000000443,
-      "runtimeSeconds": 21.308068300000002,
+      "startupSeconds": 0.1893649999999525,
+      "runtimeSeconds": 21.258369200000004,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-cpu-instrs-10-bit-ops-gb-dmg-60628809.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-cpu-instrs-10-bit-ops-gb-dmg-60628809.png",
         "width": 160,
         "height": 144
       }
@@ -329,10 +329,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2527584000000047,
-      "runtimeSeconds": 20.208224400000006,
+      "startupSeconds": 0.19006550000000288,
+      "runtimeSeconds": 20.2911474,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-cpu-instrs-11-op-a-hl-gb-dmg-f37eee43.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-cpu-instrs-11-op-a-hl-gb-dmg-f37eee43.png",
         "width": 160,
         "height": 144
       }
@@ -348,10 +348,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2608624000000077,
-      "runtimeSeconds": 9.291474999999991,
+      "startupSeconds": 0.21693829999998115,
+      "runtimeSeconds": 9.220174499999985,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-halt-bug-gb-dmg-6bd4a24d.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-halt-bug-gb-dmg-6bd4a24d.png",
         "width": 160,
         "height": 144
       }
@@ -367,10 +367,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25661009999998896,
-      "runtimeSeconds": 8.296842200000015,
+      "startupSeconds": 0.20927750000004153,
+      "runtimeSeconds": 8.255275900000015,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-instr-timing-gb-dmg-584a3698.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-instr-timing-gb-dmg-584a3698.png",
         "width": 160,
         "height": 144
       }
@@ -386,10 +386,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.263628199999971,
-      "runtimeSeconds": 1.8292796000000067,
+      "startupSeconds": 0.1972824999999716,
+      "runtimeSeconds": 1.545067999999958,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-interrupt-time-gb-cgb-4d659e2c.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-interrupt-time-gb-cgb-4d659e2c.png",
         "width": 160,
         "height": 144
       }
@@ -405,10 +405,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2499540999999681,
-      "runtimeSeconds": 8.266141900000036,
+      "startupSeconds": 0.20103169999998727,
+      "runtimeSeconds": 8.264824799999985,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-mem-timing-01-read-timing-gb-dmg-547bd6f6.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-mem-timing-01-read-timing-gb-dmg-547bd6f6.png",
         "width": 160,
         "height": 144
       }
@@ -424,10 +424,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25582889999998315,
-      "runtimeSeconds": 8.21418570000003,
+      "startupSeconds": 0.19496079999998983,
+      "runtimeSeconds": 8.270887700000003,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-mem-timing-02-write-timing-gb-dmg-1f4d9a88.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-mem-timing-02-write-timing-gb-dmg-1f4d9a88.png",
         "width": 160,
         "height": 144
       }
@@ -443,10 +443,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2545750000000453,
-      "runtimeSeconds": 8.277282300000024,
+      "startupSeconds": 0.19217190000000528,
+      "runtimeSeconds": 8.227331700000036,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-mem-timing-03-modify-timing-gb-dmg-01c8cea5.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-mem-timing-03-modify-timing-gb-dmg-01c8cea5.png",
         "width": 160,
         "height": 144
       }
@@ -462,10 +462,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.24426199999999199,
-      "runtimeSeconds": 8.256942200000026,
+      "startupSeconds": 0.18909610000002885,
+      "runtimeSeconds": 8.242773900000032,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-mem-timing-2-01-read-timing-gb-dmg-20f1120e.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-mem-timing-2-01-read-timing-gb-dmg-20f1120e.png",
         "width": 160,
         "height": 144
       }
@@ -481,10 +481,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2620246000000179,
-      "runtimeSeconds": 8.227407800000037,
+      "startupSeconds": 0.20062630000001036,
+      "runtimeSeconds": 8.259958199999971,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-mem-timing-2-02-write-timing-gb-dmg-c1785f08.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-mem-timing-2-02-write-timing-gb-dmg-c1785f08.png",
         "width": 160,
         "height": 144
       }
@@ -500,10 +500,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25170140000000174,
-      "runtimeSeconds": 8.304610300000036,
+      "startupSeconds": 0.19408659999999145,
+      "runtimeSeconds": 8.233126599999991,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-mem-timing-2-03-modify-timing-gb-dmg-8bbbccfc.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-mem-timing-2-03-modify-timing-gb-dmg-8bbbccfc.png",
         "width": 160,
         "height": 144
       }
@@ -519,10 +519,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2582960999999955,
-      "runtimeSeconds": 8.266463699999974,
+      "startupSeconds": 0.19307579999997415,
+      "runtimeSeconds": 8.247749700000043,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-oam-bug-1-lcd-sync-gb-dmg-5e66d0de.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-oam-bug-1-lcd-sync-gb-dmg-5e66d0de.png",
         "width": 160,
         "height": 144
       }
@@ -538,10 +538,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.26260540000004085,
-      "runtimeSeconds": 8.278173000000038,
+      "startupSeconds": 0.19205190000002403,
+      "runtimeSeconds": 8.317471299999966,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-oam-bug-2-causes-gb-dmg-b608de0a.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-oam-bug-2-causes-gb-dmg-b608de0a.png",
         "width": 160,
         "height": 144
       }
@@ -557,10 +557,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25439810000000307,
-      "runtimeSeconds": 10.307571499999995,
+      "startupSeconds": 0.2222022999999922,
+      "runtimeSeconds": 10.209846599999992,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-oam-bug-3-non-causes-gb-dmg-ae05f385.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-oam-bug-3-non-causes-gb-dmg-ae05f385.png",
         "width": 160,
         "height": 144
       }
@@ -576,10 +576,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2502263999999741,
-      "runtimeSeconds": 8.77244630000007,
+      "startupSeconds": 0.19033020000000533,
+      "runtimeSeconds": 8.775863799999968,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-oam-bug-4-scanline-timing-gb-dmg-2da61991.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-oam-bug-4-scanline-timing-gb-dmg-2da61991.png",
         "width": 160,
         "height": 144
       }
@@ -595,10 +595,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25260209999999006,
-      "runtimeSeconds": 8.76979879999999,
+      "startupSeconds": 0.18909669999999323,
+      "runtimeSeconds": 8.828853900000013,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-oam-bug-5-timing-bug-gb-dmg-ee74faf3.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-oam-bug-5-timing-bug-gb-dmg-ee74faf3.png",
         "width": 160,
         "height": 144
       }
@@ -614,10 +614,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2661335999999892,
-      "runtimeSeconds": 8.792602899999906,
+      "startupSeconds": 0.1921961999999553,
+      "runtimeSeconds": 8.709168299999988,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-oam-bug-6-timing-no-bug-gb-dmg-607a177d.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-oam-bug-6-timing-no-bug-gb-dmg-607a177d.png",
         "width": 160,
         "height": 144
       }
@@ -633,10 +633,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2691415000000461,
-      "runtimeSeconds": 8.786166200000025,
+      "startupSeconds": 0.20353010000002314,
+      "runtimeSeconds": 8.777826199999993,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-oam-bug-8-instr-effect-gb-dmg-9ca7f84f.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-oam-bug-8-instr-effect-gb-dmg-9ca7f84f.png",
         "width": 160,
         "height": 144
       }
@@ -652,10 +652,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2462406000000783,
-      "runtimeSeconds": 9.304103800000007,
+      "startupSeconds": 0.19108879999998862,
+      "runtimeSeconds": 9.314267299999926,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-dmg-sound-01-registers-gb-dmg-dd73c6e4.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-dmg-sound-01-registers-gb-dmg-dd73c6e4.png",
         "width": 160,
         "height": 144
       }
@@ -671,10 +671,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2508142000000362,
-      "runtimeSeconds": 18.238992999999937,
+      "startupSeconds": 0.1864952999999332,
+      "runtimeSeconds": 18.293312900000046,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-dmg-sound-02-len-ctr-gb-dmg-081a2fae.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-dmg-sound-02-len-ctr-gb-dmg-081a2fae.png",
         "width": 160,
         "height": 144
       }
@@ -690,10 +690,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2560999999999467,
-      "runtimeSeconds": 25.326583299999925,
+      "startupSeconds": 0.19772939999995742,
+      "runtimeSeconds": 25.229720000000043,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-dmg-sound-03-trigger-gb-dmg-dfb2b658.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-dmg-sound-03-trigger-gb-dmg-dfb2b658.png",
         "width": 160,
         "height": 144
       }
@@ -709,10 +709,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2633651999999529,
-      "runtimeSeconds": 9.281786900000043,
+      "startupSeconds": 0.2051142999999911,
+      "runtimeSeconds": 9.222969199999966,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-dmg-sound-04-sweep-gb-dmg-9193ca89.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-dmg-sound-04-sweep-gb-dmg-9193ca89.png",
         "width": 160,
         "height": 144
       }
@@ -728,10 +728,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.26239590000000135,
-      "runtimeSeconds": 9.211523399999919,
+      "startupSeconds": 0.19556039999997665,
+      "runtimeSeconds": 9.314533299999994,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-dmg-sound-05-sweep-details-gb-dmg-3a3cf981.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-dmg-sound-05-sweep-details-gb-dmg-3a3cf981.png",
         "width": 160,
         "height": 144
       }
@@ -747,10 +747,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2863973999999416,
-      "runtimeSeconds": 9.29874110000003,
+      "startupSeconds": 0.21813960000008592,
+      "runtimeSeconds": 9.320830999999998,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-dmg-sound-06-overflow-on-trigger-gb-dmg-5428a1fc.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-dmg-sound-06-overflow-on-trigger-gb-dmg-5428a1fc.png",
         "width": 160,
         "height": 144
       }
@@ -766,10 +766,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.3281908999999814,
-      "runtimeSeconds": 9.257960700000012,
+      "startupSeconds": 0.20237310000004527,
+      "runtimeSeconds": 9.318745299999932,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-dmg-sound-07-len-sweep-period-sync-gb-dmg-ef480eef.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-dmg-sound-07-len-sweep-period-sync-gb-dmg-ef480eef.png",
         "width": 160,
         "height": 144
       }
@@ -785,10 +785,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.3284355000000687,
-      "runtimeSeconds": 9.202953500000035,
+      "startupSeconds": 0.18885650000004262,
+      "runtimeSeconds": 9.299277399999937,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-dmg-sound-08-len-ctr-during-power-gb-dmg-94b9b87f.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-dmg-sound-08-len-ctr-during-power-gb-dmg-94b9b87f.png",
         "width": 160,
         "height": 144
       }
@@ -804,10 +804,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.26161000000001877,
-      "runtimeSeconds": 8.281972600000017,
+      "startupSeconds": 0.19996689999993578,
+      "runtimeSeconds": 8.314175099999943,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-dmg-sound-09-wave-read-while-on-gb-dmg-6bce549d.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-dmg-sound-09-wave-read-while-on-gb-dmg-6bce549d.png",
         "width": 160,
         "height": 144
       }
@@ -823,10 +823,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25428390000001855,
-      "runtimeSeconds": 12.249818299999902,
+      "startupSeconds": 0.1878934000000072,
+      "runtimeSeconds": 12.23707539999998,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-dmg-sound-10-wave-trigger-while-on-gb-dmg-9186e94d.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-dmg-sound-10-wave-trigger-while-on-gb-dmg-9186e94d.png",
         "width": 160,
         "height": 144
       }
@@ -842,10 +842,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.3238456999999926,
-      "runtimeSeconds": 8.22010720000003,
+      "startupSeconds": 0.19948869999996077,
+      "runtimeSeconds": 8.32177420000005,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-dmg-sound-11-regs-after-power-gb-dmg-6dc2c147.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-dmg-sound-11-regs-after-power-gb-dmg-6dc2c147.png",
         "width": 160,
         "height": 144
       }
@@ -861,10 +861,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.31155999999998585,
-      "runtimeSeconds": 12.282685499999957,
+      "startupSeconds": 0.18876120000004448,
+      "runtimeSeconds": 12.21498639999993,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-dmg-sound-12-wave-write-while-on-gb-dmg-765a84aa.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-dmg-sound-12-wave-write-while-on-gb-dmg-765a84aa.png",
         "width": 160,
         "height": 144
       }
@@ -880,10 +880,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3107557999999244,
-      "runtimeSeconds": 2.378130199999987,
+      "startupSeconds": 0.20009379999999055,
+      "runtimeSeconds": 1.5515761000000339,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-cgb-sound-01-registers-gb-cgb-962f11c5.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-cgb-sound-01-registers-gb-cgb-962f11c5.png",
         "width": 160,
         "height": 144
       }
@@ -899,10 +899,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3672245999999859,
-      "runtimeSeconds": 6.854054399999995,
+      "startupSeconds": 0.187128199999961,
+      "runtimeSeconds": 4.534706799999981,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-cgb-sound-02-len-ctr-gb-cgb-2cde1cfa.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-cgb-sound-02-len-ctr-gb-cgb-2cde1cfa.png",
         "width": 160,
         "height": 144
       }
@@ -918,10 +918,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3017637000000377,
-      "runtimeSeconds": 9.61966330000007,
+      "startupSeconds": 0.18829379999999674,
+      "runtimeSeconds": 7.369825999999989,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-cgb-sound-03-trigger-gb-cgb-62801ad3.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-cgb-sound-03-trigger-gb-cgb-62801ad3.png",
         "width": 160,
         "height": 144
       }
@@ -937,10 +937,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.2519265999999334,
-      "runtimeSeconds": 2.2276538999999502,
+      "startupSeconds": 0.19833909999999833,
+      "runtimeSeconds": 1.8476081999999678,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-cgb-sound-04-sweep-gb-cgb-c659f04f.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-cgb-sound-04-sweep-gb-cgb-c659f04f.png",
         "width": 160,
         "height": 144
       }
@@ -956,10 +956,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.25895869999999377,
-      "runtimeSeconds": 2.070020799999952,
+      "startupSeconds": 0.18650290000005043,
+      "runtimeSeconds": 1.7136983999999984,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-cgb-sound-05-sweep-details-gb-cgb-122d1068.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-cgb-sound-05-sweep-details-gb-cgb-122d1068.png",
         "width": 160,
         "height": 144
       }
@@ -975,10 +975,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.24930380000000696,
-      "runtimeSeconds": 1.9483935000000656,
+      "startupSeconds": 0.1908793999999716,
+      "runtimeSeconds": 1.7046768999999813,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-cgb-sound-06-overflow-on-trigger-gb-cgb-cff874cf.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-cgb-sound-06-overflow-on-trigger-gb-cgb-cff874cf.png",
         "width": 160,
         "height": 144
       }
@@ -994,10 +994,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.2455714000000171,
-      "runtimeSeconds": 1.8186536000000615,
+      "startupSeconds": 0.18830590000004577,
+      "runtimeSeconds": 1.5731698999999253,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-cgb-sound-07-len-sweep-period-sync-gb-cgb-c26ce5bc.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-cgb-sound-07-len-sweep-period-sync-gb-cgb-c26ce5bc.png",
         "width": 160,
         "height": 144
       }
@@ -1013,10 +1013,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.24593499999991764,
-      "runtimeSeconds": 2.7716454000000113,
+      "startupSeconds": 0.19069739999997637,
+      "runtimeSeconds": 2.2854565000000093,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-cgb-sound-08-len-ctr-during-power-gb-cgb-e3d75429.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-cgb-sound-08-len-ctr-during-power-gb-cgb-e3d75429.png",
         "width": 160,
         "height": 144
       }
@@ -1032,10 +1032,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.24375559999998586,
-      "runtimeSeconds": 2.136442299999999,
+      "startupSeconds": 0.19676830000003065,
+      "runtimeSeconds": 1.5820909999999913,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-cgb-sound-09-wave-read-while-on-gb-cgb-efcaf116.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-cgb-sound-09-wave-read-while-on-gb-cgb-efcaf116.png",
         "width": 160,
         "height": 144
       }
@@ -1051,10 +1051,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.2955673000000161,
-      "runtimeSeconds": 3.824856499999896,
+      "startupSeconds": 0.1910041999999521,
+      "runtimeSeconds": 2.855856700000004,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-cgb-sound-10-wave-trigger-while-on-gb-cgb-2789e4c0.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-cgb-sound-10-wave-trigger-while-on-gb-cgb-2789e4c0.png",
         "width": 160,
         "height": 144
       }
@@ -1070,10 +1070,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.2519543999999314,
-      "runtimeSeconds": 2.0963290999999344,
+      "startupSeconds": 0.21800650000000132,
+      "runtimeSeconds": 1.7233009999999922,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-cgb-sound-11-regs-after-power-gb-cgb-ca02c1f6.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-cgb-sound-11-regs-after-power-gb-cgb-ca02c1f6.png",
         "width": 160,
         "height": 144
       }
@@ -1089,10 +1089,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.2467072999999118,
-      "runtimeSeconds": 1.8242334000000255,
+      "startupSeconds": 0.20794709999995575,
+      "runtimeSeconds": 1.5677127999999811,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/blargg-cgb-sound-12-wave-gb-cgb-4c83bcb2.png",
+        "url": "screenshots/ares/legacy-1792055163/blargg-cgb-sound-12-wave-gb-cgb-4c83bcb2.png",
         "width": 160,
         "height": 144
       }
@@ -1108,10 +1108,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2508572000000413,
-      "runtimeSeconds": 7.782280799999967,
+      "startupSeconds": 0.2057115000000067,
+      "runtimeSeconds": 7.7735587000000805,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/daid-ppu-scanline-bgp-gb-dmg-dmg-5f7dae47.png",
+        "url": "screenshots/ares/legacy-1792055163/daid-ppu-scanline-bgp-gb-dmg-dmg-5f7dae47.png",
         "width": 160,
         "height": 144
       }
@@ -1127,10 +1127,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2654201999999941,
-      "runtimeSeconds": 7.732462699999928,
+      "startupSeconds": 0.23807049999993524,
+      "runtimeSeconds": 7.795701600000029,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/daid-ppu-scanline-bgp-gb-gbc-cgb-5de4d6ea.png",
+        "url": "screenshots/ares/legacy-1792055163/daid-ppu-scanline-bgp-gb-gbc-cgb-5de4d6ea.png",
         "width": 160,
         "height": 144
       }
@@ -1146,10 +1146,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.24975799999992887,
-      "runtimeSeconds": 7.769704700000034,
+      "startupSeconds": 0.21551279999994222,
+      "runtimeSeconds": 7.723080099999947,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/daid-stop-instr-gb-dmg-dmg-4117a58f.png",
+        "url": "screenshots/ares/legacy-1792055163/daid-stop-instr-gb-dmg-dmg-4117a58f.png",
         "width": 160,
         "height": 144
       }
@@ -1163,12 +1163,12 @@
       "system": "cgb",
       "description": "STOP instruction is usually not used, but it should make the screen go black on Color Gameboy. The PPU is still running, but it cannot access VRAM, so it reads all black",
       "sourceUrl": null,
-      "status": "pass",
+      "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2573231000000078,
-      "runtimeSeconds": 0.25460609999993267,
+      "startupSeconds": 0.24029360000008637,
+      "runtimeSeconds": 7.736545799999931,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/daid-stop-instr-gb-gbc-cgb-6ca6899d.png",
+        "url": "screenshots/ares/legacy-1792055163/daid-stop-instr-gb-gbc-cgb-6ca6899d.png",
         "width": 160,
         "height": 144
       }
@@ -1184,10 +1184,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25691329999995105,
-      "runtimeSeconds": 7.822056900000007,
+      "startupSeconds": 0.2369452000000365,
+      "runtimeSeconds": 7.770581200000038,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/daid-stop-instr-gbc-mode3-gb-cgb-705e7fd0.png",
+        "url": "screenshots/ares/legacy-1792055163/daid-stop-instr-gbc-mode3-gb-cgb-705e7fd0.png",
         "width": 160,
         "height": 144
       }
@@ -1203,10 +1203,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.25389869999992243,
-      "runtimeSeconds": 1.690921200000048,
+      "startupSeconds": 0.2251367000000073,
+      "runtimeSeconds": 1.5951800000000276,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/daid-speed-switch-timing-div-gbc-cgb-d436edd5.png",
+        "url": "screenshots/ares/legacy-1792055163/daid-speed-switch-timing-div-gbc-cgb-d436edd5.png",
         "width": 160,
         "height": 144
       }
@@ -1222,10 +1222,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2509235999999646,
-      "runtimeSeconds": 7.813601999999946,
+      "startupSeconds": 0.23359599999992042,
+      "runtimeSeconds": 7.836081600000057,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/daid-speed-switch-timing-ly-gbc-cgb-bd931d6c.png",
+        "url": "screenshots/ares/legacy-1792055163/daid-speed-switch-timing-ly-gbc-cgb-bd931d6c.png",
         "width": 160,
         "height": 144
       }
@@ -1241,10 +1241,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2401863999999705,
-      "runtimeSeconds": 7.811079100000029,
+      "startupSeconds": 0.19989829999997255,
+      "runtimeSeconds": 7.724507899999935,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/daid-speed-switch-timing-stat-gbc-cgb-e14b6b04.png",
+        "url": "screenshots/ares/legacy-1792055163/daid-speed-switch-timing-stat-gbc-cgb-e14b6b04.png",
         "width": 160,
         "height": 144
       }
@@ -1260,10 +1260,10 @@
       "sourceUrl": "https://github.com/daid/GBEmulatorShootout/blob/main/tests/daid/rom_and_ram.gb",
       "status": "info",
       "reason": null,
-      "startupSeconds": 0.2706991999999673,
-      "runtimeSeconds": 7.732206499999961,
+      "startupSeconds": 0.2098263999999972,
+      "runtimeSeconds": 7.754775300000006,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/daid-rom-and-ram-gb-dmg-b9c8f9a6.png",
+        "url": "screenshots/ares/legacy-1792055163/daid-rom-and-ram-gb-dmg-b9c8f9a6.png",
         "width": 160,
         "height": 144
       }
@@ -1279,10 +1279,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.2806733999999551,
-      "runtimeSeconds": 5.9958242000000155,
+      "startupSeconds": 0.20549479999999676,
+      "runtimeSeconds": 5.256588400000055,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/ax6-rtc3test-1-gb-cgb-a5e04b04.png",
+        "url": "screenshots/ares/legacy-1792055163/ax6-rtc3test-1-gb-cgb-a5e04b04.png",
         "width": 160,
         "height": 144
       }
@@ -1298,10 +1298,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.2838787999999113,
-      "runtimeSeconds": 4.205177900000081,
+      "startupSeconds": 0.22950230000003558,
+      "runtimeSeconds": 3.7107783000000154,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/ax6-rtc3test-2-gb-cgb-c729fd95.png",
+        "url": "screenshots/ares/legacy-1792055163/ax6-rtc3test-2-gb-cgb-c729fd95.png",
         "width": 160,
         "height": 144
       }
@@ -1317,10 +1317,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.29109790000006797,
-      "runtimeSeconds": 27.327611300000058,
+      "startupSeconds": 0.21251670000003742,
+      "runtimeSeconds": 27.238139299999943,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/ax6-rtc3test-3-gb-cgb-ff119bea.png",
+        "url": "screenshots/ares/legacy-1792055163/ax6-rtc3test-3-gb-cgb-ff119bea.png",
         "width": 160,
         "height": 144
       }
@@ -1336,10 +1336,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2502428999999893,
-      "runtimeSeconds": 8.822933899999953,
+      "startupSeconds": 0.21297049999998308,
+      "runtimeSeconds": 8.79248460000008,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-add-sp-e-timing-gb-dmg-a2e530e4.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-add-sp-e-timing-gb-dmg-a2e530e4.png",
         "width": 160,
         "height": 144
       }
@@ -1355,10 +1355,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25349790000007033,
-      "runtimeSeconds": 8.711928599999965,
+      "startupSeconds": 0.21482989999992697,
+      "runtimeSeconds": 8.822772699999973,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-bits-mem-oam-gb-dmg-0ed150b2.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-bits-mem-oam-gb-dmg-0ed150b2.png",
         "width": 160,
         "height": 144
       }
@@ -1374,10 +1374,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25613909999992757,
-      "runtimeSeconds": 8.74461819999999,
+      "startupSeconds": 0.2104080999999951,
+      "runtimeSeconds": 8.797558000000095,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-bits-reg-f-gb-dmg-44f3890a.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-bits-reg-f-gb-dmg-44f3890a.png",
         "width": 160,
         "height": 144
       }
@@ -1393,10 +1393,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25467140000000654,
-      "runtimeSeconds": 8.79092019999996,
+      "startupSeconds": 0.21290450000003602,
+      "runtimeSeconds": 8.702476599999954,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-bits-unused-hwio-gs-gb-dmg-30860ad6.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-bits-unused-hwio-gs-gb-dmg-30860ad6.png",
         "width": 160,
         "height": 144
       }
@@ -1412,10 +1412,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.24906050000004143,
-      "runtimeSeconds": 8.80289229999994,
+      "startupSeconds": 0.22282570000004398,
+      "runtimeSeconds": 8.723646199999962,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-boot-div-dmgabcmgb-gb-dmg-f2165691.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-boot-div-dmgabcmgb-gb-dmg-f2165691.png",
         "width": 160,
         "height": 144
       }
@@ -1431,10 +1431,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25500160000001415,
-      "runtimeSeconds": 8.757175699999948,
+      "startupSeconds": 0.21264819999998963,
+      "runtimeSeconds": 8.706120000000055,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-boot-hwio-dmgabcmgb-gb-dmg-342e80c6.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-boot-hwio-dmgabcmgb-gb-dmg-342e80c6.png",
         "width": 160,
         "height": 144
       }
@@ -1450,10 +1450,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2589850000000524,
-      "runtimeSeconds": 8.7645536,
+      "startupSeconds": 0.20900289999997312,
+      "runtimeSeconds": 8.70557389999999,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-boot-regs-dmgabc-gb-dmg-9e623b30.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-boot-regs-dmgabc-gb-dmg-9e623b30.png",
         "width": 160,
         "height": 144
       }
@@ -1469,10 +1469,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25338509999994585,
-      "runtimeSeconds": 8.753719000000046,
+      "startupSeconds": 0.21223710000003848,
+      "runtimeSeconds": 8.821419600000013,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-call-cc-timing-gb-dmg-fa9ca02c.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-call-cc-timing-gb-dmg-fa9ca02c.png",
         "width": 160,
         "height": 144
       }
@@ -1488,10 +1488,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25357179999991786,
-      "runtimeSeconds": 8.781019399999991,
+      "startupSeconds": 0.20877459999996972,
+      "runtimeSeconds": 8.719000600000072,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-call-cc-timing2-gb-dmg-b792d341.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-call-cc-timing2-gb-dmg-b792d341.png",
         "width": 160,
         "height": 144
       }
@@ -1507,10 +1507,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.26383850000001985,
-      "runtimeSeconds": 8.757947400000035,
+      "startupSeconds": 0.21967710000001262,
+      "runtimeSeconds": 8.701569100000029,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-call-timing-gb-dmg-ac23c2da.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-call-timing-gb-dmg-ac23c2da.png",
         "width": 160,
         "height": 144
       }
@@ -1526,10 +1526,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2539090999999871,
-      "runtimeSeconds": 8.79391970000006,
+      "startupSeconds": 0.2100870000000441,
+      "runtimeSeconds": 8.73996180000006,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-call-timing2-gb-dmg-155ad496.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-call-timing2-gb-dmg-155ad496.png",
         "width": 160,
         "height": 144
       }
@@ -1545,10 +1545,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.26628440000001774,
-      "runtimeSeconds": 8.726101999999969,
+      "startupSeconds": 0.2077891000000136,
+      "runtimeSeconds": 8.81620620000001,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-div-timing-gb-dmg-aaad1d62.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-div-timing-gb-dmg-aaad1d62.png",
         "width": 160,
         "height": 144
       }
@@ -1564,10 +1564,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2947162999998909,
-      "runtimeSeconds": 8.718520799999965,
+      "startupSeconds": 0.21996169999999893,
+      "runtimeSeconds": 8.70046979999995,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-di-timing-gs-gb-dmg-909a5bc3.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-di-timing-gs-gb-dmg-909a5bc3.png",
         "width": 160,
         "height": 144
       }
@@ -1583,10 +1583,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.27118060000009336,
-      "runtimeSeconds": 8.787610700000073,
+      "startupSeconds": 0.22042369999996936,
+      "runtimeSeconds": 8.793130099999985,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-ei-sequence-gb-dmg-5ebdd542.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-ei-sequence-gb-dmg-5ebdd542.png",
         "width": 160,
         "height": 144
       }
@@ -1602,10 +1602,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2709407000000965,
-      "runtimeSeconds": 8.766524499999946,
+      "startupSeconds": 0.22504700000001776,
+      "runtimeSeconds": 8.746377400000029,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-ei-timing-gb-dmg-cf34a2aa.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-ei-timing-gb-dmg-cf34a2aa.png",
         "width": 160,
         "height": 144
       }
@@ -1621,10 +1621,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2652537000000166,
-      "runtimeSeconds": 8.813240199999996,
+      "startupSeconds": 0.2237867000000051,
+      "runtimeSeconds": 8.822379100000035,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-halt-ime0-ei-gb-dmg-f1bd4bba.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-halt-ime0-ei-gb-dmg-f1bd4bba.png",
         "width": 160,
         "height": 144
       }
@@ -1640,10 +1640,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2763642999999547,
-      "runtimeSeconds": 8.709209299999998,
+      "startupSeconds": 0.20976930000006178,
+      "runtimeSeconds": 8.70216389999996,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-halt-ime0-nointr-timing-gb-dmg-cd224952.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-halt-ime0-nointr-timing-gb-dmg-cd224952.png",
         "width": 160,
         "height": 144
       }
@@ -1659,10 +1659,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.3005250999999589,
-      "runtimeSeconds": 8.787248800000043,
+      "startupSeconds": 0.2184841000000688,
+      "runtimeSeconds": 8.80782529999999,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-halt-ime1-timing-gb-dmg-518a499c.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-halt-ime1-timing-gb-dmg-518a499c.png",
         "width": 160,
         "height": 144
       }
@@ -1678,10 +1678,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.26408299999991414,
-      "runtimeSeconds": 8.830357100000015,
+      "startupSeconds": 0.20798930000000837,
+      "runtimeSeconds": 8.727687100000026,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-halt-ime1-timing2-gs-gb-dmg-1cef7c39.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-halt-ime1-timing2-gs-gb-dmg-1cef7c39.png",
         "width": 160,
         "height": 144
       }
@@ -1697,10 +1697,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25360729999999876,
-      "runtimeSeconds": 8.707349099999988,
+      "startupSeconds": 0.20672220000005836,
+      "runtimeSeconds": 8.783126200000083,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-if-ie-registers-gb-dmg-7fa01a0b.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-if-ie-registers-gb-dmg-7fa01a0b.png",
         "width": 160,
         "height": 144
       }
@@ -1716,10 +1716,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.26612180000006447,
-      "runtimeSeconds": 8.709457000000157,
+      "startupSeconds": 0.20999920000008387,
+      "runtimeSeconds": 8.783258299999943,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-instr-daa-gb-dmg-f4c07657.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-instr-daa-gb-dmg-f4c07657.png",
         "width": 160,
         "height": 144
       }
@@ -1735,10 +1735,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25600520000011784,
-      "runtimeSeconds": 8.708436499999834,
+      "startupSeconds": 0.22365129999991495,
+      "runtimeSeconds": 8.759124799999995,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-interrupts-ie-push-gb-dmg-cbac7df0.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-interrupts-ie-push-gb-dmg-cbac7df0.png",
         "width": 160,
         "height": 144
       }
@@ -1754,10 +1754,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.30459429999996246,
-      "runtimeSeconds": 8.742126899999903,
+      "startupSeconds": 0.21619009999994887,
+      "runtimeSeconds": 8.751618199999939,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-intr-timing-gb-dmg-751c15a5.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-intr-timing-gb-dmg-751c15a5.png",
         "width": 160,
         "height": 144
       }
@@ -1773,10 +1773,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.24813859999994747,
-      "runtimeSeconds": 8.776146200000085,
+      "startupSeconds": 0.2118714999999156,
+      "runtimeSeconds": 8.706253800000013,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-jp-cc-timing-gb-dmg-44fc5de2.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-jp-cc-timing-gb-dmg-44fc5de2.png",
         "width": 160,
         "height": 144
       }
@@ -1792,10 +1792,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2797074000000066,
-      "runtimeSeconds": 8.780891800000063,
+      "startupSeconds": 0.21948220000001584,
+      "runtimeSeconds": 8.797000700000012,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-jp-timing-gb-dmg-3ae9e8b0.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-jp-timing-gb-dmg-3ae9e8b0.png",
         "width": 160,
         "height": 144
       }
@@ -1811,10 +1811,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2782900999998219,
-      "runtimeSeconds": 8.745257200000196,
+      "startupSeconds": 0.22149799999999686,
+      "runtimeSeconds": 8.701636100000087,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-ld-hl-sp-e-timing-gb-dmg-52cce822.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-ld-hl-sp-e-timing-gb-dmg-52cce822.png",
         "width": 160,
         "height": 144
       }
@@ -1830,10 +1830,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.33024700000009943,
-      "runtimeSeconds": 8.74839309999993,
+      "startupSeconds": 0.22212930000000597,
+      "runtimeSeconds": 8.73341569999991,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-oam-dma-basic-gb-dmg-3a9f8c15.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-oam-dma-basic-gb-dmg-3a9f8c15.png",
         "width": 160,
         "height": 144
       }
@@ -1849,10 +1849,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2952175000000352,
-      "runtimeSeconds": 8.719818700000133,
+      "startupSeconds": 0.21407270000008793,
+      "runtimeSeconds": 8.800259499999811,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-oam-dma-reg-read-gb-dmg-4900f1f3.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-oam-dma-reg-read-gb-dmg-4900f1f3.png",
         "width": 160,
         "height": 144
       }
@@ -1868,10 +1868,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.26626519999990705,
-      "runtimeSeconds": 8.793035500000087,
+      "startupSeconds": 0.25510860000008506,
+      "runtimeSeconds": 8.810278599999947,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-oam-dma-sources-gs-gb-dmg-5074f6c9.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-oam-dma-sources-gs-gb-dmg-5074f6c9.png",
         "width": 160,
         "height": 144
       }
@@ -1887,10 +1887,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2874143000001368,
-      "runtimeSeconds": 8.704506300000048,
+      "startupSeconds": 0.20925560000000587,
+      "runtimeSeconds": 8.737959099999898,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-oam-dma-restart-gb-dmg-a47d1dfa.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-oam-dma-restart-gb-dmg-a47d1dfa.png",
         "width": 160,
         "height": 144
       }
@@ -1906,10 +1906,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2940482000001339,
-      "runtimeSeconds": 8.7705397000002,
+      "startupSeconds": 0.20092349999981707,
+      "runtimeSeconds": 8.707591600000114,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-oam-dma-start-gb-dmg-b7ed9f09.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-oam-dma-start-gb-dmg-b7ed9f09.png",
         "width": 160,
         "height": 144
       }
@@ -1925,10 +1925,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.29126240000005055,
-      "runtimeSeconds": 8.820825400000103,
+      "startupSeconds": 0.2043249000000742,
+      "runtimeSeconds": 8.780048399999941,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-oam-dma-timing-gb-dmg-0e573056.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-oam-dma-timing-gb-dmg-0e573056.png",
         "width": 160,
         "height": 144
       }
@@ -1944,10 +1944,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.29462390000003325,
-      "runtimeSeconds": 8.827727500000037,
+      "startupSeconds": 0.19723340000018652,
+      "runtimeSeconds": 8.799134699999968,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-pop-timing-gb-dmg-ce1bbc67.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-pop-timing-gb-dmg-ce1bbc67.png",
         "width": 160,
         "height": 144
       }
@@ -1963,10 +1963,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2885069999999814,
-      "runtimeSeconds": 8.799657100000104,
+      "startupSeconds": 0.20531289999985347,
+      "runtimeSeconds": 8.802006599999913,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-ppu-hblank-ly-scx-timing-gs-gb-dmg-05e4e6ce.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-ppu-hblank-ly-scx-timing-gs-gb-dmg-05e4e6ce.png",
         "width": 160,
         "height": 144
       }
@@ -1982,10 +1982,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2741259999997965,
-      "runtimeSeconds": 8.772152699999879,
+      "startupSeconds": 0.20137350000004517,
+      "runtimeSeconds": 8.815041800000017,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-ppu-intr-1-2-timing-gs-gb-dmg-f0241de3.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-ppu-intr-1-2-timing-gs-gb-dmg-f0241de3.png",
         "width": 160,
         "height": 144
       }
@@ -2001,10 +2001,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.24706160000005184,
-      "runtimeSeconds": 8.783386399999927,
+      "startupSeconds": 0.20903810000004341,
+      "runtimeSeconds": 8.800747300000012,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-ppu-intr-2-0-timing-gb-dmg-4e7b1d8c.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-ppu-intr-2-0-timing-gb-dmg-4e7b1d8c.png",
         "width": 160,
         "height": 144
       }
@@ -2020,10 +2020,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.27123679999999695,
-      "runtimeSeconds": 8.816465999999991,
+      "startupSeconds": 0.18945189999999457,
+      "runtimeSeconds": 8.71839389999991,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-ppu-intr-2-mode0-timing-gb-dmg-494323d6.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-ppu-intr-2-mode0-timing-gb-dmg-494323d6.png",
         "width": 160,
         "height": 144
       }
@@ -2039,10 +2039,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2918280000001232,
-      "runtimeSeconds": 12.726559599999973,
+      "startupSeconds": 0.1918614000001071,
+      "runtimeSeconds": 12.772148900000047,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-ppu-intr-2-mode0-timing-sprites-gb-dmg-e9daeba9.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-ppu-intr-2-mode0-timing-sprites-gb-dmg-e9daeba9.png",
         "width": 160,
         "height": 144
       }
@@ -2058,10 +2058,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2824865000000045,
-      "runtimeSeconds": 8.815996199999972,
+      "startupSeconds": 0.1936279999999897,
+      "runtimeSeconds": 8.803446000000122,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-ppu-intr-2-mode3-timing-gb-dmg-07b8cb40.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-ppu-intr-2-mode3-timing-gb-dmg-07b8cb40.png",
         "width": 160,
         "height": 144
       }
@@ -2077,10 +2077,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.29649160000008123,
-      "runtimeSeconds": 8.761280400000032,
+      "startupSeconds": 0.22947879999992438,
+      "runtimeSeconds": 8.750095500000043,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-ppu-intr-2-oam-ok-timing-gb-dmg-56282d1b.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-ppu-intr-2-oam-ok-timing-gb-dmg-56282d1b.png",
         "width": 160,
         "height": 144
       }
@@ -2096,10 +2096,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.3273085999999239,
-      "runtimeSeconds": 8.7529341999998,
+      "startupSeconds": 0.20972749999987172,
+      "runtimeSeconds": 8.706646800000044,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-ppu-lcdon-timing-gs-gb-dmg-8505214e.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-ppu-lcdon-timing-gs-gb-dmg-8505214e.png",
         "width": 160,
         "height": 144
       }
@@ -2115,10 +2115,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2926036999999724,
-      "runtimeSeconds": 9.284008999999969,
+      "startupSeconds": 0.188489699999991,
+      "runtimeSeconds": 9.27203459999987,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-ppu-lcdon-write-timing-gs-gb-dmg-f79fbd79.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-ppu-lcdon-write-timing-gs-gb-dmg-f79fbd79.png",
         "width": 160,
         "height": 144
       }
@@ -2134,10 +2134,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.34982480000007854,
-      "runtimeSeconds": 8.828056199999992,
+      "startupSeconds": 0.20951190000005226,
+      "runtimeSeconds": 8.752985800000033,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-ppu-stat-irq-blocking-gb-dmg-264b995e.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-ppu-stat-irq-blocking-gb-dmg-264b995e.png",
         "width": 160,
         "height": 144
       }
@@ -2153,10 +2153,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.30532769999990705,
-      "runtimeSeconds": 8.793756399999893,
+      "startupSeconds": 0.21127830000000358,
+      "runtimeSeconds": 8.822521300000062,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-ppu-stat-lyc-onoff-gb-dmg-7bc03421.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-ppu-stat-lyc-onoff-gb-dmg-7bc03421.png",
         "width": 160,
         "height": 144
       }
@@ -2172,10 +2172,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2914702999999008,
-      "runtimeSeconds": 8.748045599999841,
+      "startupSeconds": 0.192134200000055,
+      "runtimeSeconds": 8.726170700000011,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-ppu-vblank-stat-intr-gs-gb-dmg-480f42b9.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-ppu-vblank-stat-intr-gs-gb-dmg-480f42b9.png",
         "width": 160,
         "height": 144
       }
@@ -2191,10 +2191,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.3271168999999645,
-      "runtimeSeconds": 8.72646560000021,
+      "startupSeconds": 0.19388449999996737,
+      "runtimeSeconds": 8.713888400000087,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-push-timing-gb-dmg-710b9556.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-push-timing-gb-dmg-710b9556.png",
         "width": 160,
         "height": 144
       }
@@ -2210,10 +2210,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.3015766999999414,
-      "runtimeSeconds": 8.74764059999984,
+      "startupSeconds": 0.20894209999983104,
+      "runtimeSeconds": 8.773364599999923,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-rapid-di-ei-gb-dmg-4084bb73.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-rapid-di-ei-gb-dmg-4084bb73.png",
         "width": 160,
         "height": 144
       }
@@ -2229,10 +2229,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.28996460000007573,
-      "runtimeSeconds": 8.812662900000078,
+      "startupSeconds": 0.19980650000002242,
+      "runtimeSeconds": 8.801308100000142,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-reti-intr-timing-gb-dmg-2f8b895c.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-reti-intr-timing-gb-dmg-2f8b895c.png",
         "width": 160,
         "height": 144
       }
@@ -2248,10 +2248,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2721283000000767,
-      "runtimeSeconds": 8.810608699999875,
+      "startupSeconds": 0.2200796999998147,
+      "runtimeSeconds": 8.825166299999864,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-reti-timing-gb-dmg-ec787688.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-reti-timing-gb-dmg-ec787688.png",
         "width": 160,
         "height": 144
       }
@@ -2267,10 +2267,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.3279727000001458,
-      "runtimeSeconds": 8.773484300000064,
+      "startupSeconds": 0.20239470000001347,
+      "runtimeSeconds": 8.807837299999846,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-ret-cc-timing-gb-dmg-c6dae4bb.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-ret-cc-timing-gb-dmg-c6dae4bb.png",
         "width": 160,
         "height": 144
       }
@@ -2286,10 +2286,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.29065430000014203,
-      "runtimeSeconds": 8.74377040000013,
+      "startupSeconds": 0.2203002999999626,
+      "runtimeSeconds": 8.706665899999962,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-ret-timing-gb-dmg-e73ee096.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-ret-timing-gb-dmg-e73ee096.png",
         "width": 160,
         "height": 144
       }
@@ -2305,10 +2305,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2857672000000093,
-      "runtimeSeconds": 8.810427300000129,
+      "startupSeconds": 0.223738400000002,
+      "runtimeSeconds": 8.745405399999981,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-rst-timing-gb-dmg-ceee4af4.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-rst-timing-gb-dmg-ceee4af4.png",
         "width": 160,
         "height": 144
       }
@@ -2324,10 +2324,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2959100999999009,
-      "runtimeSeconds": 8.707744299999831,
+      "startupSeconds": 0.2190226000000166,
+      "runtimeSeconds": 8.797838899999988,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-serial-boot-sclk-align-dmgabcmgb-gb-dmg-45c85de9.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-serial-boot-sclk-align-dmgabcmgb-gb-dmg-45c85de9.png",
         "width": 160,
         "height": 144
       }
@@ -2343,10 +2343,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2885297999998784,
-      "runtimeSeconds": 8.807000799999969,
+      "startupSeconds": 0.2517543999999816,
+      "runtimeSeconds": 8.815789900000027,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-timer-div-write-gb-dmg-fe22c522.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-timer-div-write-gb-dmg-fe22c522.png",
         "width": 160,
         "height": 144
       }
@@ -2362,10 +2362,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.3466401999999107,
-      "runtimeSeconds": 8.712367300000096,
+      "startupSeconds": 0.22846830000003138,
+      "runtimeSeconds": 8.718178999999964,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-timer-rapid-toggle-gb-dmg-0843c009.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-timer-rapid-toggle-gb-dmg-0843c009.png",
         "width": 160,
         "height": 144
       }
@@ -2381,10 +2381,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.3374969000001329,
-      "runtimeSeconds": 8.760261599999922,
+      "startupSeconds": 0.2421865000001162,
+      "runtimeSeconds": 8.792152400000077,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-timer-tim00-gb-dmg-2b8833ad.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-timer-tim00-gb-dmg-2b8833ad.png",
         "width": 160,
         "height": 144
       }
@@ -2400,10 +2400,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.338009300000067,
-      "runtimeSeconds": 8.807346199999984,
+      "startupSeconds": 0.24642719999997098,
+      "runtimeSeconds": 8.714034000000083,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-timer-tim00-div-trigger-gb-dmg-c8b5f243.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-timer-tim00-div-trigger-gb-dmg-c8b5f243.png",
         "width": 160,
         "height": 144
       }
@@ -2419,10 +2419,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.3119036000000506,
-      "runtimeSeconds": 8.804221799999823,
+      "startupSeconds": 0.2191534999999476,
+      "runtimeSeconds": 8.814424600000166,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-timer-tim01-gb-dmg-f495fe5e.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-timer-tim01-gb-dmg-f495fe5e.png",
         "width": 160,
         "height": 144
       }
@@ -2438,10 +2438,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2809511999998904,
-      "runtimeSeconds": 8.746603900000082,
+      "startupSeconds": 0.22852830000010727,
+      "runtimeSeconds": 8.740714600000047,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-timer-tim01-div-trigger-gb-dmg-a64d59b3.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-timer-tim01-div-trigger-gb-dmg-a64d59b3.png",
         "width": 160,
         "height": 144
       }
@@ -2457,10 +2457,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.28360680000014327,
-      "runtimeSeconds": 8.734650200000033,
+      "startupSeconds": 0.23572519999993347,
+      "runtimeSeconds": 8.820293600000014,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-timer-tim10-gb-dmg-fb4191da.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-timer-tim10-gb-dmg-fb4191da.png",
         "width": 160,
         "height": 144
       }
@@ -2476,10 +2476,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25258069999995314,
-      "runtimeSeconds": 8.727017599999954,
+      "startupSeconds": 0.2307519000000866,
+      "runtimeSeconds": 8.702821800000038,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-timer-tim10-div-trigger-gb-dmg-da0af375.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-timer-tim10-div-trigger-gb-dmg-da0af375.png",
         "width": 160,
         "height": 144
       }
@@ -2495,10 +2495,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2537416000000121,
-      "runtimeSeconds": 8.751159099999995,
+      "startupSeconds": 0.23777450000011413,
+      "runtimeSeconds": 8.727407699999958,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-timer-tim11-gb-dmg-beb24be1.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-timer-tim11-gb-dmg-beb24be1.png",
         "width": 160,
         "height": 144
       }
@@ -2514,10 +2514,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2530346000000918,
-      "runtimeSeconds": 8.80971559999989,
+      "startupSeconds": 0.22766679999995176,
+      "runtimeSeconds": 8.739907200000061,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-timer-tim11-div-trigger-gb-dmg-8556ea9c.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-timer-tim11-div-trigger-gb-dmg-8556ea9c.png",
         "width": 160,
         "height": 144
       }
@@ -2533,10 +2533,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.3220469000000321,
-      "runtimeSeconds": 8.780286600000181,
+      "startupSeconds": 0.25715330000002723,
+      "runtimeSeconds": 8.72208139999998,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-timer-tima-reload-gb-dmg-8b65a601.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-timer-tima-reload-gb-dmg-8b65a601.png",
         "width": 160,
         "height": 144
       }
@@ -2552,10 +2552,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 2.123869700000114,
-      "runtimeSeconds": 8.721197800000027,
+      "startupSeconds": 0.2399004999999761,
+      "runtimeSeconds": 8.81208619999984,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-timer-tima-write-reloading-gb-dmg-4904e31b.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-timer-tima-write-reloading-gb-dmg-4904e31b.png",
         "width": 160,
         "height": 144
       }
@@ -2571,10 +2571,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.29622199999994336,
-      "runtimeSeconds": 8.814161799999965,
+      "startupSeconds": 0.22950439999999617,
+      "runtimeSeconds": 8.71771200000012,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-acceptance-timer-tma-write-reloading-gb-dmg-0d6b2680.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-acceptance-timer-tma-write-reloading-gb-dmg-0d6b2680.png",
         "width": 160,
         "height": 144
       }
@@ -2590,10 +2590,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.310314900000094,
-      "runtimeSeconds": 10.762800799999923,
+      "startupSeconds": 0.2766540000000077,
+      "runtimeSeconds": 10.80747190000011,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-emulator-only-mbc1-bits-bank1-gb-dmg-d4779942.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-emulator-only-mbc1-bits-bank1-gb-dmg-d4779942.png",
         "width": 160,
         "height": 144
       }
@@ -2609,10 +2609,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.29625160000000506,
-      "runtimeSeconds": 10.796859300000051,
+      "startupSeconds": 0.2844401999998354,
+      "runtimeSeconds": 10.714556200000061,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-emulator-only-mbc1-bits-bank2-gb-dmg-ad4d785a.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-emulator-only-mbc1-bits-bank2-gb-dmg-ad4d785a.png",
         "width": 160,
         "height": 144
       }
@@ -2628,10 +2628,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2851811999998972,
-      "runtimeSeconds": 11.734405500000094,
+      "startupSeconds": 0.28368619999992006,
+      "runtimeSeconds": 11.721217499999966,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-emulator-only-mbc1-bits-mode-gb-dmg-39790683.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-emulator-only-mbc1-bits-mode-gb-dmg-39790683.png",
         "width": 160,
         "height": 144
       }
@@ -2647,10 +2647,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2844170999999278,
-      "runtimeSeconds": 13.708647200000087,
+      "startupSeconds": 0.26152010000009795,
+      "runtimeSeconds": 13.74761350000017,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-emulator-only-mbc1-bits-ramg-gb-dmg-8b7f2c6e.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-emulator-only-mbc1-bits-ramg-gb-dmg-8b7f2c6e.png",
         "width": 160,
         "height": 144
       }
@@ -2666,10 +2666,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2753393000000415,
-      "runtimeSeconds": 8.202720900000031,
+      "startupSeconds": 0.219820000000027,
+      "runtimeSeconds": 8.322581799999853,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-emulator-only-mbc1-multicart-rom-8mb-gb-dmg-2a8c180d.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-emulator-only-mbc1-multicart-rom-8mb-gb-dmg-2a8c180d.png",
         "width": 160,
         "height": 144
       }
@@ -2685,10 +2685,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2839850000000297,
-      "runtimeSeconds": 8.70087999999987,
+      "startupSeconds": 0.2327708000000257,
+      "runtimeSeconds": 8.793571500000098,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-emulator-only-mbc1-ram-256kb-gb-dmg-4f19a03b.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-emulator-only-mbc1-ram-256kb-gb-dmg-4f19a03b.png",
         "width": 160,
         "height": 144
       }
@@ -2704,10 +2704,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2887170999999853,
-      "runtimeSeconds": 8.729961000000003,
+      "startupSeconds": 0.22098430000005465,
+      "runtimeSeconds": 8.814036199999919,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-emulator-only-mbc1-ram-64kb-gb-dmg-e6a8f87c.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-emulator-only-mbc1-ram-64kb-gb-dmg-e6a8f87c.png",
         "width": 160,
         "height": 144
       }
@@ -2723,10 +2723,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2929569000000356,
-      "runtimeSeconds": 8.734404300000051,
+      "startupSeconds": 0.21865309999998317,
+      "runtimeSeconds": 8.800382500000069,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-emulator-only-mbc1-rom-16mb-gb-dmg-ea133176.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-emulator-only-mbc1-rom-16mb-gb-dmg-ea133176.png",
         "width": 160,
         "height": 144
       }
@@ -2742,10 +2742,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2966747000000396,
-      "runtimeSeconds": 8.776830700000119,
+      "startupSeconds": 0.22137849999990067,
+      "runtimeSeconds": 8.82639549999999,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-emulator-only-mbc1-rom-1mb-gb-dmg-4ab29126.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-emulator-only-mbc1-rom-1mb-gb-dmg-4ab29126.png",
         "width": 160,
         "height": 144
       }
@@ -2761,10 +2761,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.28018370000017967,
-      "runtimeSeconds": 8.748974500000031,
+      "startupSeconds": 0.2261246000000483,
+      "runtimeSeconds": 8.725860900000043,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-emulator-only-mbc1-rom-2mb-gb-dmg-b335b204.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-emulator-only-mbc1-rom-2mb-gb-dmg-b335b204.png",
         "width": 160,
         "height": 144
       }
@@ -2780,10 +2780,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2917823000000226,
-      "runtimeSeconds": 8.827010500000142,
+      "startupSeconds": 0.2178260999999111,
+      "runtimeSeconds": 8.796034799999916,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-emulator-only-mbc1-rom-4mb-gb-dmg-012aacea.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-emulator-only-mbc1-rom-4mb-gb-dmg-012aacea.png",
         "width": 160,
         "height": 144
       }
@@ -2799,10 +2799,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2779587999998512,
-      "runtimeSeconds": 8.7494200000001,
+      "startupSeconds": 0.22505179999984648,
+      "runtimeSeconds": 8.723458700000037,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-emulator-only-mbc1-rom-512kb-gb-dmg-f61866d0.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-emulator-only-mbc1-rom-512kb-gb-dmg-f61866d0.png",
         "width": 160,
         "height": 144
       }
@@ -2818,10 +2818,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2693291999999019,
-      "runtimeSeconds": 8.755435100000113,
+      "startupSeconds": 0.2033920000001217,
+      "runtimeSeconds": 8.789629999999988,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-emulator-only-mbc1-rom-8mb-gb-dmg-4a58da3c.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-emulator-only-mbc1-rom-8mb-gb-dmg-4a58da3c.png",
         "width": 160,
         "height": 144
       }
@@ -2837,10 +2837,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2770596000000296,
-      "runtimeSeconds": 14.74561279999989,
+      "startupSeconds": 0.21449200000006385,
+      "runtimeSeconds": 14.702389699999912,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-emulator-only-mbc2-bits-ramg-gb-dmg-d40e6933.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-emulator-only-mbc2-bits-ramg-gb-dmg-d40e6933.png",
         "width": 160,
         "height": 144
       }
@@ -2856,10 +2856,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.28307279999989987,
-      "runtimeSeconds": 11.292721000000029,
+      "startupSeconds": 0.24619419999999081,
+      "runtimeSeconds": 11.320785100000194,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-emulator-only-mbc2-bits-romb-gb-dmg-8042ce4a.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-emulator-only-mbc2-bits-romb-gb-dmg-8042ce4a.png",
         "width": 160,
         "height": 144
       }
@@ -2875,10 +2875,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.27600039999992987,
-      "runtimeSeconds": 10.747720599999866,
+      "startupSeconds": 0.21022219999986191,
+      "runtimeSeconds": 10.774138800000173,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-emulator-only-mbc2-bits-unused-gb-dmg-b0f22d36.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-emulator-only-mbc2-bits-unused-gb-dmg-b0f22d36.png",
         "width": 160,
         "height": 144
       }
@@ -2894,10 +2894,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 2.103700599999911,
-      "runtimeSeconds": 8.78017100000011,
+      "startupSeconds": 0.2348475999999664,
+      "runtimeSeconds": 8.736041000000114,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-emulator-only-mbc2-ram-gb-dmg-c8cb9a3f.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-emulator-only-mbc2-ram-gb-dmg-c8cb9a3f.png",
         "width": 160,
         "height": 144
       }
@@ -2913,10 +2913,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2710056999999324,
-      "runtimeSeconds": 8.765346099999988,
+      "startupSeconds": 0.21939370000018243,
+      "runtimeSeconds": 8.823473700000022,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-emulator-only-mbc2-rom-1mb-gb-dmg-38a66bb1.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-emulator-only-mbc2-rom-1mb-gb-dmg-38a66bb1.png",
         "width": 160,
         "height": 144
       }
@@ -2932,10 +2932,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2640234000000419,
-      "runtimeSeconds": 8.80718980000006,
+      "startupSeconds": 0.2130815000000439,
+      "runtimeSeconds": 8.805645099999992,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-emulator-only-mbc2-rom-2mb-gb-dmg-8c4129d6.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-emulator-only-mbc2-rom-2mb-gb-dmg-8c4129d6.png",
         "width": 160,
         "height": 144
       }
@@ -2951,10 +2951,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25056850000009945,
-      "runtimeSeconds": 8.787562900000012,
+      "startupSeconds": 0.22475899999994908,
+      "runtimeSeconds": 8.804667399999971,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-emulator-only-mbc2-rom-512kb-gb-dmg-75f74a5d.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-emulator-only-mbc2-rom-512kb-gb-dmg-75f74a5d.png",
         "width": 160,
         "height": 144
       }
@@ -2970,10 +2970,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2531421999999566,
-      "runtimeSeconds": 8.733176500000127,
+      "startupSeconds": 0.21602179999990767,
+      "runtimeSeconds": 8.744336299999986,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-emulator-only-mbc5-rom-16mb-gb-dmg-8d45404f.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-emulator-only-mbc5-rom-16mb-gb-dmg-8d45404f.png",
         "width": 160,
         "height": 144
       }
@@ -2989,10 +2989,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2570742999998856,
-      "runtimeSeconds": 8.815514399999984,
+      "startupSeconds": 0.1980653999999049,
+      "runtimeSeconds": 8.759814199999937,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-emulator-only-mbc5-rom-1mb-gb-dmg-5cacf3a9.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-emulator-only-mbc5-rom-1mb-gb-dmg-5cacf3a9.png",
         "width": 160,
         "height": 144
       }
@@ -3008,10 +3008,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25513980000005176,
-      "runtimeSeconds": 8.701090300000033,
+      "startupSeconds": 0.19299729999988813,
+      "runtimeSeconds": 8.722828799999888,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-emulator-only-mbc5-rom-2mb-gb-dmg-2e2aca69.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-emulator-only-mbc5-rom-2mb-gb-dmg-2e2aca69.png",
         "width": 160,
         "height": 144
       }
@@ -3027,10 +3027,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2523217999998906,
-      "runtimeSeconds": 8.827993500000048,
+      "startupSeconds": 0.1891982999998163,
+      "runtimeSeconds": 8.760387900000069,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-emulator-only-mbc5-rom-32mb-gb-dmg-ace23259.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-emulator-only-mbc5-rom-32mb-gb-dmg-ace23259.png",
         "width": 160,
         "height": 144
       }
@@ -3046,10 +3046,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.24485069999991538,
-      "runtimeSeconds": 8.791334000000006,
+      "startupSeconds": 0.1968807000000652,
+      "runtimeSeconds": 8.72097840000015,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-emulator-only-mbc5-rom-4mb-gb-dmg-180a2f1a.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-emulator-only-mbc5-rom-4mb-gb-dmg-180a2f1a.png",
         "width": 160,
         "height": 144
       }
@@ -3065,10 +3065,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2544166000000132,
-      "runtimeSeconds": 8.781429800000069,
+      "startupSeconds": 0.304740000000038,
+      "runtimeSeconds": 8.75068639999995,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-emulator-only-mbc5-rom-512kb-gb-dmg-32e195d5.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-emulator-only-mbc5-rom-512kb-gb-dmg-32e195d5.png",
         "width": 160,
         "height": 144
       }
@@ -3084,10 +3084,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.24985179999998763,
-      "runtimeSeconds": 8.759397399999898,
+      "startupSeconds": 0.20590619999984483,
+      "runtimeSeconds": 8.761789800000088,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-emulator-only-mbc5-rom-64mb-gb-dmg-e6ab18f6.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-emulator-only-mbc5-rom-64mb-gb-dmg-e6ab18f6.png",
         "width": 160,
         "height": 144
       }
@@ -3103,10 +3103,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.24633289999997032,
-      "runtimeSeconds": 8.815415600000051,
+      "startupSeconds": 0.2072186000000329,
+      "runtimeSeconds": 8.758882300000096,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-emulator-only-mbc5-rom-8mb-gb-dmg-f19d2327.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-emulator-only-mbc5-rom-8mb-gb-dmg-f19d2327.png",
         "width": 160,
         "height": 144
       }
@@ -3122,10 +3122,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25509109999984503,
-      "runtimeSeconds": 8.710608500000035,
+      "startupSeconds": 0.2062682999999197,
+      "runtimeSeconds": 8.802910500000053,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-manual-only-sprite-priority-gb-dmg-e44061f7.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-manual-only-sprite-priority-gb-dmg-e44061f7.png",
         "width": 160,
         "height": 144
       }
@@ -3141,10 +3141,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25303520000011304,
-      "runtimeSeconds": 8.748022799999944,
+      "startupSeconds": 0.1984325999999328,
+      "runtimeSeconds": 8.783743200000117,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-misc-boot-div-cgbabcde-gb-cgb-4718e3a1.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-misc-boot-div-cgbabcde-gb-cgb-4718e3a1.png",
         "width": 160,
         "height": 144
       }
@@ -3160,10 +3160,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.2501022000001285,
-      "runtimeSeconds": 1.689055099999905,
+      "startupSeconds": 0.20329949999995733,
+      "runtimeSeconds": 1.2587857999999414,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mooneye-misc-boot-regs-cgb-gb-cgb-e3f63362.png",
+        "url": "screenshots/ares/legacy-1792055163/mooneye-misc-boot-regs-cgb-gb-cgb-e3f63362.png",
         "width": 160,
         "height": 144
       }
@@ -3179,10 +3179,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2510045999999875,
-      "runtimeSeconds": 8.774300100000119,
+      "startupSeconds": 0.18856640000012703,
+      "runtimeSeconds": 8.774192999999968,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-1-channel-1-align-gb-cgb-fe5d98f2.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-1-channel-1-align-gb-cgb-fe5d98f2.png",
         "width": 160,
         "height": 144
       }
@@ -3198,10 +3198,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.24442560000011326,
-      "runtimeSeconds": 8.78548509999996,
+      "startupSeconds": 0.18761480000011943,
+      "runtimeSeconds": 8.707054900000003,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-1-channel-1-align-cpu-gb-cgb-de51ba29.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-1-channel-1-align-cpu-gb-cgb-de51ba29.png",
         "width": 160,
         "height": 144
       }
@@ -3217,10 +3217,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25054979999981697,
-      "runtimeSeconds": 8.806845899999871,
+      "startupSeconds": 0.1967779999999948,
+      "runtimeSeconds": 8.77498649999984,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-1-channel-1-delay-gb-cgb-e6191b9b.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-1-channel-1-delay-gb-cgb-e6191b9b.png",
         "width": 160,
         "height": 144
       }
@@ -3236,10 +3236,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25013259999991533,
-      "runtimeSeconds": 8.833364900000106,
+      "startupSeconds": 0.1901702000000114,
+      "runtimeSeconds": 8.790429399999994,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-1-channel-1-duty-gb-cgb-c5587f25.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-1-channel-1-duty-gb-cgb-c5587f25.png",
         "width": 160,
         "height": 144
       }
@@ -3255,10 +3255,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2457908999999745,
-      "runtimeSeconds": 8.736436299999923,
+      "startupSeconds": 0.19110509999995884,
+      "runtimeSeconds": 8.800418499999978,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-1-channel-1-duty-delay-gb-cgb-cc8cf400.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-1-channel-1-duty-delay-gb-cgb-cc8cf400.png",
         "width": 160,
         "height": 144
       }
@@ -3274,10 +3274,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25499949999993987,
-      "runtimeSeconds": 8.793722000000116,
+      "startupSeconds": 0.19782450000002427,
+      "runtimeSeconds": 8.714235599999938,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-1-channel-1-freq-change-gb-cgb-3635dd1c.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-1-channel-1-freq-change-gb-cgb-3635dd1c.png",
         "width": 160,
         "height": 144
       }
@@ -3293,10 +3293,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2518235999998524,
-      "runtimeSeconds": 8.76715390000004,
+      "startupSeconds": 0.20524410000007265,
+      "runtimeSeconds": 8.77909109999996,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-1-channel-1-nrx2-glitch-gb-cgb-4a3f3319.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-1-channel-1-nrx2-glitch-gb-cgb-4a3f3319.png",
         "width": 160,
         "height": 144
       }
@@ -3312,10 +3312,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25346799999988434,
-      "runtimeSeconds": 10.776966599999923,
+      "startupSeconds": 0.20843190000005052,
+      "runtimeSeconds": 10.814767200000006,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-1-channel-1-nrx2-speed-change-gb-cgb-5eb918f2.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-1-channel-1-nrx2-speed-change-gb-cgb-5eb918f2.png",
         "width": 160,
         "height": 144
       }
@@ -3331,10 +3331,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25490799999988667,
-      "runtimeSeconds": 8.701394700000037,
+      "startupSeconds": 0.20666479999999865,
+      "runtimeSeconds": 8.834234800000104,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-1-channel-1-restart-gb-cgb-795b4b47.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-1-channel-1-restart-gb-cgb-795b4b47.png",
         "width": 160,
         "height": 144
       }
@@ -3350,10 +3350,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25082910000014635,
-      "runtimeSeconds": 8.724451300000055,
+      "startupSeconds": 0.2012462999998661,
+      "runtimeSeconds": 8.786326099999997,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-1-channel-1-restart-nrx2-glitch-gb-cgb-f0572b8b.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-1-channel-1-restart-nrx2-glitch-gb-cgb-f0572b8b.png",
         "width": 160,
         "height": 144
       }
@@ -3369,10 +3369,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2572947999999542,
-      "runtimeSeconds": 8.708407099999931,
+      "startupSeconds": 0.18995810000001256,
+      "runtimeSeconds": 8.728431900000032,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-1-channel-1-stop-div-gb-cgb-6a8b2e84.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-1-channel-1-stop-div-gb-cgb-6a8b2e84.png",
         "width": 160,
         "height": 144
       }
@@ -3388,10 +3388,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2590258000000176,
-      "runtimeSeconds": 8.750698600000078,
+      "startupSeconds": 0.1994619000001876,
+      "runtimeSeconds": 8.81936329999985,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-1-channel-1-stop-restart-gb-cgb-990aa00e.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-1-channel-1-stop-restart-gb-cgb-990aa00e.png",
         "width": 160,
         "height": 144
       }
@@ -3407,10 +3407,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2520386999999573,
-      "runtimeSeconds": 8.82651480000004,
+      "startupSeconds": 0.19882860000006986,
+      "runtimeSeconds": 8.760190599999987,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-1-channel-1-sweep-gb-cgb-4ffcf7ff.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-1-channel-1-sweep-gb-cgb-4ffcf7ff.png",
         "width": 160,
         "height": 144
       }
@@ -3426,10 +3426,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.252176800000143,
-      "runtimeSeconds": 8.740201699999943,
+      "startupSeconds": 0.19749479999995856,
+      "runtimeSeconds": 8.802744000000075,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-1-channel-1-sweep-restart-gb-cgb-3f90b4bb.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-1-channel-1-sweep-restart-gb-cgb-3f90b4bb.png",
         "width": 160,
         "height": 144
       }
@@ -3445,10 +3445,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2526906999999028,
-      "runtimeSeconds": 8.736677600000121,
+      "startupSeconds": 0.20765030000006846,
+      "runtimeSeconds": 8.80740939999987,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-1-channel-1-sweep-restart-2-gb-cgb-0fc030b8.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-1-channel-1-sweep-restart-2-gb-cgb-0fc030b8.png",
         "width": 160,
         "height": 144
       }
@@ -3464,10 +3464,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2521761999998944,
-      "runtimeSeconds": 8.783554000000095,
+      "startupSeconds": 0.2101846000000478,
+      "runtimeSeconds": 8.812077000000045,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-1-channel-1-volume-gb-cgb-7039a291.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-1-channel-1-volume-gb-cgb-7039a291.png",
         "width": 160,
         "height": 144
       }
@@ -3483,10 +3483,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2535588999999163,
-      "runtimeSeconds": 9.7720668999998,
+      "startupSeconds": 0.22263459999999213,
+      "runtimeSeconds": 9.802558200000021,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-1-channel-1-volume-div-gb-cgb-9bc7839f.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-1-channel-1-volume-div-gb-cgb-9bc7839f.png",
         "width": 160,
         "height": 144
       }
@@ -3502,10 +3502,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25499599999989186,
-      "runtimeSeconds": 8.825698800000055,
+      "startupSeconds": 0.20447820000003958,
+      "runtimeSeconds": 8.81137590000003,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-2-channel-2-align-gb-cgb-7fbe7c8a.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-2-channel-2-align-gb-cgb-7fbe7c8a.png",
         "width": 160,
         "height": 144
       }
@@ -3521,10 +3521,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2452936000001955,
-      "runtimeSeconds": 8.736999100000048,
+      "startupSeconds": 0.2107462999999825,
+      "runtimeSeconds": 8.844803700000057,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-2-channel-2-align-cpu-gb-cgb-54c1f6a1.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-2-channel-2-align-cpu-gb-cgb-54c1f6a1.png",
         "width": 160,
         "height": 144
       }
@@ -3540,10 +3540,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2552997000000232,
-      "runtimeSeconds": 8.811602199999925,
+      "startupSeconds": 0.20885169999996833,
+      "runtimeSeconds": 8.804321699999946,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-2-channel-2-delay-gb-cgb-967667ca.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-2-channel-2-delay-gb-cgb-967667ca.png",
         "width": 160,
         "height": 144
       }
@@ -3559,10 +3559,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25001879999990706,
-      "runtimeSeconds": 8.72859029999995,
+      "startupSeconds": 0.19934749999993073,
+      "runtimeSeconds": 8.75071869999988,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-2-channel-2-duty-gb-cgb-838ec8a8.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-2-channel-2-duty-gb-cgb-838ec8a8.png",
         "width": 160,
         "height": 144
       }
@@ -3578,10 +3578,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.24644899999998415,
-      "runtimeSeconds": 8.824695699999893,
+      "startupSeconds": 0.19835299999999734,
+      "runtimeSeconds": 8.758515399999851,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-2-channel-2-duty-delay-gb-cgb-28bdea08.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-2-channel-2-duty-delay-gb-cgb-28bdea08.png",
         "width": 160,
         "height": 144
       }
@@ -3597,10 +3597,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25103310000008605,
-      "runtimeSeconds": 8.833905699999832,
+      "startupSeconds": 0.21466609999993125,
+      "runtimeSeconds": 8.824818199999982,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-2-channel-2-freq-change-gb-cgb-af9d918e.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-2-channel-2-freq-change-gb-cgb-af9d918e.png",
         "width": 160,
         "height": 144
       }
@@ -3616,10 +3616,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2513351000000057,
-      "runtimeSeconds": 8.813988800000061,
+      "startupSeconds": 0.21115819999999985,
+      "runtimeSeconds": 8.823239000000058,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-2-channel-2-nrx2-glitch-gb-cgb-c976266e.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-2-channel-2-nrx2-glitch-gb-cgb-c976266e.png",
         "width": 160,
         "height": 144
       }
@@ -3635,10 +3635,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2506344999999328,
-      "runtimeSeconds": 10.742275199999995,
+      "startupSeconds": 0.208331600000065,
+      "runtimeSeconds": 10.74065500000006,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-2-channel-2-nrx2-speed-change-gb-cgb-aab182ec.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-2-channel-2-nrx2-speed-change-gb-cgb-aab182ec.png",
         "width": 160,
         "height": 144
       }
@@ -3654,10 +3654,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2556314000000839,
-      "runtimeSeconds": 8.754983299999822,
+      "startupSeconds": 0.211817099999962,
+      "runtimeSeconds": 8.814804500000037,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-2-channel-2-restart-gb-cgb-b447eb34.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-2-channel-2-restart-gb-cgb-b447eb34.png",
         "width": 160,
         "height": 144
       }
@@ -3673,10 +3673,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.23861860000010893,
-      "runtimeSeconds": 8.81714060000013,
+      "startupSeconds": 0.20278729999995448,
+      "runtimeSeconds": 8.833388399999876,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-2-channel-2-restart-nrx2-glitch-gb-cgb-a5114bee.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-2-channel-2-restart-nrx2-glitch-gb-cgb-a5114bee.png",
         "width": 160,
         "height": 144
       }
@@ -3692,10 +3692,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25145339999994576,
-      "runtimeSeconds": 8.793359799999962,
+      "startupSeconds": 0.2114420999998856,
+      "runtimeSeconds": 8.81456920000005,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-2-channel-2-stop-div-gb-cgb-f2c9f0bb.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-2-channel-2-stop-div-gb-cgb-f2c9f0bb.png",
         "width": 160,
         "height": 144
       }
@@ -3711,10 +3711,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.24214929999993728,
-      "runtimeSeconds": 8.819491299999981,
+      "startupSeconds": 0.21008019999999306,
+      "runtimeSeconds": 8.790710600000011,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-2-channel-2-stop-restart-gb-cgb-b2a94b06.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-2-channel-2-stop-restart-gb-cgb-b2a94b06.png",
         "width": 160,
         "height": 144
       }
@@ -3730,10 +3730,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.254770199999939,
-      "runtimeSeconds": 8.774339399999917,
+      "startupSeconds": 0.22136239999986174,
+      "runtimeSeconds": 8.781101300000046,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-2-channel-2-volume-gb-cgb-7dabd4e6.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-2-channel-2-volume-gb-cgb-7dabd4e6.png",
         "width": 160,
         "height": 144
       }
@@ -3749,10 +3749,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2559747000000243,
-      "runtimeSeconds": 8.800933400000076,
+      "startupSeconds": 0.2084661999999753,
+      "runtimeSeconds": 8.723845999999867,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-2-channel-2-volume-div-gb-cgb-8e47ba64.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-2-channel-2-volume-div-gb-cgb-8e47ba64.png",
         "width": 160,
         "height": 144
       }
@@ -3768,10 +3768,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25363040000002,
-      "runtimeSeconds": 8.786652300000014,
+      "startupSeconds": 0.21067949999996927,
+      "runtimeSeconds": 8.78715770000008,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-3-channel-3-and-glitch-gb-cgb-7fbae8e6.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-3-channel-3-and-glitch-gb-cgb-7fbae8e6.png",
         "width": 160,
         "height": 144
       }
@@ -3787,10 +3787,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25294060000010177,
-      "runtimeSeconds": 8.799973800000089,
+      "startupSeconds": 0.21058190000007926,
+      "runtimeSeconds": 8.702776000000085,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-3-channel-3-delay-gb-cgb-00e9ef09.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-3-channel-3-delay-gb-cgb-00e9ef09.png",
         "width": 160,
         "height": 144
       }
@@ -3806,10 +3806,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25338319999991654,
-      "runtimeSeconds": 8.81864910000013,
+      "startupSeconds": 0.2109021000001121,
+      "runtimeSeconds": 8.811096700000007,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-3-channel-3-first-sample-gb-cgb-cb1642e5.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-3-channel-3-first-sample-gb-cgb-cb1642e5.png",
         "width": 160,
         "height": 144
       }
@@ -3825,10 +3825,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25373560000025464,
-      "runtimeSeconds": 8.828818500000125,
+      "startupSeconds": 0.20884860000001026,
+      "runtimeSeconds": 8.841633600000023,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-3-channel-3-freq-change-delay-gb-cgb-08de8392.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-3-channel-3-freq-change-delay-gb-cgb-08de8392.png",
         "width": 160,
         "height": 144
       }
@@ -3844,10 +3844,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25326640000002953,
-      "runtimeSeconds": 8.832386500000212,
+      "startupSeconds": 0.2125000999999429,
+      "runtimeSeconds": 8.814918300000045,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-3-channel-3-restart-delay-gb-cgb-00f96408.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-3-channel-3-restart-delay-gb-cgb-00f96408.png",
         "width": 160,
         "height": 144
       }
@@ -3863,10 +3863,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.24076990000003207,
-      "runtimeSeconds": 8.754505999999765,
+      "startupSeconds": 0.20147289999999884,
+      "runtimeSeconds": 8.795708099999956,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-3-channel-3-restart-during-delay-gb-cgb-4acdff61.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-3-channel-3-restart-during-delay-gb-cgb-4acdff61.png",
         "width": 160,
         "height": 144
       }
@@ -3882,10 +3882,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.24018530000012106,
-      "runtimeSeconds": 8.783062699999846,
+      "startupSeconds": 0.2095108999999411,
+      "runtimeSeconds": 8.823602299999948,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-3-channel-3-restart-stop-delay-gb-cgb-15fbee2c.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-3-channel-3-restart-stop-delay-gb-cgb-15fbee2c.png",
         "width": 160,
         "height": 144
       }
@@ -3901,10 +3901,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25646690000030503,
-      "runtimeSeconds": 8.704236600000058,
+      "startupSeconds": 0.2110881999999492,
+      "runtimeSeconds": 8.809471199999962,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-3-channel-3-shift-delay-gb-cgb-13f2c3ba.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-3-channel-3-shift-delay-gb-cgb-13f2c3ba.png",
         "width": 160,
         "height": 144
       }
@@ -3920,10 +3920,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2501033999997162,
-      "runtimeSeconds": 8.825023699999747,
+      "startupSeconds": 0.2098323000000164,
+      "runtimeSeconds": 8.828443000000107,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-3-channel-3-shift-skip-delay-gb-cgb-ccd7cc77.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-3-channel-3-shift-skip-delay-gb-cgb-ccd7cc77.png",
         "width": 160,
         "height": 144
       }
@@ -3939,10 +3939,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.25685820000035164,
-      "runtimeSeconds": 1.697441499999968,
+      "startupSeconds": 0.22117819999994026,
+      "runtimeSeconds": 1.414718700000094,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-3-channel-3-stop-delay-gb-cgb-3710d440.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-3-channel-3-stop-delay-gb-cgb-3710d440.png",
         "width": 160,
         "height": 144
       }
@@ -3958,10 +3958,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.24181610000005094,
-      "runtimeSeconds": 8.813727799999924,
+      "startupSeconds": 0.21424389999992854,
+      "runtimeSeconds": 8.830733999999893,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-3-channel-3-stop-div-gb-cgb-ffed553d.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-3-channel-3-stop-div-gb-cgb-ffed553d.png",
         "width": 160,
         "height": 144
       }
@@ -3977,10 +3977,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.24593609999965338,
-      "runtimeSeconds": 1.6945350000000872,
+      "startupSeconds": 0.2110240000001795,
+      "runtimeSeconds": 1.4471473000003243,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-3-channel-3-wave-ram-locked-write-gb-cgb-5ffed63a.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-3-channel-3-wave-ram-locked-write-gb-cgb-5ffed63a.png",
         "width": 160,
         "height": 144
       }
@@ -3996,10 +3996,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2395833999999013,
-      "runtimeSeconds": 8.72289899999987,
+      "startupSeconds": 0.21029930000031527,
+      "runtimeSeconds": 8.786164000000099,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-3-channel-3-wave-ram-sync-gb-cgb-4abcf802.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-3-channel-3-wave-ram-sync-gb-cgb-4abcf802.png",
         "width": 160,
         "height": 144
       }
@@ -4015,10 +4015,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2516853000001902,
-      "runtimeSeconds": 8.772330799999963,
+      "startupSeconds": 0.2139071999999942,
+      "runtimeSeconds": 8.815569500000038,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-4-channel-4-align-gb-cgb-46ded3ff.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-4-channel-4-align-gb-cgb-46ded3ff.png",
         "width": 160,
         "height": 144
       }
@@ -4034,10 +4034,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25259749999986525,
-      "runtimeSeconds": 8.782758999999714,
+      "startupSeconds": 0.20912640000005922,
+      "runtimeSeconds": 8.828238299999612,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-4-channel-4-delay-gb-cgb-b7166b08.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-4-channel-4-delay-gb-cgb-b7166b08.png",
         "width": 160,
         "height": 144
       }
@@ -4053,10 +4053,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2580382000001009,
-      "runtimeSeconds": 8.767804699999942,
+      "startupSeconds": 0.21263399999998,
+      "runtimeSeconds": 8.800408199999765,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-4-channel-4-equivalent-frequencies-gb-cgb-4f2dcbc8.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-4-channel-4-equivalent-frequencies-gb-cgb-4f2dcbc8.png",
         "width": 160,
         "height": 144
       }
@@ -4072,10 +4072,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25152170000001206,
-      "runtimeSeconds": 8.738616900000125,
+      "startupSeconds": 0.20974810000006983,
+      "runtimeSeconds": 8.740271100000427,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-4-channel-4-frequency-alignment-gb-cgb-c0cbbd50.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-4-channel-4-frequency-alignment-gb-cgb-c0cbbd50.png",
         "width": 160,
         "height": 144
       }
@@ -4091,10 +4091,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2528405999996721,
-      "runtimeSeconds": 8.808457499999804,
+      "startupSeconds": 0.2203036000000793,
+      "runtimeSeconds": 8.845091200000297,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-4-channel-4-freq-change-gb-cgb-a9079292.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-4-channel-4-freq-change-gb-cgb-a9079292.png",
         "width": 160,
         "height": 144
       }
@@ -4110,10 +4110,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.24174019999964003,
-      "runtimeSeconds": 8.765460699999949,
+      "startupSeconds": 0.21110200000020996,
+      "runtimeSeconds": 8.72974290000002,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-4-channel-4-lfsr-gb-cgb-80f6eabe.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-4-channel-4-lfsr-gb-cgb-80f6eabe.png",
         "width": 160,
         "height": 144
       }
@@ -4129,10 +4129,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2626383000001624,
-      "runtimeSeconds": 8.803867300000093,
+      "startupSeconds": 0.2195096000000376,
+      "runtimeSeconds": 8.828411799999685,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-4-channel-4-lfsr15-gb-cgb-bf546f26.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-4-channel-4-lfsr15-gb-cgb-bf546f26.png",
         "width": 160,
         "height": 144
       }
@@ -4148,10 +4148,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2599622000002455,
-      "runtimeSeconds": 8.814476700000341,
+      "startupSeconds": 0.21998020000000906,
+      "runtimeSeconds": 8.823813499999687,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-4-channel-4-lfsr-15-7-gb-cgb-ad34c5e8.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-4-channel-4-lfsr-15-7-gb-cgb-ad34c5e8.png",
         "width": 160,
         "height": 144
       }
@@ -4167,10 +4167,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25050169999985883,
-      "runtimeSeconds": 8.801751200000126,
+      "startupSeconds": 0.2214549000000261,
+      "runtimeSeconds": 8.83254500000021,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-4-channel-4-lfsr-7-15-gb-cgb-f7d60273.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-4-channel-4-lfsr-7-15-gb-cgb-f7d60273.png",
         "width": 160,
         "height": 144
       }
@@ -4186,10 +4186,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2554912999999033,
-      "runtimeSeconds": 8.704715399999714,
+      "startupSeconds": 0.20952200000010635,
+      "runtimeSeconds": 8.790076400000089,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-4-channel-4-lfsr-restart-gb-cgb-b29534c7.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-4-channel-4-lfsr-restart-gb-cgb-b29534c7.png",
         "width": 160,
         "height": 144
       }
@@ -4205,10 +4205,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.24551960000007966,
-      "runtimeSeconds": 8.810048699999697,
+      "startupSeconds": 0.21269089999987045,
+      "runtimeSeconds": 8.832574099999874,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-4-channel-4-lfsr-restart-fast-gb-cgb-a87e7e0a.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-4-channel-4-lfsr-restart-fast-gb-cgb-a87e7e0a.png",
         "width": 160,
         "height": 144
       }
@@ -4224,10 +4224,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25401959999999235,
-      "runtimeSeconds": 9.785300600000028,
+      "startupSeconds": 0.1967515999999705,
+      "runtimeSeconds": 9.797069000000192,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-channel-4-channel-4-volume-div-gb-cgb-660acde0.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-channel-4-channel-4-volume-div-gb-cgb-660acde0.png",
         "width": 160,
         "height": 144
       }
@@ -4243,10 +4243,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2509954000001926,
-      "runtimeSeconds": 8.753687799999625,
+      "startupSeconds": 0.21866170000021157,
+      "runtimeSeconds": 8.800255200000265,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-div-trigger-volume-10-gb-cgb-c5771225.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-div-trigger-volume-10-gb-cgb-c5771225.png",
         "width": 160,
         "height": 144
       }
@@ -4262,10 +4262,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.23960240000042177,
-      "runtimeSeconds": 8.801971600000343,
+      "startupSeconds": 0.21153779999986,
+      "runtimeSeconds": 8.78171280000015,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-div-write-trigger-gb-cgb-77b0b72f.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-div-write-trigger-gb-cgb-77b0b72f.png",
         "width": 160,
         "height": 144
       }
@@ -4281,10 +4281,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.24029560000008132,
-      "runtimeSeconds": 8.833220999999867,
+      "startupSeconds": 0.2094864000000598,
+      "runtimeSeconds": 8.722573499999726,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-div-write-trigger-10-gb-cgb-5d7be77f.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-div-write-trigger-10-gb-cgb-5d7be77f.png",
         "width": 160,
         "height": 144
       }
@@ -4300,10 +4300,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.24699359999976878,
-      "runtimeSeconds": 8.81150340000022,
+      "startupSeconds": 0.20929720000003726,
+      "runtimeSeconds": 8.826967200000126,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-div-write-trigger-volume-gb-cgb-d96e789a.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-div-write-trigger-volume-gb-cgb-d96e789a.png",
         "width": 160,
         "height": 144
       }
@@ -4319,10 +4319,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25451479999992443,
-      "runtimeSeconds": 8.801356999999825,
+      "startupSeconds": 0.21108959999992294,
+      "runtimeSeconds": 8.794427399999677,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-apu-div-write-trigger-volume-10-gb-cgb-9f46a579.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-apu-div-write-trigger-volume-10-gb-cgb-9f46a579.png",
         "width": 160,
         "height": 144
       }
@@ -4338,10 +4338,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.25819860000001427,
-      "runtimeSeconds": 1.5681625999995958,
+      "startupSeconds": 0.1999377000001914,
+      "runtimeSeconds": 1.4128631999997197,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-dma-gbc-dma-cont-gb-cgb-691bcf96.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-dma-gbc-dma-cont-gb-cgb-691bcf96.png",
         "width": 160,
         "height": 144
       }
@@ -4357,10 +4357,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2526473000002625,
-      "runtimeSeconds": 8.704756199999792,
+      "startupSeconds": 0.19887199999993754,
+      "runtimeSeconds": 8.708069099999648,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-dma-gdma-addr-mask-gb-cgb-5b964b62.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-dma-gdma-addr-mask-gb-cgb-5b964b62.png",
         "width": 160,
         "height": 144
       }
@@ -4376,10 +4376,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2509377000001223,
-      "runtimeSeconds": 8.799668699999984,
+      "startupSeconds": 0.21170030000030238,
+      "runtimeSeconds": 8.751265200000034,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-dma-hdma-lcd-off-gb-cgb-a3b41999.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-dma-hdma-lcd-off-gb-cgb-a3b41999.png",
         "width": 160,
         "height": 144
       }
@@ -4395,10 +4395,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.2505831999997099,
-      "runtimeSeconds": 1.6830039999999826,
+      "startupSeconds": 0.21281339999995907,
+      "runtimeSeconds": 1.551278999999795,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-dma-hdma-mode0-gb-cgb-000cea33.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-dma-hdma-mode0-gb-cgb-000cea33.png",
         "width": 160,
         "height": 144
       }
@@ -4414,10 +4414,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.25119679999988875,
-      "runtimeSeconds": 1.6698529000000235,
+      "startupSeconds": 0.21902129999989484,
+      "runtimeSeconds": 1.4159139999997024,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/samesuite-ppu-blocking-bgpi-increase-gb-cgb-08d7fc75.png",
+        "url": "screenshots/ares/legacy-1792055163/samesuite-ppu-blocking-bgpi-increase-gb-cgb-08d7fc75.png",
         "width": 160,
         "height": 144
       }
@@ -4463,10 +4463,10 @@
       "sourceUrl": "https://github.com/Ashiepaws/BullyGB",
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2418884000003345,
-      "runtimeSeconds": 7.759866899999906,
+      "startupSeconds": 0.20973860000003697,
+      "runtimeSeconds": 7.7048046999998405,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/ashiepaws-bully-gb-dmg-dmg-fc52bff4.png",
+        "url": "screenshots/ares/legacy-1792055163/ashiepaws-bully-gb-dmg-dmg-fc52bff4.png",
         "width": 160,
         "height": 144
       }
@@ -4482,10 +4482,10 @@
       "sourceUrl": "https://github.com/Ashiepaws/BullyGB",
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.24350549999962823,
-      "runtimeSeconds": 7.820983099999921,
+      "startupSeconds": 0.221628199999941,
+      "runtimeSeconds": 7.835306599999967,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/ashiepaws-bully-gb-gbc-cgb-aca14ea5.png",
+        "url": "screenshots/ares/legacy-1792055163/ashiepaws-bully-gb-gbc-cgb-aca14ea5.png",
         "width": 160,
         "height": 144
       }
@@ -4501,10 +4501,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.251158999999916,
-      "runtimeSeconds": 7.786789699999645,
+      "startupSeconds": 0.21424459999980172,
+      "runtimeSeconds": 7.7556681000000935,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/ashiepaws-strikethrough-gb-dmg-60dd4d99.png",
+        "url": "screenshots/ares/legacy-1792055163/ashiepaws-strikethrough-gb-dmg-60dd4d99.png",
         "width": 160,
         "height": 144
       }
@@ -4520,10 +4520,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25514109999994616,
-      "runtimeSeconds": 7.725550499999827,
+      "startupSeconds": 0.21877319999975953,
+      "runtimeSeconds": 7.784761899999921,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/cpp-rtc-invalid-banks-test-gb-dmg-7abf0945.png",
+        "url": "screenshots/ares/legacy-1792055163/cpp-rtc-invalid-banks-test-gb-dmg-7abf0945.png",
         "width": 160,
         "height": 144
       }
@@ -4539,10 +4539,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2538166999997884,
-      "runtimeSeconds": 7.701028599999972,
+      "startupSeconds": 0.21524379999982557,
+      "runtimeSeconds": 7.759215799999765,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/cpp-latch-rtc-test-gb-dmg-3307b249.png",
+        "url": "screenshots/ares/legacy-1792055163/cpp-latch-rtc-test-gb-dmg-3307b249.png",
         "width": 160,
         "height": 144
       }
@@ -4558,10 +4558,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2567511000002014,
-      "runtimeSeconds": 7.759944800000085,
+      "startupSeconds": 0.21479690000023766,
+      "runtimeSeconds": 7.759720000000016,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/cpp-ramg-mbc3-test-gb-dmg-c4a5ad08.png",
+        "url": "screenshots/ares/legacy-1792055163/cpp-ramg-mbc3-test-gb-dmg-c4a5ad08.png",
         "width": 160,
         "height": 144
       }
@@ -4592,10 +4592,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2548047999998744,
-      "runtimeSeconds": 7.704385999999886,
+      "startupSeconds": 0.2156065000003764,
+      "runtimeSeconds": 7.7655940999998165,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mealybug-tearoom-tests-ppu-m2-win-en-toggle-gb-dmg-dmg-49d7cd7c.png",
+        "url": "screenshots/ares/legacy-1792055163/mealybug-tearoom-tests-ppu-m2-win-en-toggle-gb-dmg-dmg-49d7cd7c.png",
         "width": 160,
         "height": 144
       }
@@ -4611,10 +4611,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25215860000025714,
-      "runtimeSeconds": 7.764591100000416,
+      "startupSeconds": 0.2179999999998472,
+      "runtimeSeconds": 7.703640300000188,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mealybug-tearoom-tests-ppu-m3-bgp-change-gb-dmg-dmg-4ce20d7f.png",
+        "url": "screenshots/ares/legacy-1792055163/mealybug-tearoom-tests-ppu-m3-bgp-change-gb-dmg-dmg-4ce20d7f.png",
         "width": 160,
         "height": 144
       }
@@ -4630,10 +4630,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2517566999999872,
-      "runtimeSeconds": 7.742947700000059,
+      "startupSeconds": 0.21933979999994335,
+      "runtimeSeconds": 7.800126800000271,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mealybug-tearoom-tests-ppu-m3-bgp-change-sprites-gb-dmg-dmg-e41b5168.png",
+        "url": "screenshots/ares/legacy-1792055163/mealybug-tearoom-tests-ppu-m3-bgp-change-sprites-gb-dmg-dmg-e41b5168.png",
         "width": 160,
         "height": 144
       }
@@ -4649,10 +4649,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.24625120000018796,
-      "runtimeSeconds": 7.764959100000397,
+      "startupSeconds": 0.21096970000007786,
+      "runtimeSeconds": 7.804881000000023,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mealybug-tearoom-tests-ppu-m3-lcdc-bg-en-change-gb-dmg-dmg-266fe81d.png",
+        "url": "screenshots/ares/legacy-1792055163/mealybug-tearoom-tests-ppu-m3-lcdc-bg-en-change-gb-dmg-dmg-266fe81d.png",
         "width": 160,
         "height": 144
       }
@@ -4668,10 +4668,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25988379999989775,
-      "runtimeSeconds": 7.780874199999744,
+      "startupSeconds": 0.20977710000033767,
+      "runtimeSeconds": 7.788427299999967,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mealybug-tearoom-tests-ppu-m3-lcdc-bg-map-change-gb-dmg-dmg-91f40501.png",
+        "url": "screenshots/ares/legacy-1792055163/mealybug-tearoom-tests-ppu-m3-lcdc-bg-map-change-gb-dmg-dmg-91f40501.png",
         "width": 160,
         "height": 144
       }
@@ -4687,10 +4687,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25820800000019517,
-      "runtimeSeconds": 7.7669144000001324,
+      "startupSeconds": 0.2096942999996827,
+      "runtimeSeconds": 7.8012463000000025,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mealybug-tearoom-tests-ppu-m3-lcdc-obj-en-change-gb-dmg-dmg-277b5edf.png",
+        "url": "screenshots/ares/legacy-1792055163/mealybug-tearoom-tests-ppu-m3-lcdc-obj-en-change-gb-dmg-dmg-277b5edf.png",
         "width": 160,
         "height": 144
       }
@@ -4706,10 +4706,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.24460929999986547,
-      "runtimeSeconds": 7.817476100000022,
+      "startupSeconds": 0.21491560000004029,
+      "runtimeSeconds": 7.793674199999714,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mealybug-tearoom-tests-ppu-m3-lcdc-obj-en-change-variant-gb-dmg-dmg-88dd6675.png",
+        "url": "screenshots/ares/legacy-1792055163/mealybug-tearoom-tests-ppu-m3-lcdc-obj-en-change-variant-gb-dmg-dmg-88dd6675.png",
         "width": 160,
         "height": 144
       }
@@ -4725,10 +4725,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.24693870000010065,
-      "runtimeSeconds": 7.747200799999973,
+      "startupSeconds": 0.211763300000257,
+      "runtimeSeconds": 7.75876720000042,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mealybug-tearoom-tests-ppu-m3-lcdc-obj-size-change-gb-dmg-dmg-1a0cdefe.png",
+        "url": "screenshots/ares/legacy-1792055163/mealybug-tearoom-tests-ppu-m3-lcdc-obj-size-change-gb-dmg-dmg-1a0cdefe.png",
         "width": 160,
         "height": 144
       }
@@ -4744,10 +4744,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2576356000004125,
-      "runtimeSeconds": 7.717567499999859,
+      "startupSeconds": 0.21274730000004638,
+      "runtimeSeconds": 7.739545299999918,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mealybug-tearoom-tests-ppu-m3-lcdc-obj-size-change-scx-gb-dmg-dmg-c1b9b99e.png",
+        "url": "screenshots/ares/legacy-1792055163/mealybug-tearoom-tests-ppu-m3-lcdc-obj-size-change-scx-gb-dmg-dmg-c1b9b99e.png",
         "width": 160,
         "height": 144
       }
@@ -4763,10 +4763,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25799370000004274,
-      "runtimeSeconds": 7.7426774999999,
+      "startupSeconds": 0.21248199999990902,
+      "runtimeSeconds": 7.7905187999999725,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mealybug-tearoom-tests-ppu-m3-lcdc-tile-sel-change-gb-dmg-dmg-975934db.png",
+        "url": "screenshots/ares/legacy-1792055163/mealybug-tearoom-tests-ppu-m3-lcdc-tile-sel-change-gb-dmg-dmg-975934db.png",
         "width": 160,
         "height": 144
       }
@@ -4782,10 +4782,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2566562000001795,
-      "runtimeSeconds": 7.759810699999889,
+      "startupSeconds": 0.20905510000011418,
+      "runtimeSeconds": 7.786179499999889,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mealybug-tearoom-tests-ppu-m3-lcdc-tile-sel-win-change-gb-dmg-dmg-cec19685.png",
+        "url": "screenshots/ares/legacy-1792055163/mealybug-tearoom-tests-ppu-m3-lcdc-tile-sel-win-change-gb-dmg-dmg-cec19685.png",
         "width": 160,
         "height": 144
       }
@@ -4801,10 +4801,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2564210999998977,
-      "runtimeSeconds": 7.767739299999903,
+      "startupSeconds": 0.20768539999971836,
+      "runtimeSeconds": 7.7560412999996515,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mealybug-tearoom-tests-ppu-m3-lcdc-win-en-change-multi-8f067cd6-dmg-2e2659c1.png",
+        "url": "screenshots/ares/legacy-1792055163/mealybug-tearoom-tests-ppu-m3-lcdc-win-en-change-multi-8f067cd6-dmg-2e2659c1.png",
         "width": 160,
         "height": 144
       }
@@ -4820,10 +4820,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2681971000001795,
-      "runtimeSeconds": 7.732203499999741,
+      "startupSeconds": 0.21202709999988656,
+      "runtimeSeconds": 7.7914253000003555,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mealybug-tearoom-tests-ppu-m3-lcdc-win-en-change-multi-37be6e90-dmg-5ea411ff.png",
+        "url": "screenshots/ares/legacy-1792055163/mealybug-tearoom-tests-ppu-m3-lcdc-win-en-change-multi-37be6e90-dmg-5ea411ff.png",
         "width": 160,
         "height": 144
       }
@@ -4839,10 +4839,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2560359999997672,
-      "runtimeSeconds": 7.709854599999744,
+      "startupSeconds": 0.21787710000035077,
+      "runtimeSeconds": 7.7972444000001815,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mealybug-tearoom-tests-ppu-m3-lcdc-win-map-change-gb-dmg-dmg-d343d7a3.png",
+        "url": "screenshots/ares/legacy-1792055163/mealybug-tearoom-tests-ppu-m3-lcdc-win-map-change-gb-dmg-dmg-d343d7a3.png",
         "width": 160,
         "height": 144
       }
@@ -4858,10 +4858,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25210629999992307,
-      "runtimeSeconds": 7.71899220000023,
+      "startupSeconds": 0.21394580000014685,
+      "runtimeSeconds": 7.823870700000043,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mealybug-tearoom-tests-ppu-m3-obp0-change-gb-dmg-dmg-43692086.png",
+        "url": "screenshots/ares/legacy-1792055163/mealybug-tearoom-tests-ppu-m3-obp0-change-gb-dmg-dmg-43692086.png",
         "width": 160,
         "height": 144
       }
@@ -4877,10 +4877,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2542607999998836,
-      "runtimeSeconds": 7.818900499999927,
+      "startupSeconds": 0.2105424999999741,
+      "runtimeSeconds": 7.818377600000076,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mealybug-tearoom-tests-ppu-m3-scx-high-5-bits-gb-dmg-dmg-bd9b113e.png",
+        "url": "screenshots/ares/legacy-1792055163/mealybug-tearoom-tests-ppu-m3-scx-high-5-bits-gb-dmg-dmg-bd9b113e.png",
         "width": 160,
         "height": 144
       }
@@ -4896,10 +4896,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2490592000003744,
-      "runtimeSeconds": 7.77019270000028,
+      "startupSeconds": 0.22319910000032905,
+      "runtimeSeconds": 7.705921099999614,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mealybug-tearoom-tests-ppu-m3-scx-low-3-bits-gb-dmg-dmg-e6cdccf4.png",
+        "url": "screenshots/ares/legacy-1792055163/mealybug-tearoom-tests-ppu-m3-scx-low-3-bits-gb-dmg-dmg-e6cdccf4.png",
         "width": 160,
         "height": 144
       }
@@ -4915,10 +4915,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25845939999999246,
-      "runtimeSeconds": 7.733849900000223,
+      "startupSeconds": 0.21410809999997582,
+      "runtimeSeconds": 7.784778700000061,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mealybug-tearoom-tests-ppu-m3-scy-change-gb-dmg-dmg-c6113da3.png",
+        "url": "screenshots/ares/legacy-1792055163/mealybug-tearoom-tests-ppu-m3-scy-change-gb-dmg-dmg-c6113da3.png",
         "width": 160,
         "height": 144
       }
@@ -4934,10 +4934,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.24610749999965265,
-      "runtimeSeconds": 7.747072600000138,
+      "startupSeconds": 0.2304359999998269,
+      "runtimeSeconds": 7.7766185000000405,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mealybug-tearoom-tests-ppu-m3-window-timing-gb-dmg-dmg-67b4de78.png",
+        "url": "screenshots/ares/legacy-1792055163/mealybug-tearoom-tests-ppu-m3-window-timing-gb-dmg-dmg-67b4de78.png",
         "width": 160,
         "height": 144
       }
@@ -4953,10 +4953,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2541785999997046,
-      "runtimeSeconds": 7.809971000000132,
+      "startupSeconds": 0.21181560000013633,
+      "runtimeSeconds": 7.811444699999811,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mealybug-tearoom-tests-ppu-m3-window-timing-wx-0-gb-dmg-dmg-313602fb.png",
+        "url": "screenshots/ares/legacy-1792055163/mealybug-tearoom-tests-ppu-m3-window-timing-wx-0-gb-dmg-dmg-313602fb.png",
         "width": 160,
         "height": 144
       }
@@ -4972,10 +4972,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2549385999996048,
-      "runtimeSeconds": 7.73481559999982,
+      "startupSeconds": 0.22119489999977304,
+      "runtimeSeconds": 7.79227579999997,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mealybug-tearoom-tests-ppu-m3-wx-4-change-gb-dmg-dmg-a4ee9ce6.png",
+        "url": "screenshots/ares/legacy-1792055163/mealybug-tearoom-tests-ppu-m3-wx-4-change-gb-dmg-dmg-a4ee9ce6.png",
         "width": 160,
         "height": 144
       }
@@ -4991,10 +4991,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25474149999990914,
-      "runtimeSeconds": 7.726753800000097,
+      "startupSeconds": 0.22190420000015365,
+      "runtimeSeconds": 7.794005299999753,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mealybug-tearoom-tests-ppu-m3-wx-4-change-sprites-gb-dmg-dmg-6bb9a727.png",
+        "url": "screenshots/ares/legacy-1792055163/mealybug-tearoom-tests-ppu-m3-wx-4-change-sprites-gb-dmg-dmg-6bb9a727.png",
         "width": 160,
         "height": 144
       }
@@ -5010,10 +5010,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.25196090000008553,
-      "runtimeSeconds": 7.753310900000088,
+      "startupSeconds": 0.21422450000000026,
+      "runtimeSeconds": 7.821925799999917,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mealybug-tearoom-tests-ppu-m3-wx-5-change-gb-dmg-dmg-39e44f69.png",
+        "url": "screenshots/ares/legacy-1792055163/mealybug-tearoom-tests-ppu-m3-wx-5-change-gb-dmg-dmg-39e44f69.png",
         "width": 160,
         "height": 144
       }
@@ -5029,10 +5029,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.2578981000001477,
-      "runtimeSeconds": 7.752529700000196,
+      "startupSeconds": 0.2254491999997299,
+      "runtimeSeconds": 7.767995299999711,
       "screenshot": {
-        "url": "screenshots/ares/legacy-1791970296/mealybug-tearoom-tests-ppu-m3-wx-6-change-gb-dmg-dmg-96f73ce0.png",
+        "url": "screenshots/ares/legacy-1792055163/mealybug-tearoom-tests-ppu-m3-wx-6-change-gb-dmg-dmg-96f73ce0.png",
         "width": 160,
         "height": 144
       }
