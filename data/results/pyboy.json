@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "emulatorId": "pyboy",
-  "runId": "legacy-1792487798",
+  "runId": "legacy-1792574275",
   "runState": "legacy",
-  "testedAt": "2026-10-20T09:16:38.942640Z",
+  "testedAt": "2026-10-21T09:17:55.251908Z",
   "emulatorVersion": null,
   "catalogId": "catalog-51bc0aea4c76",
   "catalogUrl": "data/catalogs/catalog-51bc0aea4c76.json",
@@ -21,15 +21,15 @@
     "importedLegacy": true
   },
   "counts": {
-    "pass": 204,
-    "fail": 54,
+    "pass": 202,
+    "fail": 56,
     "info": 3,
     "error": 0,
     "skipped": 0,
     "missing": 3
   },
   "score": {
-    "value": 207,
+    "value": 205,
     "recorded": 261
   },
   "results": [
@@ -44,10 +44,10 @@
       "sourceUrl": null,
       "status": "info",
       "reason": null,
-      "startupSeconds": 1.0387180000000171,
-      "runtimeSeconds": 11.60141250000001,
+      "startupSeconds": 0.6369365000000471,
+      "runtimeSeconds": 11.615666500000032,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/acid-which-gb-dmg-dmg-0669633f.png",
+        "url": "screenshots/pyboy/legacy-1792574275/acid-which-gb-dmg-dmg-0669633f.png",
         "width": 160,
         "height": 144
       }
@@ -63,10 +63,10 @@
       "sourceUrl": null,
       "status": "info",
       "reason": null,
-      "startupSeconds": 0.38543120000002773,
-      "runtimeSeconds": 11.524929699999973,
+      "startupSeconds": 0.4235568000000285,
+      "runtimeSeconds": 11.51607039999999,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/acid-which-gb-gbc-cgb-38eb7aac.png",
+        "url": "screenshots/pyboy/legacy-1792574275/acid-which-gb-gbc-cgb-38eb7aac.png",
         "width": 160,
         "height": 144
       }
@@ -82,10 +82,10 @@
       "sourceUrl": "https://github.com/mattcurrie/dmg-acid2",
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.37517079999997804,
-      "runtimeSeconds": 5.90111730000001,
+      "startupSeconds": 0.4486137999999755,
+      "runtimeSeconds": 5.871341400000006,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/acid-dmg-acid2-gb-dmg-b16e8597.png",
+        "url": "screenshots/pyboy/legacy-1792574275/acid-dmg-acid2-gb-dmg-b16e8597.png",
         "width": 160,
         "height": 144
       }
@@ -101,10 +101,10 @@
       "sourceUrl": "https://github.com/mattcurrie/cgb-acid2",
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.38903009999995675,
-      "runtimeSeconds": 3.393114099999991,
+      "startupSeconds": 0.45456489999997984,
+      "runtimeSeconds": 3.4734902000000147,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/acid-cgb-acid2-gbc-cgb-88e4b3b3.png",
+        "url": "screenshots/pyboy/legacy-1792574275/acid-cgb-acid2-gbc-cgb-88e4b3b3.png",
         "width": 160,
         "height": 144
       }
@@ -120,10 +120,10 @@
       "sourceUrl": "https://github.com/mattcurrie/cgb-acid-hell",
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.3883690000000115,
-      "runtimeSeconds": 11.576350900000023,
+      "startupSeconds": 0.42373600000001943,
+      "runtimeSeconds": 11.542131200000028,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/acid-cgb-acid-hell-gbc-cgb-ee00bb31.png",
+        "url": "screenshots/pyboy/legacy-1792574275/acid-cgb-acid-hell-gbc-cgb-ee00bb31.png",
         "width": 160,
         "height": 144
       }
@@ -139,10 +139,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.388254599999982,
-      "runtimeSeconds": 7.999814900000047,
+      "startupSeconds": 0.42122929999999315,
+      "runtimeSeconds": 8.106831199999988,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-cpu-instrs-01-special-gb-dmg-cffd5d76.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-cpu-instrs-01-special-gb-dmg-cffd5d76.png",
         "width": 160,
         "height": 144
       }
@@ -158,10 +158,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.38799109999996517,
-      "runtimeSeconds": 6.0708536999999865,
+      "startupSeconds": 0.40789469999998573,
+      "runtimeSeconds": 6.0948712,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-cpu-instrs-02-interrupts-gb-dmg-4b97e44a.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-cpu-instrs-02-interrupts-gb-dmg-4b97e44a.png",
         "width": 160,
         "height": 144
       }
@@ -177,10 +177,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3835991000000263,
-      "runtimeSeconds": 8.088827400000014,
+      "startupSeconds": 0.4087157000000161,
+      "runtimeSeconds": 8.084886499999982,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-cpu-instrs-03-op-sp-hl-gb-dmg-8216b96f.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-cpu-instrs-03-op-sp-hl-gb-dmg-8216b96f.png",
         "width": 160,
         "height": 144
       }
@@ -196,10 +196,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.38776279999996177,
-      "runtimeSeconds": 8.472880800000041,
+      "startupSeconds": 0.3857259000000113,
+      "runtimeSeconds": 8.41671100000002,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-cpu-instrs-04-op-r-imm-gb-dmg-f1f9114b.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-cpu-instrs-04-op-r-imm-gb-dmg-f1f9114b.png",
         "width": 160,
         "height": 144
       }
@@ -215,10 +215,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3853344000000334,
-      "runtimeSeconds": 9.437244399999997,
+      "startupSeconds": 0.4243965000000003,
+      "runtimeSeconds": 9.490594799999997,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-cpu-instrs-05-op-rp-gb-dmg-8a4b3fbc.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-cpu-instrs-05-op-rp-gb-dmg-8a4b3fbc.png",
         "width": 160,
         "height": 144
       }
@@ -234,10 +234,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.39830159999996795,
-      "runtimeSeconds": 6.268669399999965,
+      "startupSeconds": 0.39945119999998724,
+      "runtimeSeconds": 6.355307400000015,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-cpu-instrs-06-ld-r-r-gb-dmg-55b14397.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-cpu-instrs-06-ld-r-r-gb-dmg-55b14397.png",
         "width": 160,
         "height": 144
       }
@@ -253,10 +253,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3970926999999733,
-      "runtimeSeconds": 6.347712899999976,
+      "startupSeconds": 0.4050849999999855,
+      "runtimeSeconds": 6.353593599999954,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-cpu-instrs-07-jr-jp-call-ret-rst-gb-dmg-c71bd785.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-cpu-instrs-07-jr-jp-call-ret-rst-gb-dmg-c71bd785.png",
         "width": 160,
         "height": 144
       }
@@ -272,10 +272,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4020426999999813,
-      "runtimeSeconds": 6.222141899999997,
+      "startupSeconds": 0.3968018999999572,
+      "runtimeSeconds": 6.2080314000000385,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-cpu-instrs-08-misc-instrs-gb-dmg-00795987.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-cpu-instrs-08-misc-instrs-gb-dmg-00795987.png",
         "width": 160,
         "height": 144
       }
@@ -291,10 +291,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4056816000000367,
-      "runtimeSeconds": 14.767477799999995,
+      "startupSeconds": 0.4079158999999777,
+      "runtimeSeconds": 14.721007099999952,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-cpu-instrs-09-op-r-r-gb-dmg-78b33163.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-cpu-instrs-09-op-r-r-gb-dmg-78b33163.png",
         "width": 160,
         "height": 144
       }
@@ -310,10 +310,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4039437999999791,
-      "runtimeSeconds": 19.48406940000001,
+      "startupSeconds": 0.41895069999998213,
+      "runtimeSeconds": 19.538794699999983,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-cpu-instrs-10-bit-ops-gb-dmg-60628809.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-cpu-instrs-10-bit-ops-gb-dmg-60628809.png",
         "width": 160,
         "height": 144
       }
@@ -327,12 +327,12 @@
       "system": "dmg",
       "description": null,
       "sourceUrl": null,
-      "status": "pass",
+      "status": "fail",
       "reason": null,
-      "startupSeconds": 0.41097800000000007,
-      "runtimeSeconds": 23.14698229999999,
+      "startupSeconds": 0.3977992999999742,
+      "runtimeSeconds": 23.016440899999964,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-cpu-instrs-11-op-a-hl-gb-dmg-f37eee43.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-cpu-instrs-11-op-a-hl-gb-dmg-f37eee43.png",
         "width": 160,
         "height": 144
       }
@@ -348,10 +348,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.4187896000000251,
-      "runtimeSeconds": 12.06200210000003,
+      "startupSeconds": 0.40947009999996453,
+      "runtimeSeconds": 12.119242900000017,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-halt-bug-gb-dmg-6bd4a24d.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-halt-bug-gb-dmg-6bd4a24d.png",
         "width": 160,
         "height": 144
       }
@@ -367,10 +367,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3841438000000039,
-      "runtimeSeconds": 6.315541499999995,
+      "startupSeconds": 0.3841861000000222,
+      "runtimeSeconds": 6.339738600000032,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-instr-timing-gb-dmg-584a3698.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-instr-timing-gb-dmg-584a3698.png",
         "width": 160,
         "height": 144
       }
@@ -386,10 +386,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.38385860000005323,
-      "runtimeSeconds": 3.719013899999993,
+      "startupSeconds": 0.397585700000036,
+      "runtimeSeconds": 3.7315735000000245,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-interrupt-time-gb-cgb-4d659e2c.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-interrupt-time-gb-cgb-4d659e2c.png",
         "width": 160,
         "height": 144
       }
@@ -405,10 +405,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3865112000000295,
-      "runtimeSeconds": 6.175559399999997,
+      "startupSeconds": 0.38727920000002314,
+      "runtimeSeconds": 6.110994399999981,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-mem-timing-01-read-timing-gb-dmg-547bd6f6.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-mem-timing-01-read-timing-gb-dmg-547bd6f6.png",
         "width": 160,
         "height": 144
       }
@@ -424,10 +424,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3742000000000303,
-      "runtimeSeconds": 6.1623242000000005,
+      "startupSeconds": 0.40852970000003097,
+      "runtimeSeconds": 6.180709100000001,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-mem-timing-02-write-timing-gb-dmg-1f4d9a88.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-mem-timing-02-write-timing-gb-dmg-1f4d9a88.png",
         "width": 160,
         "height": 144
       }
@@ -443,10 +443,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3744360000000029,
-      "runtimeSeconds": 6.2413437999999815,
+      "startupSeconds": 0.42038560000003145,
+      "runtimeSeconds": 6.1639471999999955,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-mem-timing-03-modify-timing-gb-dmg-01c8cea5.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-mem-timing-03-modify-timing-gb-dmg-01c8cea5.png",
         "width": 160,
         "height": 144
       }
@@ -462,10 +462,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3932029000000057,
-      "runtimeSeconds": 6.186653299999989,
+      "startupSeconds": 0.44218769999997676,
+      "runtimeSeconds": 6.1334836999999425,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-mem-timing-2-01-read-timing-gb-dmg-20f1120e.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-mem-timing-2-01-read-timing-gb-dmg-20f1120e.png",
         "width": 160,
         "height": 144
       }
@@ -481,10 +481,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4150167999999894,
-      "runtimeSeconds": 6.168159800000012,
+      "startupSeconds": 0.41783769999995,
+      "runtimeSeconds": 6.107107499999984,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-mem-timing-2-02-write-timing-gb-dmg-c1785f08.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-mem-timing-2-02-write-timing-gb-dmg-c1785f08.png",
         "width": 160,
         "height": 144
       }
@@ -500,10 +500,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4084647999999902,
-      "runtimeSeconds": 6.235338599999977,
+      "startupSeconds": 0.4111624000000802,
+      "runtimeSeconds": 6.131230599999981,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-mem-timing-2-03-modify-timing-gb-dmg-8bbbccfc.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-mem-timing-2-03-modify-timing-gb-dmg-8bbbccfc.png",
         "width": 160,
         "height": 144
       }
@@ -519,10 +519,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.3869556000000216,
-      "runtimeSeconds": 11.048044000000004,
+      "startupSeconds": 0.3960267999999587,
+      "runtimeSeconds": 11.022132100000022,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-oam-bug-1-lcd-sync-gb-dmg-5e66d0de.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-oam-bug-1-lcd-sync-gb-dmg-5e66d0de.png",
         "width": 160,
         "height": 144
       }
@@ -538,10 +538,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.40051610000000437,
-      "runtimeSeconds": 11.005227600000012,
+      "startupSeconds": 0.42380709999997634,
+      "runtimeSeconds": 11.028432899999984,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-oam-bug-2-causes-gb-dmg-b608de0a.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-oam-bug-2-causes-gb-dmg-b608de0a.png",
         "width": 160,
         "height": 144
       }
@@ -557,10 +557,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.38418120000000044,
-      "runtimeSeconds": 7.300592499999993,
+      "startupSeconds": 0.39539800000000014,
+      "runtimeSeconds": 7.4283272000000125,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-oam-bug-3-non-causes-gb-dmg-ae05f385.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-oam-bug-3-non-causes-gb-dmg-ae05f385.png",
         "width": 160,
         "height": 144
       }
@@ -576,10 +576,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.3880421999999726,
-      "runtimeSeconds": 11.50451929999997,
+      "startupSeconds": 0.41286109999998644,
+      "runtimeSeconds": 11.611363600000004,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-oam-bug-4-scanline-timing-gb-dmg-2da61991.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-oam-bug-4-scanline-timing-gb-dmg-2da61991.png",
         "width": 160,
         "height": 144
       }
@@ -595,10 +595,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.4128643999999895,
-      "runtimeSeconds": 11.61716679999995,
+      "startupSeconds": 0.4054565000000139,
+      "runtimeSeconds": 11.532873799999948,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-oam-bug-5-timing-bug-gb-dmg-ee74faf3.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-oam-bug-5-timing-bug-gb-dmg-ee74faf3.png",
         "width": 160,
         "height": 144
       }
@@ -614,10 +614,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3893880000000536,
-      "runtimeSeconds": 7.165591099999915,
+      "startupSeconds": 0.40889470000001893,
+      "runtimeSeconds": 7.1860573999999815,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-oam-bug-6-timing-no-bug-gb-dmg-607a177d.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-oam-bug-6-timing-no-bug-gb-dmg-607a177d.png",
         "width": 160,
         "height": 144
       }
@@ -633,10 +633,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.37944049999998697,
-      "runtimeSeconds": 11.578425100000004,
+      "startupSeconds": 0.40376900000001115,
+      "runtimeSeconds": 11.584528899999896,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-oam-bug-8-instr-effect-gb-dmg-9ca7f84f.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-oam-bug-8-instr-effect-gb-dmg-9ca7f84f.png",
         "width": 160,
         "height": 144
       }
@@ -652,10 +652,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4002682000000277,
-      "runtimeSeconds": 6.481828199999995,
+      "startupSeconds": 0.3970786999999518,
+      "runtimeSeconds": 6.4633980000000975,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-dmg-sound-01-registers-gb-dmg-dd73c6e4.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-dmg-sound-01-registers-gb-dmg-dd73c6e4.png",
         "width": 160,
         "height": 144
       }
@@ -671,10 +671,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4049929999999904,
-      "runtimeSeconds": 15.093553100000008,
+      "startupSeconds": 0.4279831999999715,
+      "runtimeSeconds": 15.019848000000025,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-dmg-sound-02-len-ctr-gb-dmg-081a2fae.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-dmg-sound-02-len-ctr-gb-dmg-081a2fae.png",
         "width": 160,
         "height": 144
       }
@@ -690,10 +690,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.42028770000001714,
-      "runtimeSeconds": 22.460292900000013,
+      "startupSeconds": 0.4233092999999144,
+      "runtimeSeconds": 22.434225200000014,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-dmg-sound-03-trigger-gb-dmg-dfb2b658.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-dmg-sound-03-trigger-gb-dmg-dfb2b658.png",
         "width": 160,
         "height": 144
       }
@@ -709,10 +709,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.40441710000004605,
-      "runtimeSeconds": 6.877415100000007,
+      "startupSeconds": 0.41067259999999806,
+      "runtimeSeconds": 6.925567999999998,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-dmg-sound-04-sweep-gb-dmg-9193ca89.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-dmg-sound-04-sweep-gb-dmg-9193ca89.png",
         "width": 160,
         "height": 144
       }
@@ -728,10 +728,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3994005999999217,
-      "runtimeSeconds": 6.854503199999954,
+      "startupSeconds": 0.43186950000006163,
+      "runtimeSeconds": 6.924256200000059,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-dmg-sound-05-sweep-details-gb-dmg-3a3cf981.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-dmg-sound-05-sweep-details-gb-dmg-3a3cf981.png",
         "width": 160,
         "height": 144
       }
@@ -747,10 +747,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3995627000000468,
-      "runtimeSeconds": 6.575814499999979,
+      "startupSeconds": 0.41236209999999573,
+      "runtimeSeconds": 6.611143500000026,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-dmg-sound-06-overflow-on-trigger-gb-dmg-5428a1fc.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-dmg-sound-06-overflow-on-trigger-gb-dmg-5428a1fc.png",
         "width": 160,
         "height": 144
       }
@@ -766,10 +766,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.39763170000003356,
-      "runtimeSeconds": 6.227125900000033,
+      "startupSeconds": 0.47149190000004637,
+      "runtimeSeconds": 6.323189700000057,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-dmg-sound-07-len-sweep-period-sync-gb-dmg-ef480eef.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-dmg-sound-07-len-sweep-period-sync-gb-dmg-ef480eef.png",
         "width": 160,
         "height": 144
       }
@@ -785,10 +785,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3986876999999822,
-      "runtimeSeconds": 7.00256939999997,
+      "startupSeconds": 0.5082472999999936,
+      "runtimeSeconds": 7.12150100000008,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-dmg-sound-08-len-ctr-during-power-gb-dmg-94b9b87f.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-dmg-sound-08-len-ctr-during-power-gb-dmg-94b9b87f.png",
         "width": 160,
         "height": 144
       }
@@ -804,10 +804,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3959495000000288,
-      "runtimeSeconds": 6.2355321,
+      "startupSeconds": 0.5419924000000265,
+      "runtimeSeconds": 6.239894400000026,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-dmg-sound-09-wave-read-while-on-gb-dmg-6bce549d.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-dmg-sound-09-wave-read-while-on-gb-dmg-6bce549d.png",
         "width": 160,
         "height": 144
       }
@@ -823,10 +823,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3960995999999568,
-      "runtimeSeconds": 9.538376699999958,
+      "startupSeconds": 0.48021640000001753,
+      "runtimeSeconds": 9.657182799999987,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-dmg-sound-10-wave-trigger-while-on-gb-dmg-9186e94d.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-dmg-sound-10-wave-trigger-while-on-gb-dmg-9186e94d.png",
         "width": 160,
         "height": 144
       }
@@ -842,10 +842,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4235614000000396,
-      "runtimeSeconds": 6.473412199999984,
+      "startupSeconds": 0.4562453999999434,
+      "runtimeSeconds": 6.365281099999947,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-dmg-sound-11-regs-after-power-gb-dmg-6dc2c147.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-dmg-sound-11-regs-after-power-gb-dmg-6dc2c147.png",
         "width": 160,
         "height": 144
       }
@@ -861,10 +861,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4246617999999671,
-      "runtimeSeconds": 9.545874500000082,
+      "startupSeconds": 0.4061018000001013,
+      "runtimeSeconds": 9.622142899999972,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-dmg-sound-12-wave-write-while-on-gb-dmg-765a84aa.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-dmg-sound-12-wave-write-while-on-gb-dmg-765a84aa.png",
         "width": 160,
         "height": 144
       }
@@ -880,10 +880,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4999292999999625,
-      "runtimeSeconds": 3.988770000000045,
+      "startupSeconds": 0.43702329999996437,
+      "runtimeSeconds": 4.011584999999968,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-cgb-sound-01-registers-gb-cgb-962f11c5.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-cgb-sound-01-registers-gb-cgb-962f11c5.png",
         "width": 160,
         "height": 144
       }
@@ -899,10 +899,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.448026499999969,
-      "runtimeSeconds": 12.674829199999976,
+      "startupSeconds": 0.49316959999998744,
+      "runtimeSeconds": 12.62675820000004,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-cgb-sound-02-len-ctr-gb-cgb-2cde1cfa.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-cgb-sound-02-len-ctr-gb-cgb-2cde1cfa.png",
         "width": 160,
         "height": 144
       }
@@ -918,10 +918,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.439681700000051,
-      "runtimeSeconds": 19.99499449999996,
+      "startupSeconds": 0.4166242000000011,
+      "runtimeSeconds": 20.018718499999977,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-cgb-sound-03-trigger-gb-cgb-62801ad3.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-cgb-sound-03-trigger-gb-cgb-62801ad3.png",
         "width": 160,
         "height": 144
       }
@@ -937,10 +937,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.41901229999996303,
-      "runtimeSeconds": 4.377146900000071,
+      "startupSeconds": 0.42948069999999916,
+      "runtimeSeconds": 4.415789399999994,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-cgb-sound-04-sweep-gb-cgb-c659f04f.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-cgb-sound-04-sweep-gb-cgb-c659f04f.png",
         "width": 160,
         "height": 144
       }
@@ -956,10 +956,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.42036189999998896,
-      "runtimeSeconds": 4.384463199999914,
+      "startupSeconds": 0.40916779999997743,
+      "runtimeSeconds": 4.4325664000000415,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-cgb-sound-05-sweep-details-gb-cgb-122d1068.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-cgb-sound-05-sweep-details-gb-cgb-122d1068.png",
         "width": 160,
         "height": 144
       }
@@ -975,10 +975,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.40771410000002106,
-      "runtimeSeconds": 4.1319425000000365,
+      "startupSeconds": 0.40896680000003016,
+      "runtimeSeconds": 4.16092070000002,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-cgb-sound-06-overflow-on-trigger-gb-cgb-cff874cf.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-cgb-sound-06-overflow-on-trigger-gb-cgb-cff874cf.png",
         "width": 160,
         "height": 144
       }
@@ -994,10 +994,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4236794999999347,
-      "runtimeSeconds": 3.857644499999992,
+      "startupSeconds": 0.42236529999991035,
+      "runtimeSeconds": 3.7702974999999697,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-cgb-sound-07-len-sweep-period-sync-gb-cgb-c26ce5bc.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-cgb-sound-07-len-sweep-period-sync-gb-cgb-c26ce5bc.png",
         "width": 160,
         "height": 144
       }
@@ -1013,10 +1013,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.40758659999994507,
-      "runtimeSeconds": 5.61703,
+      "startupSeconds": 0.4094618999999966,
+      "runtimeSeconds": 5.657188500000075,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-cgb-sound-08-len-ctr-during-power-gb-cgb-e3d75429.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-cgb-sound-08-len-ctr-during-power-gb-cgb-e3d75429.png",
         "width": 160,
         "height": 144
       }
@@ -1032,10 +1032,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3963132000000087,
-      "runtimeSeconds": 3.745963599999982,
+      "startupSeconds": 0.44620240000006106,
+      "runtimeSeconds": 3.846440799999982,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-cgb-sound-09-wave-read-while-on-gb-cgb-efcaf116.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-cgb-sound-09-wave-read-while-on-gb-cgb-efcaf116.png",
         "width": 160,
         "height": 144
       }
@@ -1051,10 +1051,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.38652509999997164,
-      "runtimeSeconds": 7.128896000000054,
+      "startupSeconds": 0.4024856999999429,
+      "runtimeSeconds": 7.154327899999998,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-cgb-sound-10-wave-trigger-while-on-gb-cgb-2789e4c0.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-cgb-sound-10-wave-trigger-while-on-gb-cgb-2789e4c0.png",
         "width": 160,
         "height": 144
       }
@@ -1070,10 +1070,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4203238000000056,
-      "runtimeSeconds": 4.1662361999999575,
+      "startupSeconds": 0.3944014999999581,
+      "runtimeSeconds": 4.139564299999961,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-cgb-sound-11-regs-after-power-gb-cgb-ca02c1f6.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-cgb-sound-11-regs-after-power-gb-cgb-ca02c1f6.png",
         "width": 160,
         "height": 144
       }
@@ -1089,10 +1089,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.43078009999999267,
-      "runtimeSeconds": 3.5836113000000296,
+      "startupSeconds": 0.40785029999995004,
+      "runtimeSeconds": 3.5814589000000296,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/blargg-cgb-sound-12-wave-gb-cgb-4c83bcb2.png",
+        "url": "screenshots/pyboy/legacy-1792574275/blargg-cgb-sound-12-wave-gb-cgb-4c83bcb2.png",
         "width": 160,
         "height": 144
       }
@@ -1108,10 +1108,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.8005273999999645,
-      "runtimeSeconds": 10.514518199999998,
+      "startupSeconds": 0.42248799999993025,
+      "runtimeSeconds": 10.549240700000041,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/daid-ppu-scanline-bgp-gb-dmg-dmg-5f7dae47.png",
+        "url": "screenshots/pyboy/legacy-1792574275/daid-ppu-scanline-bgp-gb-dmg-dmg-5f7dae47.png",
         "width": 160,
         "height": 144
       }
@@ -1127,10 +1127,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.40536580000002687,
-      "runtimeSeconds": 10.539775899999995,
+      "startupSeconds": 0.4450037000000293,
+      "runtimeSeconds": 10.546289399999978,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/daid-ppu-scanline-bgp-gb-gbc-cgb-5de4d6ea.png",
+        "url": "screenshots/pyboy/legacy-1792574275/daid-ppu-scanline-bgp-gb-gbc-cgb-5de4d6ea.png",
         "width": 160,
         "height": 144
       }
@@ -1146,10 +1146,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3876835999999457,
-      "runtimeSeconds": 0.15097609999997985,
+      "startupSeconds": 0.4393898000000718,
+      "runtimeSeconds": 0.14001009999992675,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/daid-stop-instr-gb-dmg-dmg-4117a58f.png",
+        "url": "screenshots/pyboy/legacy-1792574275/daid-stop-instr-gb-dmg-dmg-4117a58f.png",
         "width": 160,
         "height": 144
       }
@@ -1163,12 +1163,12 @@
       "system": "cgb",
       "description": "STOP instruction is usually not used, but it should make the screen go black on Color Gameboy. The PPU is still running, but it cannot access VRAM, so it reads all black",
       "sourceUrl": null,
-      "status": "pass",
+      "status": "fail",
       "reason": null,
-      "startupSeconds": 0.3857520999999906,
-      "runtimeSeconds": 3.1583277000000862,
+      "startupSeconds": 0.4190922999999884,
+      "runtimeSeconds": 10.526221200000009,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/daid-stop-instr-gb-gbc-cgb-6ca6899d.png",
+        "url": "screenshots/pyboy/legacy-1792574275/daid-stop-instr-gb-gbc-cgb-6ca6899d.png",
         "width": 160,
         "height": 144
       }
@@ -1184,10 +1184,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.418138200000044,
-      "runtimeSeconds": 10.580433599999992,
+      "startupSeconds": 0.4513294999999289,
+      "runtimeSeconds": 10.511263699999972,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/daid-stop-instr-gbc-mode3-gb-cgb-705e7fd0.png",
+        "url": "screenshots/pyboy/legacy-1792574275/daid-stop-instr-gbc-mode3-gb-cgb-705e7fd0.png",
         "width": 160,
         "height": 144
       }
@@ -1203,10 +1203,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4116384000000153,
-      "runtimeSeconds": 3.3221925000000283,
+      "startupSeconds": 0.44414019999999255,
+      "runtimeSeconds": 3.2052945000000364,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/daid-speed-switch-timing-div-gbc-cgb-d436edd5.png",
+        "url": "screenshots/pyboy/legacy-1792574275/daid-speed-switch-timing-div-gbc-cgb-d436edd5.png",
         "width": 160,
         "height": 144
       }
@@ -1222,10 +1222,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.385259700000006,
-      "runtimeSeconds": 10.570607600000017,
+      "startupSeconds": 0.42456700000002456,
+      "runtimeSeconds": 10.53216139999995,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/daid-speed-switch-timing-ly-gbc-cgb-bd931d6c.png",
+        "url": "screenshots/pyboy/legacy-1792574275/daid-speed-switch-timing-ly-gbc-cgb-bd931d6c.png",
         "width": 160,
         "height": 144
       }
@@ -1241,10 +1241,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.387490200000002,
-      "runtimeSeconds": 10.534704599999941,
+      "startupSeconds": 0.43674269999996795,
+      "runtimeSeconds": 10.510724600000003,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/daid-speed-switch-timing-stat-gbc-cgb-e14b6b04.png",
+        "url": "screenshots/pyboy/legacy-1792574275/daid-speed-switch-timing-stat-gbc-cgb-e14b6b04.png",
         "width": 160,
         "height": 144
       }
@@ -1260,10 +1260,10 @@
       "sourceUrl": "https://github.com/daid/GBEmulatorShootout/blob/main/tests/daid/rom_and_ram.gb",
       "status": "info",
       "reason": null,
-      "startupSeconds": 0.40656509999996615,
-      "runtimeSeconds": 10.569419799999991,
+      "startupSeconds": 0.4347202000000152,
+      "runtimeSeconds": 10.599392500000022,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/daid-rom-and-ram-gb-dmg-b9c8f9a6.png",
+        "url": "screenshots/pyboy/legacy-1792574275/daid-rom-and-ram-gb-dmg-b9c8f9a6.png",
         "width": 160,
         "height": 144
       }
@@ -1279,10 +1279,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3989738999999872,
-      "runtimeSeconds": 14.527016000000003,
+      "startupSeconds": 0.40684269999997014,
+      "runtimeSeconds": 14.609660899999994,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/ax6-rtc3test-1-gb-cgb-a5e04b04.png",
+        "url": "screenshots/pyboy/legacy-1792574275/ax6-rtc3test-1-gb-cgb-a5e04b04.png",
         "width": 160,
         "height": 144
       }
@@ -1298,10 +1298,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.39869739999994636,
-      "runtimeSeconds": 10.278637100000083,
+      "startupSeconds": 0.4485237999999754,
+      "runtimeSeconds": 10.314957700000036,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/ax6-rtc3test-2-gb-cgb-c729fd95.png",
+        "url": "screenshots/pyboy/legacy-1792574275/ax6-rtc3test-2-gb-cgb-c729fd95.png",
         "width": 160,
         "height": 144
       }
@@ -1317,10 +1317,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3971632000000227,
-      "runtimeSeconds": 28.03533570000002,
+      "startupSeconds": 0.5254269000000704,
+      "runtimeSeconds": 28.08435039999995,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/ax6-rtc3test-3-gb-cgb-ff119bea.png",
+        "url": "screenshots/pyboy/legacy-1792574275/ax6-rtc3test-3-gb-cgb-ff119bea.png",
         "width": 160,
         "height": 144
       }
@@ -1336,10 +1336,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.39617900000007467,
-      "runtimeSeconds": 5.939491999999973,
+      "startupSeconds": 0.4095631999999796,
+      "runtimeSeconds": 5.870480899999961,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-add-sp-e-timing-gb-dmg-a2e530e4.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-add-sp-e-timing-gb-dmg-a2e530e4.png",
         "width": 160,
         "height": 144
       }
@@ -1355,10 +1355,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.39867340000000695,
-      "runtimeSeconds": 5.787410500000078,
+      "startupSeconds": 0.44314989999998033,
+      "runtimeSeconds": 5.910091899999998,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-bits-mem-oam-gb-dmg-0ed150b2.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-bits-mem-oam-gb-dmg-0ed150b2.png",
         "width": 160,
         "height": 144
       }
@@ -1374,10 +1374,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4428434000000152,
-      "runtimeSeconds": 5.926127000000065,
+      "startupSeconds": 0.6115422999999964,
+      "runtimeSeconds": 5.840791000000081,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-bits-reg-f-gb-dmg-44f3890a.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-bits-reg-f-gb-dmg-44f3890a.png",
         "width": 160,
         "height": 144
       }
@@ -1393,10 +1393,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3854200000000674,
-      "runtimeSeconds": 5.79467180000006,
+      "startupSeconds": 0.46615380000002915,
+      "runtimeSeconds": 5.867663800000059,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-bits-unused-hwio-gs-gb-dmg-30860ad6.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-bits-unused-hwio-gs-gb-dmg-30860ad6.png",
         "width": 160,
         "height": 144
       }
@@ -1412,10 +1412,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.4011156999999912,
-      "runtimeSeconds": 11.632341300000007,
+      "startupSeconds": 0.42694019999999,
+      "runtimeSeconds": 11.53962219999994,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-boot-div-dmgabcmgb-gb-dmg-f2165691.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-boot-div-dmgabcmgb-gb-dmg-f2165691.png",
         "width": 160,
         "height": 144
       }
@@ -1431,10 +1431,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.40851899999995567,
-      "runtimeSeconds": 11.61051759999998,
+      "startupSeconds": 0.41902589999995143,
+      "runtimeSeconds": 11.52197209999997,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-boot-hwio-dmgabcmgb-gb-dmg-342e80c6.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-boot-hwio-dmgabcmgb-gb-dmg-342e80c6.png",
         "width": 160,
         "height": 144
       }
@@ -1450,10 +1450,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4311890000000176,
-      "runtimeSeconds": 5.790137899999991,
+      "startupSeconds": 0.4177161000000069,
+      "runtimeSeconds": 5.830209500000024,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-boot-regs-dmgabc-gb-dmg-9e623b30.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-boot-regs-dmgabc-gb-dmg-9e623b30.png",
         "width": 160,
         "height": 144
       }
@@ -1469,10 +1469,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.42858239999998204,
-      "runtimeSeconds": 5.865181699999994,
+      "startupSeconds": 0.4111908999999514,
+      "runtimeSeconds": 5.896707400000082,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-call-cc-timing-gb-dmg-fa9ca02c.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-call-cc-timing-gb-dmg-fa9ca02c.png",
         "width": 160,
         "height": 144
       }
@@ -1488,10 +1488,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4050550000000612,
-      "runtimeSeconds": 5.897021700000096,
+      "startupSeconds": 0.43439039999998386,
+      "runtimeSeconds": 5.981434199999967,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-call-cc-timing2-gb-dmg-b792d341.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-call-cc-timing2-gb-dmg-b792d341.png",
         "width": 160,
         "height": 144
       }
@@ -1507,10 +1507,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.42133450000005723,
-      "runtimeSeconds": 5.968745600000034,
+      "startupSeconds": 0.4508126999999149,
+      "runtimeSeconds": 5.979744400000072,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-call-timing-gb-dmg-ac23c2da.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-call-timing-gb-dmg-ac23c2da.png",
         "width": 160,
         "height": 144
       }
@@ -1526,10 +1526,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3958030000000008,
-      "runtimeSeconds": 5.9328107000000045,
+      "startupSeconds": 0.4407607000000553,
+      "runtimeSeconds": 5.889989300000025,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-call-timing2-gb-dmg-155ad496.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-call-timing2-gb-dmg-155ad496.png",
         "width": 160,
         "height": 144
       }
@@ -1545,10 +1545,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4005783000000065,
-      "runtimeSeconds": 5.893594099999973,
+      "startupSeconds": 0.43612590000009277,
+      "runtimeSeconds": 5.802816899999925,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-div-timing-gb-dmg-aaad1d62.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-div-timing-gb-dmg-aaad1d62.png",
         "width": 160,
         "height": 144
       }
@@ -1564,10 +1564,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.39822030000004816,
-      "runtimeSeconds": 5.870351299999925,
+      "startupSeconds": 0.41614640000000236,
+      "runtimeSeconds": 5.977928999999904,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-di-timing-gs-gb-dmg-909a5bc3.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-di-timing-gs-gb-dmg-909a5bc3.png",
         "width": 160,
         "height": 144
       }
@@ -1583,10 +1583,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.40964420000000246,
-      "runtimeSeconds": 5.846680399999968,
+      "startupSeconds": 0.44347749999997177,
+      "runtimeSeconds": 5.825723400000015,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-ei-sequence-gb-dmg-5ebdd542.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-ei-sequence-gb-dmg-5ebdd542.png",
         "width": 160,
         "height": 144
       }
@@ -1602,10 +1602,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4331080000000611,
-      "runtimeSeconds": 5.9216072000000395,
+      "startupSeconds": 0.3969884999999067,
+      "runtimeSeconds": 5.828605400000015,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-ei-timing-gb-dmg-cf34a2aa.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-ei-timing-gb-dmg-cf34a2aa.png",
         "width": 160,
         "height": 144
       }
@@ -1621,10 +1621,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4201825000000099,
-      "runtimeSeconds": 5.910242599999947,
+      "startupSeconds": 0.4008139999998548,
+      "runtimeSeconds": 5.844815100000005,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-halt-ime0-ei-gb-dmg-f1bd4bba.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-halt-ime0-ei-gb-dmg-f1bd4bba.png",
         "width": 160,
         "height": 144
       }
@@ -1640,10 +1640,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.44409749999999804,
-      "runtimeSeconds": 5.984503399999994,
+      "startupSeconds": 0.45526040000004286,
+      "runtimeSeconds": 5.9744479000000865,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-halt-ime0-nointr-timing-gb-dmg-cd224952.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-halt-ime0-nointr-timing-gb-dmg-cd224952.png",
         "width": 160,
         "height": 144
       }
@@ -1659,10 +1659,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4517860999999357,
-      "runtimeSeconds": 5.836158800000021,
+      "startupSeconds": 0.42392160000008516,
+      "runtimeSeconds": 5.876237500000116,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-halt-ime1-timing-gb-dmg-518a499c.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-halt-ime1-timing-gb-dmg-518a499c.png",
         "width": 160,
         "height": 144
       }
@@ -1678,10 +1678,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.44080859999996846,
-      "runtimeSeconds": 5.930710399999953,
+      "startupSeconds": 0.4068843999998535,
+      "runtimeSeconds": 5.982457899999872,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-halt-ime1-timing2-gs-gb-dmg-1cef7c39.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-halt-ime1-timing2-gs-gb-dmg-1cef7c39.png",
         "width": 160,
         "height": 144
       }
@@ -1697,10 +1697,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4380477999999357,
-      "runtimeSeconds": 5.910120200000051,
+      "startupSeconds": 0.4287636999999904,
+      "runtimeSeconds": 5.88675400000011,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-if-ie-registers-gb-dmg-7fa01a0b.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-if-ie-registers-gb-dmg-7fa01a0b.png",
         "width": 160,
         "height": 144
       }
@@ -1716,10 +1716,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.39585140000008323,
-      "runtimeSeconds": 6.045304999999985,
+      "startupSeconds": 0.4431279000000359,
+      "runtimeSeconds": 6.057576599999948,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-instr-daa-gb-dmg-f4c07657.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-instr-daa-gb-dmg-f4c07657.png",
         "width": 160,
         "height": 144
       }
@@ -1735,10 +1735,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4214183999999932,
-      "runtimeSeconds": 5.853979299999992,
+      "startupSeconds": 0.4119297000002007,
+      "runtimeSeconds": 5.876957700000048,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-interrupts-ie-push-gb-dmg-cbac7df0.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-interrupts-ie-push-gb-dmg-cbac7df0.png",
         "width": 160,
         "height": 144
       }
@@ -1754,10 +1754,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.42573459999994157,
-      "runtimeSeconds": 5.837843300000031,
+      "startupSeconds": 0.4252059000000372,
+      "runtimeSeconds": 5.824570100000074,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-intr-timing-gb-dmg-751c15a5.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-intr-timing-gb-dmg-751c15a5.png",
         "width": 160,
         "height": 144
       }
@@ -1773,10 +1773,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.43454019999990123,
-      "runtimeSeconds": 5.947543900000028,
+      "startupSeconds": 0.43691439999997783,
+      "runtimeSeconds": 5.964519900000141,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-jp-cc-timing-gb-dmg-44fc5de2.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-jp-cc-timing-gb-dmg-44fc5de2.png",
         "width": 160,
         "height": 144
       }
@@ -1792,10 +1792,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.418059299999868,
-      "runtimeSeconds": 5.99196599999982,
+      "startupSeconds": 0.427020500000026,
+      "runtimeSeconds": 5.97563799999989,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-jp-timing-gb-dmg-3ae9e8b0.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-jp-timing-gb-dmg-3ae9e8b0.png",
         "width": 160,
         "height": 144
       }
@@ -1811,10 +1811,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4323515999999472,
-      "runtimeSeconds": 5.864439599999969,
+      "startupSeconds": 0.5411231000000498,
+      "runtimeSeconds": 5.924847799999952,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-ld-hl-sp-e-timing-gb-dmg-52cce822.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-ld-hl-sp-e-timing-gb-dmg-52cce822.png",
         "width": 160,
         "height": 144
       }
@@ -1830,10 +1830,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4174924999999803,
-      "runtimeSeconds": 5.916355399999929,
+      "startupSeconds": 0.5212209999999686,
+      "runtimeSeconds": 5.855259299999943,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-oam-dma-basic-gb-dmg-3a9f8c15.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-oam-dma-basic-gb-dmg-3a9f8c15.png",
         "width": 160,
         "height": 144
       }
@@ -1849,10 +1849,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4866674000002149,
-      "runtimeSeconds": 5.938456299999871,
+      "startupSeconds": 0.5393508999998176,
+      "runtimeSeconds": 5.845970000000079,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-oam-dma-reg-read-gb-dmg-4900f1f3.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-oam-dma-reg-read-gb-dmg-4900f1f3.png",
         "width": 160,
         "height": 144
       }
@@ -1868,10 +1868,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.39817920000018603,
-      "runtimeSeconds": 6.221363200000042,
+      "startupSeconds": 0.5269244999999501,
+      "runtimeSeconds": 6.279481199999964,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-oam-dma-sources-gs-gb-dmg-5074f6c9.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-oam-dma-sources-gs-gb-dmg-5074f6c9.png",
         "width": 160,
         "height": 144
       }
@@ -1887,10 +1887,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.40451569999981984,
-      "runtimeSeconds": 5.898620700000038,
+      "startupSeconds": 0.5414089999999305,
+      "runtimeSeconds": 5.961619599999949,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-oam-dma-restart-gb-dmg-a47d1dfa.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-oam-dma-restart-gb-dmg-a47d1dfa.png",
         "width": 160,
         "height": 144
       }
@@ -1906,10 +1906,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.39288180000016837,
-      "runtimeSeconds": 5.894123199999967,
+      "startupSeconds": 0.5318220999999994,
+      "runtimeSeconds": 5.936921100000063,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-oam-dma-start-gb-dmg-b7ed9f09.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-oam-dma-start-gb-dmg-b7ed9f09.png",
         "width": 160,
         "height": 144
       }
@@ -1925,10 +1925,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.41981600000008257,
-      "runtimeSeconds": 5.935780399999885,
+      "startupSeconds": 0.42955929999993714,
+      "runtimeSeconds": 5.96622410000009,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-oam-dma-timing-gb-dmg-0e573056.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-oam-dma-timing-gb-dmg-0e573056.png",
         "width": 160,
         "height": 144
       }
@@ -1944,10 +1944,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.43048240000007354,
-      "runtimeSeconds": 5.854999700000008,
+      "startupSeconds": 0.42629950000014105,
+      "runtimeSeconds": 5.8194458000000395,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-pop-timing-gb-dmg-ce1bbc67.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-pop-timing-gb-dmg-ce1bbc67.png",
         "width": 160,
         "height": 144
       }
@@ -1963,10 +1963,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.405108299999938,
-      "runtimeSeconds": 6.518920600000001,
+      "startupSeconds": 0.39809919999993326,
+      "runtimeSeconds": 6.4661337,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-ppu-hblank-ly-scx-timing-gs-gb-dmg-05e4e6ce.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-ppu-hblank-ly-scx-timing-gs-gb-dmg-05e4e6ce.png",
         "width": 160,
         "height": 144
       }
@@ -1980,12 +1980,12 @@
       "system": "dmg",
       "description": null,
       "sourceUrl": null,
-      "status": "pass",
+      "status": "fail",
       "reason": null,
-      "startupSeconds": 0.40979219999985617,
-      "runtimeSeconds": 5.857002100000045,
+      "startupSeconds": 0.43415200000004006,
+      "runtimeSeconds": 11.503573499999902,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-ppu-intr-1-2-timing-gs-gb-dmg-f0241de3.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-ppu-intr-1-2-timing-gs-gb-dmg-f0241de3.png",
         "width": 160,
         "height": 144
       }
@@ -2001,10 +2001,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.44765110000003006,
-      "runtimeSeconds": 5.953302300000132,
+      "startupSeconds": 0.5871171000001141,
+      "runtimeSeconds": 5.947194399999944,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-ppu-intr-2-0-timing-gb-dmg-4e7b1d8c.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-ppu-intr-2-0-timing-gb-dmg-4e7b1d8c.png",
         "width": 160,
         "height": 144
       }
@@ -2020,10 +2020,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4301934000000074,
-      "runtimeSeconds": 5.84121180000011,
+      "startupSeconds": 0.42480890000001637,
+      "runtimeSeconds": 5.925484500000039,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-ppu-intr-2-mode0-timing-gb-dmg-494323d6.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-ppu-intr-2-mode0-timing-gb-dmg-494323d6.png",
         "width": 160,
         "height": 144
       }
@@ -2039,10 +2039,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4666486999999506,
-      "runtimeSeconds": 9.763996499999848,
+      "startupSeconds": 0.43710719999990033,
+      "runtimeSeconds": 9.735969300000079,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-ppu-intr-2-mode0-timing-sprites-gb-dmg-e9daeba9.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-ppu-intr-2-mode0-timing-sprites-gb-dmg-e9daeba9.png",
         "width": 160,
         "height": 144
       }
@@ -2058,10 +2058,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.48649299999988216,
-      "runtimeSeconds": 5.827695799999901,
+      "startupSeconds": 0.4417243000000326,
+      "runtimeSeconds": 5.846936300000152,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-ppu-intr-2-mode3-timing-gb-dmg-07b8cb40.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-ppu-intr-2-mode3-timing-gb-dmg-07b8cb40.png",
         "width": 160,
         "height": 144
       }
@@ -2077,10 +2077,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3958250999999109,
-      "runtimeSeconds": 5.913568799999894,
+      "startupSeconds": 0.43951799999990726,
+      "runtimeSeconds": 5.924023300000044,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-ppu-intr-2-oam-ok-timing-gb-dmg-56282d1b.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-ppu-intr-2-oam-ok-timing-gb-dmg-56282d1b.png",
         "width": 160,
         "height": 144
       }
@@ -2096,10 +2096,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.47605940000016744,
-      "runtimeSeconds": 6.198759900000141,
+      "startupSeconds": 0.4526647000000139,
+      "runtimeSeconds": 6.196843199999876,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-ppu-lcdon-timing-gs-gb-dmg-8505214e.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-ppu-lcdon-timing-gs-gb-dmg-8505214e.png",
         "width": 160,
         "height": 144
       }
@@ -2115,10 +2115,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.5322312000000693,
-      "runtimeSeconds": 6.648240600000008,
+      "startupSeconds": 0.4373468999999659,
+      "runtimeSeconds": 6.634565900000098,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-ppu-lcdon-write-timing-gs-gb-dmg-f79fbd79.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-ppu-lcdon-write-timing-gs-gb-dmg-f79fbd79.png",
         "width": 160,
         "height": 144
       }
@@ -2134,10 +2134,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.5275885000000926,
-      "runtimeSeconds": 5.8225245000001,
+      "startupSeconds": 0.44585380000012265,
+      "runtimeSeconds": 5.817862800000057,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-ppu-stat-irq-blocking-gb-dmg-264b995e.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-ppu-stat-irq-blocking-gb-dmg-264b995e.png",
         "width": 160,
         "height": 144
       }
@@ -2153,10 +2153,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4994087000000036,
-      "runtimeSeconds": 5.965869799999837,
+      "startupSeconds": 0.41817169999990256,
+      "runtimeSeconds": 5.899431999999933,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-ppu-stat-lyc-onoff-gb-dmg-7bc03421.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-ppu-stat-lyc-onoff-gb-dmg-7bc03421.png",
         "width": 160,
         "height": 144
       }
@@ -2172,10 +2172,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.5187636999999086,
-      "runtimeSeconds": 5.99989370000003,
+      "startupSeconds": 0.44674269999995886,
+      "runtimeSeconds": 5.959191700000019,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-ppu-vblank-stat-intr-gs-gb-dmg-480f42b9.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-ppu-vblank-stat-intr-gs-gb-dmg-480f42b9.png",
         "width": 160,
         "height": 144
       }
@@ -2191,10 +2191,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.5465656999999737,
-      "runtimeSeconds": 5.944467999999915,
+      "startupSeconds": 0.4212755000000925,
+      "runtimeSeconds": 5.978845599999886,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-push-timing-gb-dmg-710b9556.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-push-timing-gb-dmg-710b9556.png",
         "width": 160,
         "height": 144
       }
@@ -2210,10 +2210,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4275619000000006,
-      "runtimeSeconds": 5.862535799999932,
+      "startupSeconds": 0.4443469999998797,
+      "runtimeSeconds": 5.857041299999992,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-rapid-di-ei-gb-dmg-4084bb73.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-rapid-di-ei-gb-dmg-4084bb73.png",
         "width": 160,
         "height": 144
       }
@@ -2229,10 +2229,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4095165999999608,
-      "runtimeSeconds": 5.859654800000044,
+      "startupSeconds": 0.4098951999999372,
+      "runtimeSeconds": 5.890773300000092,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-reti-intr-timing-gb-dmg-2f8b895c.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-reti-intr-timing-gb-dmg-2f8b895c.png",
         "width": 160,
         "height": 144
       }
@@ -2248,10 +2248,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.39866250000000036,
-      "runtimeSeconds": 5.9438718999999764,
+      "startupSeconds": 0.421818999999914,
+      "runtimeSeconds": 5.922234399999979,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-reti-timing-gb-dmg-ec787688.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-reti-timing-gb-dmg-ec787688.png",
         "width": 160,
         "height": 144
       }
@@ -2267,10 +2267,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.39435149999985697,
-      "runtimeSeconds": 5.943059400000038,
+      "startupSeconds": 0.43318279999994047,
+      "runtimeSeconds": 5.871746799999983,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-ret-cc-timing-gb-dmg-c6dae4bb.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-ret-cc-timing-gb-dmg-c6dae4bb.png",
         "width": 160,
         "height": 144
       }
@@ -2286,10 +2286,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.39606770000000324,
-      "runtimeSeconds": 5.977525700000115,
+      "startupSeconds": 0.4252106999999796,
+      "runtimeSeconds": 5.993203100000073,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-ret-timing-gb-dmg-e73ee096.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-ret-timing-gb-dmg-e73ee096.png",
         "width": 160,
         "height": 144
       }
@@ -2305,10 +2305,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.385933199999954,
-      "runtimeSeconds": 5.902769900000067,
+      "startupSeconds": 0.43257149999999456,
+      "runtimeSeconds": 5.8960420999999315,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-rst-timing-gb-dmg-ceee4af4.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-rst-timing-gb-dmg-ceee4af4.png",
         "width": 160,
         "height": 144
       }
@@ -2324,10 +2324,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.4064929999999549,
-      "runtimeSeconds": 11.572290800000019,
+      "startupSeconds": 0.41781879999984994,
+      "runtimeSeconds": 11.550010100000009,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-serial-boot-sclk-align-dmgabcmgb-gb-dmg-45c85de9.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-serial-boot-sclk-align-dmgabcmgb-gb-dmg-45c85de9.png",
         "width": 160,
         "height": 144
       }
@@ -2341,12 +2341,12 @@
       "system": "dmg",
       "description": null,
       "sourceUrl": null,
-      "status": "fail",
+      "status": "pass",
       "reason": null,
-      "startupSeconds": 0.00046650000012959936,
-      "runtimeSeconds": 11.527074999999968,
+      "startupSeconds": 0.4324392999999418,
+      "runtimeSeconds": 6.541165500000034,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-timer-div-write-gb-dmg-fe22c522.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-timer-div-write-gb-dmg-fe22c522.png",
         "width": 160,
         "height": 144
       }
@@ -2362,10 +2362,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4762661999998272,
-      "runtimeSeconds": 5.956582199999957,
+      "startupSeconds": 0.40256270000008954,
+      "runtimeSeconds": 5.917260899999974,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-timer-rapid-toggle-gb-dmg-0843c009.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-timer-rapid-toggle-gb-dmg-0843c009.png",
         "width": 160,
         "height": 144
       }
@@ -2381,10 +2381,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.45149819999983265,
-      "runtimeSeconds": 5.808639600000106,
+      "startupSeconds": 0.42611200000010285,
+      "runtimeSeconds": 5.917975999999953,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-timer-tim00-gb-dmg-2b8833ad.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-timer-tim00-gb-dmg-2b8833ad.png",
         "width": 160,
         "height": 144
       }
@@ -2400,10 +2400,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4324079000000438,
-      "runtimeSeconds": 5.8358700999999655,
+      "startupSeconds": 0.43663450000008197,
+      "runtimeSeconds": 5.928970800000116,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-timer-tim00-div-trigger-gb-dmg-c8b5f243.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-timer-tim00-div-trigger-gb-dmg-c8b5f243.png",
         "width": 160,
         "height": 144
       }
@@ -2419,10 +2419,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4337485999999444,
-      "runtimeSeconds": 5.808322099999941,
+      "startupSeconds": 0.42907470000000103,
+      "runtimeSeconds": 5.850509800000054,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-timer-tim01-gb-dmg-f495fe5e.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-timer-tim01-gb-dmg-f495fe5e.png",
         "width": 160,
         "height": 144
       }
@@ -2438,10 +2438,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.44438910000008036,
-      "runtimeSeconds": 5.797913699999981,
+      "startupSeconds": 0.4528451999999561,
+      "runtimeSeconds": 5.863256999999976,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-timer-tim01-div-trigger-gb-dmg-a64d59b3.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-timer-tim01-div-trigger-gb-dmg-a64d59b3.png",
         "width": 160,
         "height": 144
       }
@@ -2457,10 +2457,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4236250999999811,
-      "runtimeSeconds": 5.91732849999994,
+      "startupSeconds": 0.41973170000005666,
+      "runtimeSeconds": 5.892356699999937,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-timer-tim10-gb-dmg-fb4191da.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-timer-tim10-gb-dmg-fb4191da.png",
         "width": 160,
         "height": 144
       }
@@ -2476,10 +2476,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4107556999999815,
-      "runtimeSeconds": 5.834699300000011,
+      "startupSeconds": 0.4348227999998926,
+      "runtimeSeconds": 5.853880500000059,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-timer-tim10-div-trigger-gb-dmg-da0af375.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-timer-tim10-div-trigger-gb-dmg-da0af375.png",
         "width": 160,
         "height": 144
       }
@@ -2495,10 +2495,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4079779999999573,
-      "runtimeSeconds": 5.827881400000024,
+      "startupSeconds": 0.41334359999996195,
+      "runtimeSeconds": 5.845876999999973,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-timer-tim11-gb-dmg-beb24be1.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-timer-tim11-gb-dmg-beb24be1.png",
         "width": 160,
         "height": 144
       }
@@ -2514,10 +2514,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4218757999999525,
-      "runtimeSeconds": 5.837779599999976,
+      "startupSeconds": 0.4245859999998629,
+      "runtimeSeconds": 5.921300999999858,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-timer-tim11-div-trigger-gb-dmg-8556ea9c.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-timer-tim11-div-trigger-gb-dmg-8556ea9c.png",
         "width": 160,
         "height": 144
       }
@@ -2533,10 +2533,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4000069999999596,
-      "runtimeSeconds": 5.898912699999983,
+      "startupSeconds": 0.4269180999999662,
+      "runtimeSeconds": 7.97342360000016,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-timer-tima-reload-gb-dmg-8b65a601.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-timer-tima-reload-gb-dmg-8b65a601.png",
         "width": 160,
         "height": 144
       }
@@ -2552,10 +2552,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4580502000001161,
-      "runtimeSeconds": 5.918659299999945,
+      "startupSeconds": 1.5379053999999996,
+      "runtimeSeconds": 5.801261700000168,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-timer-tima-write-reloading-gb-dmg-4904e31b.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-timer-tima-write-reloading-gb-dmg-4904e31b.png",
         "width": 160,
         "height": 144
       }
@@ -2571,10 +2571,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.5155954000001657,
-      "runtimeSeconds": 5.939547900000207,
+      "startupSeconds": 0.4019448999999895,
+      "runtimeSeconds": 5.8267662999999175,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-acceptance-timer-tma-write-reloading-gb-dmg-0d6b2680.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-acceptance-timer-tma-write-reloading-gb-dmg-0d6b2680.png",
         "width": 160,
         "height": 144
       }
@@ -2590,10 +2590,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4234375999999429,
-      "runtimeSeconds": 8.62460759999999,
+      "startupSeconds": 0.4061269999999695,
+      "runtimeSeconds": 8.592936100000088,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-emulator-only-mbc1-bits-bank1-gb-dmg-d4779942.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-emulator-only-mbc1-bits-bank1-gb-dmg-d4779942.png",
         "width": 160,
         "height": 144
       }
@@ -2609,10 +2609,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.40298109999980625,
-      "runtimeSeconds": 8.549300900000162,
+      "startupSeconds": 0.3984109000000444,
+      "runtimeSeconds": 8.531352000000197,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-emulator-only-mbc1-bits-bank2-gb-dmg-ad4d785a.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-emulator-only-mbc1-bits-bank2-gb-dmg-ad4d785a.png",
         "width": 160,
         "height": 144
       }
@@ -2628,10 +2628,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4261971999999332,
-      "runtimeSeconds": 8.610588000000007,
+      "startupSeconds": 0.40058040000008077,
+      "runtimeSeconds": 8.594025999999985,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-emulator-only-mbc1-bits-mode-gb-dmg-39790683.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-emulator-only-mbc1-bits-mode-gb-dmg-39790683.png",
         "width": 160,
         "height": 144
       }
@@ -2647,10 +2647,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.45828400000004876,
-      "runtimeSeconds": 11.490250699999933,
+      "startupSeconds": 0.3941266000001633,
+      "runtimeSeconds": 11.548642099999824,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-emulator-only-mbc1-bits-ramg-gb-dmg-8b7f2c6e.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-emulator-only-mbc1-bits-ramg-gb-dmg-8b7f2c6e.png",
         "width": 160,
         "height": 144
       }
@@ -2666,10 +2666,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4175769000000855,
-      "runtimeSeconds": 5.98128440000005,
+      "startupSeconds": 0.4080811999999696,
+      "runtimeSeconds": 5.895870599999853,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-emulator-only-mbc1-multicart-rom-8mb-gb-dmg-2a8c180d.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-emulator-only-mbc1-multicart-rom-8mb-gb-dmg-2a8c180d.png",
         "width": 160,
         "height": 144
       }
@@ -2685,10 +2685,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.44153730000016367,
-      "runtimeSeconds": 6.552039899999954,
+      "startupSeconds": 0.40469000000007327,
+      "runtimeSeconds": 6.608955899999955,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-emulator-only-mbc1-ram-256kb-gb-dmg-4f19a03b.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-emulator-only-mbc1-ram-256kb-gb-dmg-4f19a03b.png",
         "width": 160,
         "height": 144
       }
@@ -2704,10 +2704,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4318364000000656,
-      "runtimeSeconds": 6.6493652999999995,
+      "startupSeconds": 0.39960530000007566,
+      "runtimeSeconds": 6.535690899999963,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-emulator-only-mbc1-ram-64kb-gb-dmg-e6a8f87c.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-emulator-only-mbc1-ram-64kb-gb-dmg-e6a8f87c.png",
         "width": 160,
         "height": 144
       }
@@ -2723,10 +2723,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.423543699999982,
-      "runtimeSeconds": 5.917995000000019,
+      "startupSeconds": 0.39695849999998245,
+      "runtimeSeconds": 5.8771498000000975,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-emulator-only-mbc1-rom-16mb-gb-dmg-ea133176.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-emulator-only-mbc1-rom-16mb-gb-dmg-ea133176.png",
         "width": 160,
         "height": 144
       }
@@ -2742,10 +2742,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.44061690000012277,
-      "runtimeSeconds": 5.924102100000027,
+      "startupSeconds": 0.39590980000002673,
+      "runtimeSeconds": 5.89499550000005,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-emulator-only-mbc1-rom-1mb-gb-dmg-4ab29126.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-emulator-only-mbc1-rom-1mb-gb-dmg-4ab29126.png",
         "width": 160,
         "height": 144
       }
@@ -2761,10 +2761,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4037367999999333,
-      "runtimeSeconds": 5.969828100000086,
+      "startupSeconds": 0.40902550000009796,
+      "runtimeSeconds": 5.915068100000099,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-emulator-only-mbc1-rom-2mb-gb-dmg-b335b204.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-emulator-only-mbc1-rom-2mb-gb-dmg-b335b204.png",
         "width": 160,
         "height": 144
       }
@@ -2780,10 +2780,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4301736999998411,
-      "runtimeSeconds": 5.964384699999982,
+      "startupSeconds": 0.4025057999999717,
+      "runtimeSeconds": 5.893542999999909,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-emulator-only-mbc1-rom-4mb-gb-dmg-012aacea.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-emulator-only-mbc1-rom-4mb-gb-dmg-012aacea.png",
         "width": 160,
         "height": 144
       }
@@ -2799,10 +2799,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4311499000000367,
-      "runtimeSeconds": 5.890294799999992,
+      "startupSeconds": 0.3933646000000408,
+      "runtimeSeconds": 5.882305999999971,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-emulator-only-mbc1-rom-512kb-gb-dmg-f61866d0.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-emulator-only-mbc1-rom-512kb-gb-dmg-f61866d0.png",
         "width": 160,
         "height": 144
       }
@@ -2818,10 +2818,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4186571999998705,
-      "runtimeSeconds": 5.963266499999918,
+      "startupSeconds": 0.40514660000008007,
+      "runtimeSeconds": 5.9515809999998055,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-emulator-only-mbc1-rom-8mb-gb-dmg-4a58da3c.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-emulator-only-mbc1-rom-8mb-gb-dmg-4a58da3c.png",
         "width": 160,
         "height": 144
       }
@@ -2837,10 +2837,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4293124999999236,
-      "runtimeSeconds": 14.376351699999987,
+      "startupSeconds": 0.3985328000001118,
+      "runtimeSeconds": 11.600450599999931,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-emulator-only-mbc2-bits-ramg-gb-dmg-d40e6933.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-emulator-only-mbc2-bits-ramg-gb-dmg-d40e6933.png",
         "width": 160,
         "height": 144
       }
@@ -2856,10 +2856,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3897339000000102,
-      "runtimeSeconds": 8.835980600000084,
+      "startupSeconds": 0.3870328000000427,
+      "runtimeSeconds": 8.74386800000002,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-emulator-only-mbc2-bits-romb-gb-dmg-8042ce4a.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-emulator-only-mbc2-bits-romb-gb-dmg-8042ce4a.png",
         "width": 160,
         "height": 144
       }
@@ -2875,10 +2875,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.39671210000005885,
-      "runtimeSeconds": 8.61701190000008,
+      "startupSeconds": 0.4000797999999577,
+      "runtimeSeconds": 8.64508920000003,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-emulator-only-mbc2-bits-unused-gb-dmg-b0f22d36.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-emulator-only-mbc2-bits-unused-gb-dmg-b0f22d36.png",
         "width": 160,
         "height": 144
       }
@@ -2894,10 +2894,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.38388800000006995,
-      "runtimeSeconds": 6.182552900000019,
+      "startupSeconds": 0.3905283999999938,
+      "runtimeSeconds": 6.160244299999931,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-emulator-only-mbc2-ram-gb-dmg-c8cb9a3f.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-emulator-only-mbc2-ram-gb-dmg-c8cb9a3f.png",
         "width": 160,
         "height": 144
       }
@@ -2913,10 +2913,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.39108950000013465,
-      "runtimeSeconds": 5.819800399999849,
+      "startupSeconds": 0.3964542999999594,
+      "runtimeSeconds": 5.887042599999859,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-emulator-only-mbc2-rom-1mb-gb-dmg-38a66bb1.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-emulator-only-mbc2-rom-1mb-gb-dmg-38a66bb1.png",
         "width": 160,
         "height": 144
       }
@@ -2932,10 +2932,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.39518969999994624,
-      "runtimeSeconds": 5.928145800000038,
+      "startupSeconds": 0.39713499999993473,
+      "runtimeSeconds": 5.850431200000003,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-emulator-only-mbc2-rom-2mb-gb-dmg-8c4129d6.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-emulator-only-mbc2-rom-2mb-gb-dmg-8c4129d6.png",
         "width": 160,
         "height": 144
       }
@@ -2951,10 +2951,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3839703000001009,
-      "runtimeSeconds": 5.79978600000004,
+      "startupSeconds": 0.39920520000009674,
+      "runtimeSeconds": 5.902637700000014,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-emulator-only-mbc2-rom-512kb-gb-dmg-75f74a5d.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-emulator-only-mbc2-rom-512kb-gb-dmg-75f74a5d.png",
         "width": 160,
         "height": 144
       }
@@ -2970,10 +2970,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3951865999999882,
-      "runtimeSeconds": 5.870337800000016,
+      "startupSeconds": 0.3970807999999124,
+      "runtimeSeconds": 5.8823682999998255,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-emulator-only-mbc5-rom-16mb-gb-dmg-8d45404f.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-emulator-only-mbc5-rom-16mb-gb-dmg-8d45404f.png",
         "width": 160,
         "height": 144
       }
@@ -2989,10 +2989,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.38576949999992394,
-      "runtimeSeconds": 5.923576400000002,
+      "startupSeconds": 0.39655930000003536,
+      "runtimeSeconds": 5.9167688,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-emulator-only-mbc5-rom-1mb-gb-dmg-5cacf3a9.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-emulator-only-mbc5-rom-1mb-gb-dmg-5cacf3a9.png",
         "width": 160,
         "height": 144
       }
@@ -3008,10 +3008,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.38753059999999095,
-      "runtimeSeconds": 5.945179999999937,
+      "startupSeconds": 0.3872699000000921,
+      "runtimeSeconds": 5.945731799999976,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-emulator-only-mbc5-rom-2mb-gb-dmg-2e2aca69.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-emulator-only-mbc5-rom-2mb-gb-dmg-2e2aca69.png",
         "width": 160,
         "height": 144
       }
@@ -3027,10 +3027,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.384976800000004,
-      "runtimeSeconds": 5.940672599999971,
+      "startupSeconds": 0.3959176999999272,
+      "runtimeSeconds": 5.886604499999976,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-emulator-only-mbc5-rom-32mb-gb-dmg-ace23259.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-emulator-only-mbc5-rom-32mb-gb-dmg-ace23259.png",
         "width": 160,
         "height": 144
       }
@@ -3046,10 +3046,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.37448889999996027,
-      "runtimeSeconds": 5.939804500000037,
+      "startupSeconds": 0.40629199999989396,
+      "runtimeSeconds": 5.875664299999926,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-emulator-only-mbc5-rom-4mb-gb-dmg-180a2f1a.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-emulator-only-mbc5-rom-4mb-gb-dmg-180a2f1a.png",
         "width": 160,
         "height": 144
       }
@@ -3065,10 +3065,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3898475999999391,
-      "runtimeSeconds": 5.855288900000005,
+      "startupSeconds": 0.38594499999999243,
+      "runtimeSeconds": 5.936645300000009,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-emulator-only-mbc5-rom-512kb-gb-dmg-32e195d5.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-emulator-only-mbc5-rom-512kb-gb-dmg-32e195d5.png",
         "width": 160,
         "height": 144
       }
@@ -3084,10 +3084,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3960406999999577,
-      "runtimeSeconds": 5.921328200000062,
+      "startupSeconds": 0.41828160000000025,
+      "runtimeSeconds": 5.870843200000081,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-emulator-only-mbc5-rom-64mb-gb-dmg-e6ab18f6.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-emulator-only-mbc5-rom-64mb-gb-dmg-e6ab18f6.png",
         "width": 160,
         "height": 144
       }
@@ -3103,10 +3103,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.38555079999991904,
-      "runtimeSeconds": 5.893358500000204,
+      "startupSeconds": 0.3979394999998931,
+      "runtimeSeconds": 5.841999600000008,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-emulator-only-mbc5-rom-8mb-gb-dmg-f19d2327.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-emulator-only-mbc5-rom-8mb-gb-dmg-f19d2327.png",
         "width": 160,
         "height": 144
       }
@@ -3122,10 +3122,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3844209999999748,
-      "runtimeSeconds": 5.896029799999951,
+      "startupSeconds": 0.3901710999998613,
+      "runtimeSeconds": 5.82180900000003,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-manual-only-sprite-priority-gb-dmg-e44061f7.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-manual-only-sprite-priority-gb-dmg-e44061f7.png",
         "width": 160,
         "height": 144
       }
@@ -3141,10 +3141,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.38566229999992174,
-      "runtimeSeconds": 11.568463999999949,
+      "startupSeconds": 0.3961217000000943,
+      "runtimeSeconds": 11.63731400000006,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-misc-boot-div-cgbabcde-gb-cgb-4718e3a1.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-misc-boot-div-cgbabcde-gb-cgb-4718e3a1.png",
         "width": 160,
         "height": 144
       }
@@ -3160,10 +3160,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.38907460000018546,
-      "runtimeSeconds": 3.3960587000001397,
+      "startupSeconds": 0.406974400000081,
+      "runtimeSeconds": 3.324301599999899,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mooneye-misc-boot-regs-cgb-gb-cgb-e3f63362.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mooneye-misc-boot-regs-cgb-gb-cgb-e3f63362.png",
         "width": 160,
         "height": 144
       }
@@ -3179,10 +3179,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3846422999999959,
-      "runtimeSeconds": 3.2815029999999297,
+      "startupSeconds": 0.3876591999999164,
+      "runtimeSeconds": 3.2987501000000066,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-1-channel-1-align-gb-cgb-fe5d98f2.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-1-channel-1-align-gb-cgb-fe5d98f2.png",
         "width": 160,
         "height": 144
       }
@@ -3198,10 +3198,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3852294000000711,
-      "runtimeSeconds": 3.2838753000000906,
+      "startupSeconds": 0.3989377999998851,
+      "runtimeSeconds": 3.1707465000001775,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-1-channel-1-align-cpu-gb-cgb-de51ba29.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-1-channel-1-align-cpu-gb-cgb-de51ba29.png",
         "width": 160,
         "height": 144
       }
@@ -3217,10 +3217,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.38816190000011375,
-      "runtimeSeconds": 3.176698600000009,
+      "startupSeconds": 0.41170020000004115,
+      "runtimeSeconds": 3.198360399999956,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-1-channel-1-delay-gb-cgb-e6191b9b.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-1-channel-1-delay-gb-cgb-e6191b9b.png",
         "width": 160,
         "height": 144
       }
@@ -3236,10 +3236,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3960389999999734,
-      "runtimeSeconds": 3.1762043999999605,
+      "startupSeconds": 0.39775729999996656,
+      "runtimeSeconds": 3.1651191000000836,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-1-channel-1-duty-gb-cgb-c5587f25.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-1-channel-1-duty-gb-cgb-c5587f25.png",
         "width": 160,
         "height": 144
       }
@@ -3255,10 +3255,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.40186659999994845,
-      "runtimeSeconds": 3.3008396000000175,
+      "startupSeconds": 0.4130756999998084,
+      "runtimeSeconds": 3.198978899999929,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-1-channel-1-duty-delay-gb-cgb-cc8cf400.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-1-channel-1-duty-delay-gb-cgb-cc8cf400.png",
         "width": 160,
         "height": 144
       }
@@ -3274,10 +3274,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.39549749999991946,
-      "runtimeSeconds": 3.308010200000126,
+      "startupSeconds": 0.40689930000007735,
+      "runtimeSeconds": 3.1951490999999805,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-1-channel-1-freq-change-gb-cgb-3635dd1c.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-1-channel-1-freq-change-gb-cgb-3635dd1c.png",
         "width": 160,
         "height": 144
       }
@@ -3293,10 +3293,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4077620000000479,
-      "runtimeSeconds": 3.4711070000000745,
+      "startupSeconds": 0.4000292000000627,
+      "runtimeSeconds": 3.5539971000000605,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-1-channel-1-nrx2-glitch-gb-cgb-4a3f3319.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-1-channel-1-nrx2-glitch-gb-cgb-4a3f3319.png",
         "width": 160,
         "height": 144
       }
@@ -3312,10 +3312,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.39764019999984157,
-      "runtimeSeconds": 5.7824779000000035,
+      "startupSeconds": 0.39770950000001903,
+      "runtimeSeconds": 5.814609300000029,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-1-channel-1-nrx2-speed-change-gb-cgb-5eb918f2.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-1-channel-1-nrx2-speed-change-gb-cgb-5eb918f2.png",
         "width": 160,
         "height": 144
       }
@@ -3331,10 +3331,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4107003999999961,
-      "runtimeSeconds": 3.2681310000000394,
+      "startupSeconds": 0.3981533999999556,
+      "runtimeSeconds": 3.302338299999974,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-1-channel-1-restart-gb-cgb-795b4b47.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-1-channel-1-restart-gb-cgb-795b4b47.png",
         "width": 160,
         "height": 144
       }
@@ -3350,10 +3350,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.407433600000104,
-      "runtimeSeconds": 3.283795399999917,
+      "startupSeconds": 0.41247040000007473,
+      "runtimeSeconds": 3.1876916999999594,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-1-channel-1-restart-nrx2-glitch-gb-cgb-f0572b8b.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-1-channel-1-restart-nrx2-glitch-gb-cgb-f0572b8b.png",
         "width": 160,
         "height": 144
       }
@@ -3369,10 +3369,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4070241999997961,
-      "runtimeSeconds": 3.419085300000006,
+      "startupSeconds": 0.39867770000000746,
+      "runtimeSeconds": 3.453649400000131,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-1-channel-1-stop-div-gb-cgb-6a8b2e84.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-1-channel-1-stop-div-gb-cgb-6a8b2e84.png",
         "width": 160,
         "height": 144
       }
@@ -3388,10 +3388,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4086824999999408,
-      "runtimeSeconds": 3.2082117999998445,
+      "startupSeconds": 0.38815120000003844,
+      "runtimeSeconds": 3.315409900000077,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-1-channel-1-stop-restart-gb-cgb-990aa00e.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-1-channel-1-stop-restart-gb-cgb-990aa00e.png",
         "width": 160,
         "height": 144
       }
@@ -3407,10 +3407,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3959497000000738,
-      "runtimeSeconds": 4.109976299999971,
+      "startupSeconds": 0.3999461999999312,
+      "runtimeSeconds": 4.0960913999999775,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-1-channel-1-sweep-gb-cgb-4ffcf7ff.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-1-channel-1-sweep-gb-cgb-4ffcf7ff.png",
         "width": 160,
         "height": 144
       }
@@ -3426,10 +3426,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3986755999999332,
-      "runtimeSeconds": 4.017214899999999,
+      "startupSeconds": 0.3982868000000508,
+      "runtimeSeconds": 4.164262000000008,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-1-channel-1-sweep-restart-gb-cgb-3f90b4bb.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-1-channel-1-sweep-restart-gb-cgb-3f90b4bb.png",
         "width": 160,
         "height": 144
       }
@@ -3445,10 +3445,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4128370000000814,
-      "runtimeSeconds": 4.019086400000106,
+      "startupSeconds": 0.40459340000006705,
+      "runtimeSeconds": 4.034236899999996,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-1-channel-1-sweep-restart-2-gb-cgb-0fc030b8.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-1-channel-1-sweep-restart-2-gb-cgb-0fc030b8.png",
         "width": 160,
         "height": 144
       }
@@ -3464,10 +3464,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.39575650000006135,
-      "runtimeSeconds": 3.183302899999944,
+      "startupSeconds": 0.41152569999985644,
+      "runtimeSeconds": 3.302959600000122,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-1-channel-1-volume-gb-cgb-7039a291.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-1-channel-1-volume-gb-cgb-7039a291.png",
         "width": 160,
         "height": 144
       }
@@ -3483,10 +3483,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3853894000001219,
-      "runtimeSeconds": 4.828825199999983,
+      "startupSeconds": 0.40026639999996405,
+      "runtimeSeconds": 4.826286100000061,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-1-channel-1-volume-div-gb-cgb-9bc7839f.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-1-channel-1-volume-div-gb-cgb-9bc7839f.png",
         "width": 160,
         "height": 144
       }
@@ -3502,10 +3502,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3990814000001137,
-      "runtimeSeconds": 3.171168299999863,
+      "startupSeconds": 0.4014090999999098,
+      "runtimeSeconds": 3.2838409000000865,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-2-channel-2-align-gb-cgb-7fbe7c8a.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-2-channel-2-align-gb-cgb-7fbe7c8a.png",
         "width": 160,
         "height": 144
       }
@@ -3521,10 +3521,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.39744999999993524,
-      "runtimeSeconds": 3.278334399999949,
+      "startupSeconds": 0.3882748000000902,
+      "runtimeSeconds": 3.299699099999998,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-2-channel-2-align-cpu-gb-cgb-54c1f6a1.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-2-channel-2-align-cpu-gb-cgb-54c1f6a1.png",
         "width": 160,
         "height": 144
       }
@@ -3540,10 +3540,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4065390999999181,
-      "runtimeSeconds": 3.290504800000008,
+      "startupSeconds": 0.38665289999994457,
+      "runtimeSeconds": 3.2794260000000577,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-2-channel-2-delay-gb-cgb-967667ca.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-2-channel-2-delay-gb-cgb-967667ca.png",
         "width": 160,
         "height": 144
       }
@@ -3559,10 +3559,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.395990299999994,
-      "runtimeSeconds": 3.2913498000000345,
+      "startupSeconds": 0.4036065000000235,
+      "runtimeSeconds": 3.183900900000026,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-2-channel-2-duty-gb-cgb-838ec8a8.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-2-channel-2-duty-gb-cgb-838ec8a8.png",
         "width": 160,
         "height": 144
       }
@@ -3578,10 +3578,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.39011649999997644,
-      "runtimeSeconds": 3.299750799999856,
+      "startupSeconds": 0.38544600000000173,
+      "runtimeSeconds": 3.207736999999952,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-2-channel-2-duty-delay-gb-cgb-28bdea08.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-2-channel-2-duty-delay-gb-cgb-28bdea08.png",
         "width": 160,
         "height": 144
       }
@@ -3597,10 +3597,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3854824000000008,
-      "runtimeSeconds": 3.303128099999867,
+      "startupSeconds": 0.39832400000000234,
+      "runtimeSeconds": 3.303417700000182,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-2-channel-2-freq-change-gb-cgb-af9d918e.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-2-channel-2-freq-change-gb-cgb-af9d918e.png",
         "width": 160,
         "height": 144
       }
@@ -3616,10 +3616,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3952730999999403,
-      "runtimeSeconds": 3.574077700000089,
+      "startupSeconds": 0.390221800000063,
+      "runtimeSeconds": 3.564662300000009,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-2-channel-2-nrx2-glitch-gb-cgb-c976266e.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-2-channel-2-nrx2-glitch-gb-cgb-c976266e.png",
         "width": 160,
         "height": 144
       }
@@ -3635,10 +3635,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.38644460000000436,
-      "runtimeSeconds": 5.76867470000002,
+      "startupSeconds": 0.3915529000000788,
+      "runtimeSeconds": 5.763933599999973,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-2-channel-2-nrx2-speed-change-gb-cgb-aab182ec.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-2-channel-2-nrx2-speed-change-gb-cgb-aab182ec.png",
         "width": 160,
         "height": 144
       }
@@ -3654,10 +3654,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3995246000001771,
-      "runtimeSeconds": 3.2847948999999517,
+      "startupSeconds": 0.41045409999992444,
+      "runtimeSeconds": 3.186019299999998,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-2-channel-2-restart-gb-cgb-b447eb34.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-2-channel-2-restart-gb-cgb-b447eb34.png",
         "width": 160,
         "height": 144
       }
@@ -3673,10 +3673,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3963963999999578,
-      "runtimeSeconds": 3.217317200000025,
+      "startupSeconds": 0.3976122999999916,
+      "runtimeSeconds": 3.2494752000000062,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-2-channel-2-restart-nrx2-glitch-gb-cgb-a5114bee.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-2-channel-2-restart-nrx2-glitch-gb-cgb-a5114bee.png",
         "width": 160,
         "height": 144
       }
@@ -3692,10 +3692,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.39673530000004575,
-      "runtimeSeconds": 3.4485122000000956,
+      "startupSeconds": 0.39611089999993965,
+      "runtimeSeconds": 3.4351025999999365,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-2-channel-2-stop-div-gb-cgb-f2c9f0bb.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-2-channel-2-stop-div-gb-cgb-f2c9f0bb.png",
         "width": 160,
         "height": 144
       }
@@ -3711,10 +3711,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3914224000000104,
-      "runtimeSeconds": 3.2075466999999662,
+      "startupSeconds": 0.38590839999983473,
+      "runtimeSeconds": 3.2910749000000123,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-2-channel-2-stop-restart-gb-cgb-b2a94b06.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-2-channel-2-stop-restart-gb-cgb-b2a94b06.png",
         "width": 160,
         "height": 144
       }
@@ -3730,10 +3730,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3868896000001314,
-      "runtimeSeconds": 3.2573869999998806,
+      "startupSeconds": 0.4009711999999581,
+      "runtimeSeconds": 3.2982574000000113,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-2-channel-2-volume-gb-cgb-7dabd4e6.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-2-channel-2-volume-gb-cgb-7dabd4e6.png",
         "width": 160,
         "height": 144
       }
@@ -3749,10 +3749,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4002743000000919,
-      "runtimeSeconds": 4.043295100000023,
+      "startupSeconds": 0.40041840000003504,
+      "runtimeSeconds": 4.027201699999978,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-2-channel-2-volume-div-gb-cgb-8e47ba64.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-2-channel-2-volume-div-gb-cgb-8e47ba64.png",
         "width": 160,
         "height": 144
       }
@@ -3768,10 +3768,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3976083000000017,
-      "runtimeSeconds": 3.2683746000000156,
+      "startupSeconds": 0.39040049999994153,
+      "runtimeSeconds": 3.314646099999891,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-3-channel-3-and-glitch-gb-cgb-7fbae8e6.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-3-channel-3-and-glitch-gb-cgb-7fbae8e6.png",
         "width": 160,
         "height": 144
       }
@@ -3787,10 +3787,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.39292599999998856,
-      "runtimeSeconds": 3.2070981000001666,
+      "startupSeconds": 0.40640239999993355,
+      "runtimeSeconds": 3.291084399999818,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-3-channel-3-delay-gb-cgb-00e9ef09.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-3-channel-3-delay-gb-cgb-00e9ef09.png",
         "width": 160,
         "height": 144
       }
@@ -3806,10 +3806,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.38786819999995714,
-      "runtimeSeconds": 3.2759840999999597,
+      "startupSeconds": 0.40219580000007227,
+      "runtimeSeconds": 3.259996000000001,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-3-channel-3-first-sample-gb-cgb-cb1642e5.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-3-channel-3-first-sample-gb-cgb-cb1642e5.png",
         "width": 160,
         "height": 144
       }
@@ -3825,10 +3825,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.39422829999989517,
-      "runtimeSeconds": 3.192020000000184,
+      "startupSeconds": 0.42044430000009925,
+      "runtimeSeconds": 3.312058800000159,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-3-channel-3-freq-change-delay-gb-cgb-08de8392.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-3-channel-3-freq-change-delay-gb-cgb-08de8392.png",
         "width": 160,
         "height": 144
       }
@@ -3844,10 +3844,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3870535999999447,
-      "runtimeSeconds": 3.3023404000000482,
+      "startupSeconds": 0.4112579000000096,
+      "runtimeSeconds": 3.212615800000094,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-3-channel-3-restart-delay-gb-cgb-00f96408.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-3-channel-3-restart-delay-gb-cgb-00f96408.png",
         "width": 160,
         "height": 144
       }
@@ -3863,10 +3863,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.38422719999994115,
-      "runtimeSeconds": 3.2677673999999115,
+      "startupSeconds": 0.3937682999999197,
+      "runtimeSeconds": 3.186942600000066,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-3-channel-3-restart-during-delay-gb-cgb-4acdff61.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-3-channel-3-restart-during-delay-gb-cgb-4acdff61.png",
         "width": 160,
         "height": 144
       }
@@ -3882,10 +3882,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3909470999999485,
-      "runtimeSeconds": 3.2880734000000302,
+      "startupSeconds": 0.39688569999998435,
+      "runtimeSeconds": 3.1874058999999306,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-3-channel-3-restart-stop-delay-gb-cgb-15fbee2c.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-3-channel-3-restart-stop-delay-gb-cgb-15fbee2c.png",
         "width": 160,
         "height": 144
       }
@@ -3901,10 +3901,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.39868010000009235,
-      "runtimeSeconds": 3.303810199999816,
+      "startupSeconds": 0.40304040000000896,
+      "runtimeSeconds": 3.1846954000000096,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-3-channel-3-shift-delay-gb-cgb-13f2c3ba.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-3-channel-3-shift-delay-gb-cgb-13f2c3ba.png",
         "width": 160,
         "height": 144
       }
@@ -3920,10 +3920,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3947523000001638,
-      "runtimeSeconds": 3.191085300000168,
+      "startupSeconds": 0.41522970000005444,
+      "runtimeSeconds": 3.3112180000000535,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-3-channel-3-shift-skip-delay-gb-cgb-ccd7cc77.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-3-channel-3-shift-skip-delay-gb-cgb-ccd7cc77.png",
         "width": 160,
         "height": 144
       }
@@ -3939,10 +3939,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.39940329999990354,
-      "runtimeSeconds": 3.296842599999991,
+      "startupSeconds": 0.39918230000012045,
+      "runtimeSeconds": 3.2439822000001186,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-3-channel-3-stop-delay-gb-cgb-3710d440.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-3-channel-3-stop-delay-gb-cgb-3710d440.png",
         "width": 160,
         "height": 144
       }
@@ -3958,10 +3958,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.39524829999982103,
-      "runtimeSeconds": 3.4598343999998633,
+      "startupSeconds": 0.40426769999999124,
+      "runtimeSeconds": 3.4523518999999396,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-3-channel-3-stop-div-gb-cgb-ffed553d.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-3-channel-3-stop-div-gb-cgb-ffed553d.png",
         "width": 160,
         "height": 144
       }
@@ -3977,10 +3977,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3948391999999785,
-      "runtimeSeconds": 3.2532697000001463,
+      "startupSeconds": 0.4102469000001747,
+      "runtimeSeconds": 3.3177392000000054,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-3-channel-3-wave-ram-locked-write-gb-cgb-5ffed63a.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-3-channel-3-wave-ram-locked-write-gb-cgb-5ffed63a.png",
         "width": 160,
         "height": 144
       }
@@ -3996,10 +3996,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.38887579999982336,
-      "runtimeSeconds": 3.283289599999989,
+      "startupSeconds": 0.3915485999998509,
+      "runtimeSeconds": 3.1970158000001447,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-3-channel-3-wave-ram-sync-gb-cgb-4abcf802.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-3-channel-3-wave-ram-sync-gb-cgb-4abcf802.png",
         "width": 160,
         "height": 144
       }
@@ -4015,10 +4015,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.37686729999995805,
-      "runtimeSeconds": 3.2716316999999435,
+      "startupSeconds": 0.3903210000000854,
+      "runtimeSeconds": 3.265152900000203,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-4-channel-4-align-gb-cgb-46ded3ff.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-4-channel-4-align-gb-cgb-46ded3ff.png",
         "width": 160,
         "height": 144
       }
@@ -4034,10 +4034,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.3781951000000845,
-      "runtimeSeconds": 11.507386300000007,
+      "startupSeconds": 0.4003979999999956,
+      "runtimeSeconds": 11.60269859999994,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-4-channel-4-delay-gb-cgb-b7166b08.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-4-channel-4-delay-gb-cgb-b7166b08.png",
         "width": 160,
         "height": 144
       }
@@ -4053,10 +4053,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.4052767999999105,
-      "runtimeSeconds": 11.521076600000015,
+      "startupSeconds": 0.3845307999999932,
+      "runtimeSeconds": 11.607356399999844,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-4-channel-4-equivalent-frequencies-gb-cgb-4f2dcbc8.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-4-channel-4-equivalent-frequencies-gb-cgb-4f2dcbc8.png",
         "width": 160,
         "height": 144
       }
@@ -4072,10 +4072,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.39506870000013805,
-      "runtimeSeconds": 11.617024800000081,
+      "startupSeconds": 0.39022989999989477,
+      "runtimeSeconds": 11.504020299999866,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-4-channel-4-frequency-alignment-gb-cgb-c0cbbd50.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-4-channel-4-frequency-alignment-gb-cgb-c0cbbd50.png",
         "width": 160,
         "height": 144
       }
@@ -4091,10 +4091,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.3883705999999165,
-      "runtimeSeconds": 11.526988200000005,
+      "startupSeconds": 0.39434479999999894,
+      "runtimeSeconds": 11.621335300000055,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-4-channel-4-freq-change-gb-cgb-a9079292.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-4-channel-4-freq-change-gb-cgb-a9079292.png",
         "width": 160,
         "height": 144
       }
@@ -4110,10 +4110,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.3839987999999721,
-      "runtimeSeconds": 11.592128200000161,
+      "startupSeconds": 0.3990794999999707,
+      "runtimeSeconds": 11.558218900000156,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-4-channel-4-lfsr-gb-cgb-80f6eabe.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-4-channel-4-lfsr-gb-cgb-80f6eabe.png",
         "width": 160,
         "height": 144
       }
@@ -4129,10 +4129,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.41042779999997947,
-      "runtimeSeconds": 11.531555100000105,
+      "startupSeconds": 0.3965301000000636,
+      "runtimeSeconds": 11.522562599999901,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-4-channel-4-lfsr15-gb-cgb-bf546f26.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-4-channel-4-lfsr15-gb-cgb-bf546f26.png",
         "width": 160,
         "height": 144
       }
@@ -4148,10 +4148,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.42844429999991007,
-      "runtimeSeconds": 11.592059300000074,
+      "startupSeconds": 0.39085929999987457,
+      "runtimeSeconds": 11.583143399999926,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-4-channel-4-lfsr-15-7-gb-cgb-ad34c5e8.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-4-channel-4-lfsr-15-7-gb-cgb-ad34c5e8.png",
         "width": 160,
         "height": 144
       }
@@ -4167,10 +4167,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4068497999999181,
-      "runtimeSeconds": 3.301687000000129,
+      "startupSeconds": 0.40712699999994584,
+      "runtimeSeconds": 3.2977779000000282,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-4-channel-4-lfsr-7-15-gb-cgb-f7d60273.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-4-channel-4-lfsr-7-15-gb-cgb-f7d60273.png",
         "width": 160,
         "height": 144
       }
@@ -4186,10 +4186,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.39525879999996505,
-      "runtimeSeconds": 11.58411100000012,
+      "startupSeconds": 0.38805969999998524,
+      "runtimeSeconds": 11.551989000000049,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-4-channel-4-lfsr-restart-gb-cgb-b29534c7.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-4-channel-4-lfsr-restart-gb-cgb-b29534c7.png",
         "width": 160,
         "height": 144
       }
@@ -4205,10 +4205,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.39813600000002225,
-      "runtimeSeconds": 11.625061599999981,
+      "startupSeconds": 0.40688829999999143,
+      "runtimeSeconds": 11.595498300000145,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-4-channel-4-lfsr-restart-fast-gb-cgb-a87e7e0a.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-4-channel-4-lfsr-restart-fast-gb-cgb-a87e7e0a.png",
         "width": 160,
         "height": 144
       }
@@ -4224,10 +4224,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3991971000000376,
-      "runtimeSeconds": 4.822386700000152,
+      "startupSeconds": 0.41359650000003967,
+      "runtimeSeconds": 4.860113299999966,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-channel-4-channel-4-volume-div-gb-cgb-660acde0.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-channel-4-channel-4-volume-div-gb-cgb-660acde0.png",
         "width": 160,
         "height": 144
       }
@@ -4243,10 +4243,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.40960389999986546,
-      "runtimeSeconds": 4.3027634000000035,
+      "startupSeconds": 0.3993310000000747,
+      "runtimeSeconds": 4.289374799999905,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-div-trigger-volume-10-gb-cgb-c5771225.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-div-trigger-volume-10-gb-cgb-c5771225.png",
         "width": 160,
         "height": 144
       }
@@ -4262,10 +4262,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.4004076000001078,
-      "runtimeSeconds": 4.265385499999866,
+      "startupSeconds": 0.3960085999999592,
+      "runtimeSeconds": 4.132338599999912,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-div-write-trigger-gb-cgb-77b0b72f.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-div-write-trigger-gb-cgb-77b0b72f.png",
         "width": 160,
         "height": 144
       }
@@ -4281,10 +4281,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3972528000001603,
-      "runtimeSeconds": 4.134131499999967,
+      "startupSeconds": 0.40033500000004096,
+      "runtimeSeconds": 4.257424799999853,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-div-write-trigger-10-gb-cgb-5d7be77f.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-div-write-trigger-10-gb-cgb-5d7be77f.png",
         "width": 160,
         "height": 144
       }
@@ -4300,10 +4300,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.38710199999991346,
-      "runtimeSeconds": 3.722864999999956,
+      "startupSeconds": 0.3961845999999696,
+      "runtimeSeconds": 3.7375303999999687,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-div-write-trigger-volume-gb-cgb-d96e789a.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-div-write-trigger-volume-gb-cgb-d96e789a.png",
         "width": 160,
         "height": 144
       }
@@ -4319,10 +4319,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3958305000001019,
-      "runtimeSeconds": 3.7682978000000276,
+      "startupSeconds": 0.3981622999999672,
+      "runtimeSeconds": 3.7151588999997784,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-apu-div-write-trigger-volume-10-gb-cgb-9f46a579.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-apu-div-write-trigger-volume-10-gb-cgb-9f46a579.png",
         "width": 160,
         "height": 144
       }
@@ -4338,10 +4338,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.39941350000003695,
-      "runtimeSeconds": 3.2131627999999637,
+      "startupSeconds": 0.40074430000004213,
+      "runtimeSeconds": 3.300775600000179,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-dma-gbc-dma-cont-gb-cgb-691bcf96.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-dma-gbc-dma-cont-gb-cgb-691bcf96.png",
         "width": 160,
         "height": 144
       }
@@ -4357,10 +4357,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.38464109999995344,
-      "runtimeSeconds": 3.306706800000029,
+      "startupSeconds": 0.3890530999999555,
+      "runtimeSeconds": 3.202245400000038,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-dma-gdma-addr-mask-gb-cgb-5b964b62.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-dma-gdma-addr-mask-gb-cgb-5b964b62.png",
         "width": 160,
         "height": 144
       }
@@ -4376,10 +4376,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3960552999999436,
-      "runtimeSeconds": 3.1908644000000095,
+      "startupSeconds": 0.3944526999998743,
+      "runtimeSeconds": 3.2764307999998437,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-dma-hdma-lcd-off-gb-cgb-a3b41999.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-dma-hdma-lcd-off-gb-cgb-a3b41999.png",
         "width": 160,
         "height": 144
       }
@@ -4395,10 +4395,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.3850886000000173,
-      "runtimeSeconds": 3.3096230000001015,
+      "startupSeconds": 0.39569010000013805,
+      "runtimeSeconds": 3.313687600000094,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-dma-hdma-mode0-gb-cgb-000cea33.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-dma-hdma-mode0-gb-cgb-000cea33.png",
         "width": 160,
         "height": 144
       }
@@ -4414,10 +4414,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.39461839999989934,
-      "runtimeSeconds": 3.3249091000000135,
+      "startupSeconds": 0.3967251999999917,
+      "runtimeSeconds": 3.2679063000000497,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/samesuite-ppu-blocking-bgpi-increase-gb-cgb-08d7fc75.png",
+        "url": "screenshots/pyboy/legacy-1792574275/samesuite-ppu-blocking-bgpi-increase-gb-cgb-08d7fc75.png",
         "width": 160,
         "height": 144
       }
@@ -4463,10 +4463,10 @@
       "sourceUrl": "https://github.com/Ashiepaws/BullyGB",
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.39882829999987734,
-      "runtimeSeconds": 10.57889020000016,
+      "startupSeconds": 0.40159060000019053,
+      "runtimeSeconds": 10.57704179999996,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/ashiepaws-bully-gb-dmg-dmg-fc52bff4.png",
+        "url": "screenshots/pyboy/legacy-1792574275/ashiepaws-bully-gb-dmg-dmg-fc52bff4.png",
         "width": 160,
         "height": 144
       }
@@ -4482,10 +4482,10 @@
       "sourceUrl": "https://github.com/Ashiepaws/BullyGB",
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.3836721000000125,
-      "runtimeSeconds": 10.573041599999897,
+      "startupSeconds": 0.39601700000002893,
+      "runtimeSeconds": 10.573679000000084,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/ashiepaws-bully-gb-gbc-cgb-aca14ea5.png",
+        "url": "screenshots/pyboy/legacy-1792574275/ashiepaws-bully-gb-gbc-cgb-aca14ea5.png",
         "width": 160,
         "height": 144
       }
@@ -4501,10 +4501,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.3774167999999918,
-      "runtimeSeconds": 10.611671900000147,
+      "startupSeconds": 0.38637579999999616,
+      "runtimeSeconds": 10.563924600000064,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/ashiepaws-strikethrough-gb-dmg-60dd4d99.png",
+        "url": "screenshots/pyboy/legacy-1792574275/ashiepaws-strikethrough-gb-dmg-60dd4d99.png",
         "width": 160,
         "height": 144
       }
@@ -4520,10 +4520,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.39963409999995747,
-      "runtimeSeconds": 10.523177399999895,
+      "startupSeconds": 0.39725029999999606,
+      "runtimeSeconds": 10.532930399999941,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/cpp-rtc-invalid-banks-test-gb-dmg-7abf0945.png",
+        "url": "screenshots/pyboy/legacy-1792574275/cpp-rtc-invalid-banks-test-gb-dmg-7abf0945.png",
         "width": 160,
         "height": 144
       }
@@ -4539,10 +4539,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.3875524000000041,
-      "runtimeSeconds": 10.606261200000063,
+      "startupSeconds": 0.3991207999999915,
+      "runtimeSeconds": 10.626949700000068,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/cpp-latch-rtc-test-gb-dmg-3307b249.png",
+        "url": "screenshots/pyboy/legacy-1792574275/cpp-latch-rtc-test-gb-dmg-3307b249.png",
         "width": 160,
         "height": 144
       }
@@ -4558,10 +4558,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.385177399999975,
-      "runtimeSeconds": 5.753428499999927,
+      "startupSeconds": 0.39963109999985136,
+      "runtimeSeconds": 5.77593909999996,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/cpp-ramg-mbc3-test-gb-dmg-c4a5ad08.png",
+        "url": "screenshots/pyboy/legacy-1792574275/cpp-ramg-mbc3-test-gb-dmg-c4a5ad08.png",
         "width": 160,
         "height": 144
       }
@@ -4592,10 +4592,10 @@
       "sourceUrl": null,
       "status": "pass",
       "reason": null,
-      "startupSeconds": 0.387348799999927,
-      "runtimeSeconds": 5.790391999999883,
+      "startupSeconds": 0.39641600000004473,
+      "runtimeSeconds": 5.789293900000075,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mealybug-tearoom-tests-ppu-m2-win-en-toggle-gb-dmg-dmg-49d7cd7c.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mealybug-tearoom-tests-ppu-m2-win-en-toggle-gb-dmg-dmg-49d7cd7c.png",
         "width": 160,
         "height": 144
       }
@@ -4611,10 +4611,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.39764279999985774,
-      "runtimeSeconds": 10.5903394999998,
+      "startupSeconds": 0.39806579999981295,
+      "runtimeSeconds": 10.562313300000142,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mealybug-tearoom-tests-ppu-m3-bgp-change-gb-dmg-dmg-4ce20d7f.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mealybug-tearoom-tests-ppu-m3-bgp-change-gb-dmg-dmg-4ce20d7f.png",
         "width": 160,
         "height": 144
       }
@@ -4630,10 +4630,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.38512820000005377,
-      "runtimeSeconds": 10.607379400000127,
+      "startupSeconds": 0.39519829999994727,
+      "runtimeSeconds": 10.609904700000016,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mealybug-tearoom-tests-ppu-m3-bgp-change-sprites-gb-dmg-dmg-e41b5168.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mealybug-tearoom-tests-ppu-m3-bgp-change-sprites-gb-dmg-dmg-e41b5168.png",
         "width": 160,
         "height": 144
       }
@@ -4649,10 +4649,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.3869108999999753,
-      "runtimeSeconds": 10.619862799999964,
+      "startupSeconds": 0.40081529999997656,
+      "runtimeSeconds": 10.615376499999911,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mealybug-tearoom-tests-ppu-m3-lcdc-bg-en-change-gb-dmg-dmg-266fe81d.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mealybug-tearoom-tests-ppu-m3-lcdc-bg-en-change-gb-dmg-dmg-266fe81d.png",
         "width": 160,
         "height": 144
       }
@@ -4668,10 +4668,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.3764314000000013,
-      "runtimeSeconds": 10.61888040000008,
+      "startupSeconds": 0.39009729999997944,
+      "runtimeSeconds": 10.501287199999979,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mealybug-tearoom-tests-ppu-m3-lcdc-bg-map-change-gb-dmg-dmg-91f40501.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mealybug-tearoom-tests-ppu-m3-lcdc-bg-map-change-gb-dmg-dmg-91f40501.png",
         "width": 160,
         "height": 144
       }
@@ -4687,10 +4687,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.4012992000000395,
-      "runtimeSeconds": 10.631927200000064,
+      "startupSeconds": 0.39876170000025013,
+      "runtimeSeconds": 10.536811299999954,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mealybug-tearoom-tests-ppu-m3-lcdc-obj-en-change-gb-dmg-dmg-277b5edf.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mealybug-tearoom-tests-ppu-m3-lcdc-obj-en-change-gb-dmg-dmg-277b5edf.png",
         "width": 160,
         "height": 144
       }
@@ -4706,10 +4706,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.38602719999994406,
-      "runtimeSeconds": 10.59923630000003,
+      "startupSeconds": 0.39768309999999474,
+      "runtimeSeconds": 10.539414299999862,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mealybug-tearoom-tests-ppu-m3-lcdc-obj-en-change-variant-gb-dmg-dmg-88dd6675.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mealybug-tearoom-tests-ppu-m3-lcdc-obj-en-change-variant-gb-dmg-dmg-88dd6675.png",
         "width": 160,
         "height": 144
       }
@@ -4725,10 +4725,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.38998639999999796,
-      "runtimeSeconds": 10.601724899999908,
+      "startupSeconds": 0.38991059999989375,
+      "runtimeSeconds": 10.605215999999928,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mealybug-tearoom-tests-ppu-m3-lcdc-obj-size-change-gb-dmg-dmg-1a0cdefe.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mealybug-tearoom-tests-ppu-m3-lcdc-obj-size-change-gb-dmg-dmg-1a0cdefe.png",
         "width": 160,
         "height": 144
       }
@@ -4744,10 +4744,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.40023980000000847,
-      "runtimeSeconds": 10.577750700000024,
+      "startupSeconds": 0.39754790000006324,
+      "runtimeSeconds": 10.57196759999988,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mealybug-tearoom-tests-ppu-m3-lcdc-obj-size-change-scx-gb-dmg-dmg-c1b9b99e.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mealybug-tearoom-tests-ppu-m3-lcdc-obj-size-change-scx-gb-dmg-dmg-c1b9b99e.png",
         "width": 160,
         "height": 144
       }
@@ -4763,10 +4763,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.3983180000000175,
-      "runtimeSeconds": 10.598183699999936,
+      "startupSeconds": 0.3847809000003508,
+      "runtimeSeconds": 10.52976149999995,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mealybug-tearoom-tests-ppu-m3-lcdc-tile-sel-change-gb-dmg-dmg-975934db.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mealybug-tearoom-tests-ppu-m3-lcdc-tile-sel-change-gb-dmg-dmg-975934db.png",
         "width": 160,
         "height": 144
       }
@@ -4782,10 +4782,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.3977798000000803,
-      "runtimeSeconds": 10.581150699999853,
+      "startupSeconds": 0.397786399999859,
+      "runtimeSeconds": 10.612024400000337,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mealybug-tearoom-tests-ppu-m3-lcdc-tile-sel-win-change-gb-dmg-dmg-cec19685.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mealybug-tearoom-tests-ppu-m3-lcdc-tile-sel-win-change-gb-dmg-dmg-cec19685.png",
         "width": 160,
         "height": 144
       }
@@ -4801,10 +4801,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.39763989999983096,
-      "runtimeSeconds": 10.609818100000211,
+      "startupSeconds": 0.40911340000002383,
+      "runtimeSeconds": 10.543523499999992,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mealybug-tearoom-tests-ppu-m3-lcdc-win-en-change-multi-8f067cd6-dmg-2e2659c1.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mealybug-tearoom-tests-ppu-m3-lcdc-win-en-change-multi-8f067cd6-dmg-2e2659c1.png",
         "width": 160,
         "height": 144
       }
@@ -4820,10 +4820,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.4065359000001081,
-      "runtimeSeconds": 10.561860900000283,
+      "startupSeconds": 0.41081700000040655,
+      "runtimeSeconds": 10.626878999999917,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mealybug-tearoom-tests-ppu-m3-lcdc-win-en-change-multi-37be6e90-dmg-5ea411ff.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mealybug-tearoom-tests-ppu-m3-lcdc-win-en-change-multi-37be6e90-dmg-5ea411ff.png",
         "width": 160,
         "height": 144
       }
@@ -4839,10 +4839,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.39599490000000515,
-      "runtimeSeconds": 10.508290600000237,
+      "startupSeconds": 0.4206537000000026,
+      "runtimeSeconds": 10.539652999999817,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mealybug-tearoom-tests-ppu-m3-lcdc-win-map-change-gb-dmg-dmg-d343d7a3.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mealybug-tearoom-tests-ppu-m3-lcdc-win-map-change-gb-dmg-dmg-d343d7a3.png",
         "width": 160,
         "height": 144
       }
@@ -4858,10 +4858,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.3970080999997663,
-      "runtimeSeconds": 10.618855599999733,
+      "startupSeconds": 0.4166125000001557,
+      "runtimeSeconds": 10.509244899999885,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mealybug-tearoom-tests-ppu-m3-obp0-change-gb-dmg-dmg-43692086.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mealybug-tearoom-tests-ppu-m3-obp0-change-gb-dmg-dmg-43692086.png",
         "width": 160,
         "height": 144
       }
@@ -4877,10 +4877,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.41455649999988964,
-      "runtimeSeconds": 10.594026000000213,
+      "startupSeconds": 0.4075964000003296,
+      "runtimeSeconds": 10.588482600000134,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mealybug-tearoom-tests-ppu-m3-scx-high-5-bits-gb-dmg-dmg-bd9b113e.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mealybug-tearoom-tests-ppu-m3-scx-high-5-bits-gb-dmg-dmg-bd9b113e.png",
         "width": 160,
         "height": 144
       }
@@ -4896,10 +4896,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.41101190000017596,
-      "runtimeSeconds": 10.518751399999928,
+      "startupSeconds": 0.39808439999978873,
+      "runtimeSeconds": 10.581144499999937,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mealybug-tearoom-tests-ppu-m3-scx-low-3-bits-gb-dmg-dmg-e6cdccf4.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mealybug-tearoom-tests-ppu-m3-scx-low-3-bits-gb-dmg-dmg-e6cdccf4.png",
         "width": 160,
         "height": 144
       }
@@ -4915,10 +4915,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.423828400000275,
-      "runtimeSeconds": 10.615797500000099,
+      "startupSeconds": 0.4082815000001574,
+      "runtimeSeconds": 10.61510539999972,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mealybug-tearoom-tests-ppu-m3-scy-change-gb-dmg-dmg-c6113da3.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mealybug-tearoom-tests-ppu-m3-scy-change-gb-dmg-dmg-c6113da3.png",
         "width": 160,
         "height": 144
       }
@@ -4934,10 +4934,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.4154035000001386,
-      "runtimeSeconds": 10.51293540000006,
+      "startupSeconds": 0.40533899999991263,
+      "runtimeSeconds": 10.555317099999684,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mealybug-tearoom-tests-ppu-m3-window-timing-gb-dmg-dmg-67b4de78.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mealybug-tearoom-tests-ppu-m3-window-timing-gb-dmg-dmg-67b4de78.png",
         "width": 160,
         "height": 144
       }
@@ -4953,10 +4953,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.40859080000018366,
-      "runtimeSeconds": 10.601131899999928,
+      "startupSeconds": 0.4086486999999579,
+      "runtimeSeconds": 10.556767900000068,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mealybug-tearoom-tests-ppu-m3-window-timing-wx-0-gb-dmg-dmg-313602fb.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mealybug-tearoom-tests-ppu-m3-window-timing-wx-0-gb-dmg-dmg-313602fb.png",
         "width": 160,
         "height": 144
       }
@@ -4972,10 +4972,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.41030940000018745,
-      "runtimeSeconds": 10.516363300000194,
+      "startupSeconds": 0.3981002000000444,
+      "runtimeSeconds": 10.582557400000042,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mealybug-tearoom-tests-ppu-m3-wx-4-change-gb-dmg-dmg-a4ee9ce6.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mealybug-tearoom-tests-ppu-m3-wx-4-change-gb-dmg-dmg-a4ee9ce6.png",
         "width": 160,
         "height": 144
       }
@@ -4991,10 +4991,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.4096776999999747,
-      "runtimeSeconds": 10.568333000000166,
+      "startupSeconds": 0.3957795999999689,
+      "runtimeSeconds": 10.629427899999882,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mealybug-tearoom-tests-ppu-m3-wx-4-change-sprites-gb-dmg-dmg-6bb9a727.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mealybug-tearoom-tests-ppu-m3-wx-4-change-sprites-gb-dmg-dmg-6bb9a727.png",
         "width": 160,
         "height": 144
       }
@@ -5010,10 +5010,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.40590720000000147,
-      "runtimeSeconds": 10.544182699999965,
+      "startupSeconds": 0.3949142999999822,
+      "runtimeSeconds": 10.569169899999906,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mealybug-tearoom-tests-ppu-m3-wx-5-change-gb-dmg-dmg-39e44f69.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mealybug-tearoom-tests-ppu-m3-wx-5-change-gb-dmg-dmg-39e44f69.png",
         "width": 160,
         "height": 144
       }
@@ -5029,10 +5029,10 @@
       "sourceUrl": null,
       "status": "fail",
       "reason": null,
-      "startupSeconds": 0.3999135999997634,
-      "runtimeSeconds": 10.542575599999964,
+      "startupSeconds": 0.4007630999999492,
+      "runtimeSeconds": 10.50667650000014,
       "screenshot": {
-        "url": "screenshots/pyboy/legacy-1792487798/mealybug-tearoom-tests-ppu-m3-wx-6-change-gb-dmg-dmg-96f73ce0.png",
+        "url": "screenshots/pyboy/legacy-1792574275/mealybug-tearoom-tests-ppu-m3-wx-6-change-gb-dmg-dmg-96f73ce0.png",
         "width": 160,
         "height": 144
       }
